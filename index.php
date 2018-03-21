@@ -6,4 +6,4 @@ define('RB_ROOT', dirname(__FILE__));
 
 
 $users = $db->get('komitenti');
-var_dump($users);
+var_dump($db->count);
