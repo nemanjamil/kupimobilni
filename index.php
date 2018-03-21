@@ -9,4 +9,8 @@ $users = $db->get('komitenti');
 var_dump($db->count);
 
 
-// NIKOLA NAPRAVI SCSS
+// NIKOLA NAPRAVI SCSS kod sebe
+
+?>
+
+
