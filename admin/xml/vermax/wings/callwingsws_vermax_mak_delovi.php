@@ -4,7 +4,7 @@ set_time_limit(0); // setovano da ne prekida skriptu
 function kojijehost($tipHosta){
 
 	if ($tipHosta==1) {
-		$hostTip = '/data/masinealati';
+		$hostTip = '/data/kupimobilni';
 	} else {
 		$hostTip = '/var/www/masine';
 	}

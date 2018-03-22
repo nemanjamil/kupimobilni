@@ -1,5 +1,5 @@
 <?php
-$lokdosert = '/data/masinealati/admin/xml/kimtec/';
+$lokdosert = '/data/kupimobilni/admin/xml/kimtec/';
 
 $linkdoxml = 'https://b2b.kimtec.rs/slike/01001071_big.jpg';
 $lfile = $lokdosert.'p/test.jpg';

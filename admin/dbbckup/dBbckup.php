@@ -3,7 +3,7 @@
 function kojijehost($tipHosta){
 
     if ($tipHosta==1) {
-        $hostTip = '/data/masinealati';
+        $hostTip = '/data/kupimobilni';
     } else {
         $hostTip = '/var/www/masine';
     }

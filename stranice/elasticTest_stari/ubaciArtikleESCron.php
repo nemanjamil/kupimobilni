@@ -1,6 +1,6 @@
 <?php
 //define('ROOTLOC', '/var/www/masine');
-define('ROOTLOC', '/data/masinealati');
+define('ROOTLOC', '/data/kupimobilni');
 $lokacijaFolder = '/stranice/elasticTest';
 $lokacijaFolderAdmin = ROOTLOC . '/admin/stranice/elasticAdmin';
 $timeUbac = @date('[d/M/Y:H:i:s]');

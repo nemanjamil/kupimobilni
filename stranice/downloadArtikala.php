@@ -2,7 +2,7 @@
 function kojijehost($tipHosta){
 
     if ($tipHosta == 1) {
-        $hostTip = '/data/masinealati'; // server Linux
+        $hostTip = '/data/kupimobilni'; // server Linux
     } elseif ($tipHosta == 3) {
         $hostTip = 'C:/wamp64/www/kupimobilni'; // Nemanja Windows
     } elseif ($tipHosta == 4) {

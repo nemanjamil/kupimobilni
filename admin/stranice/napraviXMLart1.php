@@ -3,7 +3,7 @@
 function kojijehost($tipHosta){
 
     if ($tipHosta==1) {
-        $sta['loc'] = '/data/masinealati';
+        $sta['loc'] = '/data/kupimobilni';
         $sta['sajt'] = 'http://masinealati.rs';
     } else {
         $sta['loc'] = '/var/www/masine';

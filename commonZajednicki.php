@@ -4,6 +4,7 @@ define('DCROOT', $_SERVER['DOCUMENT_ROOT']); ///var/www/html/dodatnaoprema.com
 define('DPROOTADMIN', DPROOT.'/admin'); ///var/www/html/dodatnaoprema.com
 define('DCROOTADMIN', DCROOT.'/admin'); ///var/www/html/dodatnaoprema.com
 define('URLCALCSERVICE', 'http://10.8.0.6/CalculusWebService/CalculusWebService.asmx/');
+define('HOSTTIPLINUXSERVER', '$hostTip');
 
 define('JEZIK', 'srblat');
 define('JEZIKID', 5);

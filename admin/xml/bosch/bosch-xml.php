@@ -1,6 +1,6 @@
 <?php
 set_time_limit(0); // setovano da ne prekida skriptu
-$documentroot = '/data/masinealati'; // ovo koristimo kada je cron
+$documentroot = '/data/kupimobilni'; // ovo koristimo kada je cron
 define('DCROOTXML', $_SERVER['DOCUMENT_ROOT']);
 define('DCROOTADMINXML', DCROOTXML.'/admin');
 $documentroot = DCROOTXML;

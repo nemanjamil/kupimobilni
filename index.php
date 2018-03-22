@@ -4,7 +4,6 @@ ini_set('display_errors', 1);*/
 require 'vezafull.php';
 define('RB_ROOT', dirname(__FILE__));
 
-echo getenv('KUPIMOBILNI');
 if (getenv('KUPIMOBILNI')==1) {
     die;
 }
