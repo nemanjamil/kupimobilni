@@ -513,11 +513,12 @@ a {
 .fashion-v5 .pozadinaslika {
   background-image: url("../images/pozadinaOrange.png");
   background-repeat: no-repeat, repeat;
-  background-position:0% 13%;
+  background-position:center;
+  /*background-attachment: fixed;*/
   position: absolute;
   height: 50px;
   width: 100%;
-  top: 258px;
+  top: 96px;
   opacity: 0.5;
 
 }

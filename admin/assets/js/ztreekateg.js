@@ -3,7 +3,6 @@
 $(document).ready(function () {
 
     /* =========  POCETAK ZTREE ================ */
-
     var setting = {
 
         check: {
@@ -168,6 +167,7 @@ $(document).ready(function () {
         var btn = $("#addBtn_" + treeNode.tId);
 
         if (btn) btn.bind("click", function () {
+
 
 
             var zTree = $.fn.zTree.getZTreeObj("treeDemo");

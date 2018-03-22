@@ -15,7 +15,6 @@ if (true) {
 
 
          $insertData = Array(
-            'KategorijaArtikalaNaziv' => $string,
             'ParentKategorijaArtikalaId' => $id,
             'KategorijaArtikalaLink' => $common->friendly_convert($string)
         );
@@ -26,6 +25,15 @@ if (true) {
             $db->startTransaction();
             // A set of queries; if one fails, an exception should be thrown
             $idub = $db->insert('kategorijeartikala', $insertData);
+            // TODO nikola dodaj ime kategorije
+            //'KategorijaArtikalaNaziv' => $string,
+
+            $insert_Naziv_query = Array(
+                'IdKategorije' => $idub,
+                'IdLanguage' => 5,
+                'NazivKategorije' => $KategorijaArtikalaNaziv,
+            );
+            $idUbac = $db->insert('kategorijeartikalanaslov', $insert_Naziv_query);
 
             //print_r ($db->trace);
 
@@ -49,12 +57,21 @@ if (true) {
         // ovde treba proveriti da li postoje artikli u ovoj kategoriji ako postoje onda ne moze da se doda podkategorija
         // ovde treba staviti upit u atikle koji pripadaju datoj kategoriji
         // ako ne postoje artikli u datoj kategoriji onda moze da se pravi podkategorija
-        $insertData = Array('KategorijaArtikalaNaziv' => $string, 'ParentKategorijaArtikalaId' => $id,'KategorijaArtikalaLink' => $common->friendly_convert($string));
+        $insertData = Array(
+                            'ParentKategorijaArtikalaId' => $id,
+                            'KategorijaArtikalaLink' => $common->friendly_convert($string));
         try {
 
             $db->startTransaction();
 
             $idub = $db->insert('kategorijeartikala', $insertData);
+
+            $insert_Naziv_query = Array(
+                'IdKategorije' => $idub,
+                'IdLanguage' => 5,
+                'NazivKategorije' => $KategorijaArtikalaNaziv,
+            );
+            $idUbac = $db->insert('kategorijeartikalanaslov', $insert_Naziv_query);
 
             $db->commit();
 

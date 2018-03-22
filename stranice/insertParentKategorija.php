@@ -84,6 +84,7 @@ if ($curlInitStanje) {
                             'KategorijaArtikalaTitle' => $naziv,
                             'KategorijaArtikalaLink' => $KatLink,
                             'KategorijaArtikalaSifra' => $sifra,
+                            'ParentKategorijaArtikalaId' => 6,
                             'ParentKategorijaArtiklaExtId' => $IDnadredjene
                         );
                         $idUbacenogart = $db->insert('kategorijeartikala', $insert_query);

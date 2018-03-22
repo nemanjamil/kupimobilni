@@ -59,7 +59,7 @@ if (1==1) {
 
                     echo '<div style="background-color: #f5e79e;padding: 10px;border: 1px solid;margin: 5px;">';
                     echo '<div>UPDATE</div>';
-                    echo '<div class="bojacrvena">Odradjen update- ubacen u KategorijaArtikalaSifra: ' . $sifra . '</div>';
+                    echo '<div class="bojacrvena">Odradjen update - ubacen u KategorijaArtikalaSifra: ' . $sifra . '</div>';
                     echo '<div class="bojacrvena">Odradjen naziv : ' . $naziv . '</div>';
                     echo '<div class="bojacrvena">ID : ' . $ID . '</div>';
                     echo '<div class="bojacrvena">IDnadredjene : ' . $IDnadredjene . '</div>';

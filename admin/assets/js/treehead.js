@@ -2,7 +2,6 @@
 
 $(document).ready(function () {
 
-
     /* =========  POCETAK ZTREEHEAD HEAD KATEGORIJE ================ */
 
 
