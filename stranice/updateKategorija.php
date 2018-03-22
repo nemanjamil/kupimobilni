@@ -4,7 +4,7 @@ $i = 0;
 
 if (1==1) {
     $dom = new DOMDocument();
-    $dom->load(DCROOT.'/xml/GrupaArtUsl.xml');
+    $dom->load($documentroot.'/xml/GrupaArtUsl.xml');
     $tables = $dom->getElementsByTagName('Table');
 
     if (!empty($tables)) {

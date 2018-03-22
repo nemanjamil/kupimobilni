@@ -1,22 +1,30 @@
 <?php
 function kojijehost($tipHosta){
 
-    if ($tipHosta) {
-        $hostTip = '/data/masinealati';
+    if ($tipHosta == 1) {
+        $hostTip = '/data/masinealati'; // server Linux
+    } elseif ($tipHosta == 3) {
+        $hostTip = 'C:/wamp64/www/kupimobilni'; // Nemanja Windows
+    } elseif ($tipHosta == 4) {
+        $hostTip = 'G:/projects/XXXXXX'; // Nikola
     } else {
-        $hostTip = '/var/www/masine';
-        //$hostTip = 'C:/wamp64/www/masine'; //Nemanja
-        //$hostTip = 'G:/projects/Masine/trunk/'; //Nikola
-
+        $hostTip = '/var/www/kupimobilni'; // Nemanja Linux
     }
     return $hostTip;
 }
 $mcProd = getenv('KUPIMOBILNI');
 
 $documentroot = kojijehost($mcProd);
+
 // 1. zakucavamo server execution time na 0 tj. da ne stane dok se sve ne izvrsi i da prikaze sve error - e.
 echo ini_get('display_errors');
 ini_set('max_execution_time', 0);
+
+include ($documentroot."/vezafull.php");
+require_once ($documentroot.'/thumblib/ThumbLib.inc.php');
+include($documentroot.'/stranice/parse/simple_html_dom.php');
+$kategorijeDodatna = new kategorijeDodatna($db);
+$jezLan = $db->get('LanguageJezik', null, "IdLanguage,ShortLanguage");
 
 $varsleep = 10;
 
@@ -38,7 +46,7 @@ echo '<h4 class="bojacrvenaosn">Ubacene kategorije</h4>';
 echo '</br>';
 
 sleep($varsleep);
-
+die;
 // NASI IDIJEVI
 // 4. Zatim update-ujemo parent kategorije.
 require('updateKategorijaParent.php');

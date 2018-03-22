@@ -609,7 +609,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/admin/stranice/calculusservisi/downloadKategorija.php" target="_blank">
+                            <a href="/stranice/downloadKategorija.php" target="_blank">
                                 <i class="icon-angle-right"></i>
                                 Azuriranje Kategorija
                             </a>

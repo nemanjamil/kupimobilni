@@ -145,11 +145,11 @@
         <ID>13</ID>
         <sifra>09.01.01.</sifra>
         <naziv>ALATI/HEMIJA</naziv>
-        <ceonaziv>Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1470</IDnadredjene>
         <sifranadredjene>09.01.</sifranadredjene>
         <nazivnadredjene>ALATI</nazivnadredjene>
-        <nivo>2</nivo>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table14" msdata:rowOrder="13">
         <ID>15</ID>
@@ -2464,81 +2464,81 @@
         <ID>272</ID>
         <sifra>09.01.01.12.</sifra>
         <naziv>Srafciger</naziv>
-        <ceonaziv>Srafciger, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Srafciger, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table247" msdata:rowOrder="246">
         <ID>273</ID>
         <sifra>09.01.01.11.</sifra>
         <naziv>Set srafcigera</naziv>
-        <ceonaziv>Set srafcigera, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Set srafcigera, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table248" msdata:rowOrder="247">
         <ID>274</ID>
         <sifra>09.01.01.10.</sifra>
         <naziv>Pinceta</naziv>
-        <ceonaziv>Pinceta, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Pinceta, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table249" msdata:rowOrder="248">
         <ID>275</ID>
         <sifra>09.01.01.04.</sifra>
         <naziv>Flux</naziv>
-        <ceonaziv>Flux, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Flux, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table250" msdata:rowOrder="249">
         <ID>276</ID>
         <sifra>09.01.01.01.</sifra>
         <naziv>Alat za otvaranje</naziv>
-        <ceonaziv>Alat za otvaranje, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Alat za otvaranje, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table251" msdata:rowOrder="250">
         <ID>277</ID>
         <sifra>09.01.01.14.</sifra>
         <naziv>Trake</naziv>
-        <ceonaziv>Trake, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Trake, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table252" msdata:rowOrder="251">
         <ID>278</ID>
         <sifra>09.01.01.08.</sifra>
         <naziv>Mikroskopi</naziv>
-        <ceonaziv>Mikroskopi, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Mikroskopi, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table253" msdata:rowOrder="252">
         <ID>279</ID>
         <sifra>09.01.01.16.</sifra>
         <naziv>Vrh za lemilicu</naziv>
-        <ceonaziv>Vrh za lemilicu, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Vrh za lemilicu, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table254" msdata:rowOrder="253">
         <ID>280</ID>
@@ -4507,11 +4507,11 @@
         <ID>517</ID>
         <sifra>09.01.01.07.</sifra>
         <naziv>Merni uredjaji</naziv>
-        <ceonaziv>Merni uredjaji, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Merni uredjaji, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table453" msdata:rowOrder="452">
         <ID>522</ID>
@@ -5306,17 +5306,17 @@
       <Table diffgr:id="Table533" msdata:rowOrder="532">
         <ID>677</ID>
         <sifra>09.12.05.01.</sifra>
-        <naziv>izbaciti ALUMOR</naziv>
-        <ceonaziv>izbaciti ALUMOR, izbaciti torbice, IZBACITI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2138</IDnadredjene>
-        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <naziv>TORBICE ALUMOR</naziv>
+        <ceonaziv>TORBICE ALUMOR, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table534" msdata:rowOrder="533">
         <ID>678</ID>
         <sifra>09.12.05.02.</sifra>
-        <naziv>izbaciti Bodydefender</naziv>
-        <ceonaziv>izbaciti Bodydefender, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <naziv>PVC BODYDEFENDER</naziv>
+        <ceonaziv>PVC BODYDEFENDER, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>2138</IDnadredjene>
         <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
         <nivo>2</nivo>
@@ -5431,41 +5431,41 @@
         <ID>709</ID>
         <sifra>09.01.01.03.</sifra>
         <naziv>Duvaljke i lemilice</naziv>
-        <ceonaziv>Duvaljke i lemilice, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Duvaljke i lemilice, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table547" msdata:rowOrder="546">
         <ID>710</ID>
         <sifra>09.01.01.15.</sifra>
         <naziv>Ultrazvucne kadice</naziv>
-        <ceonaziv>Ultrazvucne kadice, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Ultrazvucne kadice, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table548" msdata:rowOrder="547">
         <ID>711</ID>
         <sifra>09.01.01.06.</sifra>
         <naziv>Kljesta</naziv>
-        <ceonaziv>Kljesta, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Kljesta, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table549" msdata:rowOrder="548">
         <ID>712</ID>
         <sifra>09.01.01.09.</sifra>
         <naziv>Ostalo</naziv>
-        <ceonaziv>Ostalo, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Ostalo, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table550" msdata:rowOrder="549">
         <ID>714</ID>
@@ -5932,10 +5932,10 @@
         <ID>772</ID>
         <sifra>09.12.01.57.</sifra>
         <naziv>Torbice Nokia</naziv>
-        <ceonaziv>Torbice Nokia, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>Torbice Nokia, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table598" msdata:rowOrder="597">
         <ID>773</ID>
@@ -7258,9 +7258,9 @@
         <ID>913</ID>
         <sifra>09.12.01.78.</sifra>
         <naziv>Torbice silikonske classic</naziv>
-        <ceonaziv>Torbice silikonske classic, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2126</IDnadredjene>
-        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <ceonaziv>Torbice silikonske classic, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table732" msdata:rowOrder="731">
@@ -7927,11 +7927,11 @@
         <ID>997</ID>
         <sifra>09.01.01.13.</sifra>
         <naziv>Termalne paste za CPU/GPU</naziv>
-        <ceonaziv>Termalne paste za CPU/GPU, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Termalne paste za CPU/GPU, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table800" msdata:rowOrder="799">
         <ID>998</ID>
@@ -10542,10 +10542,10 @@
         <ID>1443</ID>
         <sifra>09.12.01.66.</sifra>
         <naziv>Torbice Rubber</naziv>
-        <ceonaziv>Torbice Rubber, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>Torbice Rubber, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1065" msdata:rowOrder="1064">
         <ID>1444</ID>
@@ -10590,11 +10590,11 @@
         <ID>1448</ID>
         <sifra>09.01.01.05.</sifra>
         <naziv>Kalup</naziv>
-        <ceonaziv>Kalup, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Kalup, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table1070" msdata:rowOrder="1069">
         <ID>1450</ID>
@@ -10759,11 +10759,10 @@
         <ID>1470</ID>
         <sifra>09.01.</sifra>
         <naziv>ALATI</naziv>
-        <ceonaziv>ALATI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>48</IDnadredjene>
-        <sifranadredjene>09.</sifranadredjene>
-        <nazivnadredjene>MOBILNI</nazivnadredjene>
-        <nivo>1</nivo>
+        <ceonaziv>ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1087" msdata:rowOrder="1086">
         <ID>1471</ID>
@@ -11344,11 +11343,11 @@
         <ID>1688</ID>
         <sifra>09.01.02.</sifra>
         <naziv>BGA</naziv>
-        <ceonaziv>BGA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>BGA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1470</IDnadredjene>
         <sifranadredjene>09.01.</sifranadredjene>
         <nazivnadredjene>ALATI</nazivnadredjene>
-        <nivo>2</nivo>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1146" msdata:rowOrder="1145">
         <ID>1689</ID>
@@ -11432,30 +11431,30 @@
         <ID>1699</ID>
         <sifra>09.01.02.02.</sifra>
         <naziv>BGA STANICE</naziv>
-        <ceonaziv>BGA STANICE, BGA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>BGA STANICE, BGA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1688</IDnadredjene>
         <sifranadredjene>09.01.02.</sifranadredjene>
         <nazivnadredjene>BGA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table1155" msdata:rowOrder="1154">
         <ID>1700</ID>
         <sifra>09.01.02.01.</sifra>
         <naziv>BGA OPREMA</naziv>
-        <ceonaziv>BGA OPREMA, BGA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>BGA OPREMA, BGA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1688</IDnadredjene>
         <sifranadredjene>09.01.02.</sifranadredjene>
         <nazivnadredjene>BGA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table1156" msdata:rowOrder="1155">
         <ID>1821</ID>
         <sifra>09.12.01.72.</sifra>
-        <naziv>Torbice silikonske Akvarel</naziv>
-        <ceonaziv>Torbice silikonske Akvarel, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE SILIKONSKE AKVAREL</naziv>
+        <ceonaziv>TORBICE SILIKONSKE AKVAREL, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1157" msdata:rowOrder="1156">
         <ID>1823</ID>
@@ -11471,10 +11470,10 @@
         <ID>1826</ID>
         <sifra>09.12.01.91.</sifra>
         <naziv>Torbice silikonske Icecream Cup</naziv>
-        <ceonaziv>Torbice silikonske Icecream Cup, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>Torbice silikonske Icecream Cup, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1159" msdata:rowOrder="1158">
         <ID>1829</ID>
@@ -11697,11 +11696,11 @@
       <Table diffgr:id="Table1181" msdata:rowOrder="1180">
         <ID>1710</ID>
         <sifra>09.12.01.80.</sifra>
-        <naziv>Torbice silikonske Croco</naziv>
-        <ceonaziv>Torbice silikonske Croco, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE SILIKONSKE CROCO</naziv>
+        <ceonaziv>TORBICE SILIKONSKE CROCO, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1182" msdata:rowOrder="1181">
         <ID>1711</ID>
@@ -11993,11 +11992,11 @@
       <Table diffgr:id="Table1211" msdata:rowOrder="1210">
         <ID>1736</ID>
         <sifra>09.12.01.95.</sifra>
-        <naziv>Torbice silikonske Leaves</naziv>
-        <ceonaziv>Torbice silikonske Leaves, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE SILIKONSKE LEAVES</naziv>
+        <ceonaziv>Torbice silikonske Leaves, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1212" msdata:rowOrder="1211">
         <ID>1738</ID>
@@ -12040,20 +12039,21 @@
       <Table diffgr:id="Table1216" msdata:rowOrder="1215">
         <ID>1743</ID>
         <sifra>09.12.01.90.</sifra>
-        <naziv>Torbice silikonske Full shine</naziv>
-        <ceonaziv>Torbice silikonske Full shine, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE SILIKONSKE FULL SHINE</naziv>
+        <ceonaziv>TORBICE SILIKONSKE FULL SHINE, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1217" msdata:rowOrder="1216">
         <ID>1744</ID>
         <sifra>09.12.01.88.</sifra>
         <naziv>Torbice silikonske Flashing light </naziv>
-        <ceonaziv>Torbice silikonske Flashing light , Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>Torbice silikonske Flashing light , IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>523</IDnadredjene>
+        <sifranadredjene>05.</sifranadredjene>
+        <nazivnadredjene>IZBACITI</nazivnadredjene>
+        <nivo>1</nivo>
       </Table>
       <Table diffgr:id="Table1218" msdata:rowOrder="1217">
         <ID>1746</ID>
@@ -12946,11 +12946,11 @@
         <ID>1623</ID>
         <sifra>09.01.01.02.</sifra>
         <naziv>Alati reparacija</naziv>
-        <ceonaziv>Alati reparacija, Alati/hemija, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Alati reparacija, ALATI/HEMIJA, ALATI, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
-        <nivo>3</nivo>
+        <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table1310" msdata:rowOrder="1309">
         <ID>1785</ID>
@@ -13437,10 +13437,10 @@
       <Table diffgr:id="Table1359" msdata:rowOrder="1358">
         <ID>2013</ID>
         <naziv>Torbice Rolling eyes</naziv>
-        <ceonaziv>Torbice Rolling eyes, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>Torbice Rolling eyes, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1360" msdata:rowOrder="1359">
         <ID>1835</ID>
@@ -13633,11 +13633,11 @@
       <Table diffgr:id="Table1379" msdata:rowOrder="1378">
         <ID>1866</ID>
         <sifra>09.12.01.62.</sifra>
-        <naziv>Torbice Polka</naziv>
-        <ceonaziv>Torbice Polka, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE POLKA</naziv>
+        <ceonaziv>TORBICE POLKA, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1380" msdata:rowOrder="1379">
         <ID>1867</ID>
@@ -13716,10 +13716,10 @@
         <ID>1812</ID>
         <sifra>09.12.01.74.</sifra>
         <naziv>Torbice silikonske Autumn</naziv>
-        <ceonaziv>Torbice silikonske Autumn, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>Torbice silikonske Autumn, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1389" msdata:rowOrder="1388">
         <ID>1813</ID>
@@ -14025,10 +14025,10 @@
         <ID>1871</ID>
         <sifra>09.12.01.63.</sifra>
         <naziv>Torbice Rain</naziv>
-        <ceonaziv>Torbice Rain, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>Torbice Rain, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1422" msdata:rowOrder="1421">
         <ID>1317</ID>
@@ -16024,10 +16024,10 @@
         <ID>1847</ID>
         <sifra>09.12.01.70.</sifra>
         <naziv>Torbice Shiny</naziv>
-        <ceonaziv>Torbice Shiny, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>Torbice Shiny, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1634" msdata:rowOrder="1633">
         <ID>1848</ID>
@@ -16188,10 +16188,10 @@
       <Table diffgr:id="Table1652" msdata:rowOrder="1651">
         <ID>1885</ID>
         <naziv>Torbice Rain plus</naziv>
-        <ceonaziv>Torbice Rain plus, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>Torbice Rain plus, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1653" msdata:rowOrder="1652">
         <ID>1887</ID>
@@ -16229,10 +16229,10 @@
       <Table diffgr:id="Table1657" msdata:rowOrder="1656">
         <ID>1894</ID>
         <naziv>Torbice Ruby Ears</naziv>
-        <ceonaziv>Torbice Ruby Ears, Torbice Fashion outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2131</IDnadredjene>
-        <nazivnadredjene>Torbice Fashion outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>Torbice Ruby Ears, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1658" msdata:rowOrder="1657">
         <ID>1895</ID>
