@@ -1,24 +1,35 @@
 <?php
+function kojijehost($tipHosta){
+
+    if ($tipHosta == 1) {
+        $hostTip = '/data/masinealati'; // server Linux
+    } elseif ($tipHosta == 3) {
+        $hostTip = 'C:/wamp64/www/kupimobilni'; // Nemanja Windows
+    } elseif ($tipHosta == 4) {
+        $hostTip = 'G:/projects/XXXXXX'; // Nikola
+    } else {
+        $hostTip = '/var/www/kupimobilni'; // Nemanja Linux
+    }
+    return $hostTip;
+}
+$mcProd = getenv('KUPIMOBILNI');
+
+$documentroot = kojijehost($mcProd);
+
+// 1. zakucavamo server execution time na 0 tj. da ne stane dok se sve ne izvrsi i da prikaze sve error - e.
 echo ini_get('display_errors');
 ini_set('max_execution_time', 0);
 
-/**
- * Auto = 55
- * Led = 74
- * Racunar = 102
- * Mobilni = 128
- * Security = 510
- * ZZ - staro = '' //nema
- * Ambalaza = 46121
- * MP = '' //nema
- * Stara roba = '' //nema
- * ROBA KOJA NIJE ZA PRODAJU = 9955115
- * Tablet = 321123321
- *
- * Uvlacimo: Auto, Tablet, Racunar, Mobilni
- */
+include ($documentroot."/vezafull.php");
+require_once ($documentroot.'/thumblib/ThumbLib.inc.php');
+include($documentroot.'/stranice/parse/simple_html_dom.php');
+$kategorijeDodatna = new kategorijeDodatna($db);
+$jezLan = $db->get('LanguageJezik', null, "IdLanguage,ShortLanguage");
 
-$arraySifraGrupa = array(55, 321123321,102, 128);
+$varsleep = 10;
+
+
+$arraySifraGrupa = array('02.', '09.','07.', '06.','14.');
 $arrlength = count($arraySifraGrupa);
 
 for ($x = 0; $x < $arrlength; $x++) {

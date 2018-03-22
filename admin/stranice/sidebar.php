@@ -615,7 +615,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/admin/stranice/calculusservisi/downloadArtikala.php" target="_blank">
+                            <a href="/stranice/downloadArtikala.php" target="_blank">
                                 <i class="icon-angle-right"></i>
                                 Azuriranje Artikala
                             </a>
