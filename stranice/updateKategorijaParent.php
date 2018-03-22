@@ -15,10 +15,6 @@
 $array = Array('KategorijaArtikalaId', 'KategorijaArtiklaExtId', 'ParentKategorijaArtiklaExtId');
 $kateg = $db->get('kategorijeartikala', null, $array);
 
-echo 'Select * from kategorijeartikala';
-echo '</br>';
-echo '</br>';
-
 
 if ($kateg) {
 

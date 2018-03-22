@@ -21,7 +21,7 @@ if (1==1) {
                 $sifra = $sifra->item(0)->nodeValue;
 
                 $naziv = $row->getElementsByTagName("naziv");
-                $naziv = $naziv->item(0)->nodeValue;
+                $naziv = mb_strimwidth($naziv->item(0)->nodeValue,0,73);
 
                 $ceonaziv = $row->getElementsByTagName("ceonaziv");
                 $ceonaziv = $ceonaziv->item(0)->nodeValue;
@@ -37,7 +37,7 @@ if (1==1) {
 
                 $KatLink = $common->friendly_convert($naziv);
 
-                $db->startTransaction();
+                //$db->startTransaction();
 
                 $db->where('KategorijaArtiklaExtId', $ID);
                 $upit = $db->getOne('kategorijeartikala', null, 'KategorijaArtiklaExtId');
@@ -86,7 +86,14 @@ if (1==1) {
                         'ParentKategorijaArtiklaExtId' => $IDnadredjene
                     );
                     $idUbacenogart = $db->insert('kategorijeartikala', $insert_query);
-                    $ID = $idUbacenogart;
+                    //$ID = $idUbacenogart;
+
+                    if (!$idUbacenogart) {
+                        echo "Nije ubacio u bazu -> neki je FAIL";
+                        var_dump($db);
+                        die;
+                    }
+
 
                     echo '<div style="background-color: #f5e79e;padding: 10px;border: 2px">';
                     echo '<div>INSERT</div>';
@@ -99,7 +106,7 @@ if (1==1) {
                 }
 
 
-                $db->commit();
+                //$db->commit();
 
                 /*if ($i==2) {
                     echo 'dossli samo do 2';

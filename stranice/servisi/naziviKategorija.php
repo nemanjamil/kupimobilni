@@ -5,6 +5,10 @@ $db->where('KategorijaArtiklaExtId', $ID);
 $kateg = $db->getOne('kategorijeartikala', 'KategorijaArtikalaId');
 $KategorijaArtikalaId = $kateg['KategorijaArtikalaId'];
 
+if (!$KategorijaArtikalaId) {
+    $KategorijaArtikalaId = $idUbacenogart;
+}
+
 echo '<b class="bojaljubsvetank" >Selektovana kategorija - KategorijaArtikalaId: ' . $KategorijaArtikalaId . '</b>';
 echo '</br>';
 
@@ -39,12 +43,20 @@ if ($NazivKategorije) {
         'IdLanguage' => 5,
         'NazivKategorije' => $naziv,
     );
-    $idUbac = $db->insert('kategorijeartikalanaslov', $insert_Naziv_query);
 
+    if ($db->insert('kategorijeartikalanaslov', $insert_Naziv_query)) {
+        echo '<b class="bojaplavasajt"> Odradjen insert - ubacen u naziv: ' . $naziv . '</b>';
+        echo '</br>';
+        echo '</br>';
+    } else {
+        echo '<b class="bojacrvenasajt"> NIJE Odradjen insert - ubacen u naziv: ' . $naziv . '</b>';
+        echo '</br>';
+        echo '</br>';
 
-    echo '<b class="bojaplavasajt"> Odradjen insert - ubacen u naziv: ' . $naziv . '</b>';
-    echo '</br>';
-    echo '</br>';
+        var_dump($db);
+        die;
+    }
+
 
 }
 

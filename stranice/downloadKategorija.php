@@ -46,7 +46,7 @@ echo '<h4 class="bojacrvenaosn">Ubacene kategorije</h4>';
 echo '</br>';
 
 sleep($varsleep);
-die;
+
 // NASI IDIJEVI
 // 4. Zatim update-ujemo parent kategorije.
 require('updateKategorijaParent.php');
