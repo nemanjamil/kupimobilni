@@ -24,7 +24,7 @@ include ($documentroot."/vezafull.php");
 require_once ($documentroot.'/thumblib/ThumbLib.inc.php');
 include($documentroot.'/stranice/parse/simple_html_dom.php');
 $kategorijeDodatna = new kategorijeDodatna($db);
-$jezLan = $db->get('LanguageJezik', null, "IdLanguage,ShortLanguage");
+$jezLan = $db->get('languagejezik', null, "IdLanguage,ShortLanguage");
 
 $varsleep = 10;
 
