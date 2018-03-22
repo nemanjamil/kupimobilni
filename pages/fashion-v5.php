@@ -32,7 +32,8 @@
 					</div><!-- /.col -->
 
 					<div class="col-md-12 col-sm-6 col-xs-12 hidden-xs">
-						<?php require RB_ROOT. '/parts/widgets/sidebar/blog-single-fashion.php'; ?>
+						<!--vesti-->
+						<?php //require RB_ROOT. '/parts/widgets/sidebar/blog-single-fashion.php'; ?>
 					</div><!-- /.col -->
 
 					<div class="col-md-12 col-sm-6 col-xs-12 hidden-xs">
