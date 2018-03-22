@@ -1,4 +1,19 @@
 <?php
+function kojijehost($tipHosta){
+
+    if ($tipHosta) {
+        $hostTip = '/data/masinealati';
+    } else {
+        $hostTip = '/var/www/masine';
+        //$hostTip = 'C:/wamp64/www/masine'; //Nemanja
+        //$hostTip = 'G:/projects/Masine/trunk/'; //Nikola
+
+    }
+    return $hostTip;
+}
+$mcProd = getenv('KUPIMOBILNI');
+
+$documentroot = kojijehost($mcProd);
 // 1. zakucavamo server execution time na 0 tj. da ne stane dok se sve ne izvrsi i da prikaze sve error - e.
 echo ini_get('display_errors');
 ini_set('max_execution_time', 0);
