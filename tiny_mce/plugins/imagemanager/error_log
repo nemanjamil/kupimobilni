@@ -1,0 +1,1 @@
+[22-Oct-2011 08:12:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/onaporta/public_html/tiny_mce/plugins/imagemanager/login_session_auth.php:6) in /home/onaporta/public_html/tiny_mce/plugins/imagemanager/login_session_auth.php on line 30

@@ -1,0 +1,97 @@
+.mojasenka{box-shadow:0px 5px 3px -3px #C5C5C5;}
+.floatleft{float:left;}
+.floatright{float:right;}
+.centriraj{text-align:center; !important;}
+.relativ{position:relative;}
+.absolut{position:absolute;}
+.justify{text-align:justify;}
+.hajduj{display:none;}
+.diplejinline{display:inline-block;}
+.borderMoj2{border:1px solid #999 !important;}
+.borderMoj3{border:1px solid #dadada; !important;}
+.borderMoj4{border:1px solid #e3e3e3; !important;}
+.clearfloat{clear:both;}
+.boldirano,.boldirano a{font-weight:bold;}
+.disblc{display:block;}
+.bojabela, .bojabela a{color:#FFF !important;}
+.bojazuta{color:#ffb901 !important;}
+.bojaljub{color:#7b6173 !important;}
+.bojaljubsajta{color:#896b80 !important;}
+a.bojaljubsajta:hover{color:#FFF;}
+.bojaljubsvet{color:#ccb5c5 !important;}
+.bojaljubsvet a:hover{color:#FFF;}
+.bojasivaccc{color:#CCC !important;}
+.bojazelena{color:#44892c !important;}
+.bojacrna{color:#000 !important;}
+.bojasiva666{color:#666 !important;}
+.bojasiva333{color:#333 !important;}
+.bojasiva6c{color:#6c6c6c !important;}
+.bojacrvena{color:#F00 !important;}
+.bojacrvenapop{color:#cb3131 !important;}
+.bojacrvenaprod{color:#a20606 !important;}
+.bojacrvenaosn{color:#d93a43;}
+.bojacrvenatamn{color:#b22d35;}
+.bojaplavadrz{color:#00498f !important;}
+.bojazutadrz{color:#f4c027;}
+.bojacrvenapop:hover{color:#BE1A1A !important;}
+.bojasiva4f{color:#4f4f4f !important;}
+.bojaplavat{color:#0d7da3 !important;}
+.font8{font-size:8px !important;}
+.font10{font-size:10px !important;}
+.font11{font-size:11px !important;}
+.font12{font-size:12px !important;}
+.font14{font-size:14px !important;}
+.font15{font-size:15px !important;}
+.font16{font-size:16px !important;}
+.font17{font-size:17px !important;}
+.font18{font-size:18px !important;}
+.font19{font-size:19px !important;}
+.font20{font-size:20px !important;}
+.font21{font-size:21px !important;}
+.font22{font-size:22px !important;}
+.font24{font-size:24px !important;}
+.font28{font-size:28px !important;}
+.font31{font-size:31px !important;}
+.font36{font-size:36px !important;}
+.nemahover{text-decoration:none !important;}
+.skillslall{margin:24px 8px 0 0;}
+.ubacirek{padding:100px 0 0 0;width:200px;height:200px;background-color:#999;float:right;}
+.pozadinabela{background-color:#FFF; !important;}
+.pozadinasiva{background-color:#dde0cf;}
+.pozadinasiva1{background-color:#f8f8f8;}
+.bojaljubsvetank{background-color:#e3dde1;}
+.pozadinasvplava{background-color:#c7e2eb;}
+.pozadinasvplava1{background-color:#E9F2F5;}
+.lastdiv{margin:0 0 0 0 !important;}
+.visina5{height:5px;}
+.visina10{height:10px;}
+.visina15{height:15px;}
+.visina20{height:20px;}
+.visina40{height:40px;}
+.imatackeUl ul {margin: 5px 10px;}
+.imatackeUl ul li {list-style: disc;margin: 0 0 0 15px;}
+.proizvodsnippet{font-size: 18px;font-weight: 600;text-transform: uppercase;margin-top: 0;}
+.chartadmin{min-width: 320px;max-width: 800px;height: 220px;margin: 0 auto;}
+.uvuciocenu{margin: 10px}
+.moj-col-md-12,.moj-col-md-3,.moj-col-md-2,.moj-col-md-6,.moj-col-md-7 {position: relative;min-height: 1px;}
+.zvezdicabar{height: 14px; margin-top: 3px}
+.sharethought{float: right;width: 337px;}
+.sharethought li.wr {background: #FFF;border-color: #999}
+.textdesno{text-align: right}
+.textcentar{text-align: center}
+.jednaocena{border-top: 1px dashed #d5d5d5;padding: 20px 0;}
+.zvjedocle{margin: 0 35px 0 0;width: 210px;}
+.podvucenoukupc{border-bottom: 1px solid #e5e5e5;margin-bottom: 5px;}
+.ovojukupnaoc{width: 120px}
+.desnoopisza{max-width: 487px}
+.desnoopisza h3 {text-transform: uppercase;margin-top: 0}
+.ocenanaslov{margin-bottom: 40px}
+.kepcalevo{margin-left: inherit}
+.padding-10-10{padding: 10px 10px !important;}
+.padding15{padding: 15px !important;}
+.marginadole10{margin-bottom:10px !important;}
+.paddingdesno5{padding:0 5px 0 0 !important;}
+.col-33{width: 33% !important;}
+.nopaddingnomargin { padding: 0 !important;  margin: 0 !important; }
+.header-v5 .dropdown-menu .menu-banner .content .text.text-1{color: #666 !important;}
+.header-v5 .dropdown-menu .menu-banner .content .text.text-2{font-size: 150% !important; color: #45a6e6 !important;}

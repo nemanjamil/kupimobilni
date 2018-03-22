@@ -1,0 +1,71 @@
+# /data/agro.itclusterserbia.com/admin/
+# /var/www/agro/sifreagro/
+#AuthName "Restricted Area"
+#AuthType Basic
+#AuthUserFile /data/agro.itclusterserbia.com/sifreagro/.htpasswd
+#AuthGroupFile /dev/null
+#require valid-user
+#http://www.htaccesstools.com/htpasswd-generator/
+# ------------------------------------------------------------------------------
+# | UTF-8 encoding                                                             |
+# ------------------------------------------------------------------------------
+
+# Use UTF-8 encoding for anything served as `text/html` or `text/plain`.
+AddDefaultCharset utf-8
+
+# Force UTF-8 for certain file formats.
+<IfModule mod_mime.c>
+    AddCharset utf-8 .atom .css .js .json .rss .vtt .webapp .xml
+</IfModule>
+
+
+# ##############################################################################
+# # URL REWRITES                                                               #
+# ##############################################################################
+
+# ------------------------------------------------------------------------------
+# | Rewrite engine                                                             |
+# ------------------------------------------------------------------------------
+
+# Turning on the rewrite engine and enabling the `FollowSymLinks` option is
+# necessary for the following directives to work.
+
+# If your web host doesn't allow the `FollowSymlinks` option, you may need to
+# comment it out and use `Options +SymLinksIfOwnerMatch` but, be aware of the
+# performance impact: http://httpd.apache.org/docs/current/misc/perf-tuning.html#symlinks
+
+# Also, some cloud hosting services require `RewriteBase` to be set:
+# http://www.rackspace.com/knowledge_center/frequently-asked-question/why-is-mod-rewrite-not-working-on-my-site
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+  # Options +SymLinksIfOwnerMatch
+    RewriteEngine On
+    RewriteBase /admin
+</IfModule>
+
+
+# ##############################################################################
+# # MOJ KOD                                                                    #
+# ##############################################################################
+
+RewriteRule ^([0-9a-zA-Z_-]+)/?$ /admin/index.php?stranica=$1 [NC,L,QSA]
+RewriteRule ^kat/([0-9]+)/?$ /admin/index.php?stranica=katedit&id=$1 [NC,L]
+RewriteRule ^str/([0-9a-zA-Z_-]+)/([0-9]+)/?$ /admin/index.php?stranica=$1&id=$2 [NC,L]
+RewriteRule ^katAdd/?$ /admin/index.php?stranica=dodajkategorije [NC,L]
+RewriteRule ^proverasifre/([0-9a-z-]+)/?$ /index.php?stranica=proveraSifreLog&string=$1 [NC,L]
+
+#RewriteRule ^listaModelaPoBrendu/([0-9a-zA-Z_-]+)/?$ /admin/index.php?stranica=listaModelaPoBrendu&string=$1 [NC,L]
+#RewriteRule ^kategorijerabati/([0-9]+)/([0-9]+)/?$ /admin/index.php?stranica=komitentrabat&kategorija=$1&komitent=$2 [NC,L]
+#RewriteRule ^komitent/([0-9]+)/?$ /admin/index.php?stranica=komitent&tip=$1 [NC,L]
+#RewriteRule ^ponuda/([0-9]+)/?$ /admin/index.php?stranica=ponuda&tip=$1 [NC,L]
+#RewriteRule ^templateedit/([0-9]+)/?$ /admin/index.php?stranica=templateedit&tip=$1 [NC,L]
+#RewriteRule ^ponudaedit/([0-9]+)/?$ /admin/index.php?stranica=ponudaedit&tip=$1 [NC,L]
+#RewriteRule ^ponudaeditart/([0-9]+)/?$ /admin/index.php?stranica=ponudaeditart&tip=$1 [NC,L]
+#RewriteRule ^prevozedit/([0-9]+)/?$ /admin/index.php?stranica=prevozedit&tip=$1 [NC,L]
+#RewriteRule ^kategorijehead/([0-9]+)/?$ /admin/index.php?stranica=modkateghead&tip=$1 [NC,L,QSA]
+# ovo je da bude isti naziv stranice u tom formatu
+#RewriteRule ^([0-9a-zA-Z_-]+)/str/([0-9]+)/?$ /admin/index.php?stranica=$1&tip=$2 [NC,L]
+#RewriteRule ^([0-9a-zA-Z_-]+)/([0-9]+)/?$ /admin/index.php?stranica=modkateg&tip=$2 [NC,L,QSA]
+
+

@@ -1,0 +1,1971 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProductCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Product>
+		<sifra>600080500</sifra>
+		<naziv>PowerMaxx BS Basic </naziv>
+		<cena>11000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600156500</sifra>
+		<naziv>PowerMaxx BS Quick Basic</naziv>
+		<cena>26200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600157500</sifra>
+		<naziv>PowerMaxx BS Quick Pro</naziv>
+		<cena>15700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600385500</sifra>
+		<naziv>PowerMaxx SB Basic </naziv>
+		<cena>21200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600093500</sifra>
+		<naziv>PowerMaxx SSD</naziv>
+		<cena>30500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602264500</sifra>
+		<naziv>PowerMaxx ASE </naziv>
+		<cena>27000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602117000</sifra>
+		<naziv>KPA 10.8 600 </naziv>
+		<cena>45800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602117600</sifra>
+		<naziv>KPA 10.8 600 </naziv>
+		<cena>55600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602117610</sifra>
+		<naziv>KPA 10.8 400 </naziv>
+		<cena>54000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602194880</sifra>
+		<naziv>BS 12 NiCd Set Mobile Workshop</naziv>
+		<cena>21950</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600079880</sifra>
+		<naziv>PowerMaxx BS Set Mobile Workshop</naziv>
+		<cena>21100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600080880</sifra>
+		<naziv>PowerMaxx BS Basic Set  Mobile Workshop</naziv>
+		<cena>24800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600157880</sifra>
+		<naziv>PowerMaxx BS Quick Pro Set Mobile Workshop</naziv>
+		<cena>36000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600385870</sifra>
+		<naziv>PowerMaxx SB Basic Set Mobile Workshop</naziv>
+		<cena>25400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602206880</sifra>
+		<naziv>BS 14.4 Set Mobile Workshop</naziv>
+		<cena>29100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602207880</sifra>
+		<naziv>BS 18 Set Mobile Workshop</naziv>
+		<cena>31800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602217880</sifra>
+		<naziv>BS 18 Quick Set Mobile Workshop</naziv>
+		<cena>37100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602102600</sifra>
+		<naziv>BS 18 LT Set Mobile Workshop</naziv>
+		<cena>43800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602103600</sifra>
+		<naziv>SB 18 LT Set Mobile Workshop</naziv>
+		<cena>45100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602105570</sifra>
+		<naziv>BS 14.4 Li</naziv>
+		<cena>14900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602116530</sifra>
+		<naziv>BS 18 Li</naziv>
+		<cena>15300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602217500</sifra>
+		<naziv>BS 18 Quick </naziv>
+		<cena>29100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602100510</sifra>
+		<naziv>BS 14.4 LT Compact </naziv>
+		<cena>34900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602100500</sifra>
+		<naziv>BS 14.4 LT</naziv>
+		<cena>47650</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602101500</sifra>
+		<naziv>BS 14.4 LT Quick </naziv>
+		<cena>52400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602102670</sifra>
+		<naziv>BS 18 LT </naziv>
+		<cena>49900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602102530</sifra>
+		<naziv>BS 18 LT Compact </naziv>
+		<cena>38000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602102500</sifra>
+		<naziv>BS 18 LT </naziv>
+		<cena>52400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602102650</sifra>
+		<naziv>BS 18 LT</naziv>
+		<cena>60000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602104500</sifra>
+		<naziv>BS 18 LT Quick </naziv>
+		<cena>57200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602191500</sifra>
+		<naziv>BS 18 LTX Impuls </naziv>
+		<cena>63200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602241500</sifra>
+		<naziv>BS 18 LTX BL Impuls </naziv>
+		<cena>66400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602191650</sifra>
+		<naziv>BS 18 LTX Impuls </naziv>
+		<cena>68400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602193660</sifra>
+		<naziv>BS 18 LTX Quick </naziv>
+		<cena>82400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602193500</sifra>
+		<naziv>BS 18 LTX Quick </naziv>
+		<cena>67300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602193650</sifra>
+		<naziv>BS 18 LTX Quick</naziv>
+		<cena>74200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602201500</sifra>
+		<naziv>BS 18 LTX-X3 Quick </naziv>
+		<cena>92000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602103670</sifra>
+		<naziv>SB 18 LT </naziv>
+		<cena>53100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602103510</sifra>
+		<naziv>SB 18 LT Compact </naziv>
+		<cena>21250</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602103500</sifra>
+		<naziv>SB 18 LT </naziv>
+		<cena>55700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602192500</sifra>
+		<naziv>SB 18 LTX Impuls </naziv>
+		<cena>64600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602240500</sifra>
+		<naziv>SB 18 LTX BL Impuls</naziv>
+		<cena>68000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602192650</sifra>
+		<naziv>SB 18 LTX Impuls </naziv>
+		<cena>71400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602200660</sifra>
+		<naziv>SB 18 LTX Quick</naziv>
+		<cena>84000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602200500</sifra>
+		<naziv>SB 18 LTX Quick </naziv>
+		<cena>68700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602200650</sifra>
+		<naziv>SB 18 LTX Quick </naziv>
+		<cena>75600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602195670</sifra>
+		<naziv>SSW 18 LTX 200</naziv>
+		<cena>59300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602195500</sifra>
+		<naziv>SSW 18 LTX 200 </naziv>
+		<cena>63500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602196670</sifra>
+		<naziv>SSD 18 LTX 200</naziv>
+		<cena>59300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602196500</sifra>
+		<naziv>SSD 18 LTX 200 </naziv>
+		<cena>62000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602205670</sifra>
+		<naziv>SSW 18 LTX 400 BL </naziv>
+		<cena>68500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602205500</sifra>
+		<naziv>SSW 18 LTX 400 BL </naziv>
+		<cena>70800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602205650</sifra>
+		<naziv>SSW 18 LTX 400 BL </naziv>
+		<cena>76200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602198500</sifra>
+		<naziv>SSW 18 LTX 600</naziv>
+		<cena>79700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602198650</sifra>
+		<naziv>SSW 18 LTX 600 </naziv>
+		<cena>86600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602174610</sifra>
+		<naziv>W 18 LTX 125 Quick</naziv>
+		<cena>33000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602174650</sifra>
+		<naziv>W 18 LTX 125 Quick</naziv>
+		<cena>70600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602268860</sifra>
+		<naziv>KSA 18 LTX </naziv>
+		<cena>57500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602268870</sifra>
+		<naziv>KSA 18 LTX </naziv>
+		<cena>65000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602269610</sifra>
+		<naziv>ASE 18 LTX </naziv>
+		<cena>58500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602269650</sifra>
+		<naziv>ASE 18 LTX </naziv>
+		<cena>66500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602298610</sifra>
+		<naziv>STA 18 LTX </naziv>
+		<cena>57000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602298650</sifra>
+		<naziv>STA 18 LTX </naziv>
+		<cena>65000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601405500</sifra>
+		<naziv>STA 18 LTX 140</naziv>
+		<cena>68000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601405650</sifra>
+		<naziv>STA 18 LTX 140 </naziv>
+		<cena>77500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>613021510</sifra>
+		<naziv>MT 18 LTX Compact </naziv>
+		<cena>49900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>613021710</sifra>
+		<naziv>MT 18 LTX Compact</naziv>
+		<cena>53900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>613021650</sifra>
+		<naziv>MT 18 LTX</naziv>
+		<cena>63500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685055000</sifra>
+		<naziv>Combo Set 2.3 10.8 V BS + SSD</naziv>
+		<cena>18800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685056000</sifra>
+		<naziv>Combo Set 2.4 10.8 V BS + ASE</naziv>
+		<cena>35700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685057000</sifra>
+		<naziv>Combo Set 3.2 10.8 V BS + ASE + SSD</naziv>
+		<cena>46700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685053000</sifra>
+		<naziv>Combo Set 2.1 10.8 V Quick Pro BS + SSD</naziv>
+		<cena>40100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685054000</sifra>
+		<naziv>Combo Set 2.2 10.8 V Quick Pro BS + ASE</naziv>
+		<cena>46700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685030000</sifra>
+		<naziv>Combo Set 2.1.1 18 V  BSLT + SSD</naziv>
+		<cena>71500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685031000</sifra>
+		<naziv>Combo Set 2.1.2 18 V  BSLT + SSW</naziv>
+		<cena>73100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685032000</sifra>
+		<naziv>Combo Set 2.1.3 18 V  SBLT + SSD</naziv>
+		<cena>75300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685033000</sifra>
+		<naziv>Combo Set 2.1.4 18 V  SBLT + SSW</naziv>
+		<cena>76500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685038000</sifra>
+		<naziv>Combo Set 2.4.1 18 V  BSLT + W18</naziv>
+		<cena>74700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685039000</sifra>
+		<naziv>Combo Set 2.4.2 18 V  SBLT + W18</naziv>
+		<cena>79000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685058000</sifra>
+		<naziv>Combo Set 2.1.5 18 V  SB + SSD LTX</naziv>
+		<cena>91500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600210500</sifra>
+		<naziv>KHA 18 LTX </naziv>
+		<cena>76000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600210650</sifra>
+		<naziv>KHA 18 LTX </naziv>
+		<cena>82000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600795650</sifra>
+		<naziv>KHA 36 LTX </naziv>
+		<cena>131000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600795510</sifra>
+		<naziv>KHA 36 LTX </naziv>
+		<cena>109000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600210670</sifra>
+		<naziv>KHA 18 LTX </naziv>
+		<cena>73500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600334500</sifra>
+		<naziv>MAG 28 LTX 32 </naziv>
+		<cena>262000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602197500</sifra>
+		<naziv>BS 18 LTX BL Quick </naziv>
+		<cena>74200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602197650</sifra>
+		<naziv>BS 18 LTX BL Quick </naziv>
+		<cena>81100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602199500</sifra>
+		<naziv>SB 18 LTX BL Quick </naziv>
+		<cena>39900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602199650</sifra>
+		<naziv>SB 18 LTX BL Quick </naziv>
+		<cena>82500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606154000</sifra>
+		<naziv>KHE 2444 </naziv>
+		<cena>13200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606157000</sifra>
+		<naziv>KHE 2644 </naziv>
+		<cena>23600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600658800</sifra>
+		<naziv>KHE 2650 </naziv>
+		<cena>33200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600657000</sifra>
+		<naziv>KHE 2851 </naziv>
+		<cena>40700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600637000</sifra>
+		<naziv>KHE 3250 </naziv>
+		<cena>45900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600659000</sifra>
+		<naziv>KHE 3251 </naziv>
+		<cena>50500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600696000</sifra>
+		<naziv>UHE 2450 Multi</naziv>
+		<cena>33200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600712000</sifra>
+		<naziv>UHE 2850 Multi </naziv>
+		<cena>22900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600687000</sifra>
+		<naziv>KHE 5-40</naziv>
+		<cena>41900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600340000</sifra>
+		<naziv>KHE 56</naziv>
+		<cena>108000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600341000</sifra>
+		<naziv>KHE 76 </naziv>
+		<cena>135000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600596000</sifra>
+		<naziv>KHE 96  </naziv>
+		<cena>169000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600688000</sifra>
+		<naziv>MHE 5 </naziv>
+		<cena>66000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600396000</sifra>
+		<naziv>MHE 96 </naziv>
+		<cena>143300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601119000</sifra>
+		<naziv>MFE 30 Signal </naziv>
+		<cena>66000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601119500</sifra>
+		<naziv>MFE 30 Signal+2 dijamat diska</naziv>
+		<cena>75000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600365000</sifra>
+		<naziv>MFE 65 </naziv>
+		<cena>105000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600670000</sifra>
+		<naziv>SB 650 </naziv>
+		<cena>9900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600671000</sifra>
+		<naziv>SBE 650</naziv>
+		<cena>6190</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600672000</sifra>
+		<naziv>SBE 650 Impuls </naziv>
+		<cena>7650</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600841850</sifra>
+		<naziv>SBE 760 </naziv>
+		<cena>19800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600842500</sifra>
+		<naziv>SBE 850 </naziv>
+		<cena>24800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600865500</sifra>
+		<naziv>SBE 900 Impuls</naziv>
+		<cena>26700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600866500</sifra>
+		<naziv>SBE 1000</naziv>
+		<cena>27500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600867500</sifra>
+		<naziv>SBE 1100 Plus </naziv>
+		<cena>31200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600360000</sifra>
+		<naziv>BE 650</naziv>
+		<cena>10700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600360930</sifra>
+		<naziv>BE 650 </naziv>
+		<cena>12100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600581000</sifra>
+		<naziv>BE 751 </naziv>
+		<cena>25500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600581810</sifra>
+		<naziv>BE 751</naziv>
+		<cena>27100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600582000</sifra>
+		<naziv>BE 1100</naziv>
+		<cena>30000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600582810</sifra>
+		<naziv>BE 1100</naziv>
+		<cena>33500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600580000</sifra>
+		<naziv>BE 75-16</naziv>
+		<cena>33900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600806000</sifra>
+		<naziv>BDE 1100 R+L </naziv>
+		<cena>53500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600512000</sifra>
+		<naziv>WBE 700 </naziv>
+		<cena>38500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600635500</sifra>
+		<naziv>MAG 32 </naziv>
+		<cena>146100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600636500</sifra>
+		<naziv>MAG 50 </naziv>
+		<cena>180000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600323000</sifra>
+		<naziv>B 32/3  </naziv>
+		<cena>106000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620044000</sifra>
+		<naziv>SE 2500</naziv>
+		<cena>26000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620045000</sifra>
+		<naziv>SE 4000</naziv>
+		<cena>26000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620046000</sifra>
+		<naziv>SE 6000 </naziv>
+		<cena>26000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620047500</sifra>
+		<naziv>SE 18 LTX 2500 </naziv>
+		<cena>45200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620048500</sifra>
+		<naziv>SE 18 LTX 4000 </naziv>
+		<cena>45200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620048510</sifra>
+		<naziv>SE 18 LTX 4000 </naziv>
+		<cena>55000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620049500</sifra>
+		<naziv>SE 18 LTX 6000 </naziv>
+		<cena>45200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620049510</sifra>
+		<naziv>SE 18 LTX 6000 </naziv>
+		<cena>55000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602204000</sifra>
+		<naziv>SSW 650 </naziv>
+		<cena>27900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600354010</sifra>
+		<naziv>W 9-115 </naziv>
+		<cena>15600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600371010</sifra>
+		<naziv>W 9-115 Quick</naziv>
+		<cena>17000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600376010</sifra>
+		<naziv>W 9-125 </naziv>
+		<cena>15600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600374010</sifra>
+		<naziv>W 9-125 Quick</naziv>
+		<cena>17000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600388000</sifra>
+		<naziv>WEV 10-125 Quick</naziv>
+		<cena>10800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600398010</sifra>
+		<naziv>W 12-125 Quick </naziv>
+		<cena>19700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600448000</sifra>
+		<naziv>WE 15-125 Quick</naziv>
+		<cena>21100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600468000</sifra>
+		<naziv>WEV 15-125 Quick </naziv>
+		<cena>22200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600562000</sifra>
+		<naziv>WEV 15-125 Quick HT </naziv>
+		<cena>26500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600515000</sifra>
+		<naziv>WE 17-125 Quick </naziv>
+		<cena>20350</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600422010</sifra>
+		<naziv>WA 12-125 Quick</naziv>
+		<cena>21500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600492000</sifra>
+		<naziv>WEA 15-125 Quick </naziv>
+		<cena>22800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600496000</sifra>
+		<naziv>WEVA 15-125 Quick</naziv>
+		<cena>23900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600534000</sifra>
+		<naziv>WEA 17-125 Quick </naziv>
+		<cena>26300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606421000</sifra>
+		<naziv>WX 2000-230</naziv>
+		<cena>21500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600397000</sifra>
+		<naziv>WX 2200-230 </naziv>
+		<cena>22600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606463000</sifra>
+		<naziv>WE 22-180 MVT </naziv>
+		<cena>26700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606464000</sifra>
+		<naziv>WE 22-230 MVT </naziv>
+		<cena>26900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606465000</sifra>
+		<naziv>WE 22-230 MVT Quick </naziv>
+		<cena>28300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606468000</sifra>
+		<naziv>WE 24-180 MVT </naziv>
+		<cena>28300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606469000</sifra>
+		<naziv>WE 24-230 MVT</naziv>
+		<cena>28300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606470000</sifra>
+		<naziv>WE 24-230 MVT Quick</naziv>
+		<cena>29900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606472000</sifra>
+		<naziv>WEA 24-230 MVT Quick</naziv>
+		<cena>34400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606475000</sifra>
+		<naziv>WE 26-230 MVT </naziv>
+		<cena>30000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606476000</sifra>
+		<naziv>WEA 26-230 MVT Quick </naziv>
+		<cena>34000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602335000</sifra>
+		<naziv>CS 23-355</naziv>
+		<cena>28000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602175000</sifra>
+		<naziv>PE 12-175</naziv>
+		<cena>32000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602175910</sifra>
+		<naziv>PE 12-175 Set</naziv>
+		<cena>39000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602175870</sifra>
+		<naziv>PE 12-175 Reno-Set</naziv>
+		<cena>60700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600572000</sifra>
+		<naziv>WEV 15-125 Quick Inox</naziv>
+		<cena>28000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600572500</sifra>
+		<naziv>WEV 15-125 Quick Inox Set </naziv>
+		<cena>50500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602115510</sifra>
+		<naziv>SE 12-115 </naziv>
+		<cena>48700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602115500</sifra>
+		<naziv>SE 12-115 Set</naziv>
+		<cena>72600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602133510</sifra>
+		<naziv>KNSE 12-150</naziv>
+		<cena>86300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602133500</sifra>
+		<naziv>KNSE 12-150 Set </naziv>
+		<cena>102000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602134510</sifra>
+		<naziv>BFE 9-90 </naziv>
+		<cena>60700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602134500</sifra>
+		<naziv>BFE 9-90 Set </naziv>
+		<cena>75300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602183000</sifra>
+		<naziv>RBE 9-60 </naziv>
+		<cena>107000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602183500</sifra>
+		<naziv>RBE 9-60 Set</naziv>
+		<cena>123000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602132510</sifra>
+		<naziv>RBE 12-180 </naziv>
+		<cena>84500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602132500</sifra>
+		<naziv>RBE 12-180 Set </naziv>
+		<cena>98500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600615000</sifra>
+		<naziv>GE 710 Compact  </naziv>
+		<cena>18600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600616000</sifra>
+		<naziv>GE 710 Plus </naziv>
+		<cena>24800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600618000</sifra>
+		<naziv>GE 950 G Plus</naziv>
+		<cena>30400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619125000</sifra>
+		<naziv>DS 125 </naziv>
+		<cena>12500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619150000</sifra>
+		<naziv>DS 150</naziv>
+		<cena>16250</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619175000</sifra>
+		<naziv>DS 175 </naziv>
+		<cena>23750</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619200000</sifra>
+		<naziv>DS 200 </naziv>
+		<cena>24750</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619201000</sifra>
+		<naziv>DSD 200 </naziv>
+		<cena>25750</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619250000</sifra>
+		<naziv>DSD 250</naziv>
+		<cena>45750</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601750000</sifra>
+		<naziv>BS 175 </naziv>
+		<cena>31250</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>611750000</sifra>
+		<naziv>TNS 175 </naziv>
+		<cena>28750</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600855000</sifra>
+		<naziv>KS 55 </naziv>
+		<cena>17650</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600955000</sifra>
+		<naziv>KS 55 FS </naziv>
+		<cena>11000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600542000</sifra>
+		<naziv>KS 66 </naziv>
+		<cena>39500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601040500</sifra>
+		<naziv>STEB 70 Quick</naziv>
+		<cena>17900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601041500</sifra>
+		<naziv>STEB 80 Quick </naziv>
+		<cena>21200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601042500</sifra>
+		<naziv>STE 90 SCS</naziv>
+		<cena>23500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601043500</sifra>
+		<naziv>STE 100 SCS </naziv>
+		<cena>11500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601401000</sifra>
+		<naziv>STE 140</naziv>
+		<cena>31500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601403500</sifra>
+		<naziv>STE 140 PLUS </naziv>
+		<cena>35500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601404500</sifra>
+		<naziv>STEB 140 PLUS </naziv>
+		<cena>35500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606177500</sifra>
+		<naziv>SSE 1100</naziv>
+		<cena>28900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606178500</sifra>
+		<naziv>SSEP 1400 MVT</naziv>
+		<cena>46500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600065500</sifra>
+		<naziv>FMS 200 Intec </naziv>
+		<cena>4500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600066500</sifra>
+		<naziv>FSR 200 Intec</naziv>
+		<cena>8600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600441500</sifra>
+		<naziv>SR 2185 </naziv>
+		<cena>14100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600442000</sifra>
+		<naziv>SRE 3185 </naziv>
+		<cena>8400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>611350000</sifra>
+		<naziv>SRE 4350 TurboTec </naziv>
+		<cena>30500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>611351000</sifra>
+		<naziv>SRE 4351 TurboTec </naziv>
+		<cena>35200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600405000</sifra>
+		<naziv>SX E 400</naziv>
+		<cena>16950</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>609225500</sifra>
+		<naziv>FSX 200 Intec </naziv>
+		<cena>4700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600443000</sifra>
+		<naziv>SXE 3125</naziv>
+		<cena>15650</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600131000</sifra>
+		<naziv>SXE 425 TurboTec </naziv>
+		<cena>24500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600444000</sifra>
+		<naziv>SXE 3150</naziv>
+		<cena>10000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600129000</sifra>
+		<naziv>SXE 450 TurboTec</naziv>
+		<cena>27500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600103000</sifra>
+		<naziv>LSV 5-225 </naziv>
+		<cena>85500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600136000</sifra>
+		<naziv>LSV 5-225 Comfort </naziv>
+		<cena>110500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600375000</sifra>
+		<naziv>BAE 75 </naziv>
+		<cena>35500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600882000</sifra>
+		<naziv>Ho 0882 </naziv>
+		<cena>30000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600882540</sifra>
+		<naziv>Ho 0882 + postolje 631599</naziv>
+		<cena>36700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600724000</sifra>
+		<naziv>LF 724 S </naziv>
+		<cena>43000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600738000</sifra>
+		<naziv>OFE 738 </naziv>
+		<cena>38900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601229000</sifra>
+		<naziv>OFE 1229 Signal </naziv>
+		<cena>47950</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602019000</sifra>
+		<naziv>Ta E 2019 </naziv>
+		<cena>24500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602019500</sifra>
+		<naziv>TA E 2019 + 5.000 klamarica</naziv>
+		<cena>26000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601650000</sifra>
+		<naziv>H 16-500 </naziv>
+		<cena>8200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602060000</sifra>
+		<naziv>HE 20-600</naziv>
+		<cena>6200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602365000</sifra>
+		<naziv>HE 23-650 Control </naziv>
+		<cena>9100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>618121000</sifra>
+		<naziv>KE 3000 </naziv>
+		<cena>2200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606162000</sifra>
+		<naziv>LD 30 </naziv>
+		<cena>13500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606163000</sifra>
+		<naziv>LD 60 </naziv>
+		<cena>16950</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606164000</sifra>
+		<naziv>PL 5-30 </naziv>
+		<cena>42600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606165000</sifra>
+		<naziv>BLL 2-15 </naziv>
+		<cena>25550</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606166000</sifra>
+		<naziv>KLL 2-20 </naziv>
+		<cena>50350</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606167000</sifra>
+		<naziv>MLL 3-20 </naziv>
+		<cena>77200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602012000</sifra>
+		<naziv>AS 20 L </naziv>
+		<cena>17500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602013000</sifra>
+		<naziv>ASA 32 L </naziv>
+		<cena>27500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602024000</sifra>
+		<naziv>ASR 25 L SC</naziv>
+		<cena>55600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602034000</sifra>
+		<naziv>ASR 50 L SC</naziv>
+		<cena>64700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620016000</sifra>
+		<naziv>HS 45 </naziv>
+		<cena>17300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620017000</sifra>
+		<naziv>HS 55 </naziv>
+		<cena>18600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620018000</sifra>
+		<naziv>HS 65 </naziv>
+		<cena>20100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619216000</sifra>
+		<naziv>KS 216 M Lasercut </naziv>
+		<cena>13000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80102540100</sifra>
+		<naziv>KS 254 Plus</naziv>
+		<cena>47500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80103050100</sifra>
+		<naziv>KS 305 Plus </naziv>
+		<cena>63800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619260000</sifra>
+		<naziv>KGS 216 M</naziv>
+		<cena>21000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80102160200</sifra>
+		<naziv>KGS 216 Plus </naziv>
+		<cena>65000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602540000</sifra>
+		<naziv>KGS 254 M </naziv>
+		<cena>30000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80102540300</sifra>
+		<naziv>KGS 254 Plus </naziv>
+		<cena>127000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80102540200</sifra>
+		<naziv>KGS 254 I Plus </naziv>
+		<cena>133200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619305000</sifra>
+		<naziv>KGS 305 M</naziv>
+		<cena>47500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80103150000</sifra>
+		<naziv>KGS 315 Plus </naziv>
+		<cena>145000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600668000</sifra>
+		<naziv>TS 254 </naziv>
+		<cena>66900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600667000</sifra>
+		<naziv>TS 216 </naziv>
+		<cena>52000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600676000</sifra>
+		<naziv>TS 216 Floor </naziv>
+		<cena>78500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80103152000</sifra>
+		<naziv>TKHS 315 C / 2.0 WNB proveriti dostupnost</naziv>
+		<cena>52000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80090025100</sifra>
+		<naziv>BAS 260 SWIFT proveriti dostupnost</naziv>
+		<cena>41600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80090317000</sifra>
+		<naziv>BAS 317 Precision WNB proveriti dostupnost</naziv>
+		<cena>94700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80090317100</sifra>
+		<naziv>BAS 317 Precision DNB proveriti dostupnost</naziv>
+		<cena>94700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80200033000</sifra>
+		<naziv>DH 330 </naziv>
+		<cena>98800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80114026000</sifra>
+		<naziv>HC 260 C / 2.2 WNB</naziv>
+		<cena>152000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80114026100</sifra>
+		<naziv>HC 260 C / 2.8 DNB</naziv>
+		<cena>152000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601205000</sifra>
+		<naziv>SPA 1200  proveriti dostupnost</naziv>
+		<cena>36500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600962000</sifra>
+		<naziv>P 2000 G</naziv>
+		<cena>8350</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600963000</sifra>
+		<naziv>P 3300 G </naziv>
+		<cena>11200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600964000</sifra>
+		<naziv>P 4000 G </naziv>
+		<cena>13150</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600965000</sifra>
+		<naziv>P 4500 Inox </naziv>
+		<cena>16750</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600967000</sifra>
+		<naziv>P 9000 G </naziv>
+		<cena>44500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600968000</sifra>
+		<naziv>HWW 3300/25 G</naziv>
+		<cena>19600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600971000</sifra>
+		<naziv>HWW 4000/25 G </naziv>
+		<cena>21600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600977000</sifra>
+		<naziv>HWW 9000/100 G </naziv>
+		<cena>61250</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80250660000</sifra>
+		<naziv>TP 6600</naziv>
+		<cena>10200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80250800000</sifra>
+		<naziv>TP 8000 S </naziv>
+		<cena>12800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80251300000</sifra>
+		<naziv>TP 13000 S</naziv>
+		<cena>18250</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80250660006</sifra>
+		<naziv>TPF 6600 Sn </naziv>
+		<cena>20300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80250800002</sifra>
+		<naziv>TPF 7000 S </naziv>
+		<cena>16000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80250750100</sifra>
+		<naziv>TDP 7501 S </naziv>
+		<cena>36300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80250750000</sifra>
+		<naziv>PS 7500 S </naziv>
+		<cena>11200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80251500000</sifra>
+		<naziv>PS 15000 S </naziv>
+		<cena>30500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80251800000</sifra>
+		<naziv>PS 18000 SN</naziv>
+		<cena>33200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80251400000</sifra>
+		<naziv>TPS 14000 S COMBI </naziv>
+		<cena>19000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>80251600000</sifra>
+		<naziv>TPS 16000 S  COMBI </naziv>
+		<cena>25200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>604113000</sifra>
+		<naziv>SP 24-46 SG </naziv>
+		<cena>74400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601564500</sifra>
+		<naziv>DKG 80/16 </naziv>
+		<cena>7300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601566500</sifra>
+		<naziv>DKG 90/40 </naziv>
+		<cena>19350</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601567500</sifra>
+		<naziv>DKG 114/65</naziv>
+		<cena>47400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601562500</sifra>
+		<naziv>DKNG 40/50 </naziv>
+		<cena>16550</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601563500</sifra>
+		<naziv>DPN 25 </naziv>
+		<cena>16550</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601568500</sifra>
+		<naziv>DSN 50 </naziv>
+		<cena>19350</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>604118500</sifra>
+		<naziv>DSSW 360 Set 1/2" </naziv>
+		<cena>6460</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601548000</sifra>
+		<naziv>DSSW 475-1/2" </naziv>
+		<cena>12500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601549000</sifra>
+		<naziv>DSSW 930-1/2" </naziv>
+		<cena>13100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601550000</sifra>
+		<naziv>DSSW 1690-3/4" </naziv>
+		<cena>47400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601551000</sifra>
+		<naziv>DSSW 2440-1" </naziv>
+		<cena>83850</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>604119500</sifra>
+		<naziv>DRS 68 Set 1/2"</naziv>
+		<cena>10200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601552000</sifra>
+		<naziv>DRS 35-1/4"</naziv>
+		<cena>12350</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601553000</sifra>
+		<naziv>DRS 95-1/2"</naziv>
+		<cena>6660</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>604120000</sifra>
+		<naziv>DB 10 </naziv>
+		<cena>5500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>604117000</sifra>
+		<naziv>DS 14</naziv>
+		<cena>7300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>604115500</sifra>
+		<naziv>DMH 30 Set</naziv>
+		<cena>10150</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601561500</sifra>
+		<naziv>DMH 290 Set </naziv>
+		<cena>16550</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601560500</sifra>
+		<naziv>DKS 10 Set </naziv>
+		<cena>22150</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>604116500</sifra>
+		<naziv>DG 25 Set</naziv>
+		<cena>4660</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601556000</sifra>
+		<naziv>DW 125</naziv>
+		<cena>14500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601557000</sifra>
+		<naziv>DW 125 Quick</naziv>
+		<cena>26650</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601554000</sifra>
+		<naziv>DG 700 </naziv>
+		<cena>8990</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601555000</sifra>
+		<naziv>DG 700 L </naziv>
+		<cena>19350</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601558000</sifra>
+		<naziv>DSX 150 </naziv>
+		<cena>9720</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601559000</sifra>
+		<naziv>DBF 457 </naziv>
+		<cena>24950</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601569000</sifra>
+		<naziv>SSP 1000 </naziv>
+		<cena>2950</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601574000</sifra>
+		<naziv>FSP 100 </naziv>
+		<cena>5850</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601575000</sifra>
+		<naziv>FSP 600 </naziv>
+		<cena>2760</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601576000</sifra>
+		<naziv>FSP 1000 S </naziv>
+		<cena>6000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601577000</sifra>
+		<naziv>FSP 600 HVLP </naziv>
+		<cena>11100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601578000</sifra>
+		<naziv>FSP 600 LVLP </naziv>
+		<cena>20500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601579000</sifra>
+		<naziv>BP 10 </naziv>
+		<cena>1000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601580000</sifra>
+		<naziv>BP 210</naziv>
+		<cena>1200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601581000</sifra>
+		<naziv>BP 200 </naziv>
+		<cena>1100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601582000</sifra>
+		<naziv>BP 500</naziv>
+		<cena>1550</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601583000</sifra>
+		<naziv>BPA 15 </naziv>
+		<cena>2400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601584000</sifra>
+		<naziv>BPA 15 S</naziv>
+		<cena>4250</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601570000</sifra>
+		<naziv>SPP 1000 </naziv>
+		<cena>2650</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601571000</sifra>
+		<naziv>UBS 1000</naziv>
+		<cena>3200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601572000</sifra>
+		<naziv>DFP 400</naziv>
+		<cena>3790</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601573000</sifra>
+		<naziv>DKP 310 </naziv>
+		<cena>6200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602233000</sifra>
+		<naziv>RF 60 </naziv>
+		<cena>3200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602234000</sifra>
+		<naziv>RF 60 G </naziv>
+		<cena>4300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602235000</sifra>
+		<naziv>RF 80 G</naziv>
+		<cena>7750</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602236000</sifra>
+		<naziv>RF 80 D </naziv>
+		<cena>10700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601585000</sifra>
+		<naziv>LPZ 4 Set </naziv>
+		<cena>6700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601586000</sifra>
+		<naziv>LPZ 7 Set </naziv>
+		<cena>8300</cena>
+		<stanje>1</stanje>
+	</Product>
+</ProductCatalog>

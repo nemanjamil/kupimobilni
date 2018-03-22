@@ -1,2 +1,9 @@
-miki
-test
+/**
+ * Instaliraj VUE plug in
+ * https://www.jetbrains.com/help/phpstorm/vue-js.html
+ *
+ * dodaj ADDON
+ * https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/?src=search
+ *
+ * NIKOLA NAPRAVI SCSS kod sebe
+ */

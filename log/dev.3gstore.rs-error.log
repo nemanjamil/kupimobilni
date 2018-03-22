@@ -1,0 +1,140 @@
+[Fri Aug 18 17:25:48.483641 2017] [:error] [pid 4525] [client 109.122.99.32:52414] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:25:48.483670 2017] [:error] [pid 4525] [client 109.122.99.32:52414] PHP Stack trace:
+[Fri Aug 18 17:25:48.483679 2017] [:error] [pid 4525] [client 109.122.99.32:52414] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:25:48.483683 2017] [:error] [pid 4525] [client 109.122.99.32:52414] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:25:48.483688 2017] [:error] [pid 4525] [client 109.122.99.32:52414] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:25:48.483692 2017] [:error] [pid 4525] [client 109.122.99.32:52414] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:25:48.483696 2017] [:error] [pid 4525] [client 109.122.99.32:52414] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:27:37.174713 2017] [:error] [pid 4650] [client 109.122.99.32:53978] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:27:37.174736 2017] [:error] [pid 4650] [client 109.122.99.32:53978] PHP Stack trace:
+[Fri Aug 18 17:27:37.174746 2017] [:error] [pid 4650] [client 109.122.99.32:53978] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:27:37.174751 2017] [:error] [pid 4650] [client 109.122.99.32:53978] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:27:37.174759 2017] [:error] [pid 4650] [client 109.122.99.32:53978] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:27:37.174764 2017] [:error] [pid 4650] [client 109.122.99.32:53978] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:27:37.174768 2017] [:error] [pid 4650] [client 109.122.99.32:53978] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:28:58.491957 2017] [:error] [pid 4725] [client 109.122.99.32:57064] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:28:58.491988 2017] [:error] [pid 4725] [client 109.122.99.32:57064] PHP Stack trace:
+[Fri Aug 18 17:28:58.491997 2017] [:error] [pid 4725] [client 109.122.99.32:57064] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:28:58.492002 2017] [:error] [pid 4725] [client 109.122.99.32:57064] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:28:58.492007 2017] [:error] [pid 4725] [client 109.122.99.32:57064] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:28:58.492012 2017] [:error] [pid 4725] [client 109.122.99.32:57064] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:28:58.492016 2017] [:error] [pid 4725] [client 109.122.99.32:57064] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:29:45.610182 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:29:45.610209 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP Stack trace:
+[Fri Aug 18 17:29:45.610218 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:29:45.610223 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:29:45.610228 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:29:45.610233 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:29:45.610246 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:29:46.379361 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:29:46.379381 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP Stack trace:
+[Fri Aug 18 17:29:46.379387 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:29:46.379391 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:29:46.379396 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:29:46.379400 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:29:46.379404 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:29:46.623273 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:29:46.623291 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP Stack trace:
+[Fri Aug 18 17:29:46.623297 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:29:46.623302 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:29:46.623306 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:29:46.623311 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:29:46.623315 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:29:47.049264 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:29:47.049282 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP Stack trace:
+[Fri Aug 18 17:29:47.049287 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:29:47.049292 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:29:47.049296 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:29:47.049300 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:29:47.049304 2017] [:error] [pid 4643] [client 109.122.99.32:54464] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:29:47.907736 2017] [:error] [pid 4682] [client 109.122.99.32:26337] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:29:47.907756 2017] [:error] [pid 4682] [client 109.122.99.32:26337] PHP Stack trace:
+[Fri Aug 18 17:29:47.907766 2017] [:error] [pid 4682] [client 109.122.99.32:26337] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:29:47.907770 2017] [:error] [pid 4682] [client 109.122.99.32:26337] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:29:47.907784 2017] [:error] [pid 4682] [client 109.122.99.32:26337] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:29:47.907789 2017] [:error] [pid 4682] [client 109.122.99.32:26337] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:29:47.907793 2017] [:error] [pid 4682] [client 109.122.99.32:26337] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:29:48.505933 2017] [:error] [pid 4643] [client 109.122.99.32:42722] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:29:48.505954 2017] [:error] [pid 4643] [client 109.122.99.32:42722] PHP Stack trace:
+[Fri Aug 18 17:29:48.505960 2017] [:error] [pid 4643] [client 109.122.99.32:42722] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:29:48.505964 2017] [:error] [pid 4643] [client 109.122.99.32:42722] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:29:48.505969 2017] [:error] [pid 4643] [client 109.122.99.32:42722] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:29:48.505973 2017] [:error] [pid 4643] [client 109.122.99.32:42722] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:29:48.505977 2017] [:error] [pid 4643] [client 109.122.99.32:42722] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:29:48.770567 2017] [:error] [pid 4703] [client 109.122.99.32:54921] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:29:48.770587 2017] [:error] [pid 4703] [client 109.122.99.32:54921] PHP Stack trace:
+[Fri Aug 18 17:29:48.770597 2017] [:error] [pid 4703] [client 109.122.99.32:54921] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:29:48.770601 2017] [:error] [pid 4703] [client 109.122.99.32:54921] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:29:48.770606 2017] [:error] [pid 4703] [client 109.122.99.32:54921] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:29:48.770610 2017] [:error] [pid 4703] [client 109.122.99.32:54921] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:29:48.770614 2017] [:error] [pid 4703] [client 109.122.99.32:54921] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:29:49.027940 2017] [:error] [pid 4751] [client 109.122.99.32:54057] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:29:49.027963 2017] [:error] [pid 4751] [client 109.122.99.32:54057] PHP Stack trace:
+[Fri Aug 18 17:29:49.027972 2017] [:error] [pid 4751] [client 109.122.99.32:54057] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:29:49.027976 2017] [:error] [pid 4751] [client 109.122.99.32:54057] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:29:49.027981 2017] [:error] [pid 4751] [client 109.122.99.32:54057] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:29:49.027985 2017] [:error] [pid 4751] [client 109.122.99.32:54057] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:29:49.027989 2017] [:error] [pid 4751] [client 109.122.99.32:54057] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:42:28.220037 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:42:28.220058 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Stack trace:
+[Fri Aug 18 17:42:28.220075 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:42:28.220080 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:42:28.220084 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:42:28.220089 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:42:28.220093 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:42:31.232006 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:42:31.232026 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Stack trace:
+[Fri Aug 18 17:42:31.232032 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:42:31.232036 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:42:31.232041 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:42:31.232046 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:42:31.232050 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:42:31.800026 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:42:31.800042 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Stack trace:
+[Fri Aug 18 17:42:31.800047 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:42:31.800051 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:42:31.800056 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:42:31.800061 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:42:31.800065 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:42:31.988527 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:42:31.988541 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Stack trace:
+[Fri Aug 18 17:42:31.988547 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:42:31.988551 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:42:31.988556 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:42:31.988560 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:42:31.988564 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:42:32.219935 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:42:32.219961 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Stack trace:
+[Fri Aug 18 17:42:32.219967 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:42:32.219972 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:42:32.219976 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:42:32.219981 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:42:32.219984 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:42:32.384633 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:42:32.384651 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Stack trace:
+[Fri Aug 18 17:42:32.384657 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:42:32.384661 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:42:32.384666 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:42:32.384671 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:42:32.384675 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:42:32.603769 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:42:32.603784 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Stack trace:
+[Fri Aug 18 17:42:32.603790 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:42:32.603794 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:42:32.603799 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:42:32.603804 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:42:32.603808 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:42:32.793760 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:42:32.793774 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Stack trace:
+[Fri Aug 18 17:42:32.793780 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:42:32.793789 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:42:32.793794 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:42:32.793798 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:42:32.793811 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189
+[Fri Aug 18 17:42:33.098066 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Fatal error:  Problem preparing query (CALL listaKategorijaPoListiIdNew('1',1,2,0,25))  in /data/devshone/include/MysqliDb.php on line 1189
+[Fri Aug 18 17:42:33.098081 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP Stack trace:
+[Fri Aug 18 17:42:33.098088 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   1. {main}() /data/devshone/cron/cronfull.php:0
+[Fri Aug 18 17:42:33.098092 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   2. require() /data/devshone/cron/cronfull.php:24
+[Fri Aug 18 17:42:33.098097 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   3. MysqliDb->rawQuery() /data/devshone/cron/croncreate/menu-kategorije-cron-cir-create.php:15
+[Fri Aug 18 17:42:33.098101 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   4. MysqliDb->_prepareQuery() /data/devshone/include/MysqliDb.php:308
+[Fri Aug 18 17:42:33.098105 2017] [:error] [pid 5745] [client 109.122.99.32:1652] PHP   5. trigger_error() /data/devshone/include/MysqliDb.php:1189

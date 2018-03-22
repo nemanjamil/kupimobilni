@@ -1,0 +1,655 @@
+/*===================================================================================*/
+/*  RED Color
+/*===================================================================================*/
+/*===================================================================================*/
+/* COLOR
+/*===================================================================================*/
+a {
+  color: #f33636;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: #f33636 !important;
+}
+.owl-page.active span {
+  background-color: #f33636;
+}
+.owl-theme .owl-controls .owl-page.active span {
+  background: none repeat scroll 0 0 #f33636;
+}
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  background: none repeat scroll 0 0 #f33636;
+}
+.breadcrumb ul li.active {
+  color: #f33636;
+}
+.rimbus header .fashion-v1 .fashion-v1-top-outer .top-menu > ul > li > a span.item-count {
+  background-color: #f33636;
+}
+.rimbus header .fashion-v1 .user-actions li a {
+  color: #f33636;
+}
+.rimbus header .fashion-v1 nav.menu-bar ul.nav li.active a {
+  border-bottom: 3px solid #f33636;
+  color: #f33636;
+}
+.rimbus footer .fashion-v1-footer .copy-right a {
+  color: #f33636;
+}
+.rimbus {
+  position: relative;
+}
+.rimbus .body-content .fashion-v1-slider .btn:hover {
+  background-color: #f33636 !important;
+}
+.details-page .product-btn ul li a:hover,
+.details-page .product-btn ul li a:focus,
+.details-page .product-btn ul li a:active {
+  color: #f33636;
+}
+.rimbus .body-content .sidebar .sidebar-sub-title {
+  color: #f33636;
+}
+.rimbus .body-content .sidebar .sidebar-filter ul > li a:hover,
+.rimbus .body-content .sidebar .sidebar-filter ul > li a:focus,
+.rimbus .body-content .sidebar .sidebar-filter ul > li a:active {
+  color: #f33636;
+}
+.rimbus .body-content .sidebar .sidebar-filter ul > li a.active {
+  color: #f33636;
+}
+.rimbus .body-content .sidebar .product-tag .tag-list > a:hover,
+.rimbus .body-content .sidebar .product-tag .tag-list > a:focus,
+.rimbus .body-content .sidebar .product-tag .tag-list > a:active {
+  background-color: #f33636;
+  border-color: #f33636;
+}
+.rimbus .body-content .sidebar .product-tag .tag-list a.active {
+  background-color: #f33636;
+  border-color: #f33636;
+}
+.rimbus .body-content .sidebar .hand-tool-tag .tag-list > a:hover,
+.rimbus .body-content .sidebar .hand-tool-tag .tag-list > a:focus,
+.rimbus .body-content .sidebar .hand-tool-tag .tag-list > a:active {
+  background-color: #f33636;
+}
+.rimbus .body-content .sidebar .hand-tool-tag .tag-list a.active {
+  background-color: #f33636;
+}
+.rimbus .body-content .sidebar .recent-post .date {
+  color: #f33636;
+}
+.rimbus .body-content .sidebar .recent-post a.more {
+  color: #f33636;
+}
+.rimbus .body-content .side-menu .panel-group .panel-default .panel-title a:after {
+  color: #f33636;
+}
+.sidebar .sidebar-widget .sidebar-widget-body .price-range-holder .slider .slider-track .slider-handle {
+  border: 5px solid #f33636;
+}
+.sidebar .single-banner .content span.line-2 {
+  color: #f33636;
+}
+.rimbus .body-content .filters-container .filter-tabs .nav > li.active > a {
+  background-color: #f33636;
+}
+.product-item-view .nav li.active a {
+  background-color: #f33636;
+}
+.rimbus .body-content .filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu {
+  border-top: 2px solid #f33636 !important;
+}
+.rimbus-pagination ul li.active {
+  background-color: #f33636;
+  border: 1px solid #f33636;
+}
+.pagination .active > a,
+.pagination .active > span,
+.pagination .active > a:hover,
+.pagination .active > span:hover,
+.pagination .active > a:focus,
+.pagination .active > span:focus {
+  background-color: #f33636;
+  border: 1px solid #f33636;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #f33636;
+  border: 1px solid #f33636;
+}
+.rimbus .body-content .filters-container .pagination-container ul li.active {
+  background-color: #f33636;
+  border: 1px solid #f33636;
+}
+.rimbus .body-content #myTabContent .category-product .products.grid-v2 .product-info .product-price ins,
+.rimbus .body-content .fashion-v3 .category-product .products.grid-v2 .product-info .product-price ins,
+.rimbus .body-content .fashion-v4 .category-product .products.grid-v2 .product-info .product-price ins,
+.rimbus .body-content .fashion-v5 .category-product .products.grid-v2 .product-info .product-price ins,
+.rimbus .body-content .fashion-v6 .category-product .products.grid-v2 .product-info .product-price ins,
+.rimbus .body-content .food .category-product .products.grid-v2 .product-info .product-price ins,
+.rimbus .body-content .details-v2 .category-product .products.grid-v2 .product-info .product-price ins,
+.rimbus .body-content .digital .category-product .products.grid-v2 .product-info .product-price ins,
+.rimbus .body-content .hand-tools .category-product .products.grid-v2 .product-info .product-price ins,
+.rimbus .body-content .furniture .category-product .products.grid-v2 .product-info .product-price ins,
+.rimbus .body-content .box .category-product .products.grid-v2 .product-info .product-price ins,
+.rimbus .body-content #myTabContent .category-product .products.grid-v3 .product-info .product-price ins,
+.rimbus .body-content .fashion-v3 .category-product .products.grid-v3 .product-info .product-price ins,
+.rimbus .body-content .fashion-v4 .category-product .products.grid-v3 .product-info .product-price ins,
+.rimbus .body-content .fashion-v5 .category-product .products.grid-v3 .product-info .product-price ins,
+.rimbus .body-content .fashion-v6 .category-product .products.grid-v3 .product-info .product-price ins,
+.rimbus .body-content .food .category-product .products.grid-v3 .product-info .product-price ins,
+.rimbus .body-content .details-v2 .category-product .products.grid-v3 .product-info .product-price ins,
+.rimbus .body-content .digital .category-product .products.grid-v3 .product-info .product-price ins,
+.rimbus .body-content .hand-tools .category-product .products.grid-v3 .product-info .product-price ins,
+.rimbus .body-content .furniture .category-product .products.grid-v3 .product-info .product-price ins,
+.rimbus .body-content .box .category-product .products.grid-v3 .product-info .product-price ins,
+.rimbus .body-content #myTabContent .category-product .products.grid-v4 .product-info .product-price ins,
+.rimbus .body-content .fashion-v3 .category-product .products.grid-v4 .product-info .product-price ins,
+.rimbus .body-content .fashion-v4 .category-product .products.grid-v4 .product-info .product-price ins,
+.rimbus .body-content .fashion-v5 .category-product .products.grid-v4 .product-info .product-price ins,
+.rimbus .body-content .fashion-v6 .category-product .products.grid-v4 .product-info .product-price ins,
+.rimbus .body-content .food .category-product .products.grid-v4 .product-info .product-price ins,
+.rimbus .body-content .details-v2 .category-product .products.grid-v4 .product-info .product-price ins,
+.rimbus .body-content .digital .category-product .products.grid-v4 .product-info .product-price ins,
+.rimbus .body-content .hand-tools .category-product .products.grid-v4 .product-info .product-price ins,
+.rimbus .body-content .furniture .category-product .products.grid-v4 .product-info .product-price ins,
+.rimbus .body-content .box .category-product .products.grid-v4 .product-info .product-price ins {
+  color: #f33636;
+}
+.product-item-list-v2 .product-info .product-price ins {
+  color: #f33636;
+}
+.details-page .review-comment-stock .product-stock span {
+  color: #f33636;
+}
+.details-page .details-product-price ins {
+  color: #f33636;
+}
+.details-page .product-info-panel .nav-tabs li.active a {
+  border: 1px solid #f33636;
+  background-color: #f33636;
+}
+.details-page .product-info-panel .nav-tabs li.active a:hover {
+  background-color: #f33636;
+  border: 1px solid #f33636;
+}
+.details-page .product-info-panel .nav-tabs li a:hover {
+  background-color: #f33636;
+  border: 1px solid #f33636;
+}
+.shopping-cart tbody tr td.product-remove a:hover {
+  color: #f33636;
+}
+.checkout .panel-heading .panel-title a .step {
+  background-color: #f33636;
+}
+.blog .blog-post span.author-date,
+.blog .blog-single-post span.author-date {
+  color: #f33636;
+}
+.blog .blog-comments ul li .media-body .comment-action ul li a {
+  color: #f33636;
+}
+.contact-us .details i {
+  color: #f33636;
+}
+.fashion-v2 .product-1 .content .product-price ins,
+.fashion-v2 .product-2 .content .product-price ins,
+.fashion-v2 .product-3 .content .product-price ins,
+.fashion-v2 .product-4 .content .product-price ins {
+  color: #f33636;
+}
+.fashion-v2 .product-1 .content button.btn-primary:hover,
+.fashion-v2 .product-2 .content button.btn-primary:hover,
+.fashion-v2 .product-3 .content button.btn-primary:hover,
+.fashion-v2 .product-4 .content button.btn-primary:hover,
+.fashion-v2 .product-1 .content button.btn-primary:active,
+.fashion-v2 .product-2 .content button.btn-primary:active,
+.fashion-v2 .product-3 .content button.btn-primary:active,
+.fashion-v2 .product-4 .content button.btn-primary:active,
+.fashion-v2 .product-1 .content button.btn-primary:focus,
+.fashion-v2 .product-2 .content button.btn-primary:focus,
+.fashion-v2 .product-3 .content button.btn-primary:focus,
+.fashion-v2 .product-4 .content button.btn-primary:focus {
+  background-color: #f33636;
+}
+.fashion-v2-slider .slider-2 .slide-text-2 .slide-btn a.btn-primary:hover,
+.fashion-v4-slider .slider-2 .slide-text-2 .slide-btn a.btn-primary:hover,
+.fashion-v2-slider .slider-2 .slide-text-2 .slide-btn a.btn-primary:active,
+.fashion-v4-slider .slider-2 .slide-text-2 .slide-btn a.btn-primary:active,
+.fashion-v2-slider .slider-2 .slide-text-2 .slide-btn a.btn-primary:focus,
+.fashion-v4-slider .slider-2 .slide-text-2 .slide-btn a.btn-primary:focus {
+  background-color: #f33636;
+}
+.banner-link .text .shop-now {
+  color: #f33636;
+}
+.blog-slider .blog-post .blog-post-image .post-when span {
+  background-color: rgba(243, 54, 54, 0.5);
+}
+.blog-slider .blog-post .blog-post-info p a {
+  color: #f33636;
+}
+.product-item-small .product-info .product-price ins {
+  color: #f33636;
+}
+.by-category ul > li a:hover {
+  color: #f33636;
+}
+.banner-slider .banner-outer .text a {
+  color: #f33636;
+}
+.fashion-v3 .featured-products .nav-tabs li a:hover,
+.fashion-v5 .featured-products .nav-tabs li a:hover,
+.fashion-v6 .featured-products .nav-tabs li a:hover,
+.digital .featured-products .nav-tabs li a:hover,
+.furniture .featured-products .nav-tabs li a:hover,
+.box .featured-products .nav-tabs li a:hover,
+.fashion-v3 .featured-products .nav-tabs li a:active,
+.fashion-v5 .featured-products .nav-tabs li a:active,
+.fashion-v6 .featured-products .nav-tabs li a:active,
+.digital .featured-products .nav-tabs li a:active,
+.furniture .featured-products .nav-tabs li a:active,
+.box .featured-products .nav-tabs li a:active,
+.fashion-v3 .featured-products .nav-tabs li a:focus,
+.fashion-v5 .featured-products .nav-tabs li a:focus,
+.fashion-v6 .featured-products .nav-tabs li a:focus,
+.digital .featured-products .nav-tabs li a:focus,
+.furniture .featured-products .nav-tabs li a:focus,
+.box .featured-products .nav-tabs li a:focus {
+  background-color: #f33636 !important;
+  border-color: #f33636 !important;
+}
+.fashion-v3 .featured-products .nav-tabs li.active a,
+.fashion-v5 .featured-products .nav-tabs li.active a,
+.fashion-v6 .featured-products .nav-tabs li.active a,
+.digital .featured-products .nav-tabs li.active a,
+.furniture .featured-products .nav-tabs li.active a,
+.box .featured-products .nav-tabs li.active a {
+  border-color: #f33636 !important;
+  background-color: #f33636 !important;
+}
+.fashion-v3 .featured-products .nav-tabs li.active a:hover,
+.fashion-v5 .featured-products .nav-tabs li.active a:hover,
+.fashion-v6 .featured-products .nav-tabs li.active a:hover,
+.digital .featured-products .nav-tabs li.active a:hover,
+.furniture .featured-products .nav-tabs li.active a:hover,
+.box .featured-products .nav-tabs li.active a:hover,
+.fashion-v3 .featured-products .nav-tabs li.active a:active,
+.fashion-v5 .featured-products .nav-tabs li.active a:active,
+.fashion-v6 .featured-products .nav-tabs li.active a:active,
+.digital .featured-products .nav-tabs li.active a:active,
+.furniture .featured-products .nav-tabs li.active a:active,
+.box .featured-products .nav-tabs li.active a:active,
+.fashion-v3 .featured-products .nav-tabs li.active a:focus,
+.fashion-v5 .featured-products .nav-tabs li.active a:focus,
+.fashion-v6 .featured-products .nav-tabs li.active a:focus,
+.digital .featured-products .nav-tabs li.active a:focus,
+.furniture .featured-products .nav-tabs li.active a:focus,
+.box .featured-products .nav-tabs li.active a:focus {
+  border-color: #f33636 !important;
+}
+.menu-bar nav .open > a {
+  color: #f33636 !important;
+}
+.menu-bar nav ul.dropdown-menu {
+  border-top: 2px solid #f33636 !important;
+}
+.menu-bar nav ul.dropdown-menu li ul.links li a:hover {
+  color: #f33636 !important;
+}
+.food-slider .big-slider .slider .text h1,
+.food-slider .big-slider .slider .text span {
+  color: #f33636 !important;
+}
+.food-slider .big-slider .slider .text .slide-btn a:hover,
+.food-slider .big-slider .slider .text .slide-btn a:focus,
+.food-slider .big-slider .slider .text .slide-btn a:active {
+  background-color: #f33636 !important;
+  border: 2px solid #f33636;
+}
+.service .content-box .icon i {
+  background-color: #f33636 !important;
+}
+.welcome-message h3 .logo-color {
+  color: #f33636 !important;
+}
+.testimonial .comment-outer .content .icon i {
+  color: #f33636 !important;
+}
+.testimonial .owl-controls .owl-dot.active span {
+  border: 3px solid #f33636 !important;
+}
+.digital .item .slider-outer .content h3 {
+  color: #f33636 !important;
+}
+.hot-sale-slider .item .products .hot-deal-wrapper .sale-offer-tag {
+  background-color: #f33636 !important;
+}
+.hot-sale-slider .item .products .hot-deal-wrapper .timing-wrapper .box-wrapper .box .key {
+  color: #f33636 !important;
+}
+.hot-sale-slider .item .products .product-info .product-price ins {
+  color: #f33636 !important;
+}
+.banner-1x-v2-hand-tool .content .text-2,
+.banner-1x-v3-hand-tool .content .text-2 {
+  color: #f33636 !important;
+}
+.hand-banner-1x .banner-full .content h3,
+.hand-2-banner-1x .banner-full .content h3 {
+  color: #f33636 !important;
+}
+.box-slider .big-slider .action a.btn:hover,
+.box-slider .big-slider .action a.btn:focus,
+.box-slider .big-slider .action a.btn:active {
+  border: 1px solid #f33636 !important;
+}
+.box-slider .big-slider .action a.btn-primary:hover,
+.box-slider .big-slider .action a.btn-primary:focus,
+.box-slider .big-slider .action a.btn-primary:active {
+  background-color: #f33636 !important;
+}
+.logo-color {
+  fill: #f33636 !important;
+}
+.header-v1 .top-navbar .top-nav ul > li > a:hover,
+.header-v2 .top-navbar .top-nav ul > li > a:hover,
+.header-v3 .top-navbar .top-nav ul > li > a:hover,
+.header-v9 .top-navbar .top-nav ul > li > a:hover,
+.header-v1 .top-navbar .top-nav ul > li > a:focus,
+.header-v2 .top-navbar .top-nav ul > li > a:focus,
+.header-v3 .top-navbar .top-nav ul > li > a:focus,
+.header-v9 .top-navbar .top-nav ul > li > a:focus,
+.header-v1 .top-navbar .top-nav ul > li > a:active,
+.header-v2 .top-navbar .top-nav ul > li > a:active,
+.header-v3 .top-navbar .top-nav ul > li > a:active,
+.header-v9 .top-navbar .top-nav ul > li > a:active {
+  color: #f33636 !important;
+}
+.header-v1 .language-currency ul li a,
+.header-v2 .language-currency ul li a,
+.header-v3 .language-currency ul li a,
+.header-v9 .language-currency ul li a {
+  color: #f33636 !important;
+}
+.shopping-cart > .dropdown-menu .cart-item .price {
+  color: #f33636 !important;
+}
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li > a:hover,
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li > a:focus,
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li > a:active {
+  background-color: #f33636 !important;
+}
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li > a:hover:before {
+  border-bottom: 6px solid #f33636 !important;
+}
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li.open > a {
+  background-color: #f33636 !important;
+}
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li.open > a:before {
+  border-bottom: 6px solid #f33636 !important;
+}
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li.active > a {
+  background-color: #f33636;
+}
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li.active > a:hover {
+  background-color: #f33636 !important;
+}
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu {
+  border-top: 2px solid #f33636 !important;
+}
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:hover,
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:focus,
+.header-v6 .navbar.navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:active {
+  color: #f33636 !important;
+}
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li > a:hover,
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li > a:focus,
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li > a:active {
+  background-color: #f33636 !important;
+}
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li > a:hover:before {
+  border-bottom: 6px solid #f33636 !important;
+}
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li.open > a {
+  background-color: #f33636 !important;
+}
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li.open > a:before {
+  border-bottom: 6px solid #f33636 !important;
+}
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li.active > a {
+  background-color: #f33636;
+}
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li.active > a:hover {
+  background-color: #f33636 !important;
+}
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu {
+  border-top: 2px solid #f33636 !important;
+}
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:hover,
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:focus,
+.header-v8 .navbar.navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:active {
+  color: #f33636 !important;
+}
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:hover,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:hover,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:hover,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:hover,
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:focus,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:focus,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:focus,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:focus,
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:active,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:active,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:active,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:active {
+  background-color: #f33636 !important;
+}
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:hover:before,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:hover:before,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:hover:before,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:hover:before {
+  border-bottom: 6px solid #f33636 !important;
+}
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.open > a,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.open > a,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.open > a,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.open > a {
+  background-color: #f33636 !important;
+}
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.open > a:before,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.open > a:before,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.open > a:before,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.open > a:before {
+  border-bottom: 6px solid #f33636 !important;
+}
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.active > a,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.active > a,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.active > a,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.active > a {
+  background-color: #f33636;
+}
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.active > a:hover,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.active > a:hover,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.active > a:hover,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.active > a:hover {
+  background-color: #f33636 !important;
+}
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu {
+  border-top: 2px solid #f33636 !important;
+}
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:hover,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:hover,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:hover,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:hover,
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:focus,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:focus,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:focus,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:focus,
+.header-v1 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:active,
+.header-v2 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:active,
+.header-v5 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:active,
+.header-v9 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li .dropdown-menu > li .links > li > a:active {
+  color: #f33636 !important;
+}
+.header-v2 .cart-icon,
+.header-v5 .cart-icon,
+.header-v9 .cart-icon {
+  background-color: #f33636 !important;
+}
+.header-v2 .cart-info .amount,
+.header-v5 .cart-info .amount,
+.header-v9 .cart-info .amount {
+  color: #f33636 !important;
+}
+.header-v5 .top {
+  background-color: #f33636 !important;
+}
+.header-v6 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.active a {
+  color: #f33636 !important;
+}
+.header-v6 .total-price-basket .cart-count {
+  color: #f33636;
+}
+.header-v3 .shopping-cart .cart-count {
+  background-color: #f33636 !important;
+}
+.header-v3.navbar .navbar-nav > li > a:hover,
+.header-v3.navbar .navbar-nav > li > a:focus,
+.header-v3.navbar .navbar-nav > li > a:active {
+  color: #f33636 !important;
+  border-bottom: 3px solid #f33636 !important;
+}
+.header-v3.navbar .navbar-nav > li > a:hover:before {
+  border-bottom: 6px solid #f33636 !important;
+}
+.header-v3.navbar .navbar-nav > li.open > a {
+  color: #f33636 !important;
+  border-bottom: 3px solid #f33636 !important;
+}
+.header-v3.navbar .navbar-nav > li.open > a:before {
+  border-bottom: 6px solid #f33636 !important;
+}
+.header-v3.navbar .navbar-nav > li .dropdown-menu {
+  border-top: 2px solid #f33636 !important;
+}
+.header-v3.navbar .navbar-nav > li .dropdown-menu > li .links > li > a:hover,
+.header-v3.navbar .navbar-nav > li .dropdown-menu > li .links > li > a:focus,
+.header-v3.navbar .navbar-nav > li .dropdown-menu > li .links > li > a:active {
+  color: #f33636 !important;
+}
+.header-v3.navbar .navbar-nav .active > a {
+  color: #f33636 !important;
+  border-bottom: 3px solid #f33636 !important;
+}
+.header-v8 .shopping-cart .item-count {
+  color: #f33636 !important;
+}
+.foot-menu .list-links ul li a:hover {
+  color: #f33636 !important;
+}
+.foot-menu .list-links ul li a:hover:before {
+  color: #f33636 !important;
+}
+.footer-v4 .foot-menu .list-links ul li a:hover {
+  color: #f33636 !important;
+}
+.footer-v4 .foot-menu .list-links ul li a:hover:before {
+  color: #f33636 !important;
+}
+.latest-tweet .list-links .tweet-link li span .text a {
+  color: #f33636 !important;
+}
+.product-tags .tags-outer .tags-list li a:hover {
+  background-color: #f33636 !important;
+  border: 1px solid #f33636 !important;
+}
+.footer-outer-2 .copy-rights a {
+  color: #f33636 !important;
+}
+.owl-controls .owl-prev:hover,
+.owl-controls .owl-next:hover,
+.owl-controls .owl-prev:focus,
+.owl-controls .owl-next:focus {
+  background: #f33636;
+  border: #f33636;
+}
+.footer-outer-1 .news-letter .btn i {
+  color: #f33636 !important;
+}
+.news-letter .social-network .icon:hover {
+  background-color: #f33636 !important;
+  border: 1px solid #f33636 !important;
+}
+.footer-v5 .footer-outer-1 .social-network .icon:hover {
+  background-color: #f33636 !important;
+}
+.footer-v5 .footer-outer-1 .latest-tweet .list-links .tweet-link li span:before {
+  color: #f33636 !important;
+}
+.footer-v5 .footer-outer-1 .more-info .media .icon .round {
+  background-color: #f33636 !important;
+}
+.show-theme-options:hover,
+.show-theme-options:focus {
+  background-color: #f33636;
+}
+.gallery-holder .product-item-holder .gallery-thumbs .owl-controls .owl-dots .owl-dot:hover span,
+.gallery-holder .product-item-holder .gallery-thumbs .owl-controls .owl-dots .owl-dot:focus span,
+.gallery-holder .product-item-holder .gallery-thumbs .owl-controls .owl-dots .owl-dot.active span {
+  background-color: #f33636;
+}
+.gallery-holder .product-item-holder .gallery-thumbs .item:hover,
+.gallery-holder .product-item-holder .gallery-thumbs .item:focus {
+  border: 2px solid #f33636;
+}
+.config-options .list-unstyled > li > a:hover,
+.config-options .list-unstyled > li > a:focus {
+  color: #f33636;
+}
+.big-slider .owl-controls .owl-dots .owl-dot:hover span,
+.sliders .owl-controls .owl-dots .owl-dot:hover span,
+.big-slider .owl-controls .owl-dots .owl-dot:focus span,
+.sliders .owl-controls .owl-dots .owl-dot:focus span,
+.big-slider .owl-controls .owl-dots .owl-dot.active span,
+.sliders .owl-controls .owl-dots .owl-dot.active span {
+  background: #f33636;
+}
+.blog .blog-post h1 a:hover,
+.blog .blog-single-post h1 a:hover,
+.blog .blog-post h1 a:focus,
+.blog .blog-single-post h1 a:focus {
+  color: #f33636;
+}
+.shopping-cart form table tbody tr td a.name:hover,
+.shopping-cart form table tbody tr td a.name:focus {
+  color: #f33636;
+}
+.fashion-v4-slider .slider-2 .slide-text-2 .btn {
+  background: #f33636;
+}
+.hero-style-2 h1 {
+  color: #f33636;
+}
+.hero-style-4 h2 {
+  color: #f33636;
+}
+.hero-style-1 h4 {
+  color: #f33636;
+}
+#hero .owl-carousel .owl-controls .owl-dot.active span,
+#hero .owl-carousel .owl-controls .owl-dot:hover span,
+#hero .owl-carousel .owl-controls .owl-dot:focus span {
+  background: #f33636;
+}
+.pace .pace-progress {
+  background: #f33636;
+}

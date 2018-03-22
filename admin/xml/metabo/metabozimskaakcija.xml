@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProductCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Product>
+		<sifra>600687000</sifra>
+		<naziv>KHE 5-40 SDS Max + majica Metabo</naziv>
+		<cena>41900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>623371000</sifra>
+		<naziv>adapter SDS Max/SDS Plus </naziv>
+		<cena>4200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>623309000</sifra>
+		<naziv>SDS-Max špic+sekač 360mm Promotion </naziv>
+		<cena>1390</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>623377000</sifra>
+		<naziv>SDS Max burgija ø55x550mm </naziv>
+		<cena>12900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606154000</sifra>
+		<naziv>KHE 2444 SDS Plus</naziv>
+		<cena>13200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600712000</sifra>
+		<naziv>UHE 2850 Multi + brzostezna glava + majica Metabo</naziv>
+		<cena>22900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600659001</sifra>
+		<naziv>KHE 3251 + brzostez. glava + Set 7 burgija SDS Plus “Pro 4”</naziv>
+		<cena>30900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>630486000</sifra>
+		<naziv>SDS-Plus špic+sekač 200mm Promotion </naziv>
+		<cena>985</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>627180000</sifra>
+		<naziv>SDS Plus Set 5 burgija za beton Classic </naziv>
+		<cena>710</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>631449000</sifra>
+		<naziv>SDS Plus dleto za pločice </naziv>
+		<cena>1560</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>636620000</sifra>
+		<naziv>brzostezna glava Futuro Plus 1/2“-20 UNF udarna </naziv>
+		<cena>1510</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>635250000</sifra>
+		<naziv>stezna glava sa ključem R+L 1/2“-20 UNF udarna </naziv>
+		<cena>990</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600133810</sifra>
+		<naziv>BE 10 brzostezna glava</naziv>
+		<cena>5550</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600671000</sifra>
+		<naziv>SBE 650 stezna glava sa ključem Novo! </naziv>
+		<cena>6190</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600672000</sifra>
+		<naziv>SBE 650 Impuls Novo! </naziv>
+		<cena>7650</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600841002</sifra>
+		<naziv>SBE 760 + Set 8 burgija za ciglu,blok,kamen(626706) </naziv>
+		<cena>10450</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600842920</sifra>
+		<naziv>SBE 850 Special Edition</naziv>
+		<cena>12950</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600866501</sifra>
+		<naziv>SBE 1000 + gumeni nosač brusnog papira ø125mm(623259) </naziv>
+		<cena>15400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>627160000</sifra>
+		<naziv>HSS-R DIN 338 Set burgija 2-8mm kvalitetni brzorezni čelik </naziv>
+		<cena>300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>627158000</sifra>
+		<naziv>HSS-R DIN 338 Set burgija 1-10mm kvalitetni brzorezni čelik </naziv>
+		<cena>650</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>626706000</sifra>
+		<naziv>Set 8 burgija za ciglu,blok,kamen Promotion </naziv>
+		<cena>520</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>626705000</sifra>
+		<naziv>Set 8 burgija za drvo Promotion </naziv>
+		<cena>520</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>627151000</sifra>
+		<naziv>HSS-R DIN 338: ø1-10/0.5mm 19 kom Promotion </naziv>
+		<cena>598</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>627152000</sifra>
+		<naziv>HSS-R DIN 338: ø1-13/0.5mm 25 kom Promotion </naziv>
+		<cena>1088</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>627153000</sifra>
+		<naziv>HSS-G DIN 338: ø1-10/0.5mm 19 kom Promotion </naziv>
+		<cena>970</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>627154000</sifra>
+		<naziv>HSS-G DIN 338: ø1-13/0.5mm 25 kom Promotion </naziv>
+		<cena>1780</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602194500</sifra>
+		<naziv>BS 12 NiCd 2x1,7 Ah</naziv>
+		<cena>9300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602194870</sifra>
+		<naziv>BS 12 NiCd 2x1,7 Ah sa priborom 65 delova</naziv>
+		<cena>11800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600080500</sifra>
+		<naziv>Power Maxx BS Basic 2x2.0Ah</naziv>
+		<cena>11000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600157500</sifra>
+		<naziv>Power Maxx BS Quick Pro 1x2.0Ah+1x4.0Ah+ugaoni nastavak </naziv>
+		<cena>15700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685055000</sifra>
+		<naziv>Combo Set 2.3 (Power Maxx BS+SSD,2x2.0Ah)</naziv>
+		<cena>18800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>630419000</sifra>
+		<naziv>9-delni set bitova Promotion </naziv>
+		<cena>385</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>626703000</sifra>
+		<naziv>15-delni set bitova Promotion </naziv>
+		<cena>835</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>626701000</sifra>
+		<naziv>26-delni set bitova,nasadnih ključeva Promotion </naziv>
+		<cena>1850</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>626700000</sifra>
+		<naziv>32-delni set bitova Promotion </naziv>
+		<cena>940</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>630440000</sifra>
+		<naziv>40-delni ugaoni nastavak sa setom bitova </naziv>
+		<cena>3400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>626702000</sifra>
+		<naziv>56-delni set bitova (kratkih i dugih)+nosač Promotion </naziv>
+		<cena>1900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>626704000</sifra>
+		<naziv>71-delni set bitova (kratkih i dugih)+nosač Promotion </naziv>
+		<cena>2750</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602105570</sifra>
+		<naziv>BS 14.4 Li 2x2.0 Ah</naziv>
+		<cena>14900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602207500</sifra>
+		<naziv>BS 18 2x18V/1.3Ah Novo! </naziv>
+		<cena>13490</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602116530</sifra>
+		<naziv>BS 18 Li 2x2.0 Ah</naziv>
+		<cena>15300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602103510</sifra>
+		<naziv>SB 18 LT Compact 2x2.0Ah</naziv>
+		<cena>21250</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>685082000</sifra>
+		<naziv>ComboSet 2.4.3 BS18 +W18LTX,1x2Ah,1x4Ah,MC20</naziv>
+		<cena>35900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602143610</sifra>
+		<naziv>BS 14,4 LTX 2x4.0Ah</naziv>
+		<cena>34900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602199500</sifra>
+		<naziv>SB 18 LTX BL Quick 2x4.0Ah</naziv>
+		<cena>39900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602174610</sifra>
+		<naziv>W 18 LTX 125 2x4.0Ah</naziv>
+		<cena>33000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602204000</sifra>
+		<naziv>SSW 650 1/2“</naziv>
+		<cena>27900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606725000</sifra>
+		<naziv>W 720-115</naziv>
+		<cena>4900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606726000</sifra>
+		<naziv>W 720-125</naziv>
+		<cena>4900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606722000</sifra>
+		<naziv>W 1080-125</naziv>
+		<cena>7600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>620035000</sifra>
+		<naziv>WQ 1000 (ø125mm)</naziv>
+		<cena>9980</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600388000</sifra>
+		<naziv>WEV 10-125 Quick</naziv>
+		<cena>10800</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600346000</sifra>
+		<naziv>WQ 1400 (ø125mm)</naziv>
+		<cena>10500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>616358000</sifra>
+		<naziv>Set 10 reznih ploča ø115x1mm metal/inox Promotion </naziv>
+		<cena>770</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>616359000</sifra>
+		<naziv>Set 10 reznih ploča ø125x1mm metal/inox Promotion </naziv>
+		<cena>820</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>624306000</sifra>
+		<naziv>Dijamant disk za beton ø115x22,23 mm Promotion </naziv>
+		<cena>330</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>624307000</sifra>
+		<naziv>Dijamant disk za beton ø125x22,23 mm Promotion </naziv>
+		<cena>455</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>624308000</sifra>
+		<naziv>Dijamant disk za beton ø150x22,23 mm Promotion </naziv>
+		<cena>760</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>624309000</sifra>
+		<naziv>Dijamant disk za beton ø180x22,23 mm Promotion </naziv>
+		<cena>880</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>624310000</sifra>
+		<naziv>Dijamant disk za beton ø230x22,23 mm Promotion </naziv>
+		<cena>1150</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>628176000</sifra>
+		<naziv>Dijamant disk za armirani beton ø230x22,23 mm </naziv>
+		<cena>4030</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>628192000</sifra>
+		<naziv>Dijamant disk za pločice ø115x22,23 mm </naziv>
+		<cena>1025</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>628193000</sifra>
+		<naziv>Dijamant disk za pločice ø125x22,23 mm </naziv>
+		<cena>1325</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606420000</sifra>
+		<naziv>W 2000-230</naziv>
+		<cena>11600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606462000</sifra>
+		<naziv>W 22-230 MVT</naziv>
+		<cena>15400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>606453260</sifra>
+		<naziv>W 26-230 “dead man”</naziv>
+		<cena>15900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600616001</sifra>
+		<naziv>GE 710 Plus+brusni kamen 628332</naziv>
+		<cena>15000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602335009</sifra>
+		<naziv>CS 23-355+W 12-125 Quick(600398)+rezna ploča ø350x3.5mm </naziv>
+		<cena>25600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>616338000</sifra>
+		<naziv>rezna ploča ø350x3x25.4mm čelik, Flexiamant Super </naziv>
+		<cena>469</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>616343000</sifra>
+		<naziv>rezna ploča ø350x3x25.4mm inox, Flexiamant Super </naziv>
+		<cena>490</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601650500</sifra>
+		<naziv>H 16-500 u koferu+dve dizne</naziv>
+		<cena>5000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602060000</sifra>
+		<naziv>HE 20-600</naziv>
+		<cena>6200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602365000</sifra>
+		<naziv>HE 23-650 Control</naziv>
+		<cena>9100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>618121000</sifra>
+		<naziv>KE 3000</naziv>
+		<cena>2200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600442000</sifra>
+		<naziv>SRE 3185</naziv>
+		<cena>8400</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>609225500</sifra>
+		<naziv>FSX 200 Intec</naziv>
+		<cena>4700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>626996000</sifra>
+		<naziv>adapter za usisivač za FSX,FSR,FMS </naziv>
+		<cena>435</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600444000</sifra>
+		<naziv>SXE 3150</naziv>
+		<cena>10000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600066501</sifra>
+		<naziv>FSR 200 Intec+brusni papiri P60,P80 (po 10 kom) </naziv>
+		<cena>4700</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600065500</sifra>
+		<naziv>FMS 200 Intec</naziv>
+		<cena>4500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601030000</sifra>
+		<naziv>STEB 65 Quick Novo! </naziv>
+		<cena>6500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601043500</sifra>
+		<naziv>STE 100 SCS</naziv>
+		<cena>11500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>611000500</sifra>
+		<naziv>STEB 135 Plus</naziv>
+		<cena>15600</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600955000</sifra>
+		<naziv>KS 55 FS</naziv>
+		<cena>11000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619216000</sifra>
+		<naziv>KS 216 M LaserCut</naziv>
+		<cena>13000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619260000</sifra>
+		<naziv>KGS 216 M</naziv>
+		<cena>21000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>602540000</sifra>
+		<naziv>KGS 254 M</naziv>
+		<cena>30000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>619305000</sifra>
+		<naziv>KGS 305 M</naziv>
+		<cena>47500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>628041000</sifra>
+		<naziv>Ø216x1.8(2.4)x30 HW/CT 48z WZ 5° neg Precision Cut</naziv>
+		<cena>4960</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>628083000</sifra>
+		<naziv>Ø216x1.8(2.4)x30 HW/CT 60z WZ 5° neg Multi Cut</naziv>
+		<cena>5330</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>628221000</sifra>
+		<naziv>Ø254x1.8(2.4)x30 HW/CT 48z WZ 5° neg Precision Cut</naziv>
+		<cena>3640</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>628222000</sifra>
+		<naziv>Ø254x1.8(2.4)x30 HW/CT 60z WZ 5° neg Precision Cut</naziv>
+		<cena>3880</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>628223000</sifra>
+		<naziv>Ø254x1.8(2.4)x30 HW/CT 80z FZ/TZ 5° neg Multi Cut</naziv>
+		<cena>5070</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>628056000</sifra>
+		<naziv>Ø315x1.8(2.8)x30 HW/CT 48z WZ 15 Precision Cut(za TKHS 315) </naziv>
+		<cena>4290</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>628092000</sifra>
+		<naziv>Ø315x2.0(2.8)x30 HW/CT 96z FZ/TZ 5° neg Multi Cut</naziv>
+		<cena>8730</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600667000</sifra>
+		<naziv>TS 216 mobilni stoni cirkular</naziv>
+		<cena>52000</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600668000</sifra>
+		<naziv>TS 254 mobilni stoni cirkular</naziv>
+		<cena>66900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600962000</sifra>
+		<naziv>P 2000 G* </naziv>
+		<cena>5180</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600963000</sifra>
+		<naziv>P 3300 G* </naziv>
+		<cena>7210</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600965000</sifra>
+		<naziv>P 4500 Inox* </naziv>
+		<cena>9900</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600968000</sifra>
+		<naziv>HWW 3300/25 G* </naziv>
+		<cena>12300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>600971000</sifra>
+		<naziv>HWW 4000/25 G* </naziv>
+		<cena>13300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>250750000</sifra>
+		<naziv>PS 7500 S</naziv>
+		<cena>6320</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>251400000</sifra>
+		<naziv>TPS 14000 Combi</naziv>
+		<cena>11100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>251800000</sifra>
+		<naziv>PS 18000 SN</naziv>
+		<cena>21990</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601532000</sifra>
+		<naziv>BASIC 250-24 W OF bezuljni kompresor </naziv>
+		<cena>15200</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601539000</sifra>
+		<naziv>MEGA 350-100 D (380V) kompresor </naziv>
+		<cena>65950</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>604120000</sifra>
+		<naziv>DB 10 pn.bušilica </naziv>
+		<cena>5500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>604117000</sifra>
+		<naziv>DS 14 pn.zavrtač </naziv>
+		<cena>7300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>604118500</sifra>
+		<naziv>DSSW 360 Set -1/2” pn.udarni zavrtač </naziv>
+		<cena>6460</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601548000</sifra>
+		<naziv>DSSW 475 1/2“ pn.udarni zavrtač </naziv>
+		<cena>12500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601549000</sifra>
+		<naziv>DSSW 930 -1/2” pn.udarni zavrtač </naziv>
+		<cena>13100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601553000</sifra>
+		<naziv>DRS 95 -1/2” pn.račna </naziv>
+		<cena>6660</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601564500</sifra>
+		<naziv>DKG 80/16 pn.heftalica </naziv>
+		<cena>7300</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601572000</sifra>
+		<naziv>DFP 400 pn. presa za mast </naziv>
+		<cena>3790</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>604116500</sifra>
+		<naziv>DG 25 Set pn.čeona brusilica </naziv>
+		<cena>4660</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601554000</sifra>
+		<naziv>DG 700 pn.čeona brusilica </naziv>
+		<cena>8990</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601556000</sifra>
+		<naziv>DW 125 pn.ugaona brusilica Novo! </naziv>
+		<cena>14500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601558000</sifra>
+		<naziv>DSX 150 pn. rotaciona šlajferica </naziv>
+		<cena>9720</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>1319706247</sifra>
+		<naziv>rezervni disk za DSX 150 </naziv>
+		<cena>1350</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601575000</sifra>
+		<naziv>FSP 600 pn.pištolj za farbanje, dizna 1.5mm </naziv>
+		<cena>2760</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601577000</sifra>
+		<naziv>FSP 600 HVLP pn.pištolj za farbanje, dizna 1.3mm </naziv>
+		<cena>11100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>601576001</sifra>
+		<naziv>FSP 1000 S + crevo 10m u buntu(901056048), dizna 1.5mm </naziv>
+		<cena>5100</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>901054940</sifra>
+		<naziv>Pn. spiralno crevo 5m/8mm SUPER-AIR </naziv>
+		<cena>1340</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>901054959</sifra>
+		<naziv>Pn. spiralno crevo 7.5m/8mm SUPER-AIR </naziv>
+		<cena>1720</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>901054967</sifra>
+		<naziv>Pn. spiralno crevo 10 m/10mm SUPER-AIR </naziv>
+		<cena>2500</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>901056048</sifra>
+		<naziv>Pn. crevo u buntu 10m/6.3mm SUPER-AIR </naziv>
+		<cena>1380</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>901063850</sifra>
+		<naziv>FRL 200 -1/2” pripremna grupa </naziv>
+		<cena>7760</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>901008540</sifra>
+		<naziv>ulje za pneumatske alate 0.5 l metabo </naziv>
+		<cena>464</cena>
+		<stanje>1</stanje>
+	</Product>
+	<Product>
+		<sifra>901004170</sifra>
+		<naziv>ulje za kompresore 1 l metabo </naziv>
+		<cena>992</cena>
+		<stanje>1</stanje>
+	</Product>
+</ProductCatalog>
