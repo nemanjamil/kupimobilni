@@ -16,6 +16,7 @@ require DCROOT."/stranice/cookSajtCheck.php";
 // ---------------------------------------------------------------- LOGOVANJE
 require DCROOT."/stranice/loginIndex.php";
 // -------------------------------------------------------------- LOGOVANJE KRAJ
+var_dump($logged);
 
 if ($tipUsera>=10 && !$logged) {
     echo 'Nemate admin ovlascenja';
