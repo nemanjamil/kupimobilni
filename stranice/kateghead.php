@@ -1,14 +1,13 @@
 <!-- ========================================= CONTENT ========================================= -->
-<div class="breadcrumb">
+<!--<div class="breadcrumb">
     <div class="container">
         <div class="breadcrumb-inner">
             <ul class="list-inline list-unstyled">
-                <li><a href="/"><?php echo $jsonlang[27][$jezikId]; ?></a></li>
-                <!--<li class='active'>Blog</li>-->
+                <li class='active'><a href="/"><?php /*echo $jsonlang[27][$jezikId]; */?></a></li>
             </ul>
-        </div><!-- /.breadcrumb-inner -->
-    </div><!-- /.container -->
-</div><!-- /.breadcrumb -->
+        </div>
+    </div>
+</div>-->
 
 <div class="body-content">
     <div class="container">

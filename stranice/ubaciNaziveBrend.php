@@ -6,7 +6,11 @@
  * Time: 14:33
  */
 
-if($idubacenog){ $idubacenog = $idubacenog; }else{ $idubacenog = $BrendId; }
+if ($idubacenog) {
+    $idubacenog = $idubacenog;
+} else {
+    $idubacenog = $BrendId;
+}
 
 $insert_naziv = Array(
     'BrendId' => $idubacenog,

@@ -369,7 +369,7 @@
                     </li>
                 </ul>
             </li>
-            <li>
+            <!--<li>
                 <a href="javascript:void(0);">
                     <i class="icon-file-text-alt"></i>
                     Calculus info
@@ -397,7 +397,7 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li>-->
 
             <!--Kulture-->
             <!--  <li>
@@ -572,7 +572,7 @@
                     </a>
                     <ul class="sub-menu">
 
-                        <li>
+                        <!--<li>
                             <a href="/admin/stranice/calculusservisi/calculusVrsteDokumenata.php" target="_blank">
                                 <i class="icon-angle-right"></i>
                                 Azuriranje Vrsta Dokumenata
@@ -583,15 +583,15 @@
                                 <i class="icon-angle-right"></i>
                                 Azuriranje Tipova Dokumenata
                             </a>
-                        </li>
+                        </li>-->
                         <li>
-                            <a href="/admin/stranice/calculusservisi/povuciBrendove.php" target="_blank">
+                            <a href="/stranice/povuciBrendove.php" target="_blank">
                                 <i class="icon-angle-right"></i>
                                 Azuriranje Brendova
                             </a>
                         </li>
                         <li>
-                            <a href="/admin/stranice/calculusservisi/povuciBrendovePovez.php" target="_blank">
+                            <a href="/stranice/povuciBrendovePovez.php" target="_blank">
                                 <i class="icon-angle-right"></i>
                                 Azuriranje Artikala i Brendova
                             </a>

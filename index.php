@@ -3,7 +3,9 @@
 ini_set('display_errors', 1);*/
 require 'vezafull.php';
 define('RB_ROOT', dirname(__FILE__));
-
+if (getenv('KUPIMOBILNI')==1) {
+    die;
+}
 
 // ovo koristimo za prikay proizvoda
 require('./parts/product/product.php');

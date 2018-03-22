@@ -358,7 +358,6 @@ if ($stranica) {
 
         if ($daljestr) {
 
-
             $IdKategHead = $daljestr['IdKategHead'];
             $ParentKategHead = $daljestr['ParentKategHead'];
             $LinkKategHead = $daljestr['LinkKategHead'];
@@ -416,6 +415,7 @@ if ($stranica) {
 
 } else {
     //masine
+
     $title = $jsonOsn[$jezikId]["OpisOsnPodaci"];
     //Basta
     //$title = $jsonlang[216][$jezikId]  . ' : ' . $jsonlang[203][$jezikId];

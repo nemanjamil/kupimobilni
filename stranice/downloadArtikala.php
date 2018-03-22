@@ -43,7 +43,6 @@ for ($x = 0; $x < $arrlength; $x++) {
     require('jedanDownloadArtikala.php');
 
     if ($x == 0) {
-
         echo '<h2 class="bojaNaran">Prosao PRVI</h2>';
         echo '</br>';
         sleep(10);

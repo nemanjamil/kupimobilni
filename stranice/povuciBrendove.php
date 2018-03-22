@@ -1,12 +1,39 @@
 <?php
+function kojijehost($tipHosta){
+
+    if ($tipHosta == 1) {
+        $hostTip = '/data/masinealati'; // server Linux
+    } elseif ($tipHosta == 3) {
+        $hostTip = 'C:/wamp64/www/kupimobilni'; // Nemanja Windows
+    } elseif ($tipHosta == 4) {
+        $hostTip = 'G:/projects/XXXXXX'; // Nikola
+    } else {
+        $hostTip = '/var/www/kupimobilni'; // Nemanja Linux
+    }
+    return $hostTip;
+}
+$mcProd = getenv('KUPIMOBILNI');
+
+$documentroot = kojijehost($mcProd);
+
+// 1. zakucavamo server execution time na 0 tj. da ne stane dok se sve ne izvrsi i da prikaze sve error - e.
+echo ini_get('display_errors');
+ini_set('max_execution_time', 0);
+
+include ($documentroot."/vezafull.php");
+require_once ($documentroot.'/thumblib/ThumbLib.inc.php');
+include($documentroot.'/stranice/parse/simple_html_dom.php');
+$kategorijeDodatna = new kategorijeDodatna($db);
+$jezLan = $db->get('LanguageJezik', null, "IdLanguage,ShortLanguage");
+
+$varsleep = 10;
+
 echo ini_get('display_errors');
 ini_set('max_execution_time', 0);
 
 $prvaSlika = 1;
 
-$kategorijeDodatna = new kategorijeDodatna($db);
-
-$xmlLokacija = DCROOT . '/xml/3gStoreBrendovi.xml';
+$xmlLokacija = $documentroot . '/xml/3gStoreBrendovi.xml';
 $dom = new DOMDocument();
 $dom->load($xmlLokacija);
 $tables = $dom->getElementsByTagName('brend');
