@@ -20,7 +20,7 @@ define('VESTISLIKELOK', 'assets/images/vesti');
 define('KULTURESLIKELOK', 'assets/images/kulture');
 define('KOMSLIKE', 'assets/images/komslike');
 define('LSSLIKE', 'assets/images/loksamoup');
-define('SLIKALOGO', 'assets/images/logoShone.png');
+define('SLIKALOGO', 'assets/images/kupimobilni.png');
 define('TROSKOVIPREVOZA', 200);
 
 define('REGISTROVANVP', 3);

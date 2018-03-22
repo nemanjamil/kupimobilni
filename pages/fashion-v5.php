@@ -1,6 +1,7 @@
 <!-- ========================================= CONTENT ========================================= -->
 <div class="body-content">
-	<div class="fashion-v5">
+	<div class="fashion-v5 relativ">
+		<div class="pozadinaslika"></div>
 
 		<div class="container">
 			<div class="row outer-top-sm outer-top-md outer-top-bd  outer-top-xs-nema">
@@ -47,7 +48,7 @@
 
 					<?php // require RB_ROOT.'/parts/section/fashion/fashion-v5-slider.php' ?>
 
-					<?php require RB_ROOT.'/parts/section/fashion/fashion-v5-banner-link-2x.php' ?>
+					<?php // require RB_ROOT.'/parts/section/fashion/fashion-v5-banner-link-2x.php' ?>
 
 
 
@@ -61,7 +62,7 @@
 
 					<?php require RB_ROOT.'/parts/section/fashion/weekly-featured-v1.php'; ?>
 				</div><!-- /.col -->
-				<?php require RB_ROOT. '/parts/section/our-brands-v2.php'; ?>
+				<?php //require RB_ROOT. '/parts/section/our-brands-v2.php'; ?>
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</div><!-- /.fashion-v5 -->

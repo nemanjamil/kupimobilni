@@ -143,7 +143,7 @@ hr {
   outline: none;
 }
 .btn-primary {
-  background-color: #45A6E6;/*e7e7e7*/
+  background-color: #f39c11;/*e7e7e7*/
   border: none;
   /*color: #555555;*/
 }
@@ -341,7 +341,7 @@ hr {
     box-shadow: none;
 }
 
-}
+
 @media (max-width: 767px) {
   .inner {
     padding-top: 80px;
@@ -612,8 +612,8 @@ hr {
   padding: 0;
 }
 .breadcrumb ul {
-    border-bottom: 1px solid #f1f1f1;
-    border-top: 1px solid #dedede;
+    /*border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #dedede;*/
     margin: auto;
     padding: 10px 0 10px;
 }
@@ -887,7 +887,7 @@ hr {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ffffff;
+  color: #434343;
   position: relative;
   letter-spacing: 0.5px;
 }
@@ -4456,7 +4456,7 @@ hr {
   overflow: hidden;
   /* fix for flashing background */
   -webkit-transform: translate3d(0px, 0px, 0px);
-  /* margin-top: 11px; /*ovo smo stelovai zbog najprodavanijie glodalice kateg*/ */
+  /* margin-top: 11px; /*ovo smo stelovai zbog najprodavanijie glodalice kateg*/
 }
 .owl-carousel .owl-controls .owl-nav .owl-prev,
 .owl-carousel .owl-controls .owl-nav .owl-next,
@@ -5427,11 +5427,11 @@ hr {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #fff;
+  color: #2c2b2b;
   font-family: 'Montserrat', sans-serif;
   line-height: 1;
   padding: 18px 20px;
-  background-color: #45a6e6; /*  #f39c11; #f5f5f5; */
+  /*background-color: #f39c11;*/ /*  #f39c11; #f5f5f5; */
   border: 1px solid #e3e3e3;
 }
 .sidebar .menu-bar .head i {
@@ -6178,7 +6178,7 @@ hr {
   padding-bottom: 15px;
   border-bottom: 1px solid #ddd;
   margin-bottom: 30px;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 .contact-us p.tag-line {
   font-size: 14px;
@@ -7177,15 +7177,15 @@ hr {
 /*  HEADER-V5
 /*===================================================================================*/
 .header-v5 {
-  /*background-color: #fff;*/
-  background: #FFF url(../../assets/images/header-bg.jpg);
+  background-color: rgba(255,255,255,.5) !important;
+  /*background: #FFF url(../../assets/images/header-bg.jpg);*/
 }
 .header-v5 .top {
     background-color: transparent!important;
 }
 .header-v5 .middle {
     margin-top: 5px;
-    margin-bottom: 22px;
+    margin-bottom: 0px;
 }
 .header-v5 .top-bar .welcome-msg {
   color: #fff !important;
@@ -7203,7 +7203,7 @@ hr {
   border-right: 1px solid  #ededed !important;
 }
 .header-v5 .top-navbar .top-nav ul li a {
-  color: #fff !important;
+  color: #434343 !important;
 }
 .header-v5 .top-navbar .top-nav ul li .log-in:before {
 	display: inline-block;
@@ -7236,22 +7236,24 @@ hr {
   margin-top: 0px;
 }
 .header-v5 .option-search-bar {
-    float: right;
-	margin-top: 12px;
+    float: left;
+	margin-top: 24px;
 }
 .header-v5 .header-phone {
-	color: #eaeaea!important;
-    text-align: right;
+	color: #434343 !important;
+    text-align: center;
     margin-top: 8px;
 	padding: 0;
 }
 .header-v5 .shopping-cart {
-  padding-left: ;
+  padding-left:0px;
+
 }
 .header-v5 .shopping-cart .dropdown-toggle {
   padding: 0 !important;
   background: none !important;
   margin: 0 !important;
+  float: right;
 }
 .header-v5 .shopping-cart .dropdown-toggle .total-price-basket {
     margin-top: 20px;
@@ -7274,7 +7276,7 @@ hr {
   padding-left: 10px;
 }
 .header-v5 .shopping-cart .dropdown-toggle .cart-info .label-name {
-    color: #f3f3f3;
+    color: #434343;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
@@ -7310,8 +7312,8 @@ hr {
 }
 .header-v5 .middle .option-search-bar .input-group span button.btn {
 	padding: 9px 12px !important;
-	background: #45a6e6;
-	border: 1px solid #45a6e6;
+	background: #f39c11;
+	border: 1px solid #f39c11;
 	color: white;
 }
 .header-v5 .option-search-bar .input-group span button i {
@@ -7321,7 +7323,8 @@ hr {
   font-size: 12px !important;
 }
 .header-v5 .navbar-wrapper {
-    background: black;
+    background: white;
+  border-bottom: 1px solid #dedede;
 }
 /*===================================================================================*/
 /*  HEADER-V6
@@ -8239,7 +8242,7 @@ footer {
   position: relative;
 }
 footer .footer-outer-1 .company-info p {
-  color: #969696;
+  color: #2c2b2b;
   font-size: 13px;
   margin-top: 30px;
   display: inline-block;
@@ -8295,7 +8298,7 @@ footer .footer-outer-1 .product-tags .tags-outer .tags-list li a:hover {
   color: #fff;
 }
 footer .footer-outer-1 .foot-title .title {
-  color: #ccc;
+  color: #2c2b2b;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
@@ -8353,7 +8356,7 @@ footer .footer-outer-1 .foot-menu .list-links {
   /*text-transform: capitalize;*/
 }
 footer .footer-outer-1 .foot-menu .list-links ul li a {
-  color: #969696;
+  color: #2c2b2b;
   padding: 12px 0px;
   border-bottom: 1px solid #313131;
   display: block;
@@ -8388,11 +8391,11 @@ footer .footer-outer-1 .foot-menu-nav > ul > li:last-child {
   width: 21%;
 }
 footer .footer-outer-1 .more-info .media {
-  color: #969696;
+  color: #2c2b2b;
   font-size: 13px;
 }
 footer .footer-outer-1 .more-info .media a {
-  color: #969696;
+  color: #2c2b2b;
 }
 footer .footer-outer-1 .more-info .media i {
   font-size: 20px;
@@ -9879,7 +9882,7 @@ footer .footer-outer-2 .payment-card img:hover {
 .bojatamnoplava { color: #337AB7 !important}
 
 .minsirinah { min-width: 150px;}
-.bojaplavasajt { color: #45A6E6 !important;}
+.bojaplavasajt { color: #f39c11 !important;}
 .bojacrvenasajt {color: #f33636 !important;}
 .odvojKategBaner { margin-bottom: 20px !important;}
 
@@ -10375,7 +10378,7 @@ ul.links {
     background: white;
     padding-top: 16px;
     padding: 0;
-    background-color: #f5f5f5;
+    /*background-color: #f5f5f5;*/
 }
 .sidebar .section-title {
     box-shadow: none;
@@ -10451,7 +10454,9 @@ ul.links {
 /* footer styles*/
 footer .footer-v2 {
     padding-top: 30px;
-    background-color: #202020;
+    background-color: #fff;
+  margin-top: 20px;
+  border-top: 1px solid #dedede;
 }
 .footer-v2 .logo img {
     width: 100%;
@@ -10463,7 +10468,7 @@ footer .footer-v2 {
 footer .footer-outer-1 .social-network .title {
     font-size: 12px;
     font-weight: 700;
-    color: #ddd;
+    color: #f39c11;
     text-transform: uppercase;
     margin-bottom: 13px;
     display: inline-block;

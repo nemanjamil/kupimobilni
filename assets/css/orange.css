@@ -510,8 +510,19 @@ a {
 .header-v9 .cart-info .amount {
   color: #f39c11 !important;
 }
+.fashion-v5 .pozadinaslika {
+  background-image: url("../images/pozadinaOrange.png");
+  background-repeat: no-repeat, repeat;
+  background-position:0% 13%;
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  top: 258px;
+  opacity: 0.5;
+
+}
 .header-v5 .top {
-  background-color: #f39c11 !important;
+ /* background-color: #f39c11 !important;*/
 }
 .header-v6 .navbar .header-nav .navbar-default .navbar-collapse .navbar-nav > li.active a {
   color: #f39c11 !important;

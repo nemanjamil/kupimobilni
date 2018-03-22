@@ -13,7 +13,7 @@ $mail = new PHPMailer;
 $mail->CharSet = 'UTF-8';
 $mail->isSMTP();
 $mail->Debugoutput = 'html';
-$mail->Host = 'smtp.gmail.com';
+$mail->Host = 'mailcluster.loopia.se';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPOptions = array(
@@ -53,8 +53,8 @@ if (!$mail->send()) {
     $sajt['testsajt'] = 'Poslat mail';
     $sajt['error'] = true;
     /*echo 'OK poslat mail';*/
-
 }
+
 
 
 ?>

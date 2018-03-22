@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-3 company-info">
                         <div class="logo">
-                            <img height="75px" class="img-responsive" src="/assets/images/logoShone.png" alt="">
+                            <img height="75px" class="img-responsive" src="<?php echo SLIKALOGO; ?>" alt="">
                         </div>
                         <p><?php echo $jsonOsn[$jezikId]["OpisOsnPodaci"]; ?></p>
 

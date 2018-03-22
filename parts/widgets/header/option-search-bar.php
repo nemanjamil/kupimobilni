@@ -38,10 +38,6 @@ if($question){
     <!-- /input-group -->
 </div><!-- /option-search-bar -->
 
-<div  class="col-xs-12 col-sm-12 boldirano font16 bojacrnadef text-left header-phone">
-    <?php echo $jsonlang[1][$jezikId] . ': ' . $jsonOsn[$jezikId]["TelefonOsnPodaci"] . ' '. $jsonlang[414][$jezikId] .' ' . $jsonOsn[$jezikId]["MobTelOsnPodaci"] ?>
-</div>
-
 <!-- ============================================== OPTION SEARCH BAR : END============================================== -->
 
 <!--<input type="text" id="hiddenInputElement" value=" ">-->

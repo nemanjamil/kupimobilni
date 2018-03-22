@@ -7,7 +7,8 @@
 
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="/assets/css/blue.css" title="Blue color">
+    <!--<link rel="stylesheet" href="/assets/css/blue.css" >-->
+
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link href="/assets/css/select2/select2.css" type="text/css" rel="stylesheet" />
@@ -22,7 +23,7 @@
 
     <link href="/assets/css/main.css" rel="stylesheet">
 
-    <!-- <link rel="stylesheet" href="/assets/css/green.css">-->
+    <link rel="stylesheet" href="/assets/css/orange.css" title="Orange color">
 
     <!-- Demo Purpose Only. Should be removed in production -->
     <!-- <link rel="stylesheet" href="assets/css/config.css">

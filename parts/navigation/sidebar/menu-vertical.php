@@ -1,7 +1,7 @@
 <!-- ============================================== MENU VERTICAL ============================================== -->
 <div class="menu-bar animate-dropdown outer-bottom-xs">
     <div class="menu-verticle">
-        <div class="head"><i class="fa fa-bars"></i><?php echo $jsonlang[21][$jezikId]; ?></div>
+        <div class="head"><!--<i class="fa fa-bars">--></i><?php echo $jsonlang[21][$jezikId]; ?></div>
         <nav class="yamm navbar" role="navigation">
 
             <ul class="nav">

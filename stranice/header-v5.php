@@ -15,8 +15,13 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-1 ">
                     </div> -->
+                    <div class="col-md-4"></div>
+                    <div  class="col-xs-12 col-md-4 boldirano font16 bojacrnadef text-left header-phone">
+                        <?php echo $jsonlang[1][$jezikId] . ': ' . $jsonOsn[$jezikId]["TelefonOsnPodaci"] . ' '. $jsonlang[414][$jezikId] .' ' . $jsonOsn[$jezikId]["MobTelOsnPodaci"] ?>
+                    </div>
 
-                    <div class="col-xs-12 col-sm-12 top-navbar">
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 top-navbar">
                         <?php require RB_ROOT . '/parts/navigation/top-navbar.php'; ?>
                     </div>
                 </div>
@@ -29,24 +34,11 @@
             <div class="container">
                 <div class="row">
 
-                    <!--Search bar-->
-                    <div class="col-xs-12 col-sm-12 col-md-3">
-                        <div class="dropdown dropdown-cart shopping-cart">
-                            <?php
-                            require('headerKorpa.php');
-                            ?>
-
-                            <?php require RB_ROOT . '/parts/widgets/header/cart-style-v2.php'; ?>
-                            <?php //require RB_ROOT . '/parts/widgets/header/shopping-cart.php'; ?>
-                        </div>
-                    </div>
-                    <!--/Search bar-->
-
-                    <div class="col-xs-12 col-sm-12 col-md-5 logo">
-                        <div class="col-xs-12 col-sm-4 col-md-2"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 logo">
+                       <!-- <div class="col-xs-12 col-sm-4 col-md-2"></div>-->
 
 
-                        <div class="navbar-headerXXX col-xs-12 col-sm-4 col-md-8">
+                        <div class="navbar-headerXXX col-xs-12 col-sm-6 col-md-10">
                             <a href="/" class="navbar-brand">
                                 <?php require RB_ROOT . '/parts/widgets/header/logo.php'; ?>
                             </a>
@@ -59,21 +51,26 @@
                             </button>
                         </div>
 
-                        <div class="col-xs-12 col-sm-4 col-md-2"></div>
+                        <div class="col-xs-12 col-sm-6 col-md-2"></div>
 
 
                     </div>
-					
-					
-                    <!--Korpa-->
-
 
                     <div class="col-xs-12 col-sm-12 col-md-4">
                         <?php require RB_ROOT . '/parts/widgets/header/option-search-bar.php'; ?>
                     </div>
 
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="dropdown dropdown-cart shopping-cart">
+                            <?php
+                            require('headerKorpa.php');
+                            ?>
 
-                    <!--/Korpa-->
+                            <?php require RB_ROOT . '/parts/widgets/header/cart-style-v2.php'; ?>
+                            <?php //require RB_ROOT . '/parts/widgets/header/shopping-cart.php'; ?>
+
+                        </div>
+                    </div>
 
                 </div>
                 <!-- /.row -->

@@ -4,7 +4,7 @@ require('post_get.php');
 require "commonZajednicki.php";
 
 define('KOJIJESAJT', $_SERVER['HTTP_HOST']);
-if (KOJIJESAJT == 'masine' || KOJIJESAJT == 'masinealati.rs' || KOJIJESAJT == 'dev.3gstore.rs' || KOJIJESAJT == 'devshone') {
+if (KOJIJESAJT == 'kupimobilni' || KOJIJESAJT == 'kupimobilni.net') {
     require "commonMasine.php";
 } else {
     require "commonAgro.php";
