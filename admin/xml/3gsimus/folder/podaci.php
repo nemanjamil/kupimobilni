@@ -39,7 +39,7 @@ if ($naziv) {
 
     if ($db->count > 0) {
         $pokazi .= '<div style="background-color: darkgreen;color: white">Ima Artikal kod nas u bazi</div>';
-        //include($documentrootAdmin . '/xml/centralniXml/akoima.php');
+        include($documentrootAdmin . '/xml/centralniXml/akoima.php');
 
     } else {
 

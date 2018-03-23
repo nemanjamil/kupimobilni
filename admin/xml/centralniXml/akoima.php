@@ -5,26 +5,24 @@ if (!$ArtikalId) {
 }
 $update_query = Array(
     'ArtikalVPCena' => $cenan,
-    'ArtikalMPCena' => $cenan,
+    'ArtikalMPCena' => $mpCena,
     'ArtikalMarzaId' => $marzaid,
     'ArtikalAktivan' => 1,
     'ArtikalStanje' => $stanje
-
 );
 
 
 $db->where('ArtikalId', $ArtikalId);
 if ($db->update('artikli', $update_query)) {
-    $pokazi .= '<br>'.$db->count . ' records were updated<br>';
+    $pokazi .= '<br>' . $db->count . ' records were updated<br>';
 } else {
-    echo '<br>update failed: ' . $db->getLastError().'<br>';
+    echo '<br>update failed: ' . $db->getLastError() . '<br>';
     die;
 }
 
+require($documentrootAdmin . '/xml/centralniXml/ubaciNaziveArtNewVendorXMLUpdate.php');
 
-require($documentrootAdmin.'/xml/centralniXml/ubaciNaziveArtNewVendorXMLUpdate.php');
-
-if ($vendor == 90 || $vendor == 122) {
+if ($vred_povuci_slike_na_update) {
     $idUbacenogart = $ArtikalId;
     require $documentroot . '/admin/xml/3gsimus/folder/ubacislike.php';
 }

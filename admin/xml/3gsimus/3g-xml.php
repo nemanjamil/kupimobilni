@@ -39,6 +39,15 @@ require($documentrootAdmin.'/xml/centralniXml/setovanjeXml.php');
 require $documentroot."/obradi/snimiTxt.php";
 $log->lfile(ROOTLOC.'/logovi/1.txt');
 $log->lwrite('OK 3g XML -> tip HOST '.$documentroot.'; ROOTLOC : '.ROOTLOC);
+/**
+ * Ovo koristimo da vidimo da li ponovo azuriramo slike na update
+ * ako je 0 ne diraj nista
+ * ako je 1 onda ponovo na update povuci slike sa servera
+ */
+$cols = Array("vrednoststanja");
+$db->where("imestanja", "povuci_slike_na_update");
+$povuci_slike_na_update = $db->getOne("setovanjevarijabli", null, $cols);
+$vred_povuci_slike_na_update = $povuci_slike_na_update['vrednoststanja'];
 
 
 
@@ -56,6 +65,7 @@ $doc->load($documentroot . '/xml/'.$folder.'/3gMobilSistemSajt.xml');
 $dataset = $doc->getElementsByTagName("artikal"); // uhvati sve Product
 $kolikoimachild = $doc->getElementsByTagName('artikal')->length;
 $pokazi = '<br/>Ukupno CHILD : ' . $kolikoimachild . '<br/>'; // 6
+
 
 
 $cols = Array("BrojDokle");
@@ -99,7 +109,7 @@ if ($kolikoimachild > $BrojDokle) {
         $i++;
 
         //echo '<br/><br/>';
-        if ($i == ($BrojDokle +1)) break;
+        if ($i == ($BrojDokle +5)) break;
         //echo '<hr/>';
         //usleep(100000); // milion je 1 sec
 
@@ -115,7 +125,7 @@ echo '<hr/><hr/>';
 echo '<br/>Poslednji : ' . $i;
 echo '<br/>';
 
-//require($documentrootAdmin.'/xml/centralniXml/azurirajCronZaXML.php');
+require($documentrootAdmin.'/xml/centralniXml/azurirajCronZaXML.php');
 
 
 echo $pokazi;
