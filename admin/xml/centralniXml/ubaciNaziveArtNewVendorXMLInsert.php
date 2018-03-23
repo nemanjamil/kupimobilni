@@ -13,11 +13,11 @@ if ($jezLan) {
         $ShortLanguage = $v['ShortLanguage'];
         $IdLanguage = $v['IdLanguage'];
 
-        $kategorijeDodatna->vice_versa_cySR($naziv, 'cy');
+        //$kategorijeDodatna->vice_versa_cySR($naziv, 'cy');
 
         switch ($IdLanguage) {
             case 1:  // srb
-                $modelNew = $kategorijeDodatna->vice_versa_cySR($naziv, 'cy');
+                $modelNew = $naziv; //$kategorijeDodatna->vice_versa_cySR($naziv, 'cy');
                 break;
             case 2: // eng
                 $modelNew = $naziv;

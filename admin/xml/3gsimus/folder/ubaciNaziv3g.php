@@ -13,11 +13,10 @@ if (!$sifra) {
 
 
 $insert_query = Array(
-    //'ArtikalNaziv' => $naziv,
     'KategorijaArtikalId' => $nedefinisanoRazno,
     'ArtikalBrendId' => $brend_code,
     'ArtikalVPCena' => $cenan,
-    'ArtikalMPCena' => $cenan,
+    'ArtikalMPCena' => $mpCena,
     'ArtikalBarKod' => $barKod,
     'ArtikalKomitent' => $vendor,
     $codetip => $sifra,
@@ -50,31 +49,5 @@ $pokazi .= '<div style="border: 1px dashed #000000; padding: 10px;background-col
 
 require($documentrootAdmin.'/xml/centralniXml/ubaciNaziveArtNewVendorXMLInsert.php');
 
-if ($MarketingDescription) {
-$idArti0 = $idUbacenogart;
-$opis64deco = $opis64 =  $MarketingDescription;
-require($documentrootAdmin . '/xml/centralniXml/opisTekstArtikla.php');
-}
-
-if ($TechnicalDescription) {
-$idArti0 = $idUbacenogart;
-$opis64deco = $opis64 =  $TechnicalDescription;
-require($documentrootAdmin . '/xml/centralniXml/opisKratakOpisArtikla.php');
-}
-
-
-
-if (!$idTekstNew) {
-    $pokazi .= '<br><div><strong class="bojacrvena">Fail INSERT u bazu ->  ARIKAL NAZIV : /var/www/masine/admin/xml/'.$folder.'/folder/akonema.php linija 45 </strong></div><br>' . $db->getLastError();
-    $db->rollback();
-    echo $pokazi;
-    die;
-} else {
-    $pokazi .= 'Id artikla kod nas u bazi je  : <a target="_blank" href="' . DPROOTADMIN . '/str/editartikal/' . $idUbacenogart . '">' . $idUbacenogart . '</a><br>';
-    $pokazi .= 'Naziv artikla  : ' . $naziv . '<br>';
-    $pokazi .= 'Artikal: <a target="_blank" href="' . DPROOT . '/proizvod/' . $idUbacenogart . '">' . $idUbacenogart . '</a><br>';
-    $pokazi .= '<br/>';
-    $db->commit();
-}
 $pokazi .= '</div>';
 ?>

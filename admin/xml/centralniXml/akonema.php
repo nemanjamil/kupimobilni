@@ -20,16 +20,14 @@ if (!$sifra) {
 $pokazi .= '<div style="background-color: lightgrey">';
 
 
-$db->startTransaction();
-
+//$db->startTransaction();
 require($documentroot . '/admin/xml/3gsimus/folder/ubaciNaziv3g.php');
+
 
 /*
  * SLIKE UBACI
  * */
-if ($vendor == 90 || $vendor == 122) {
-    require $documentroot . '/admin/xml/3gsimus/folder/ubacislike.php';
-}
+require $documentroot . '/admin/xml/3gsimus/folder/ubacislike.php';
 
 
 $data = Array('NoviArtikal' => 1);

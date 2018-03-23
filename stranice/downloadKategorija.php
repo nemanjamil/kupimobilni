@@ -55,6 +55,12 @@ echo '<h4 class="bojacrvenaosn">Update parent kategorije</h4>';
 echo '</br>';
 
 sleep($varsleep);
+/**
+ * Update porez
+ */
+require('updatePorezKategorije.php');
+
+
 // 5. I na kraju updatujemo sve kategorije
 //require('updateKategorija.php');
 /*echo '</br>';

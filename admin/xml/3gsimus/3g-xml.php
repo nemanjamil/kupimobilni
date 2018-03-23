@@ -43,7 +43,7 @@ $log->lwrite('OK 3g XML -> tip HOST '.$documentroot.'; ROOTLOC : '.ROOTLOC);
 
 
 $kojijevendor = 6;  // id u tabeli cronzaxml
-$vendor = 90;  // u tabeli Komitenti
+$vendor = 1;  // u tabeli Komitenti
 $codetip = 'code3g'; // koji je red za sifru u tabel Artikli
 $brend_code = 1; // tabela Brendovi 3g Brend je 1
 $nedefinisanoRazno = 6715; // ako zelimo da promenimo folder u koji cemo da ubacujemo inicijelno artikle
@@ -99,7 +99,7 @@ if ($kolikoimachild > $BrojDokle) {
         $i++;
 
         //echo '<br/><br/>';
-        if ($i == ($BrojDokle +2)) break;
+        if ($i == ($BrojDokle +1)) break;
         //echo '<hr/>';
         //usleep(100000); // milion je 1 sec
 

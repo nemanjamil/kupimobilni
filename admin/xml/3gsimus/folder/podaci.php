@@ -2,9 +2,24 @@
 // uzimamo podatke iz XML-a
 include('xmlpodaci.php');
 
+/**
+ * PROVERA BRENDA
+ */
 //$brendLocal = $db->rawQuery("SELECT komBrenduPripada($brendId) as brendLocal");
 $brendLocal = $db->ObjectBuilder()->rawQuery("SELECT komBrenduPripada($brendId) as brendLocal");
-$brendLocalId = $brendLocal[0]->brendLocal;
+$brendLocalId = (int) $brendLocal[0]->brendLocal;
+if ($brendLocalId) {
+    $brend_code = $brendLocalId;
+}
+
+/**
+ * PROVERA KATEGORIJE
+ */
+$kategLocal = $db->ObjectBuilder()->rawQuery("SELECT kojojKategorijiPripada($kategorijaId) as kategorijaId");
+$kategLocalId = (int) $kategLocal[0]->kategorijaId;
+if ($kategLocalId) {
+    $nedefinisanoRazno = $kategLocalId;
+}
 
 
 if ($naziv) {
@@ -29,7 +44,7 @@ if ($naziv) {
     } else {
 
         $pokazi .= '<div style="background-color: red">Nema artikal kod nas u bazi</div>';
-        //include($documentrootAdmin . '/xml/centralniXml/akonema.php');
+        include($documentrootAdmin . '/xml/centralniXml/akonema.php');
 
     }
 
