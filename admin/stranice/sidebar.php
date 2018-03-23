@@ -586,6 +586,13 @@
                         </li>-->
 
                         <li>
+                            <a href="/stranice/downloadxml/download3gxml.php" target="_blank">
+                                <i class="icon-angle-right"></i>
+                                Download3gXml
+                            </a>
+                        </li>
+
+                        <li>
                             <a href="/stranice/downloadKategorija.php" target="_blank">
                                 <i class="icon-angle-right"></i>
                                 Azuriranje Kategorija
