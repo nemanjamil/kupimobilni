@@ -1,7 +1,7 @@
 <?php
 
 $db->where("ArtikalLink", $url_artikla);
-$dlima = $db->getOne("artikli");
+$dlima = $db->getOne("Artikli");
 if ($dlima['ArtikalId']) {
     $url_artikla = $url_artikla . '-' . rand();
 }

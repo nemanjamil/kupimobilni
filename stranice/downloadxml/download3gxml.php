@@ -22,7 +22,7 @@ ini_get('display_errors');
 ini_set('max_execution_time', 0);
 
 $likacijadoslikedir = $documentroot."/xml/3g/";
-$linkdoxml = 'http://bg.company3g.com/xml/3gMobilSistem.zip';
+$linkdoxml = 'http://bg.company3g.com/xml/3gMobilSistemSajt.zip';
 
 function flushmoj($naziv) {
     echo $naziv;

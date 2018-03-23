@@ -1,13 +1,31 @@
+<!--<head>
+    <meta http-equiv="refresh" content="303">
+</head>-->
 <?php
 // bg.company3g.com/xml/3gmobilniCentar.zip.
 set_time_limit(300); // setovano da ne prekida skriptu
 
+/*
+ *
+ * kopirati tabele sa dodatneSajt na dodatnuLocal
+ * brand, kategorije, slike_proiz, vendor, vebsop
+ * onda skinuti forein key sa vebsop
+ * kopirati na agro_Local
+ * Testirato za bagove
+ * Kopirati na AWS AGRO
+ * */
+
+set_time_limit(0);
 function kojijehost($tipHosta){
 
-    if ($tipHosta) {
-        $hostTip = '/data/kupimobilni';
+    if ($tipHosta == 1) {
+        $hostTip = '/data/kupimobilni'; // server Linux
+    } elseif ($tipHosta == 3) {
+        $hostTip = 'C:/wamp64/www/kupimobilni'; // Nemanja Windows
+    } elseif ($tipHosta == 4) {
+        $hostTip = 'G:/projects/kupimobilni'; // Nikola
     } else {
-        $hostTip = '/var/www/masine';
+        $hostTip = '/var/www/kupimobilni'; // Nemanja Linux
     }
     return $hostTip;
 }
@@ -16,27 +34,26 @@ $documentroot = kojijehost($mcProd);
 $documentrootAdmin = $documentroot.'/admin';
 define('ROOTLOC', $documentroot);
 
-
 require($documentrootAdmin.'/xml/centralniXml/setovanjeXml.php');
 
-require $documentroot."/stranice/elasticTest/logTxtElastic.php";
+require $documentroot."/obradi/snimiTxt.php";
+$log->lfile(ROOTLOC.'/logovi/1.txt');
 $log->lwrite('OK 3g XML -> tip HOST '.$documentroot.'; ROOTLOC : '.ROOTLOC);
 
 
 
 $kojijevendor = 6;  // id u tabeli cronzaxml
-$vendor = 90;  // u tabeli komitenti
-$codetip = 'code3g'; // koji je red za sifru u tabel artikli
-$brend_code = 50; // tabela brendovi 3g Brend je 50
-$nedefinisanoRazno = 164; // ako zelimo da promenimo folder u koji cemo da ubacujemo inicijelno artikle
+$vendor = 90;  // u tabeli Komitenti
+$codetip = 'code3g'; // koji je red za sifru u tabel Artikli
+$brend_code = 1; // tabela Brendovi 3g Brend je 1
+$nedefinisanoRazno = 6715; // ako zelimo da promenimo folder u koji cemo da ubacujemo inicijelno artikle
 $TipKatUnitArt = 8; // tabela UNIT 8 je kom
 $MinimalnaKolArt = 1; // minmalna kolicina koja moze da se naruci
-$folder = '3gsimus';
+$folder = '3g';
 
 $doc = new DOMDocument();
-$doc->load($documentrootAdmin . '/xml/'.$folder.'/xmlovi/3gMobilniCentar.xml');
+$doc->load($documentroot . '/xml/'.$folder.'/3gMobilSistemSajt.xml');
 $dataset = $doc->getElementsByTagName("artikal"); // uhvati sve Product
-
 $kolikoimachild = $doc->getElementsByTagName('artikal')->length;
 $pokazi = '<br/>Ukupno CHILD : ' . $kolikoimachild . '<br/>'; // 6
 
@@ -60,29 +77,29 @@ if ($kolikoimachild > $BrojDokle) {
         $pokazi .= '<br/>Redni broj : ' . $i . ' - Broj dokle : ' . $BrojDokle . '<br/>';
         $pokazi .= '<br/>'.$common->microtime_floatProlaz($start, 'ubaciSlikeFile').'<br/>';
 
-            if ($i >= $BrojDokle) {
+        if ($i >= $BrojDokle) {
 
-                $pokazi .= '<div style="background-color: lightcyan;padding: 20px;border: 1px solid black">';
+            $pokazi .= '<div style="background-color: lightcyan;padding: 20px;border: 1px solid black">';
 
-                $pokazi .= '<div style="background-color: peru;padding: 20px;border: 1px solid black">';
-                    $pokazi .= $common->microtime_floatProlaz($start, 'ubaciSlikeFile');
-                $pokazi .= '</div>';
+            $pokazi .= '<div style="background-color: peru;padding: 20px;border: 1px solid black">';
+            $pokazi .= $common->microtime_floatProlaz($start, 'ubaciSlikeFile');
+            $pokazi .= '</div>';
 
-                include('folder/podaci.php');
-                //$pokazi .= '<br />ID : ' . $ID . '<br /><br /><br />';
-                $MenjanArtikal .= $ArtikalId . ' /('.$sifra.')  extId :  [ '.$extId.' ] ; ';
+            include('folder/podaci.php');
+            //$pokazi .= '<br />ID : ' . $ID . '<br /><br /><br />';
+            $MenjanArtikal .= $ArtikalId . ' /('.$sifra.')  extId :  [ '.$extId.' ] ; ';
 
-                $end = microtime_float();
-                $pokazi .= '<hr/><br/>Script Execution Time: ' . round($end - $start, 3) . ' seconds<br/>';
+            $end = microtime_float();
+            $pokazi .= '<hr/><br/>Script Execution Time: ' . round($end - $start, 3) . ' seconds<br/>';
 
-                $pokazi .= '</div>';
+            $pokazi .= '</div>';
 
-            }
+        }
 
         $i++;
 
         //echo '<br/><br/>';
-        if ($i == ($BrojDokle +20)) break;
+        if ($i == ($BrojDokle +2)) break;
         //echo '<hr/>';
         //usleep(100000); // milion je 1 sec
 
@@ -98,7 +115,7 @@ echo '<hr/><hr/>';
 echo '<br/>Poslednji : ' . $i;
 echo '<br/>';
 
-require($documentrootAdmin.'/xml/centralniXml/azurirajCronZaXML.php');
+//require($documentrootAdmin.'/xml/centralniXml/azurirajCronZaXML.php');
 
 
 echo $pokazi;

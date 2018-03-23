@@ -31,7 +31,7 @@ $insert_query = Array(
 );
 
 
-$idUbacenogart = $db->insert('artikli', $insert_query);
+$idUbacenogart = $db->insert('Artikli', $insert_query);
 
 if (!$idUbacenogart) {
     $pokazi .= '<div style="background-color: red;padding: 40px;color: white">';

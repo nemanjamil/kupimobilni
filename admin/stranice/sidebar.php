@@ -585,30 +585,32 @@
                             </a>
                         </li>-->
 
-                        <li>
-                            <a href="/stranice/downloadxml/download3gxml.php" target="_blank">
-                                <i class="icon-angle-right"></i>
-                                Download3gXml
-                            </a>
-                        </li>
 
-                        <li>
-                            <a href="/stranice/downloadKategorija.php" target="_blank">
-                                <i class="icon-angle-right"></i>
-                                Azuriranje Kategorija
-                            </a>
-                        </li>
 
                         <li>
                             <a href="/stranice/povuciBrendove.php" target="_blank">
                                 <i class="icon-angle-right"></i>
-                                Azuriranje Brendova
+                                 1. Azuriranje Brendova
                             </a>
                         </li>
                         <li>
-                            <a href="/stranice/povuciArtikle3g.php" target="_blank">
+                            <a href="/stranice/downloadKategorija.php" target="_blank">
                                 <i class="icon-angle-right"></i>
-                                Azuriranje Artikala 3gBg
+                                2. Download i Azuriranje Kategorija Calculus
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/stranice/downloadxml/download3gxml.php" target="_blank">
+                                <i class="icon-angle-right"></i>
+                                3. Download XML Artikala
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/admin/xml/3gsimus/3g-xml.php" target="_blank">
+                                <i class="icon-angle-right"></i>
+                                4. Azuriranje Artikala 3gBG
                             </a>
                         </li>
                         <!--<li>

@@ -1,5 +1,6 @@
 <?php
 
+
 $pokazi .= '<ul style="background-color: #dedede">';
 
 $id = $row->getElementsByTagName("id");
@@ -11,6 +12,21 @@ $extId = $row->getElementsByTagName("extId");
 $extId = $extId->item(0)->nodeValue;
 $extId = (int) $extId;
 $pokazi .= '<li>$extId : ' . $extId . '</li>';
+
+$kategorijaId = $row->getElementsByTagName("kategorijaId");
+$kategorijaId = $kategorijaId->item(0)->nodeValue;
+$kategorijaId = (int) $kategorijaId;
+$pokazi .= '<li>$kategorijaId : ' . $kategorijaId . '</li>';
+
+$brendId = $row->getElementsByTagName("brendId");
+$brendId = $brendId->item(0)->nodeValue;
+$brendId = (int) $brendId;
+$pokazi .= '<li>$brendId : ' . $brendId . '</li>';
+
+$proizvodjacId = $row->getElementsByTagName("proizvodjacId");
+$proizvodjacId = $proizvodjacId->item(0)->nodeValue;
+$proizvodjacId = (int) $proizvodjacId;
+$pokazi .= '<li>$proizvodjacId : ' . $proizvodjacId . '</li>';
 
 $sifra = $row->getElementsByTagName("sifra");
 $sifra = $sifra->item(0)->nodeValue;
@@ -24,7 +40,7 @@ $pokazi .= '<li>Naziv : ' . $naziv . '</li>';
 $url_artikla = $common->friendly_convert($naziv);
 $pokazi .= '<li>Url Artikla : ' . $url_artikla . '</li>';
 
-$stanje = $row->getElementsByTagName("dostupan");
+$stanje = $row->getElementsByTagName("stanje");
 $stanje = $stanje->item(0)->nodeValue;
 if ($stanje > 0) { $stanje = 1;} else {$stanje = '0';}
 $pokazi .= '<li>$stanje : ' . $stanje . '</li>';
@@ -46,7 +62,12 @@ $pokazi .= '<li>$barKod : ' . $barKod . '</li>';
 $cenan = $row->getElementsByTagName("vpCena");
 $cenan = $cenan->item(0)->nodeValue;
 $cenan = (float) $cenan;
-$pokazi .= '<li>Cena XML : ' . $vpCena . '</li>';
+$pokazi .= '<li>Cena XML : ' . $cenan . '</li>';
+
+$mpCena = $row->getElementsByTagName("mpCena");
+$mpCena = $mpCena->item(0)->nodeValue;
+$mpCena = (float) $mpCena;
+$pokazi .= '<li>$mpCena : ' . $mpCena . '</li>';
 
 
 $marzaid = $common->cenamarzadinObori($vpCena);

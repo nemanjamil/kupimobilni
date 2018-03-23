@@ -13,13 +13,39 @@ function kojijehost($tipHosta){
     return $hostTip;
 }
 $mcProd = getenv('KUPIMOBILNI');
-
 $documentroot = kojijehost($mcProd);
 
 // 1. zakucavamo server execution time na 0 tj. da ne stane dok se sve ne izvrsi i da prikaze sve error - e.
-echo ini_get('display_errors');
+ini_get('display_errors');
 ini_set('max_execution_time', 0);
 
+$likacijadoslikedir = $documentroot."/xml/";
+$linkdoxml = 'bg.company3g.com/xml/Brendovi.xml';
+
+/**
+ * @param $linkdoxml
+ * @param $likacijadoslikedir
+ * Prvo skidamo XML Brendovi
+ */
+function dovucizipfile($linkdoxml,$likacijadoslikedir){
+    $fp = fopen($likacijadoslikedir.'/Brendovi.xml', "w");
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL,$linkdoxml);
+    curl_setopt($ch, CURLOPT_VERBOSE, 1);
+    curl_setopt($ch, CURLOPT_FILE, $fp);
+    $return = curl_exec ($ch);
+    if(curl_errno($ch)){
+        echo 'error:' . curl_error($ch);
+    }
+    curl_close ($ch);
+}
+dovucizipfile($linkdoxml,$likacijadoslikedir);
+
+sleep(5);
+
+/**
+ * Sada ubacujemo brendove u Bazu
+ */
 include ($documentroot."/vezafull.php");
 require_once ($documentroot.'/thumblib/ThumbLib.inc.php');
 include($documentroot.'/stranice/parse/simple_html_dom.php');
@@ -28,12 +54,12 @@ $jezLan = $db->get('languagejezik', null, "IdLanguage,ShortLanguage");
 
 $varsleep = 10;
 
-echo ini_get('display_errors');
+ini_get('display_errors');
 ini_set('max_execution_time', 0);
 
 $prvaSlika = 1;
 
-$xmlLokacija = $documentroot . '/xml/3gStoreBrendovi.xml';
+$xmlLokacija = $documentroot . '/xml/Brendovi.xml';
 $dom = new DOMDocument();
 $dom->load($xmlLokacija);
 $tables = $dom->getElementsByTagName('brend');

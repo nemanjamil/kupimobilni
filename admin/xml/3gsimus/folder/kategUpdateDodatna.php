@@ -26,7 +26,7 @@ $opis64deco = base64_decode($opis64);
 if ($StatusCode) {
 
     $db->where("KategorijaArtikalaLink", $kat_link);
-    $kateg = $db->getOne("kategorijeartikala");
+    $kateg = $db->getOne("KategorijeArtikala");
     $KategorijaArtikalaId = $kateg['KategorijaArtikalaId'];
 
 
@@ -62,7 +62,7 @@ if ($StatusCode) {
             'ArtikalIdDodatna' => $ArtikalIdDodatna
         );
         $db->where('code3g', $sifra);
-        if ($db->update('artikli', $data)) {
+        if ($db->update('Artikli', $data)) {
             $pokazi .= $db->count . ' records were updated';
         } else {
             echo $pokazi .= 'update failed: ' . $db->getLastError();
@@ -88,10 +88,10 @@ if ($StatusCode) {
             'KategorijaArtikalaLink' => $kat_link
         );
         $db->where('KategorijaArtikalaId', $KategorijaArtikalaId);
-        if ($db->update('kategorijeartikala', $data)) {
-            $pokazi .= '<div>kategorijeartikala ' . $db->count . ' records were updated</div>';
+        if ($db->update('KategorijeArtikala', $data)) {
+            $pokazi .= '<div>KategorijeArtikala ' . $db->count . ' records were updated</div>';
         } else {
-            echo $pokazi .= 'kategorijeartikala update failed: ' . $db->getLastError();
+            echo $pokazi .= 'KategorijeArtikala update failed: ' . $db->getLastError();
             die;
         }
 

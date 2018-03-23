@@ -6,7 +6,7 @@
 $lok = $common->locationslika($idUbacenogart);
 $lokslifol = $documentroot . $lok;
 // dali postoji folder ko nas u bazi
-$nekifoldir = substr($idUbacenogart, 0, 3);
+$nekifoldir = substr($idUbacenogart, 0, 2);
 
 if (!$nekifoldir) {
     echo 'nema neki folder ' . $nekifoldir;
