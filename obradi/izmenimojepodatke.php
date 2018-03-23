@@ -1,11 +1,5 @@
 <?php
-/**
- * Project: agro
- * Created by PhpStorm.
- * User: Nikola
- * Date: 18. 08. 2015.
- * Time: 00:42
- */
+
 
 $KomitentIme = $common->clearvariable($_POST[KomitentIme]);
 $KomitentPrezime = $common->clearvariable($_POST[KomitentPrezime]);
@@ -50,6 +44,8 @@ if (isset($KomitentIme)) {
     if ($db->update('komitenti', $updateprofil)) {
         $error_msg .= 'Update : ' . $db->count . ' red <br>';
 
+
+
         // ako je sve u redu onda ubacujemo sliku
         $slika = $_FILES;
         $imeslike = $KomitentiSlika;
@@ -65,11 +61,11 @@ if (isset($KomitentIme)) {
         $orgSlika = ''; // da li zelimo da snimimo i originalnu sliku
 
         // ovo cu kasnije napraviti
-        $ubacisliku->ubacislikuKomitent($slika, $imeslike, $idba, $table, $kolona, $location, $nazivInputPolja, $idkolone, $w, $h, $preview, $orgSlika);
+        //$ubacisliku->ubacislikuKomitent($slika, $imeslike, $idba, $table, $kolona, $location, $nazivInputPolja, $idkolone, $w, $h, $preview, $orgSlika);
 
 
     } else {
-        $error_msg .= 'NOT UPDATE <br>';
+        echo $error_msg .= 'NOT UPDATE <br>';
         die;
     }
 
