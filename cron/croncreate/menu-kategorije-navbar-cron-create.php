@@ -35,7 +35,7 @@ if ($katspGlavne) {
         $prikaz .= '<div class="row">';
         $prikaz .= '<div class="col-xs-12 col-md-7 col-sm-7">';
 
-     echo    $upitKateg2 = "CALL listaKategorijaPoParent($KategorijaArtikalaIdMM,$var_user,$jez_trenutni,0,50)";
+        $upitKateg2 = "CALL listaKategorijaPoParent($KategorijaArtikalaIdMM,$var_user,$jez_trenutni,0,50)";
         $katspGlavne2 = $db->rawQuery($upitKateg2);
         $count = $db->count;
 

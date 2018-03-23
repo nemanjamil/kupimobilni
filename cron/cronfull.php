@@ -33,8 +33,10 @@ require "croncreate/menu-kategorije-cron-lat-create.php";
 require "croncreate/menu-kategorije-navbar-cron-create.php";
 
 // kategorije
-require "croncreate/kategorijecron-create.php";
-require "croncreate/kategorijecron-create-cir.php";
+//require "croncreate/kategorijecron-create.php"; //old
+require "croncreate/kategorijecron-create-kupimobilni.php";
+//require "croncreate/kategorijecron-create-cir.php"; //old
+require "croncreate/kategorijecron-create-cir-kupimobilni.php";
 
 require "croncreate/cronlanguage.php";
 require "croncreate/cronCitiesJson.php";
