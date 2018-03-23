@@ -1,7 +1,7 @@
 <?php
 
 echo '</br>';
-echo '<b class="bojacrvenaosn">Nema Artikal - ArtikalExtId: ' . $artikalID . ' -Ide insert u bazu.</b> Naziv artikla:<i class="bojazelena">'.$naziv.'</i>';
+echo '<b class="bojacrvenaosn">Nema Artikal - ArtikalExtId: ' . $artikalID . ' -Ide insert u bazu.</b> Naziv artikla:<i class="bojazelena">' . $naziv . '</i>';
 echo '</br>';
 echo '<b class="bojacrvenaosn">Kategorija: ' . $nazivgrupe . '</b>';
 echo '</br>';
@@ -23,9 +23,16 @@ $insert_queryNaziv = Array(
     'ArtikalId' => $idUbacenogart,
     'IdLanguage' => 5,
     'OpisArtikla' => $naziv
-
 );
 
-$db->insert('artikalnazivnew', $insert_queryNaziv);
+if ($db->insert('artikalnazivnew', $insert_queryNaziv)) {
+    $db->commit();
+} else {
+    echo "Nije ubaceno u bazu";
+    echo '</br>';
+    var_dump($db);
+    die;
+    $db->rollback();
+}
 
-$db->commit();
+

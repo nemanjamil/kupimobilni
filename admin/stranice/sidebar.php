@@ -584,6 +584,14 @@
                                 Azuriranje Tipova Dokumenata
                             </a>
                         </li>-->
+
+                        <li>
+                            <a href="/stranice/downloadKategorija.php" target="_blank">
+                                <i class="icon-angle-right"></i>
+                                Azuriranje Kategorija
+                            </a>
+                        </li>
+
                         <li>
                             <a href="/stranice/povuciBrendove.php" target="_blank">
                                 <i class="icon-angle-right"></i>
@@ -591,6 +599,12 @@
                             </a>
                         </li>
                         <li>
+                            <a href="/stranice/povuciArtikle3g.php" target="_blank">
+                                <i class="icon-angle-right"></i>
+                                Azuriranje Artikala 3gBg
+                            </a>
+                        </li>
+                        <!--<li>
                             <a href="/stranice/povuciBrendovePovez.php" target="_blank">
                                 <i class="icon-angle-right"></i>
                                 Azuriranje Artikala i Brendova
@@ -603,29 +617,24 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/admin/stranice/calculusservisi/downloadStanjeArtikala.php" target="_blank">
+                            <a href="/stranice/downloadStanjeArtikala.php" target="_blank">
                                 <i class="icon-angle-right"></i>
                                 Azuriranje Stanja i cena artikala
                             </a>
-                        </li>
-                        <li>
-                            <a href="/stranice/downloadKategorija.php" target="_blank">
-                                <i class="icon-angle-right"></i>
-                                Azuriranje Kategorija
-                            </a>
-                        </li>
-                        <li>
+                        </li>-->
+
+                       <!-- <li>
                             <a href="/stranice/downloadArtikala.php" target="_blank">
                                 <i class="icon-angle-right"></i>
                                 Azuriranje Artikala
                             </a>
-                        </li>
-                        <li>
+                        </li>-->
+                        <!--<li>
                             <a href="/admin/stranice/calculusservisi/calculusKomitenti.php" target="_blank">
                                 <i class="icon-angle-right"></i>
                                 Azuriranje Komitenata
                             </a>
-                        </li>
+                        </li>-->
 
                         <!--<li>
                             <a href="/admin/elasticSearchArtikli">

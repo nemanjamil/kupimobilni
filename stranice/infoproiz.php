@@ -80,10 +80,10 @@ if ($keyArt) {
     // TODO [nikola]
     //require "daLiMozeDaSeVidiKateg.php";
 
-    $cols = Array("ANN.OpisArtikla","SP.linkslike","PA.ArtikalIdPoklon");
+    /*$cols = Array("ANN.OpisArtikla","SP.linkslike","PA.ArtikalIdPoklon");
     $db->join("artikli A", "A.ArtikalId = PA.ArtikalIdPoklon");
     $db->join("artikalnazivnew ANN", "ANN.ArtikalId = A.ArtikalId AND ANN.IdLanguage = $jezikId");
-    $db->join("slikeproiz SP", "SP.idslike = A.ArtikalId");
+    $db->join("artiklislike AS", "AS.IdArtikliSlikePov = A.ArtikalId");
     $db->where("PA.ArtikalIdGlavni", $ArtikalId);
     $linksPoklon = $db->get("poklonartikli PA", null, $cols);
 
@@ -91,7 +91,7 @@ if ($keyArt) {
         foreach ($linksPoklon AS $kp => $vp) {
             $comma_separatedPoklon[] = $vp['ArtikalIdPoklon'];
         }
-    }
+    }*/
 
 
 } else {

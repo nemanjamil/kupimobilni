@@ -22,7 +22,7 @@ $aa = 0;
 if ($curlInitStanje) {
     $dom = new DOMDocument();
     $dom->loadXML($curlInitStanje);
-    $lok = DCROOT . '/xml/ArtikliDownload.xml';
+    $lok = $documentroot . '/xml/ArtikliDownload.xml';
     $dom->save($lok);
 
     $tables = $dom->getElementsByTagName('Table');

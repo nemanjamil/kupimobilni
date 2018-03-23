@@ -9,7 +9,7 @@ function kojijehost($tipHosta){
     }
     return $hostTip;
 }
-$mcProd = getenv('MASINEENV');
+$mcProd = getenv('KUPIMOBILNI');
 
 $lokacija = $mcProd.'/dbbckup';
 $backupFile = 'dbbackup-' . date("d-m-Y-H-i-s") . '.gz';

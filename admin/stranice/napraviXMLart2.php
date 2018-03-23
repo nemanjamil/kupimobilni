@@ -11,7 +11,7 @@ function kojijehost($tipHosta){
     }
     return $sta;
 }
-$mcProd = getenv('MASINEENV');
+$mcProd = getenv('KUPIMOBILNI');
 $documentrootSta = kojijehost($mcProd);
 $documentroot = $documentrootSta['loc'];
 $hostTipSajt = $documentrootSta['sajt'];

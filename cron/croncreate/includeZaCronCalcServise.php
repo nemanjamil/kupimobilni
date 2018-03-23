@@ -9,7 +9,7 @@ echo ini_get('display_errors');
 ini_set('max_execution_time', 0);
 
 
-$serverVarijabla = getenv('MASINEENV');
+$serverVarijabla = getenv('KUPIMOBILNI');
 
 if ($serverVarijabla == 1) {
     define('ROOTLOC', '/data/devshone');
@@ -31,5 +31,5 @@ if ($serverVarijabla == 1) {
     $jezikId = 1;
 
 }
-define('URLCALCSERVICE', 'http://10.8.0.10/CalculusWebService/CalculusWebService.asmx/');
+define('URLCALCSERVICE', 'http://10.8.0.6/CalculusWebService/CalculusWebService.asmx/');
 $timeUbac = @date('[d/M/Y:H:i:s]');

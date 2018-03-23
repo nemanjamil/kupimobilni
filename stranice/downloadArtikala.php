@@ -6,7 +6,7 @@ function kojijehost($tipHosta){
     } elseif ($tipHosta == 3) {
         $hostTip = 'C:/wamp64/www/kupimobilni'; // Nemanja Windows
     } elseif ($tipHosta == 4) {
-        $hostTip = 'G:/projects/XXXXXX'; // Nikola
+        $hostTip = 'G:/projects/kupimobilni'; // Nikola
     } else {
         $hostTip = '/var/www/kupimobilni'; // Nemanja Linux
     }
@@ -32,7 +32,7 @@ $varsleep = 10;
 $arraySifraGrupa = array('02.', '09.','07.', '06.','14.');
 $arrlength = count($arraySifraGrupa);
 
-for ($x = 0; $x < $arrlength; $x++) {
+for ($x = 0; $x < 1; $x++) {
     $idKategorijeGlavna = $arraySifraGrupa[$x];
 
     echo "<br>";

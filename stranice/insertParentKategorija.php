@@ -41,7 +41,8 @@ if ($curlInitStanje) {
                 $sifra = $sifra->item(0)->nodeValue;
 
                 $naziv = $row->getElementsByTagName("naziv");
-                $naziv = $naziv->item(0)->nodeValue;
+                $naziv = mb_strimwidth($naziv->item(0)->nodeValue,0,73);
+                //$naziv = $naziv->item(0)->nodeValue;
 
                 $ceonaziv = $row->getElementsByTagName("ceonaziv");
                 $ceonaziv = $ceonaziv->item(0)->nodeValue;

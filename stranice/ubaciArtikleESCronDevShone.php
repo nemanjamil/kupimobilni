@@ -1,5 +1,5 @@
 <?php
-$serverVarijabla = getenv('MASINEENV');
+$serverVarijabla = getenv('KUPIMOBILNI');
 if ($serverVarijabla == 1) {
     define('ROOTLOC', '/data/devshone');
 
