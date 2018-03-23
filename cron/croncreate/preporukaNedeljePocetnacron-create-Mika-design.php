@@ -1,5 +1,5 @@
 <?php
-$KategorijaArtikalaI = 11185;
+$KategorijaArtikalaI = 5044;
 $podaIn = $db->rawQueryOne("SELECT svePodkat($KategorijaArtikalaI) as svePodk");
 
 $podIn = rtrim($podaIn['svePodk'], ",");

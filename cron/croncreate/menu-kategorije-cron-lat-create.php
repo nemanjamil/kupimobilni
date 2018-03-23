@@ -11,7 +11,7 @@ $ostalo =  'Ostale kategorije';
 
 $kaL = '';
 
-$upitKateg = "CALL listaKategorijaPoListiIdNew('".KATEGORIJESAJT."',$jez_trenutni,$var_user,0,25)";
+$upitKateg = "CALL listaKategorijaPoListiIdNew('".KATEGORIJESAJTCRON."',$jez_trenutni,$var_user,0,25)";
 
 
 $katspGlavne = $db->rawQuery($upitKateg);

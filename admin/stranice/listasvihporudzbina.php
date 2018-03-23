@@ -38,7 +38,7 @@
                          <th>Mob</th>
                          <th>tel</th>-->
                         <th>Napomena</th>
-                        <th>Sinhronizacija</th>
+                        <!--<th>Sinhronizacija</th>-->
                         <th>Izaberi</th>
                     </tr>
                     </thead>
@@ -84,7 +84,7 @@
                         $tab .= '<td>' . $NapomenaNarudz . '</td>';
 
 
-                        if($SinhronizovanoNarudz == 0){
+                        /*if($SinhronizovanoNarudz == 0){
 
                             $tab .= '<td class="align-center" >';
                             $tab .= '<div class="btn-group" >';
@@ -96,7 +96,7 @@
 
                             $tab .= '<td class="bojacrvena">Sinhronizovano</td>';
 
-                        }
+                        }*/
 
 
                         $tab .= '<td class="align-center" >';

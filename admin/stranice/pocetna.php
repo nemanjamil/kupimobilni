@@ -12,7 +12,7 @@
         <div class="widget box">
             <!--<div class="divider"></div>-->
             <div class="widget-content">
-                <p class="alert alert-info">Почетак : <strong><a href="/" target="_blank">3G Store</a></strong>
+                <p class="alert alert-info">Почетак : <strong><a href="/" target="_blank">KupiMobilni</a></strong>
                 </p>
             </div>
         </div>

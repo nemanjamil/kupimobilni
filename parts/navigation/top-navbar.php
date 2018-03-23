@@ -4,7 +4,7 @@
 
 		<?php
 		if($KomitentTipUsera>=10) {
-			echo '<li class=""><a href="/admin/" target="_blank" </a>3gStore admin</li>';
+			echo '<li class=""><a href="/admin/" target="_blank" </a>KupiMobilni admin</li>';
 		}
 		?>
 		<!--<li id="fbStatus"></li>-->
@@ -36,4 +36,4 @@
 
 	</ul>
 </div><!-- /.top-nav -->
-<!-- ============================================== TOP NAVBAR : END ================================s============== -->
+<!-- ============================================== TOP NAVBAR : END ============================================== -->

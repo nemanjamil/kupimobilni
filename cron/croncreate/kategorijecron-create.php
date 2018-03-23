@@ -13,7 +13,7 @@ $jezik = '5';
 
 
 $kaL = '';
-$upitKateg = "CALL listaKategorijaPoListiIdNew('" . KATEGORIJESAJT . "',$jezik,$tipUsera,0,25)";
+$upitKateg = "CALL listaKategorijaPoListiIdNew('" . KATEGORIJESAJTCRON . "',$jezik,$tipUsera,0,25)";
 $katspGlavne = $db->rawQuery($upitKateg);
 
 if ($katspGlavne) {

@@ -17,11 +17,16 @@ if (!$jezikId) {
     echo "Nema jezik";
     die;
 }
-
+/*
+ * 5043 - Auto - 02.
+ * 5044 - Mobilni - 09.
+ * 5045 - Laptop - 07.
+ * 5046 - Kamere - 06.
+ * 5047 - Racunar - 14.
+ * */
 
 $var_user = '2';
-define('KATEGORIJESAJT', '11185, 11192, 11184, 11182');
-
+define('KATEGORIJESAJTCRON', '5043, 5044, 5045, 5046, 5047');
 require "croncreate/menu-kategorije-cron-cir-create.php";
 require "croncreate/menu-kategorije-cron-lat-create.php";
 

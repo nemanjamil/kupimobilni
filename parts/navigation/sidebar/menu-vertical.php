@@ -19,13 +19,13 @@
 
                 if ($jezikId == 5)
                 {
-                //require_once('cron/crongotovo/kategorijecron-create.php');
-                require_once('kategorije-mika-lat.php');
+                require_once('cron/crongotovo/kategorijecron-create.php');
+                //require_once('kategorije-mika-lat.php');
                 }
                 else
                 {
-                //require_once('cron/crongotovo/kategorijecron-create-cir.php');
-                require_once('kategorije-mika-cir.php');
+                require_once('cron/crongotovo/kategorijecron-create-cir.php');
+                //require_once('kategorije-mika-cir.php');
 
                 }
 

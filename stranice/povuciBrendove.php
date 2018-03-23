@@ -6,7 +6,7 @@ function kojijehost($tipHosta){
     } elseif ($tipHosta == 3) {
         $hostTip = 'C:/wamp64/www/kupimobilni'; // Nemanja Windows
     } elseif ($tipHosta == 4) {
-        $hostTip = 'G:/projects/XXXXXX'; // Nikola
+        $hostTip = 'G:/projects/kupimobilni'; // Nikola
     } else {
         $hostTip = '/var/www/kupimobilni'; // Nemanja Linux
     }
@@ -84,6 +84,7 @@ if (!empty($tables)) {
             if ($upit1) {
 
                 $update_input = Array(
+                    'BrendExtId' => $ID,
                     'BrendSlika' => $image_link,
                     'BrendNaslovna' => $BrendNaslovna,
                     'BrendActive' => $BrendActive
@@ -183,6 +184,7 @@ if (!empty($tables)) {
 
                 $insert_input = Array(
                     'BrendLink' => $BrendLink,
+                    'BrendExtId' => $ID,
                     'BrendSlika' => $image_link,
                     'BrendNaslovna' => $BrendNaslovna,
                     'BrendActive' => $BrendActive
