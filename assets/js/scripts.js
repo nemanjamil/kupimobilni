@@ -541,6 +541,7 @@
     $("#registracijasamo").submit(function (r) {
         r.preventDefault();
         var miki = $(this).serialize();
+
         prikaziTekst(miki, function (str) {
             var stre = $.trim(str);
 

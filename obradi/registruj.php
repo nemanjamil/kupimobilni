@@ -1,11 +1,9 @@
 <?php
 require 'proveriAjaxDeny.php';
 
-
 $error_msg = '';
 
 if (isset($_POST['email'],$_POST['p'])) {
-
 
     $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
     $email = filter_var($email, FILTER_VALIDATE_EMAIL);
@@ -84,16 +82,17 @@ if (isset($_POST['email'],$_POST['p'])) {
             $error_msg = 'Uradjen RoolBack';
         }
 
-       if ($id) {
+        if ($id) {
 
-           include_once 'posaljiMailRegistruj.php';
+            include_once 'posaljiMailRegistruj.php';
 
-           if ($erroropis['status']) {
-               $error_msg = 'Uspesno ste se registrovali. Pogledajte mail.';
-           } else {
-               $error_msg = 'Uspesno ste se registrovali. Nije poslat mail';
-           }
-       }
+            if ($erroropis['status']) {
+                $error_msg = 'Uspesno ste se registrovali. Pogledajte mail.';
+            } else {
+                $db->rollback();
+                $error_msg = 'Uradjen RoolBack -> Nije poslat mail';
+            }
+        }
 
     }
 

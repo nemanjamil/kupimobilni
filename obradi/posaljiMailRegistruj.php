@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: nemanja
- * Date: 28.7.15.
- * Time: 07.57
- */
-
 $bodyMail .= '<h1>Hvala na REGISTRACIJI</h1>';
 $bodyMail .= '<div><b>Molimo Vas kliknite na link ispod i aktivirajte nalog : </b></div><br>';
 
@@ -19,25 +12,8 @@ $bodyMail .= '<div style="margin: 10px;border: 1px solid #003f81;padding:0 0 0 1
 $bodyMail .= '<div>Artikal : <a href="' . DPROOT . '/' . $ArtikalLink . '">' . $ArtikalNaziv . '</a></div>';
 $bodyMail .= '</div>';*/
 
-
-
-
 require RB_ROOT.'/PHPMailer-master/PHPMailerAutoload.php';
-
-$mail = new PHPMailer;
-//$mail->SMTPDebug = 4;
-$mail->CharSet = 'UTF-8';
-$mail->isSMTP();
-$mail->Debugoutput = 'html';
-$mail->Host = 'smtp.gmail.com';
-$mail->Port = 587;
-$mail->SMTPSecure = 'tls';
-$mail->SMTPAuth = true;
-$mail->Username = GLAVNIMAIL;  // kpoybpurvlplpqlu rizuhphjjczomrvk itclusterserbia@gmail.com
-$mail->Password = PASSMAIL;
-$mail->From = GLAVNIMAIL;
-$mail->FromName = FROMNAME;
-$mail->isHTML(true);
+require('postavkaZaSlanjeMaila.php');
 $mail->addAddress($email, 'Nov Korisnik');     // Add a recipient
 //$mail->addReplyTo($email, $korpaime.' '.$korpaprezime);
 //$mail->addCC('cc@example.com');

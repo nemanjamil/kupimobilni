@@ -1,34 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: nemanja
- * Date: 29.7.15.
- * Time: 11.04
- */
-
 require RB_ROOT.'/PHPMailer-master/PHPMailerAutoload.php';
+require('postavkaZaSlanjeMaila.php');
 
-$mail = new PHPMailer;
-//$mail->SMTPDebug = 4;
-$mail->CharSet = 'UTF-8';
-$mail->isSMTP();
-$mail->Debugoutput = 'html';
-$mail->Host = 'mailcluster.loopia.se';
-$mail->Port = 587;
-$mail->SMTPSecure = 'tls';
-$mail->SMTPOptions = array(
-    'ssl' => array(
-        'verify_peer' => false,
-        'verify_peer_name' => false,
-        'allow_self_signed' => true
-    )
-);
-$mail->SMTPAuth = true;
-$mail->Username = GLAVNIMAIL;  // kpoybpurvlplpqlu rizuhphjjczomrvk itclusterserbia@gmail.com
-$mail->Password = PASSMAIL;
-$mail->From = GLAVNIMAIL;
-$mail->FromName = FROMNAME;
-$mail->isHTML(true);
 $mail->addAddress($email, 'Izmena Maila');     // Add a recipient
 //$mail->addReplyTo($email, $korpaime.' '.$korpaprezime);
 //$mail->addCC('cc@example.com');

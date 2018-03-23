@@ -76,20 +76,9 @@ if ($temperature >= $OdPodaciIdeal && $temperature <= $DoPodaciIdeal) {
 
     require RB_ROOT.'/PHPMailer-master/PHPMailerAutoload.php';
 
-    $mail = new PHPMailer;
-//$mail->SMTPDebug = 4;
-    $mail->CharSet = 'UTF-8';
-    $mail->isSMTP();
-    $mail->Debugoutput = 'html';
-    $mail->Host = 'smtp.gmail.com';
-    $mail->Port = 587;
-    $mail->SMTPSecure = 'tls';
-    $mail->SMTPAuth = true;
-    $mail->Username = GLAVNIMAIL;  // kpoybpurvlplpqlu rizuhphjjczomrvk itclusterserbia@gmail.com
-    $mail->Password = PASSMAIL;
-    $mail->From = GLAVNIMAIL;
-    $mail->FromName = FROMNAME;
-    $mail->isHTML(true);
+
+
+    require('../../obradi/ postavkaZaSlanjeMaila.php');
     $mail->addAddress($email, 'Izmena Maila');     // Add a recipient
     //$mail->addReplyTo($email, $korpaime.' '.$korpaprezime);
     //$mail->addCC('cc@example.com');
