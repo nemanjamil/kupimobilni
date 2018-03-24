@@ -38,7 +38,7 @@ if ($ArtikliKupljeniHead) {
         $dani = $v['dani'];
 
 
-        $nakasdKorpa = $common->stanjeOpis($ArtikalStanjeKorpa, $ArtikalMPCena, $sesValuta,
+        $nakasdKorpa = $common->stanjeOpisSveId($ArtikalStanjeKorpa, $ArtikalMPCena, $sesValuta,
             $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId],
             $pravaVpHeader, $pravaMpHeader, $tipUsera, $dani);
         //require(DCROOT.'/stranice/cenaPrikazVarijable.php');
@@ -62,7 +62,7 @@ if ($ArtikliKupljeniHead) {
 }
 $ukupnaKolArt = ($ukupnaKolArt) ? $ukupnaKolArt : 0;
 if ($ukupnaKorpa) {
-	$ukupnaKorpa = $common->formatCena($ukupnaKorpa,$valutasession);
+	$ukupnaKorpa = $common->formatCenaExt($ukupnaKorpa,$valutasession);
 } else {
 	//echo $cenaPoArtKol;
 }

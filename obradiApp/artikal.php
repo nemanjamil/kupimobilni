@@ -177,7 +177,7 @@ if ($keyArt) {
 
     $urlArtiklaLink = '/' . $ArtikalLink . '/' . $ArtikalId;
 
-    $nakasd = $common->stanjeOpis($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
+    $nakasd = $common->stanjeOpisSveId($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
 
     require(DCROOT.'/stranice/cenaPrikazVarijable.php');
 
@@ -230,7 +230,7 @@ if ($keyArt) {
     /*
      * Stanje opis
      * */
-    /*$nakasd = $common->stanjeOpis($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
+    /*$nakasd = $common->stanjeOpisSveId($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
     $cenaPrikaz = $nakasd['cenaPrikaz'];
     $cenaPrikazBroj = $nakasd['cenaPrikazBroj'];
     $stanjeProiz = $nakasd['stanjeProiz'];

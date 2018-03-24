@@ -2,7 +2,7 @@
     <?php
     //if (!$InstaliranAppAnd) {
 
-    $nakasdInfoProizApp = $common->stanjeOpis(  $ArtikalStanje,
+    $nakasdInfoProizApp = $common->stanjeOpisSveId(  $ArtikalStanje,
                                                 $ArtikalMPCena,
                                                 $sesValuta,
                                                 $jsonlang[229][$jezikId],

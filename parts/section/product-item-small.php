@@ -153,7 +153,7 @@ if ($keyArtAr) {
         $slikaMain = $keyArt['slikaMain'];
 
 
-        $nakasd = $common->stanjeOpis($ArtikalStanje, $ArtikalMPCena,
+        $nakasd = $common->stanjeOpisSveId($ArtikalStanje, $ArtikalMPCena,
             $valutasession, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
         require(DCROOT . '/stranice/cenaPrikazVarijable.php');
 

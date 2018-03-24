@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: NemanjaMilivojevic
- * Date: 19.8.15.
- * Time: 14.18
- */
-
 if ($sesKor->login_check() == true) {
     include_once('podaci.php');
     $logged = true;
@@ -41,6 +34,7 @@ $logUser['KomitentTipUsera'] = $KomitentTipUsera;
 $logUser['RegistrovanUBazi'] = $RegistrovanUBazi;
 $logUser['VpKorisnik'] = $VpKorisnik;
 $logUser['KomitentTipPrijave'] = $KomitentTipPrijave;
+$logUser['KomitentValuta'] = $KomitentiValuta;
 
 
 /*if ($KomitentId<=0) {

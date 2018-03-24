@@ -13,7 +13,7 @@
                 $upikPr = "SELECT GetKurs (1, '$sesValuta') * " . TROSKOVIPREVOZA . " as cenaPrevoz";
                 $kPrevoz = $db->rawQueryOne($upikPr);
                 $cprev = $kPrevoz['cenaPrevoz'];
-                $cenaPrevoz = $common->formatCena($cprev, $sesValuta);
+                $cenaPrevoz = $common->formatCenaExt($cprev, $sesValuta);
 
                 $dost .= '<p>' . $jsonlang[279][$jezikId] . ' ' . $cenaPrevoz . '. ' . $jsonlang[253][$jezikId] . '.</p>';
 
@@ -92,12 +92,12 @@
         <tbody>
         <tr>
             <td class="sub-total"><span><?php echo $jsonlang[131][$jezikId]. ' ' .  $jsonlang[288][$jezikId];?> </span></td>
-            <td class="sub-amount"><span><?php echo $common->formatCena($ukupnaKorpa, $valutasession); ?></span></td>
+            <td class="sub-amount"><span><?php echo $common->formatCenaSamoBrojId($ukupnaKorpa, $valutasession); ?></span></td>
         </tr>
         <tr>
             <td class="grand-total"><span><?php echo $jsonlang[131][$jezikId]; ?>:</span></td>
             <td class="total-amount">
-                <span><?php echo $common->formatCena($ukupnaKorpa + $cprev, $valutasession); ?></span></td>
+                <span><?php echo $common->formatCenaSamoBrojId($ukupnaKorpa + $cprev, $valutasession).' '.$common->formatCenaExt($ukupnaKorpa, $valutasession) ?></span></td>
         </tr>
         <tr>
             <td colspan="2" class="cart-button">

@@ -43,6 +43,20 @@ $sortKontroleSes = $common->isEmpty($_SESSION['kontrole']['sortKontrole'],'int')
 
 if(($valutaLangSes>0) && ($stateLangSes>0)  && ($langLangSes>0) && ($limitpostraniSes>0)) {
 
+    /*$valutasession = (int)$_COOKIE[$cookie_name];
+    $langSesionValuta = (int) $_SESSION['valuta'];
+    if ($langSesionValuta != $vrednostCookieValuta) {
+
+        if ($langSesionValuta) {
+            // proveravamo da li imamo session valutu
+            setcookie($cookie_name, $langSesionValuta, time() + (86400 * 30 * 12), '/');
+            $valutasession = $langSesionValuta;
+        } else {
+            // nemamo sesion valutu, pa moramo da je kreiramo
+            // ali imamo COOKIE
+            $langSesionValuta = LOCALIZATION_ENABLED ? $vrednostCookieValuta : LOCALIZATION_CURRENCY;
+        }
+    }*/
     if (LOCALIZATION_ENABLED) {
         $state = (int) $_SESSION['state'];
         $jezikId = (int) $_SESSION['languageId'];

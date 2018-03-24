@@ -7,6 +7,13 @@
         <div class="top">
             <div class="container">
                 <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 top-bar">
+                        <div class="language-currency">
+                            <?php require RB_ROOT . '/parts/widgets/header/language-currency.php'; ?>
+                        </div>
+                        <span class="welcome-msg hidden-xs"><?php echo $jsonlang[13][$jezikId]; ?></span>
+                    </div>
+
                     <!--<div class="col-xs-12 col-sm-12 col-md-4 top-bar">
                         <div class="language-currency">
                             <?php  /* require RB_ROOT . '/parts/widgets/header/language-currency.php'; */ ?>

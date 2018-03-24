@@ -9,10 +9,7 @@
 // da imamo raw queru upit
 //require('infoproizRawQuery.php');
 
-
-
-
-$upitArtArray = "CALL infoproiz($id,'$valutasession', $jezikId, $KomitentId);";
+$upitArtArray = "CALL infoproizAdvance($id,'$valutasession', $jezikId, $KomitentId);";
 $keyArt = $db->rawQueryOne($upitArtArray);
 
 if ($keyArt) {
@@ -69,7 +66,7 @@ if ($keyArt) {
     $title = $ArtikalNaziv;
     $kratakOpis = $ArtikalKratakOpis;
 
-    $nakasdInfoProiz = $common->stanjeOpis($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
+    $nakasdInfoProiz = $common->stanjeOpisSveId($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
     require(DCROOT.'/stranice/cenaPrikazVarijableInfoProiz.php');
 
     require(DCROOT.'/stranice/artBrPregleda.php');

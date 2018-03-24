@@ -151,7 +151,7 @@ class common extends MysqliDb
 
             switch ($sta) {
                 case 'int':
-                    return (int) $varijabla;
+                    return (int)$varijabla;
                     break;
                 default:
                     return $varijabla;
@@ -298,22 +298,47 @@ class common extends MysqliDb
         return $priceFormat;
     }
 
-
-
-    public function formatCena($cena, $valuta)
+    public function formatCenaExt($cena, $valuta)
     {
 
         switch ($valuta) {
-            case 'din':
+            case '1':
+                $priceFormat = 'DIN';
+                break;
+            case '2':
+                $priceFormat = 'GBP';
+                break;
+            case '3':
+                $priceFormat = '$';
+                break;
+            case '4':
+                $priceFormat = '&euro;';
+                break;
+            case '4':
+                $priceFormat = 'RUB;';
+                break;
+            default:
+                $priceFormat = 'DIN';
+        }
+
+        return $priceFormat;
+    }
+
+
+    public function formatCenaVrednostiValuta($cena, $valuta)
+    {
+
+        switch ($valuta) {
+            case 1: //'din':
                 $priceFormat = '<span itemprop="offers" class="value" itemscope itemtype="http://schema.org/Offer"><meta itemprop="priceCurrency" content="RSD" /><span itemprop="price">' . number_format($cena, 2, ",", ".") . ' DIN' . '</span></span>';
                 break;
-            case 'usd':
+            case 3: //'usd':
                 $priceFormat = '<span itemprop="offers" class="value" itemscope itemtype="http://schema.org/Offer"><meta itemprop="priceCurrency" content="USD" /><span itemprop="price"><i class="fa fa-' . $valuta . '"></i>' . number_format($cena, 3, ".", ",") . '</span></span>';
                 break;
-            case 'eur':
+            case 4: //'eur':
                 $priceFormat = '<span itemprop="offers" class="value" itemscope itemtype="http://schema.org/Offer"><meta itemprop="priceCurrency" content="EUR" /><span itemprop="price"><i class="fa fa-' . $valuta . '"></i> ' . number_format($cena, 3, ".", ",") . '</span></span>';
                 break;
-            case 'rub':
+            case 5: //'rub':
                 $priceFormat = '<span itemprop="offers" class="value" itemscope itemtype="http://schema.org/Offer"><meta itemprop="priceCurrency" content="RUB" /><span itemprop="price"><i class="fa fa-' . $valuta . '"></i> ' . number_format($cena, 3, ".", ",") . '</span></span>';
                 break;
             default:
@@ -346,28 +371,7 @@ class common extends MysqliDb
         return $priceFormat;
     }
 
-    public function formatCenaExt($cena, $valuta)
-    {
 
-        switch ($valuta) {
-            case '1':
-                $priceFormat = 'DIN';
-                break;
-            case '2':
-                $priceFormat = '$';
-                break;
-            case '3':
-                $priceFormat = '&euro;';
-                break;
-            case '4':
-                $priceFormat = 'RUB';
-                break;
-            default:
-                $priceFormat = 'DIN';
-        }
-
-        return $priceFormat;
-    }
 
 
     public function valutaIdUString($idValute)
@@ -376,6 +380,9 @@ class common extends MysqliDb
         switch ($idValute) {
             case 1:
                 $priceFormat = 'din';
+                break;
+            case 2:
+                $priceFormat = 'GBP';
                 break;
             case 3:
                 $priceFormat = 'usd';
@@ -1094,14 +1101,14 @@ class common extends MysqliDb
 
     }
 
-    public function stanjeOpis($ArtikalStanje, $ArtikalMPCena, $sesValuta, $m229, $m117, $m116, $pravaVp = false, $pravaMp = false, $tipUsera = false, $dani = false)
+    public function stanjeOpisOLD($ArtikalStanje, $ArtikalMPCena, $sesValuta, $m229, $m117, $m116, $pravaVp = false, $pravaMp = false, $tipUsera = false, $dani = false)
     {
         $r = array();
 
         if ($ArtikalStanje > 0 and $ArtikalMPCena > 0) {
             $r['mozedasekupi'] = 1;
             $r['stanjeProiz'] = $m116;
-            $r['cenaPrikaz'] = ($tipUsera >= 3) ? $this->formatCena($pravaVp, $sesValuta) : $this->formatCena($pravaMp, $sesValuta);
+            $r['cenaPrikaz'] = ($tipUsera >= 3) ? $this->formatCenaId($pravaVp, $sesValuta) : $this->formatCenaId($pravaMp, $sesValuta);
             $cenaPrikazBr = ($tipUsera >= 3) ? $pravaVp : $pravaMp;
             // ovde sam dodao floatval
             $r['cenaPrikazBroj'] = floatval($cenaPrikazBr);
@@ -1125,6 +1132,7 @@ class common extends MysqliDb
         }
 
         return $r;
+
 
     }
 
@@ -1426,9 +1434,10 @@ class common extends MysqliDb
         return $marzaid;
     }
 
-    public  function  kojiMarzaProc($mid){
+    public function  kojiMarzaProc($mid)
+    {
 
-        $mid = (int) $mid;
+        $mid = (int)$mid;
 
         if ($mid) {
             $this->dbConn->where("MarzaId", $mid);
@@ -1438,7 +1447,7 @@ class common extends MysqliDb
 
     }
 
-    public function vendorCode($idvendor,$idartikla)
+    public function vendorCode($idvendor, $idartikla)
     {
         /*$cols = Array ("KomitentKolona");
         $this->dbConn->where("K.KomitentId",$idvendor);
@@ -1447,7 +1456,7 @@ class common extends MysqliDb
             $imev = $users[0]['KomitentKolona'];
         }*/
 
-        $idartikla = (int) $idartikla;
+        $idartikla = (int)$idartikla;
 
         if (!$idartikla) {
             echo 'Ne postoji Artiklal ID';
@@ -1526,19 +1535,20 @@ class common extends MysqliDb
         return $pokazi;
     }
 
-    public function linkoDoArt($ArtikalId) {
+    public function linkoDoArt($ArtikalId)
+    {
 
-        $ArtId =  (int) $ArtikalId;
+        $ArtId = (int)$ArtikalId;
 
         $cols = Array("ArtikalLink", "ArtikalId");
         $this->dbConn->where('ArtikalId', $ArtId);
         $users = $this->dbConn->getOne("artikli", null, $cols);
 
-        if ($users){
+        if ($users) {
             $ArtikalLink = $users['ArtikalLink'];
             $ArtikalId = $users['ArtikalId'];
 
-            return '/'.$ArtikalLink.'/'.$ArtikalId;
+            return '/' . $ArtikalLink . '/' . $ArtikalId;
         }
 
 

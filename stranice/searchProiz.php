@@ -146,7 +146,7 @@ if ($upitArtKat) {
         $srednja_slika = $common->nemaSlike($srednja_slika);
 
 
-        $nakasd = $common->stanjeOpis($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezik], $jsonlang[116][$jezik], $pravaVp, $pravaMp, $tipUsera, $dani);
+        $nakasd = $common->stanjeOpisSveId($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezik], $jsonlang[116][$jezik], $pravaVp, $pravaMp, $tipUsera, $dani);
         require(DCROOT.'/stranice/cenaPrikazVarijable.php');
 
 

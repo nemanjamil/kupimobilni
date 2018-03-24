@@ -42,7 +42,7 @@ if ($m['success']) {
             $dani = $v['dani'];
             $IdUnit = $v['IdUnit'];
 
-            $nakasd = $common->stanjeOpis($ArtikalStanje, $ArtikalMPCena, $valutasession, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
+            $nakasd = $common->stanjeOpisSveId($ArtikalStanje, $ArtikalMPCena, $valutasession, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
             require(DCROOT.'/stranice/cenaPrikazVarijable.php');
 
 

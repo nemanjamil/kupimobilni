@@ -162,7 +162,7 @@ if ($upitArtKat) {
 
         $maloVeca_slika = $common->nemaSlike($maloVeca_slika);
 
-        $nakasd = $common->stanjeOpis($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
+        $nakasd = $common->stanjeOpisSveId($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
 
         $cenaSamoBrojFormat = $nakasd['cenaSamoBrojFormat'];
         $cenaPrikazExt = $nakasd['cenaPrikazExt'];

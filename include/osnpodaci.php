@@ -21,5 +21,6 @@ $OsnPodGoogle = $jsonOsn->OsnPodGoogle;
 $OsnPodTw = $jsonOsn->OsnPodTw;
 $OsnPodYou = $jsonOsn->OsnPodYou;
 $OsnPodInstagram = $jsonOsn->OsnPodInstagram;
+$OsnPodValuta = $jsonOsn->KomitentiValuta;
 
 ?>

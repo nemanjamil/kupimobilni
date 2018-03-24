@@ -214,6 +214,7 @@ class functions extends MysqliDb
         $TipUseraOpis = $sad['TipUseraOpis'];
         $KomitentUserName = $sad['KomitentUserName'];
         $KomitentRabat = $sad['KomitentRabat'];
+        $KomitentiValuta = $sad['KomitentiValuta'];
 
 
         $password = hash('sha512', $passwordprvi . $salt);
@@ -252,7 +253,11 @@ class functions extends MysqliDb
                     $_SESSION['user']['KomitentTipUsera'] = $KorisnikTipUsera;
                     $_SESSION['user']['KomitentRabat'] = $KomitentRabat;
                     $_SESSION['user']['TipUseraOpis'] = $TipUseraOpis;
+                    $_SESSION['user']['KomitentiValuta'] = $KomitentiValuta;
                     $_SESSION['user']['login_string'] = hash('sha512', $KomitentPassword . $user_browser);
+
+                    $_SESSION['valuta'] = $KomitentiValuta;
+
 
                     // echo  'Login successful.'.var_dump($_SESSION);
 

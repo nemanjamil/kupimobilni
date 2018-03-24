@@ -64,12 +64,10 @@ $ukupnaKorpa = '';
 					$pravaMp = $v['pravaMp'];
 					$pravaVp = $v['pravaVp'];
 					$dani = $v['dani'];
-					$nakasd = $common->stanjeOpis($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
+					$nakasd = $common->stanjeOpisSveId($ArtikalStanje, $ArtikalMPCena, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $tipUsera, $dani);
 					require(DCROOT.'/stranice/cenaPrikazVarijable.php');
+
 					$pravaVp = $cenaPrikazBroj;
-
-
-
 
 					$ukupnaKolArt += $KolTempArt;
 					$cenaPoArtKol = $pravaVp*$KolTempArt;
@@ -88,9 +86,10 @@ $ukupnaKorpa = '';
                     $srednja_slika = $lokFolder.'/'.$fileName . '_srednja.' . $ext;
                     $velika_slika = $lokFolder.'/'.$ImeSlikeArtikliSlike;
 
-                    $ukupnaKorpapoArt = $common->formatCena($cenaPoArtKol,$valutasession);
+                    $ukupnaKorpapoArt = $common->formatCenaSamoBrojId($cenaPoArtKol,$valutasession);
 
-                    $pravaVp = $common->formatCena($pravaVp,$valutasession);
+                    $imeValute = $common->formatCenaExtId($cenaPrikazBroj,$valutasession);
+
 
 
 
@@ -130,9 +129,9 @@ $ukupnaKorpa = '';
 							$korpaArt .= '</div>';
 						$korpaArt .= '</td>';
 
-						$korpaArt .= '<td class="product-price"><span class="price">'.$pravaVp.'</span></td>';
+						$korpaArt .= '<td class="product-price"><span class="price">'.$cenaSamoBrojFormat.' '.$imeValute.'</span></td>';
 
-						$korpaArt .= '<td class="product-total"><span class="total">'.$ukupnaKorpapoArt.'</span></td>';
+						$korpaArt .= '<td class="product-total"><span class="total">'.$ukupnaKorpapoArt.' '.$imeValute.'</span></td>';
                         $korpaArt .= '</form>';
 					$korpaArt .= '</tr>';
 

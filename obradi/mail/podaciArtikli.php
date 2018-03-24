@@ -70,7 +70,7 @@ $bodyMail .= '<tbody>';
 
 
 
-                    $nakasdInfoProiz = $common->stanjeOpis($ArtikalStanje, $ArtikalMPCena, $valutasession, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $userTip, $dani);
+                    $nakasdInfoProiz = $common->stanjeOpisSveId($ArtikalStanje, $ArtikalMPCena, $valutasession, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVp, $pravaMp, $userTip, $dani);
                     require(DCROOT.'/stranice/cenaPrikazVarijableInfoProiz.php');
 
                     $ukupnaKolArt += $KolTempArt;

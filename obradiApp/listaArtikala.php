@@ -44,7 +44,7 @@ if (!$ArtikalIdSmall) {
     die;
 }
 
-$nakasd = $common->stanjeOpis($ArtikalStanjeSmall, $ArtikalMPCenaSmall, $valutasession, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVpSmall, $pravaMpSmall, $userTip, $dani);
+$nakasd = $common->stanjeOpisSveId($ArtikalStanjeSmall, $ArtikalMPCenaSmall, $valutasession, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVpSmall, $pravaMpSmall, $userTip, $dani);
 require(DCROOT . '/stranice/cenaPrikazVarijable.php');
 
 // mozeda cemo da stavimo $id = $ArtikalIdSmall;
