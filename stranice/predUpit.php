@@ -85,8 +85,8 @@ CAST(
     (
       CASE
         WHEN KomitentUPdv = 1
-        THEN getkursorg * (ArtikalVPCena - vpjac) * MarzaVP * (PorezVrednost / 100 + 1)
-        ELSE getkursorg * (ArtikalVPCena - vpjac) * MarzaVP
+        THEN getkursorgVP * (ArtikalVPCena - vpjac) * MarzaVP * (PorezVrednost / 100 + 1)
+        ELSE getkursorgVP * (ArtikalVPCena - vpjac) * MarzaVP
       END
    )  AS DECIMAL (12, 3)) AS  pravaVpNeRabat
 
@@ -123,6 +123,7 @@ SELECT
 	) AS MarzaMarza,
 
     GetKurs (KomitentiValuta, $valutasession) AS getkursorg,
+    GetKurs (4, $valutasession) AS getkursorgVP,
     CAST( (A.ArtikalBrOcena / A.ArtikalBrKlikova)	AS SIGNED ) AS ocenaut,
     DATEDIFF(A.ArtikalDostupnoOd, NOW()) as dani,
     (SELECT IF(K.KomitentRabat>0,K.KomitentRabat,0)/100*A.ArtikalVPCena) AS vpjac,

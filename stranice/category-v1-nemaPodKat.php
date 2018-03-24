@@ -100,7 +100,7 @@
 
             <div class="search-result-container">
                 <div id="myTabContent" class="tab-content">
-                    <div class="tab-pane active" id="grid-container">
+                    <div class="tab-pane activeXXX" id="grid-container">
                         <div class="category-product  inner-vs">
                             <div class="row" id="ovdeUbaci">
 
@@ -118,7 +118,7 @@
 
                     </div>
                     <!-- /.tab-pane -->
-                    <div class="tab-pane outer-top-vs activeXXX" id="list-container">
+                    <div class="tab-pane outer-top-vs active" id="list-container">
                         <div class="category-product ">
 
                             <?php require RB_ROOT . '/parts/section/category/category-v1-list-agro.php'; ?>

@@ -52,6 +52,7 @@
 
                             $upitKateg = "CALL listaKategorijaPoIdNew($KaNazKatId,1,$tipUsera,$jezikId,0,3);";
                             $kategLista = $db->rawQuery($upitKateg);
+
                             $rowCount = $db->count;
 
                             if ($kategLista) {

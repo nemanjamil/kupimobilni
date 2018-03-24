@@ -665,3 +665,11 @@ a {
 .pace .pace-progress {
   background: #f39c11;
 }
+
+.controls-product-top {
+  margin: 0px  0 15px 0;
+  border-bottom: 2px solid #f39c11;
+}
+.controls-product-bottom {
+  border-top: 2px solid #f39c11;
+}

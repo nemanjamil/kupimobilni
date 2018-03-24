@@ -38,9 +38,9 @@ if (1==1) {
                 $KatLink = $common->friendly_convert($naziv);
 
                 //$db->startTransaction();
-
+                $kolone = Array("KategorijaArtiklaExtId", "KategorijaArtikalaLink");
                 $db->where('KategorijaArtiklaExtId', $ID);
-                $upit = $db->getOne('kategorijeartikala', null, 'KategorijaArtiklaExtId');
+                $upit = $db->getOne('kategorijeartikala', null, $kolone);
                 $KategorijaArtiklaExtIdUpit = $upit['KategorijaArtiklaExtId'];
 
                 if ($KategorijaArtiklaExtIdUpit) {
@@ -74,9 +74,11 @@ if (1==1) {
 
                 } else {
 
-
-                    // select * from where  KategorijaArtikalaLink= $KatLink ako ima onda
-                    //  $KatLink = $KatLink.rand(1,10);
+                    $db->where('KategorijaArtikalaLink', $KatLink);
+                    $daLiImaKategorijeUrlupit = $db->getOne('kategorijeartikala', null, 'KategorijaArtikalaId');
+                    if ($daLiImaKategorijeUrlupit) {
+                        $KatLink = $KatLink.'-'.mt_rand();
+                    }
 
                     $insert_query = Array(
                         'KategorijaArtiklaExtId' => $ID,

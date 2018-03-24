@@ -601,15 +601,7 @@ class common extends MysqliDb
 
                 $dp .= '</a>';
 
-                $dp .= '<div class="clearfix kojijeId marginadole10 pull-right" data-ime="' . $ArtikalId . '">';
-                    $dp .= '<span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">';
-                    $dp .= '<span itemprop="ratingValue" hidden>'. $ocenaut. '</span>';
-                    for ($irp = 1; $irp <= 5; $irp++) {
-                        $cekstar = ($irp == $ocenaut) ? 'checked' : '';
-                        $dp .= '<input class="starri required" ' . $cekstar . ' type="radio" name="zvezdicaUser-' . $ArtikalId . '" value="' . $irp . '"/>';
-                    }
-                    $dp .= '<span itemprop="reviewCount" hidden>'.$ocenaut.'</span>';
-                $dp .= '</div>';
+
 
             $dp .= '</div><!-- /.product-image -->';
         $dp .= '</div><!-- /col-md-3 col-sm-4 col-xs-12-->';
@@ -618,7 +610,7 @@ class common extends MysqliDb
         /*Opis*/
         //$dp .= '<div class="col-md-9 col-sm-8 col-xs-12">';
         $dp .= '<div class="col-md-7 col-sm-8 col-xs-12">';
-        $dp .= '<div class="product-info">';
+        $dp .= '<div class="product-info text-left">';
         $dp .= '<h3 class="nameJedPrikaz"><a href="' . $urlArtiklaLink . '"><span itemprop="name">' . $ArtikalNaziv . '</span></a></h3>';
 
 
@@ -630,7 +622,7 @@ class common extends MysqliDb
         $dp .= '</div>';
 
 
-        $dp .= '<div class="product-price odvojKategBaner"><span itemprop="offers" itemscope itemtype="http://schema.org/Offer">';
+        $dp .= '<div class="product-price odvojKategBaner "><span itemprop="offers" itemscope itemtype="http://schema.org/Offer">';
             if ($pravaMp > '0') {
                 $dp .= '<ins>';
                 $dp .= '<span class="amount" itemprop="price">' . $cenaSamoBrojFormat . '</span>';
@@ -655,7 +647,7 @@ class common extends MysqliDb
         $hovBackIme = ($ArtikalStanje) ? $ImaNaStanju : 'Nema';
 
         if ($ArtikalStanje == 1):
-            $dp .= '<li>' . $Najmanje . ' : ' . ' <b>' . '<span class="status '.$hovBack.'">'.$hovBackIme.'</span>' . '</b>';
+            $dp .= '<li>' . $Najmanje . ' : ' . ' <b>' . '<span class="status ">'.$hovBackIme.'</span>' . '</b>'; //'.$hovBack.'
             $dp .= '</li>';
         endif;
 
@@ -667,6 +659,17 @@ class common extends MysqliDb
         $dp .= '</ul>';
         $dp .= '</div>';
         // kraj specifikacije
+
+        $dp .= '<div class="clearfix kojijeId marginadole10 pull-left" data-ime="' . $ArtikalId . '">';
+        $dp .= '<span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">';
+        $dp .= '<span itemprop="ratingValue" hidden>'. $ocenaut. '</span>';
+        for ($irp = 1; $irp <= 5; $irp++) {
+            $cekstar = ($irp == $ocenaut) ? 'checked' : '';
+            $dp .= '<input class="starri required" ' . $cekstar . ' type="radio" name="zvezdicaUser-' . $ArtikalId . '" value="' . $irp . '"/>';
+        }
+        $dp .= '<span itemprop="reviewCount" hidden>'.$ocenaut.'</span>';
+        $dp .= '</div>';
+
 
         if ($OpisArtTekst):
             $dp .= '<div class="product-short-desc">';

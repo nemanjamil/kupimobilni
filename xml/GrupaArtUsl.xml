@@ -145,10 +145,10 @@
         <ID>13</ID>
         <sifra>09.01.01.</sifra>
         <naziv>ALATI/HEMIJA</naziv>
-        <ceonaziv>ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1470</IDnadredjene>
         <sifranadredjene>09.01.</sifranadredjene>
-        <nazivnadredjene>!OSTALE TORBICE</nazivnadredjene>
+        <nazivnadredjene>ALATI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table14" msdata:rowOrder="13">
@@ -2464,7 +2464,7 @@
         <ID>272</ID>
         <sifra>09.01.01.12.</sifra>
         <naziv>Srafciger</naziv>
-        <ceonaziv>Srafciger, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Srafciger, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -2474,7 +2474,7 @@
         <ID>273</ID>
         <sifra>09.01.01.11.</sifra>
         <naziv>Set srafcigera</naziv>
-        <ceonaziv>Set srafcigera, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Set srafcigera, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -2484,7 +2484,7 @@
         <ID>274</ID>
         <sifra>09.01.01.10.</sifra>
         <naziv>Pinceta</naziv>
-        <ceonaziv>Pinceta, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Pinceta, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -2494,7 +2494,7 @@
         <ID>275</ID>
         <sifra>09.01.01.04.</sifra>
         <naziv>Flux</naziv>
-        <ceonaziv>Flux, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Flux, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -2504,7 +2504,7 @@
         <ID>276</ID>
         <sifra>09.01.01.01.</sifra>
         <naziv>Alat za otvaranje</naziv>
-        <ceonaziv>Alat za otvaranje, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Alat za otvaranje, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -2514,7 +2514,7 @@
         <ID>277</ID>
         <sifra>09.01.01.14.</sifra>
         <naziv>Trake</naziv>
-        <ceonaziv>Trake, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Trake, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -2524,7 +2524,7 @@
         <ID>278</ID>
         <sifra>09.01.01.08.</sifra>
         <naziv>Mikroskopi</naziv>
-        <ceonaziv>Mikroskopi, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Mikroskopi, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -2534,7 +2534,7 @@
         <ID>279</ID>
         <sifra>09.01.01.16.</sifra>
         <naziv>Vrh za lemilicu</naziv>
-        <ceonaziv>Vrh za lemilicu, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Vrh za lemilicu, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -3911,10 +3911,9 @@
         <ID>438</ID>
         <sifra>07.09.01.</sifra>
         <naziv>Setovi za ciscenje,zakljucavanje</naziv>
-        <ceonaziv>Setovi za ciscenje,zakljucavanje, izbaciti Razno, IZBACITI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>437</IDnadredjene>
-        <sifranadredjene>07.09.</sifranadredjene>
-        <nazivnadredjene>IZBACITI RAZNO</nazivnadredjene>
+        <ceonaziv>Setovi za ciscenje,zakljucavanje, IZBACITI OSTALO, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2139</IDnadredjene>
+        <nazivnadredjene>IZBACITI OSTALO</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table393" msdata:rowOrder="392">
@@ -4507,7 +4506,7 @@
         <ID>517</ID>
         <sifra>09.01.01.07.</sifra>
         <naziv>Merni uredjaji</naziv>
-        <ceonaziv>Merni uredjaji, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Merni uredjaji, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -5431,7 +5430,7 @@
         <ID>709</ID>
         <sifra>09.01.01.03.</sifra>
         <naziv>Duvaljke i lemilice</naziv>
-        <ceonaziv>Duvaljke i lemilice, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Duvaljke i lemilice, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -5441,7 +5440,7 @@
         <ID>710</ID>
         <sifra>09.01.01.15.</sifra>
         <naziv>Ultrazvucne kadice</naziv>
-        <ceonaziv>Ultrazvucne kadice, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Ultrazvucne kadice, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -5451,7 +5450,7 @@
         <ID>711</ID>
         <sifra>09.01.01.06.</sifra>
         <naziv>Kljesta</naziv>
-        <ceonaziv>Kljesta, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Kljesta, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -5461,7 +5460,7 @@
         <ID>712</ID>
         <sifra>09.01.01.09.</sifra>
         <naziv>Ostalo</naziv>
-        <ceonaziv>Ostalo, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Ostalo, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -5489,10 +5488,10 @@
         <ID>716</ID>
         <sifra>09.12.15.44.</sifra>
         <naziv>Teracell za Iphone i Samsung</naziv>
-        <ceonaziv>Teracell za Iphone i Samsung, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2128</IDnadredjene>
-        <nazivnadredjene>Torbice Teracell outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>Teracell za Iphone i Samsung, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2138</IDnadredjene>
+        <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table553" msdata:rowOrder="552">
         <ID>717</ID>
@@ -5516,10 +5515,10 @@
         <ID>719</ID>
         <sifra>09.12.15.07.</sifra>
         <naziv>TORBICE TERACELL DEFENDER</naziv>
-        <ceonaziv>TORBICE TERACELL DEFENDER, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2128</IDnadredjene>
-        <nazivnadredjene>Torbice Teracell outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>TORBICE TERACELL DEFENDER, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table556" msdata:rowOrder="555">
         <ID>720</ID>
@@ -5980,11 +5979,11 @@
       <Table diffgr:id="Table602" msdata:rowOrder="601">
         <ID>777</ID>
         <sifra>09.12.15.37.</sifra>
-        <naziv>Teracell Ultimate</naziv>
-        <ceonaziv>Teracell Ultimate, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2128</IDnadredjene>
-        <nazivnadredjene>Torbice Teracell outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE TERACELL ULTIMATE</naziv>
+        <ceonaziv>TORBICE TERACELL ULTIMATE, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table603" msdata:rowOrder="602">
         <ID>778</ID>
@@ -7900,7 +7899,7 @@
         <ID>997</ID>
         <sifra>09.01.01.13.</sifra>
         <naziv>Termalne paste za CPU/GPU</naziv>
-        <ceonaziv>Termalne paste za CPU/GPU, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Termalne paste za CPU/GPU, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -8208,11 +8207,11 @@
       <Table diffgr:id="Table827" msdata:rowOrder="826">
         <ID>1035</ID>
         <sifra>09.12.15.39.</sifra>
-        <naziv>Teracell Unique</naziv>
-        <ceonaziv>Teracell Unique, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2128</IDnadredjene>
-        <nazivnadredjene>Torbice Teracell outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE TERACELL UNIQUE</naziv>
+        <ceonaziv>TORBICE TERACELL UNIQUE, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table828" msdata:rowOrder="827">
         <ID>1039</ID>
@@ -8227,10 +8226,10 @@
         <ID>1037</ID>
         <sifra>09.12.15.04.</sifra>
         <naziv>TORBICE TERACELL CLASSIC</naziv>
-        <ceonaziv>TORBICE TERACELL CLASSIC, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2128</IDnadredjene>
-        <nazivnadredjene>Torbice Teracell outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <ceonaziv>TORBICE TERACELL CLASSIC, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table830" msdata:rowOrder="829">
         <ID>1038</ID>
@@ -8400,11 +8399,11 @@
       <Table diffgr:id="Table847" msdata:rowOrder="846">
         <ID>1068</ID>
         <sifra>09.12.15.41.</sifra>
-        <naziv>Teracell vogue</naziv>
-        <ceonaziv>Teracell vogue, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2128</IDnadredjene>
-        <nazivnadredjene>Torbice Teracell outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE TERACELL VOGUE</naziv>
+        <ceonaziv>TORBICE TERACELL VOGUE, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table848" msdata:rowOrder="847">
         <ID>1069</ID>
@@ -8457,7 +8456,7 @@
       <Table diffgr:id="Table853" msdata:rowOrder="852">
         <ID>1076</ID>
         <sifra>09.12.01.137.</sifra>
-        <naziv>Torbice transparent</naziv>
+        <naziv>TORBICE TRANSPARENT</naziv>
         <ceonaziv>Torbice transparent, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>2126</IDnadredjene>
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
@@ -8470,7 +8469,7 @@
         <ceonaziv>Samsung torbice transparent, Torbice transparent, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1076</IDnadredjene>
         <sifranadredjene>09.12.01.137.</sifranadredjene>
-        <nazivnadredjene>Torbice transparent</nazivnadredjene>
+        <nazivnadredjene>TORBICE TRANSPARENT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table855" msdata:rowOrder="854">
@@ -8480,7 +8479,7 @@
         <ceonaziv>iPhone torbice transparent, Torbice transparent, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1076</IDnadredjene>
         <sifranadredjene>09.12.01.137.</sifranadredjene>
-        <nazivnadredjene>Torbice transparent</nazivnadredjene>
+        <nazivnadredjene>TORBICE TRANSPARENT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table856" msdata:rowOrder="855">
@@ -8490,7 +8489,7 @@
         <ceonaziv>Sony Xperia torbice transparent, Torbice transparent, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1076</IDnadredjene>
         <sifranadredjene>09.12.01.137.</sifranadredjene>
-        <nazivnadredjene>Torbice transparent</nazivnadredjene>
+        <nazivnadredjene>TORBICE TRANSPARENT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table857" msdata:rowOrder="856">
@@ -8863,11 +8862,11 @@
       <Table diffgr:id="Table894" msdata:rowOrder="893">
         <ID>1119</ID>
         <sifra>09.12.15.38.</sifra>
-        <naziv>Teracell Ultra light</naziv>
-        <ceonaziv>Teracell Ultra light, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2128</IDnadredjene>
-        <nazivnadredjene>Torbice Teracell outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE TERACELL ULTRA LIGHT</naziv>
+        <ceonaziv>TORBICE TERACELL ULTRA LIGHT, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table895" msdata:rowOrder="894">
         <ID>1129</ID>
@@ -8882,66 +8881,66 @@
         <ID>1121</ID>
         <sifra>09.12.15.38.01.</sifra>
         <naziv>HTC Teracell Ultra light</naziv>
-        <ceonaziv>HTC Teracell Ultra light, Teracell Ultra light, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>HTC Teracell Ultra light, TORBICE TERACELL ULTRA LIGHT, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1119</IDnadredjene>
         <sifranadredjene>09.12.15.38.</sifranadredjene>
-        <nazivnadredjene>Teracell Ultra light</nazivnadredjene>
-        <nivo>4</nivo>
+        <nazivnadredjene>TORBICE TERACELL ULTRA LIGHT</nazivnadredjene>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table897" msdata:rowOrder="896">
         <ID>1124</ID>
         <sifra>09.12.15.38.02.</sifra>
         <naziv>Iphone Teracell Ultra light</naziv>
-        <ceonaziv>Iphone Teracell Ultra light, Teracell Ultra light, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Iphone Teracell Ultra light, TORBICE TERACELL ULTRA LIGHT, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1119</IDnadredjene>
         <sifranadredjene>09.12.15.38.</sifranadredjene>
-        <nazivnadredjene>Teracell Ultra light</nazivnadredjene>
-        <nivo>4</nivo>
+        <nazivnadredjene>TORBICE TERACELL ULTRA LIGHT</nazivnadredjene>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table898" msdata:rowOrder="897">
         <ID>1125</ID>
         <sifra>09.12.15.38.03.</sifra>
         <naziv>LG Teracell Ultra light</naziv>
-        <ceonaziv>LG Teracell Ultra light, Teracell Ultra light, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>LG Teracell Ultra light, TORBICE TERACELL ULTRA LIGHT, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1119</IDnadredjene>
         <sifranadredjene>09.12.15.38.</sifranadredjene>
-        <nazivnadredjene>Teracell Ultra light</nazivnadredjene>
-        <nivo>4</nivo>
+        <nazivnadredjene>TORBICE TERACELL ULTRA LIGHT</nazivnadredjene>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table899" msdata:rowOrder="898">
         <ID>1126</ID>
         <sifra>09.12.15.38.04.</sifra>
         <naziv>Nokia Teracell Ultra light</naziv>
-        <ceonaziv>Nokia Teracell Ultra light, Teracell Ultra light, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Nokia Teracell Ultra light, TORBICE TERACELL ULTRA LIGHT, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1119</IDnadredjene>
         <sifranadredjene>09.12.15.38.</sifranadredjene>
-        <nazivnadredjene>Teracell Ultra light</nazivnadredjene>
-        <nivo>4</nivo>
+        <nazivnadredjene>TORBICE TERACELL ULTRA LIGHT</nazivnadredjene>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table900" msdata:rowOrder="899">
         <ID>1127</ID>
         <sifra>09.12.15.38.05.</sifra>
         <naziv>Samsung Teracell Ultra light</naziv>
-        <ceonaziv>Samsung Teracell Ultra light, Teracell Ultra light, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Samsung Teracell Ultra light, TORBICE TERACELL ULTRA LIGHT, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1119</IDnadredjene>
         <sifranadredjene>09.12.15.38.</sifranadredjene>
-        <nazivnadredjene>Teracell Ultra light</nazivnadredjene>
-        <nivo>4</nivo>
+        <nazivnadredjene>TORBICE TERACELL ULTRA LIGHT</nazivnadredjene>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table901" msdata:rowOrder="900">
         <ID>1128</ID>
         <sifra>09.12.15.38.06.</sifra>
         <naziv>Sony Teracell Ultra light</naziv>
-        <ceonaziv>Sony Teracell Ultra light, Teracell Ultra light, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Sony Teracell Ultra light, TORBICE TERACELL ULTRA LIGHT, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1119</IDnadredjene>
         <sifranadredjene>09.12.15.38.</sifranadredjene>
-        <nazivnadredjene>Teracell Ultra light</nazivnadredjene>
-        <nivo>4</nivo>
+        <nazivnadredjene>TORBICE TERACELL ULTRA LIGHT</nazivnadredjene>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table902" msdata:rowOrder="901">
         <ID>1132</ID>
         <sifra>09.12.01.140.</sifra>
-        <naziv>Torbice univerzalne bi fold</naziv>
+        <naziv>TORBICE UNIVERZALNE BI FOLD</naziv>
         <ceonaziv>Torbice univerzalne bi fold, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>2126</IDnadredjene>
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
@@ -9000,8 +8999,8 @@
       <Table diffgr:id="Table908" msdata:rowOrder="907">
         <ID>1140</ID>
         <sifra>09.12.15.36.</sifra>
-        <naziv>Teracell Twinkle</naziv>
-        <ceonaziv>Teracell Twinkle, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <naziv>TORBICE TERACELL TWINKLE</naziv>
+        <ceonaziv>TORBICE TERACELL TWINKLE, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>2126</IDnadredjene>
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
@@ -9028,11 +9027,11 @@
       <Table diffgr:id="Table911" msdata:rowOrder="910">
         <ID>1145</ID>
         <sifra>09.12.15.40.</sifra>
-        <naziv>Teracell View</naziv>
-        <ceonaziv>Teracell View, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2128</IDnadredjene>
-        <nazivnadredjene>Torbice Teracell outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE TERACELL VIEW</naziv>
+        <ceonaziv>TORBICE TERACELL VIEW, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table912" msdata:rowOrder="911">
         <ID>1144</ID>
@@ -9048,11 +9047,11 @@
         <ID>1146</ID>
         <sifra>09.12.15.40.03.</sifra>
         <naziv>Samsung Teracell View</naziv>
-        <ceonaziv>Samsung Teracell View, Teracell View, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Samsung Teracell View, TORBICE TERACELL VIEW, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1145</IDnadredjene>
         <sifranadredjene>09.12.15.40.</sifranadredjene>
-        <nazivnadredjene>Teracell View</nazivnadredjene>
-        <nivo>4</nivo>
+        <nazivnadredjene>TORBICE TERACELL VIEW</nazivnadredjene>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table914" msdata:rowOrder="913">
         <ID>1147</ID>
@@ -9108,21 +9107,21 @@
         <ID>1152</ID>
         <sifra>09.12.15.40.01.</sifra>
         <naziv>iPhone Teracell View</naziv>
-        <ceonaziv>iPhone Teracell View, Teracell View, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>iPhone Teracell View, TORBICE TERACELL VIEW, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1145</IDnadredjene>
         <sifranadredjene>09.12.15.40.</sifranadredjene>
-        <nazivnadredjene>Teracell View</nazivnadredjene>
-        <nivo>4</nivo>
+        <nazivnadredjene>TORBICE TERACELL VIEW</nazivnadredjene>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table920" msdata:rowOrder="919">
         <ID>1154</ID>
         <sifra>09.12.15.40.02.</sifra>
         <naziv>LG Teracell View</naziv>
-        <ceonaziv>LG Teracell View, Teracell View, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>LG Teracell View, TORBICE TERACELL VIEW, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1145</IDnadredjene>
         <sifranadredjene>09.12.15.40.</sifranadredjene>
-        <nazivnadredjene>Teracell View</nazivnadredjene>
-        <nivo>4</nivo>
+        <nazivnadredjene>TORBICE TERACELL VIEW</nazivnadredjene>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table921" msdata:rowOrder="920">
         <ID>1155</ID>
@@ -9422,10 +9421,10 @@
         <ID>1805</ID>
         <sifra>09.12.11.03.13.</sifra>
         <naziv>Tesla Print Case</naziv>
-        <ceonaziv>Tesla Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Tesla Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table952" msdata:rowOrder="951">
@@ -9492,10 +9491,10 @@
         <ID>1640</ID>
         <sifra>09.12.11.08.05.</sifra>
         <naziv>Lenovo Skin Print Case</naziv>
-        <ceonaziv>Lenovo Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Lenovo Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table959" msdata:rowOrder="958">
@@ -9802,7 +9801,7 @@
         <ID>1303</ID>
         <sifra>09.12.11.04.04.</sifra>
         <naziv>iPhone Print Torbice</naziv>
-        <ceonaziv>iPhone Print Torbice, Giulietta Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>iPhone Print Torbice, Giulietta Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1208</IDnadredjene>
         <sifranadredjene>09.12.11.04.</sifranadredjene>
         <nazivnadredjene>Giulietta Print Torbice</nazivnadredjene>
@@ -9812,7 +9811,7 @@
         <ID>1304</ID>
         <sifra>09.12.11.04.05.</sifra>
         <naziv>LG Print Torbice</naziv>
-        <ceonaziv>LG Print Torbice, Giulietta Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>LG Print Torbice, Giulietta Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1208</IDnadredjene>
         <sifranadredjene>09.12.11.04.</sifranadredjene>
         <nazivnadredjene>Giulietta Print Torbice</nazivnadredjene>
@@ -9822,7 +9821,7 @@
         <ID>1305</ID>
         <sifra>09.12.11.04.06.</sifra>
         <naziv>Nokia Print Torbice</naziv>
-        <ceonaziv>Nokia Print Torbice, Giulietta Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Nokia Print Torbice, Giulietta Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1208</IDnadredjene>
         <sifranadredjene>09.12.11.04.</sifranadredjene>
         <nazivnadredjene>Giulietta Print Torbice</nazivnadredjene>
@@ -9832,7 +9831,7 @@
         <ID>1306</ID>
         <sifra>09.12.11.04.07.</sifra>
         <naziv>Samsung Print Torbice</naziv>
-        <ceonaziv>Samsung Print Torbice, Giulietta Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Samsung Print Torbice, Giulietta Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1208</IDnadredjene>
         <sifranadredjene>09.12.11.04.</sifranadredjene>
         <nazivnadredjene>Giulietta Print Torbice</nazivnadredjene>
@@ -9842,7 +9841,7 @@
         <ID>1307</ID>
         <sifra>09.12.11.04.08.</sifra>
         <naziv>Sony Xperia Print Torbice</naziv>
-        <ceonaziv>Sony Xperia Print Torbice, Giulietta Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Sony Xperia Print Torbice, Giulietta Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1208</IDnadredjene>
         <sifranadredjene>09.12.11.04.</sifranadredjene>
         <nazivnadredjene>Giulietta Print Torbice</nazivnadredjene>
@@ -9852,7 +9851,7 @@
         <ID>1308</ID>
         <sifra>09.12.11.04.09.</sifra>
         <naziv>ZTE Print Torbice</naziv>
-        <ceonaziv>ZTE Print Torbice, Giulietta Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>ZTE Print Torbice, Giulietta Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1208</IDnadredjene>
         <sifranadredjene>09.12.11.04.</sifranadredjene>
         <nazivnadredjene>Giulietta Print Torbice</nazivnadredjene>
@@ -9939,16 +9938,16 @@
         <ID>1275</ID>
         <sifra>09.12.15.40.04.</sifra>
         <naziv>Sony Xperia Teracell View</naziv>
-        <ceonaziv>Sony Xperia Teracell View, Teracell View, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Sony Xperia Teracell View, TORBICE TERACELL VIEW, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1145</IDnadredjene>
         <sifranadredjene>09.12.15.40.</sifranadredjene>
-        <nazivnadredjene>Teracell View</nazivnadredjene>
-        <nivo>4</nivo>
+        <nazivnadredjene>TORBICE TERACELL VIEW</nazivnadredjene>
+        <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1004" msdata:rowOrder="1003">
         <ID>1276</ID>
         <sifra>09.12.11.10.</sifra>
-        <naziv>Torbice Bi fold print</naziv>
+        <naziv>TORBICE BI FOLD PRINT </naziv>
         <ceonaziv>Torbice Bi fold print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1267</IDnadredjene>
         <sifranadredjene>09.12.11.</sifranadredjene>
@@ -10187,20 +10186,20 @@
       <Table diffgr:id="Table1028" msdata:rowOrder="1027">
         <ID>1260</ID>
         <sifra>09.12.15.43.</sifra>
-        <naziv>Teracell Vogue view</naziv>
-        <ceonaziv>Teracell Vogue view, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2128</IDnadredjene>
-        <nazivnadredjene>Torbice Teracell outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE TERACELL VOGUE VIEW</naziv>
+        <ceonaziv>TORBICE TERACELL VOGUE VIEW, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1029" msdata:rowOrder="1028">
         <ID>1261</ID>
         <sifra>09.12.11.09.</sifra>
         <naziv>Skin Print Torbice</naziv>
-        <ceonaziv>Skin Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Skin Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1539</IDnadredjene>
         <sifranadredjene>09.12.11.07.</sifranadredjene>
-        <nazivnadredjene>PRINT AKCIJA</nazivnadredjene>
+        <nazivnadredjene>PRINT TORBICE NA RASPRODAJI</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1030" msdata:rowOrder="1029">
@@ -10475,10 +10474,10 @@
         <ID>1439</ID>
         <sifra>09.12.11.08.02.</sifra>
         <naziv>HTC Skin Print Case</naziv>
-        <ceonaziv>HTC Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>HTC Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1058" msdata:rowOrder="1057">
@@ -10563,7 +10562,7 @@
         <ID>1448</ID>
         <sifra>09.01.01.05.</sifra>
         <naziv>Kalup</naziv>
-        <ceonaziv>Kalup, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Kalup, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -10606,7 +10605,7 @@
         <ceonaziv>Alcatel Bi Fold Print Torbice, Torbice Bi fold print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1276</IDnadredjene>
         <sifranadredjene>09.12.11.10.</sifranadredjene>
-        <nazivnadredjene>Torbice Bi fold print</nazivnadredjene>
+        <nazivnadredjene>TORBICE BI FOLD PRINT </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1071" msdata:rowOrder="1070">
@@ -10616,7 +10615,7 @@
         <ceonaziv>Sony Xperia Bi Fold Print Torbice, Torbice Bi fold print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1276</IDnadredjene>
         <sifranadredjene>09.12.11.10.</sifranadredjene>
-        <nazivnadredjene>Torbice Bi fold print</nazivnadredjene>
+        <nazivnadredjene>TORBICE BI FOLD PRINT </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1072" msdata:rowOrder="1071">
@@ -10731,8 +10730,8 @@
       <Table diffgr:id="Table1083" msdata:rowOrder="1082">
         <ID>1470</ID>
         <sifra>09.01.</sifra>
-        <naziv>!OSTALE TORBICE</naziv>
-        <ceonaziv>!OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <naziv>ALATI</naziv>
+        <ceonaziv>ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>48</IDnadredjene>
         <sifranadredjene>09.</sifranadredjene>
         <nazivnadredjene>MOBILNI</nazivnadredjene>
@@ -10752,20 +10751,20 @@
         <ID>1473</ID>
         <sifra>09.12.11.03.09.</sifra>
         <naziv>Microsoft Print Case</naziv>
-        <ceonaziv>Microsoft Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Microsoft Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1086" msdata:rowOrder="1085">
         <ID>1474</ID>
         <sifra>09.12.11.08.08.</sifra>
         <naziv>Microsoft Skin Print Case</naziv>
-        <ceonaziv>Microsoft Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Microsoft Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1087" msdata:rowOrder="1086">
@@ -11000,10 +10999,10 @@
         <ID>1208</ID>
         <sifra>09.12.11.04.</sifra>
         <naziv>Giulietta Print Torbice</naziv>
-        <ceonaziv>Giulietta Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Giulietta Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1539</IDnadredjene>
         <sifranadredjene>09.12.11.07.</sifranadredjene>
-        <nazivnadredjene>PRINT AKCIJA</nazivnadredjene>
+        <nazivnadredjene>PRINT TORBICE NA RASPRODAJI</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1111" msdata:rowOrder="1110">
@@ -11317,10 +11316,10 @@
         <ID>1688</ID>
         <sifra>09.01.02.</sifra>
         <naziv>BGA</naziv>
-        <ceonaziv>BGA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>BGA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1470</IDnadredjene>
         <sifranadredjene>09.01.</sifranadredjene>
-        <nazivnadredjene>!OSTALE TORBICE</nazivnadredjene>
+        <nazivnadredjene>ALATI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1143" msdata:rowOrder="1142">
@@ -11405,7 +11404,7 @@
         <ID>1699</ID>
         <sifra>09.01.02.02.</sifra>
         <naziv>BGA STANICE</naziv>
-        <ceonaziv>BGA STANICE, BGA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>BGA STANICE, BGA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1688</IDnadredjene>
         <sifranadredjene>09.01.02.</sifranadredjene>
         <nazivnadredjene>BGA</nazivnadredjene>
@@ -11415,7 +11414,7 @@
         <ID>1700</ID>
         <sifra>09.01.02.01.</sifra>
         <naziv>BGA OPREMA</naziv>
-        <ceonaziv>BGA OPREMA, BGA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>BGA OPREMA, BGA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1688</IDnadredjene>
         <sifranadredjene>09.01.02.</sifranadredjene>
         <nazivnadredjene>BGA</nazivnadredjene>
@@ -11561,10 +11560,10 @@
         <ID>1536</ID>
         <sifra>09.12.11.08.01.</sifra>
         <naziv>Alcatel Skin Print Case</naziv>
-        <ceonaziv>Alcatel Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Alcatel Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1168" msdata:rowOrder="1167">
@@ -11600,8 +11599,8 @@
       <Table diffgr:id="Table1171" msdata:rowOrder="1170">
         <ID>1539</ID>
         <sifra>09.12.11.07.</sifra>
-        <naziv>PRINT AKCIJA</naziv>
-        <ceonaziv>Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <naziv>PRINT TORBICE NA RASPRODAJI</naziv>
+        <ceonaziv>PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1267</IDnadredjene>
         <sifranadredjene>09.12.11.</sifranadredjene>
         <nazivnadredjene>TORBICE PRINT</nazivnadredjene>
@@ -11651,10 +11650,10 @@
         <ID>1708</ID>
         <sifra>09.12.11.08.07.</sifra>
         <naziv>Meizu Skin Print Case</naziv>
-        <ceonaziv>Meizu Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Meizu Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1177" msdata:rowOrder="1176">
@@ -11927,7 +11926,7 @@
       <Table diffgr:id="Table1204" msdata:rowOrder="1203">
         <ID>1571</ID>
         <sifra>09.12.11.11.</sifra>
-        <naziv>Torbice Vogue Stripe print</naziv>
+        <naziv>TORBICE VOGUE STRIPE PRINT</naziv>
         <ceonaziv>Torbice Vogue Stripe print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1267</IDnadredjene>
         <sifranadredjene>09.12.11.</sifranadredjene>
@@ -12108,10 +12107,10 @@
         <ID>1758</ID>
         <sifra>09.12.11.03.03.</sifra>
         <naziv>Coolpad Print Case</naziv>
-        <ceonaziv>Coolpad Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Coolpad Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1224" msdata:rowOrder="1223">
@@ -12196,7 +12195,7 @@
         <ceonaziv>iPhone Vogue Stripe print torbice, Torbice Vogue Stripe print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1571</IDnadredjene>
         <sifranadredjene>09.12.11.11.</sifranadredjene>
-        <nazivnadredjene>Torbice Vogue Stripe print</nazivnadredjene>
+        <nazivnadredjene>TORBICE VOGUE STRIPE PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1233" msdata:rowOrder="1232">
@@ -12206,7 +12205,7 @@
         <ceonaziv>LG Vogue Stripe print torbice, Torbice Vogue Stripe print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1571</IDnadredjene>
         <sifranadredjene>09.12.11.11.</sifranadredjene>
-        <nazivnadredjene>Torbice Vogue Stripe print</nazivnadredjene>
+        <nazivnadredjene>TORBICE VOGUE STRIPE PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1234" msdata:rowOrder="1233">
@@ -12216,7 +12215,7 @@
         <ceonaziv>Samsung Vogue Stripe print torbice, Torbice Vogue Stripe print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1571</IDnadredjene>
         <sifranadredjene>09.12.11.11.</sifranadredjene>
-        <nazivnadredjene>Torbice Vogue Stripe print</nazivnadredjene>
+        <nazivnadredjene>TORBICE VOGUE STRIPE PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1235" msdata:rowOrder="1234">
@@ -12326,10 +12325,11 @@
       <Table diffgr:id="Table1246" msdata:rowOrder="1245">
         <ID>1587</ID>
         <sifra>09.12.01.146.</sifra>
-        <naziv>Torbice Younicou</naziv>
-        <ceonaziv>Torbice Younicou, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2126</IDnadredjene>
-        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <naziv>TORBICE YOUNICOU</naziv>
+        <ceonaziv>TORBICE YOUNICOU, TORBICE , MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>1459</IDnadredjene>
+        <sifranadredjene>09.12.</sifranadredjene>
+        <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1247" msdata:rowOrder="1246">
@@ -12357,7 +12357,7 @@
         <ceonaziv>Microsoft Bi Fold Print Torbice, Torbice Bi fold print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1276</IDnadredjene>
         <sifranadredjene>09.12.11.10.</sifranadredjene>
-        <nazivnadredjene>Torbice Bi fold print</nazivnadredjene>
+        <nazivnadredjene>TORBICE BI FOLD PRINT </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1250" msdata:rowOrder="1249">
@@ -12367,7 +12367,7 @@
         <ceonaziv>HTC Bi fold Print Torbice, Torbice Bi fold print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1276</IDnadredjene>
         <sifranadredjene>09.12.11.10.</sifranadredjene>
-        <nazivnadredjene>Torbice Bi fold print</nazivnadredjene>
+        <nazivnadredjene>TORBICE BI FOLD PRINT </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1251" msdata:rowOrder="1250">
@@ -12453,8 +12453,8 @@
       <Table diffgr:id="Table1259" msdata:rowOrder="1258">
         <ID>1598</ID>
         <sifra>09.12.11.01.</sifra>
-        <naziv>Bi Fold Print Case</naziv>
-        <ceonaziv>Bi Fold Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
+        <naziv>BI FOLD </naziv>
+        <ceonaziv>BI FOLD , TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1267</IDnadredjene>
         <sifranadredjene>09.12.11.</sifranadredjene>
         <nazivnadredjene>TORBICE PRINT</nazivnadredjene>
@@ -12464,50 +12464,50 @@
         <ID>1599</ID>
         <sifra>09.12.11.01.01.</sifra>
         <naziv>Alcatel Bi Fold Print Case</naziv>
-        <ceonaziv>Alcatel Bi Fold Print Case, Bi Fold Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Alcatel Bi Fold Print Case, BI FOLD , TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1598</IDnadredjene>
         <sifranadredjene>09.12.11.01.</sifranadredjene>
-        <nazivnadredjene>Bi Fold Print Case</nazivnadredjene>
+        <nazivnadredjene>BI FOLD </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1261" msdata:rowOrder="1260">
         <ID>1600</ID>
         <sifra>09.12.11.01.06.</sifra>
         <naziv>LG Bi Fold Print Case</naziv>
-        <ceonaziv>LG Bi Fold Print Case, Bi Fold Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>LG Bi Fold Print Case, BI FOLD , TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1598</IDnadredjene>
         <sifranadredjene>09.12.11.01.</sifranadredjene>
-        <nazivnadredjene>Bi Fold Print Case</nazivnadredjene>
+        <nazivnadredjene>BI FOLD </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1262" msdata:rowOrder="1261">
         <ID>1601</ID>
         <sifra>09.12.11.01.04.</sifra>
         <naziv>iPhone Bi Fold Print Case</naziv>
-        <ceonaziv>iPhone Bi Fold Print Case, Bi Fold Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>iPhone Bi Fold Print Case, BI FOLD , TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1598</IDnadredjene>
         <sifranadredjene>09.12.11.01.</sifranadredjene>
-        <nazivnadredjene>Bi Fold Print Case</nazivnadredjene>
+        <nazivnadredjene>BI FOLD </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1263" msdata:rowOrder="1262">
         <ID>1602</ID>
         <sifra>09.12.11.01.08.</sifra>
         <naziv>Samsung Bi Fold Print Case</naziv>
-        <ceonaziv>Samsung Bi Fold Print Case, Bi Fold Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Samsung Bi Fold Print Case, BI FOLD , TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1598</IDnadredjene>
         <sifranadredjene>09.12.11.01.</sifranadredjene>
-        <nazivnadredjene>Bi Fold Print Case</nazivnadredjene>
+        <nazivnadredjene>BI FOLD </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1264" msdata:rowOrder="1263">
         <ID>1603</ID>
         <sifra>09.12.11.01.07.</sifra>
         <naziv>Microsoft Bi Fold Print Case</naziv>
-        <ceonaziv>Microsoft Bi Fold Print Case, Bi Fold Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Microsoft Bi Fold Print Case, BI FOLD , TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1598</IDnadredjene>
         <sifranadredjene>09.12.11.01.</sifranadredjene>
-        <nazivnadredjene>Bi Fold Print Case</nazivnadredjene>
+        <nazivnadredjene>BI FOLD </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1265" msdata:rowOrder="1264">
@@ -12570,30 +12570,30 @@
         <ID>1604</ID>
         <sifra>09.12.11.01.02.</sifra>
         <naziv>HTC Bi Fold Print Case</naziv>
-        <ceonaziv>HTC Bi Fold Print Case, Bi Fold Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>HTC Bi Fold Print Case, BI FOLD , TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1598</IDnadredjene>
         <sifranadredjene>09.12.11.01.</sifranadredjene>
-        <nazivnadredjene>Bi Fold Print Case</nazivnadredjene>
+        <nazivnadredjene>BI FOLD </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1272" msdata:rowOrder="1271">
         <ID>1605</ID>
         <sifra>09.12.11.01.03.</sifra>
         <naziv>Huawei Bi Fold Print Case</naziv>
-        <ceonaziv>Huawei Bi Fold Print Case, Bi Fold Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Huawei Bi Fold Print Case, BI FOLD , TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1598</IDnadredjene>
         <sifranadredjene>09.12.11.01.</sifranadredjene>
-        <nazivnadredjene>Bi Fold Print Case</nazivnadredjene>
+        <nazivnadredjene>BI FOLD </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1273" msdata:rowOrder="1272">
         <ID>1606</ID>
         <sifra>09.12.11.01.09.</sifra>
         <naziv>Sony Xperia Bi Fold Print Case</naziv>
-        <ceonaziv>Sony Xperia Bi Fold Print Case, Bi Fold Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Sony Xperia Bi Fold Print Case, BI FOLD , TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1598</IDnadredjene>
         <sifranadredjene>09.12.11.01.</sifranadredjene>
-        <nazivnadredjene>Bi Fold Print Case</nazivnadredjene>
+        <nazivnadredjene>BI FOLD </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1274" msdata:rowOrder="1273">
@@ -12919,7 +12919,7 @@
         <ID>1623</ID>
         <sifra>09.01.01.02.</sifra>
         <naziv>Alati reparacija</naziv>
-        <ceonaziv>Alati reparacija, ALATI/HEMIJA, !OSTALE TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Alati reparacija, ALATI/HEMIJA, ALATI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>13</IDnadredjene>
         <sifranadredjene>09.01.01.</sifranadredjene>
         <nazivnadredjene>ALATI/HEMIJA</nazivnadredjene>
@@ -12929,10 +12929,10 @@
         <ID>1785</ID>
         <sifra>09.12.11.03.01.</sifra>
         <naziv>Acer Print Case</naziv>
-        <ceonaziv>Acer Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Acer Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1308" msdata:rowOrder="1307">
@@ -13126,20 +13126,20 @@
         <ID>1286</ID>
         <sifra>09.12.11.03.12.</sifra>
         <naziv>Sony Xperia Print Case</naziv>
-        <ceonaziv>Sony Xperia Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Sony Xperia Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1328" msdata:rowOrder="1327">
         <ID>1287</ID>
         <sifra>09.12.11.03.14.</sifra>
         <naziv>ZTE Print Case</naziv>
-        <ceonaziv>ZTE Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>ZTE Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1329" msdata:rowOrder="1328">
@@ -13175,8 +13175,8 @@
       <Table diffgr:id="Table1332" msdata:rowOrder="1331">
         <ID>1291</ID>
         <sifra>09.12.11.08.</sifra>
-        <naziv>Skin Print MyCase</naziv>
-        <ceonaziv>Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <naziv>SKIN PRINT</naziv>
+        <ceonaziv>SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1267</IDnadredjene>
         <sifranadredjene>09.12.11.</sifranadredjene>
         <nazivnadredjene>TORBICE PRINT</nazivnadredjene>
@@ -13186,57 +13186,57 @@
         <ID>1292</ID>
         <sifra>09.12.11.08.03.</sifra>
         <naziv>Huawei Skin Print Case</naziv>
-        <ceonaziv>Huawei Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Huawei Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1334" msdata:rowOrder="1333">
         <ID>1293</ID>
         <sifra>09.12.11.08.04.</sifra>
         <naziv>iPhone Skin Print Case</naziv>
-        <ceonaziv>iPhone Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>iPhone Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1335" msdata:rowOrder="1334">
         <ID>1294</ID>
         <sifra>09.12.11.08.10.</sifra>
         <naziv>Samsung Skin Print Case</naziv>
-        <ceonaziv>Samsung Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Samsung Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1336" msdata:rowOrder="1335">
         <ID>1295</ID>
         <sifra>09.12.11.08.06.</sifra>
         <naziv>LG Skin Print Case</naziv>
-        <ceonaziv>LG Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>LG Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1337" msdata:rowOrder="1336">
         <ID>1296</ID>
         <sifra>09.12.11.08.09.</sifra>
         <naziv>Nokia Skin Print Case</naziv>
-        <ceonaziv>Nokia Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Nokia Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1338" msdata:rowOrder="1337">
         <ID>1297</ID>
         <sifra>09.12.11.03.</sifra>
-        <naziv>Giulietta Print MyCase</naziv>
-        <ceonaziv>Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <naziv>GIULIETTA PRINT</naziv>
+        <ceonaziv>GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1267</IDnadredjene>
         <sifranadredjene>09.12.11.</sifranadredjene>
         <nazivnadredjene>TORBICE PRINT</nazivnadredjene>
@@ -13246,17 +13246,17 @@
         <ID>1298</ID>
         <sifra>09.12.11.08.11.</sifra>
         <naziv>Sony Xperia Skin Print Case</naziv>
-        <ceonaziv>Sony Xperia Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Sony Xperia Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1340" msdata:rowOrder="1339">
         <ID>1300</ID>
         <sifra>09.12.11.04.01.</sifra>
         <naziv>Alcatel Print Torbice</naziv>
-        <ceonaziv>Alcatel Print Torbice, Giulietta Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Alcatel Print Torbice, Giulietta Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1208</IDnadredjene>
         <sifranadredjene>09.12.11.04.</sifranadredjene>
         <nazivnadredjene>Giulietta Print Torbice</nazivnadredjene>
@@ -13336,7 +13336,7 @@
         <ID>1301</ID>
         <sifra>09.12.11.04.02.</sifra>
         <naziv>HTC Print Torbice</naziv>
-        <ceonaziv>HTC Print Torbice, Giulietta Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>HTC Print Torbice, Giulietta Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1208</IDnadredjene>
         <sifranadredjene>09.12.11.04.</sifranadredjene>
         <nazivnadredjene>Giulietta Print Torbice</nazivnadredjene>
@@ -13346,7 +13346,7 @@
         <ID>1302</ID>
         <sifra>09.12.11.04.03.</sifra>
         <naziv>Huawei Print Torbice</naziv>
-        <ceonaziv>Huawei Print Torbice, Giulietta Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Huawei Print Torbice, Giulietta Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1208</IDnadredjene>
         <sifranadredjene>09.12.11.04.</sifranadredjene>
         <nazivnadredjene>Giulietta Print Torbice</nazivnadredjene>
@@ -13624,10 +13624,10 @@
       <Table diffgr:id="Table1378" msdata:rowOrder="1377">
         <ID>2078</ID>
         <naziv>Motorola Skin Print Case</naziv>
-        <ceonaziv>Motorola Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Motorola Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1379" msdata:rowOrder="1378">
@@ -13651,10 +13651,10 @@
       <Table diffgr:id="Table1381" msdata:rowOrder="1380">
         <ID>2081</ID>
         <naziv>Motorola Print Case</naziv>
-        <ceonaziv>Motorola Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Motorola Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1382" msdata:rowOrder="1381">
@@ -13698,10 +13698,10 @@
         <ID>1813</ID>
         <sifra>09.12.11.01.05.</sifra>
         <naziv>Lenovo Bi Fold Print Case</naziv>
-        <ceonaziv>Lenovo Bi Fold Print Case, Bi Fold Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Lenovo Bi Fold Print Case, BI FOLD , TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1598</IDnadredjene>
         <sifranadredjene>09.12.11.01.</sifranadredjene>
-        <nazivnadredjene>Bi Fold Print Case</nazivnadredjene>
+        <nazivnadredjene>BI FOLD </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1387" msdata:rowOrder="1386">
@@ -13842,7 +13842,7 @@
         <ID>1309</ID>
         <sifra>09.12.11.09.01.</sifra>
         <naziv>HTC Skin Print Torbice</naziv>
-        <ceonaziv>HTC Skin Print Torbice, Skin Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>HTC Skin Print Torbice, Skin Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1261</IDnadredjene>
         <sifranadredjene>09.12.11.09.</sifranadredjene>
         <nazivnadredjene>Skin Print Torbice</nazivnadredjene>
@@ -13852,7 +13852,7 @@
         <ID>1310</ID>
         <sifra>09.12.11.09.03.</sifra>
         <naziv>iPhone Skin Print Torbice</naziv>
-        <ceonaziv>iPhone Skin Print Torbice, Skin Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>iPhone Skin Print Torbice, Skin Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1261</IDnadredjene>
         <sifranadredjene>09.12.11.09.</sifranadredjene>
         <nazivnadredjene>Skin Print Torbice</nazivnadredjene>
@@ -13862,80 +13862,80 @@
         <ID>1278</ID>
         <sifra>09.12.11.03.02.</sifra>
         <naziv>Alcatel Print Case</naziv>
-        <ceonaziv>Alcatel Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Alcatel Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1405" msdata:rowOrder="1404">
         <ID>1279</ID>
         <sifra>09.12.11.03.04.</sifra>
         <naziv>HTC Print Case</naziv>
-        <ceonaziv>HTC Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>HTC Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1406" msdata:rowOrder="1405">
         <ID>1280</ID>
         <sifra>09.12.11.03.05.</sifra>
         <naziv>Huawei Print Case</naziv>
-        <ceonaziv>Huawei Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Huawei Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1407" msdata:rowOrder="1406">
         <ID>1281</ID>
         <sifra>09.12.11.03.06.</sifra>
         <naziv>iPhone Print Case</naziv>
-        <ceonaziv>iPhone Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>iPhone Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1408" msdata:rowOrder="1407">
         <ID>1282</ID>
         <sifra>09.12.11.03.07.</sifra>
         <naziv>Lenovo Print Case</naziv>
-        <ceonaziv>Lenovo Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Lenovo Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1409" msdata:rowOrder="1408">
         <ID>1283</ID>
         <sifra>09.12.11.03.08.</sifra>
         <naziv>LG Print Case</naziv>
-        <ceonaziv>LG Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>LG Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1410" msdata:rowOrder="1409">
         <ID>1284</ID>
         <sifra>09.12.11.03.10.</sifra>
         <naziv>Nokia Print Case</naziv>
-        <ceonaziv>Nokia Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Nokia Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1411" msdata:rowOrder="1410">
         <ID>1285</ID>
         <sifra>09.12.11.03.11.</sifra>
         <naziv>Samsung Print Case</naziv>
-        <ceonaziv>Samsung Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Samsung Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1412" msdata:rowOrder="1411">
@@ -13985,16 +13985,6 @@
         <nivo>3</nivo>
       </Table>
       <Table diffgr:id="Table1417" msdata:rowOrder="1416">
-        <ID>1869</ID>
-        <sifra>09.12.01.136.1.2</sifra>
-        <naziv>Ostalo torbice oko ruke</naziv>
-        <ceonaziv>Ostalo torbice oko ruke, Torbice oko ruke, TORBICE SPORTSKE, TORBICE , MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>812</IDnadredjene>
-        <sifranadredjene>09.12.01.136.01.</sifranadredjene>
-        <nazivnadredjene>TORBICE OKO RUKE</nazivnadredjene>
-        <nivo>4</nivo>
-      </Table>
-      <Table diffgr:id="Table1418" msdata:rowOrder="1417">
         <ID>1871</ID>
         <sifra>09.12.01.63.</sifra>
         <naziv>Torbice Rain</naziv>
@@ -14003,57 +13993,57 @@
         <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1419" msdata:rowOrder="1418">
+      <Table diffgr:id="Table1418" msdata:rowOrder="1417">
         <ID>1317</ID>
         <sifra>09.12.11.10.05.</sifra>
         <naziv>LG Bi Fold Print Torbice</naziv>
         <ceonaziv>LG Bi Fold Print Torbice, Torbice Bi fold print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1276</IDnadredjene>
         <sifranadredjene>09.12.11.10.</sifranadredjene>
-        <nazivnadredjene>Torbice Bi fold print</nazivnadredjene>
+        <nazivnadredjene>TORBICE BI FOLD PRINT </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1420" msdata:rowOrder="1419">
+      <Table diffgr:id="Table1419" msdata:rowOrder="1418">
         <ID>1318</ID>
         <sifra>09.12.11.10.07.</sifra>
         <naziv>Samsung Bi Fold Print Torbice</naziv>
         <ceonaziv>Samsung Bi Fold Print Torbice, Torbice Bi fold print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1276</IDnadredjene>
         <sifranadredjene>09.12.11.10.</sifranadredjene>
-        <nazivnadredjene>Torbice Bi fold print</nazivnadredjene>
+        <nazivnadredjene>TORBICE BI FOLD PRINT </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1421" msdata:rowOrder="1420">
+      <Table diffgr:id="Table1420" msdata:rowOrder="1419">
         <ID>1319</ID>
         <sifra>09.12.11.09.07.</sifra>
         <naziv>Sony Xperia Skin Print Torbice</naziv>
-        <ceonaziv>Sony Xperia Skin Print Torbice, Skin Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Sony Xperia Skin Print Torbice, Skin Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1261</IDnadredjene>
         <sifranadredjene>09.12.11.09.</sifranadredjene>
         <nazivnadredjene>Skin Print Torbice</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1422" msdata:rowOrder="1421">
+      <Table diffgr:id="Table1421" msdata:rowOrder="1420">
         <ID>1320</ID>
         <sifra>09.12.11.06.</sifra>
-        <naziv>Partizan Print Case</naziv>
-        <ceonaziv>Partizan Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
+        <naziv>PARTIZAN</naziv>
+        <ceonaziv>PARTIZAN, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>1267</IDnadredjene>
+        <sifranadredjene>09.12.11.</sifranadredjene>
+        <nazivnadredjene>TORBICE PRINT</nazivnadredjene>
+        <nivo>2</nivo>
+      </Table>
+      <Table diffgr:id="Table1422" msdata:rowOrder="1421">
+        <ID>1321</ID>
+        <sifra>09.12.11.02.</sifra>
+        <naziv>CRVENA ZVEZDA</naziv>
+        <ceonaziv>CRVENA ZVEZDA, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1267</IDnadredjene>
         <sifranadredjene>09.12.11.</sifranadredjene>
         <nazivnadredjene>TORBICE PRINT</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
       <Table diffgr:id="Table1423" msdata:rowOrder="1422">
-        <ID>1321</ID>
-        <sifra>09.12.11.02.</sifra>
-        <naziv>Crvena Zvezda Print Case</naziv>
-        <ceonaziv>Crvena Zvezda Print Case, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>1267</IDnadredjene>
-        <sifranadredjene>09.12.11.</sifranadredjene>
-        <nazivnadredjene>TORBICE PRINT</nazivnadredjene>
-        <nivo>2</nivo>
-      </Table>
-      <Table diffgr:id="Table1424" msdata:rowOrder="1423">
         <ID>1674</ID>
         <sifra>07.05.02.</sifra>
         <naziv>Asus konektori</naziv>
@@ -14063,7 +14053,7 @@
         <nazivnadredjene>Konektori</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1425" msdata:rowOrder="1424">
+      <Table diffgr:id="Table1424" msdata:rowOrder="1423">
         <ID>1675</ID>
         <sifra>07.05.04.</sifra>
         <naziv>Fujitsu konektori</naziv>
@@ -14073,7 +14063,7 @@
         <nazivnadredjene>Konektori</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1426" msdata:rowOrder="1425">
+      <Table diffgr:id="Table1425" msdata:rowOrder="1424">
         <ID>1676</ID>
         <sifra>07.05.08.</sifra>
         <naziv>Samsung Konektori</naziv>
@@ -14083,7 +14073,7 @@
         <nazivnadredjene>Konektori</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1427" msdata:rowOrder="1426">
+      <Table diffgr:id="Table1426" msdata:rowOrder="1425">
         <ID>1677</ID>
         <sifra>07.05.09.</sifra>
         <naziv>Sony konektori</naziv>
@@ -14093,7 +14083,7 @@
         <nazivnadredjene>Konektori</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1428" msdata:rowOrder="1427">
+      <Table diffgr:id="Table1427" msdata:rowOrder="1426">
         <ID>1324</ID>
         <sifra>09.04.04.</sifra>
         <naziv>Selfie stap</naziv>
@@ -14103,7 +14093,7 @@
         <nazivnadredjene>DRZACI ZA MOBILNE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1429" msdata:rowOrder="1428">
+      <Table diffgr:id="Table1428" msdata:rowOrder="1427">
         <ID>1326</ID>
         <sifra>09.04.04.01.</sifra>
         <naziv>Selfi stap</naziv>
@@ -14113,7 +14103,7 @@
         <nazivnadredjene>Selfie stap</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1430" msdata:rowOrder="1429">
+      <Table diffgr:id="Table1429" msdata:rowOrder="1428">
         <ID>1263</ID>
         <sifra>16.02.</sifra>
         <naziv>kto 101 - Materijal - zalihe sirovina, osnovnog i pomocnog materijala, ostalog materijala, goriva i maziva</naziv>
@@ -14123,7 +14113,7 @@
         <nazivnadredjene>zz</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1431" msdata:rowOrder="1430">
+      <Table diffgr:id="Table1430" msdata:rowOrder="1429">
         <ID>2024</ID>
         <naziv>TORBICE ALL COVER</naziv>
         <ceonaziv>Torbice All Cover, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14132,7 +14122,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1432" msdata:rowOrder="1431">
+      <Table diffgr:id="Table1431" msdata:rowOrder="1430">
         <ID>2026</ID>
         <naziv>TORBICE HAPPY HEARTS</naziv>
         <ceonaziv>TORBICE HAPPY HEARTS, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14140,7 +14130,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1433" msdata:rowOrder="1432">
+      <Table diffgr:id="Table1432" msdata:rowOrder="1431">
         <ID>2027</ID>
         <naziv>Torbice Platina Business light</naziv>
         <ceonaziv>Torbice Platina Business light, Brand PLATINA, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14148,7 +14138,7 @@
         <nazivnadredjene>BRAND PLATINA</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1434" msdata:rowOrder="1433">
+      <Table diffgr:id="Table1433" msdata:rowOrder="1432">
         <ID>2028</ID>
         <naziv>TORBICE TOY</naziv>
         <ceonaziv>TORBICE TOY, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14156,7 +14146,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1435" msdata:rowOrder="1434">
+      <Table diffgr:id="Table1434" msdata:rowOrder="1433">
         <ID>2029</ID>
         <naziv>Auto stalci Remax</naziv>
         <ceonaziv>Auto stalci Remax, Brand REMAX, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14165,7 +14155,7 @@
         <nazivnadredjene>BRAND REMAX</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1436" msdata:rowOrder="1435">
+      <Table diffgr:id="Table1435" msdata:rowOrder="1434">
         <ID>2030</ID>
         <naziv>BRAND GOLF</naziv>
         <ceonaziv>Brand GOLF, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14174,7 +14164,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1437" msdata:rowOrder="1436">
+      <Table diffgr:id="Table1436" msdata:rowOrder="1435">
         <ID>2031</ID>
         <naziv>Back up baterije Golf</naziv>
         <ceonaziv>Back up baterije Golf, Brand GOLF, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14182,7 +14172,7 @@
         <nazivnadredjene>BRAND GOLF</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1438" msdata:rowOrder="1437">
+      <Table diffgr:id="Table1437" msdata:rowOrder="1436">
         <ID>2032</ID>
         <naziv>Data kablovi Golf </naziv>
         <ceonaziv>Data kablovi Golf , Brand GOLF, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14190,7 +14180,7 @@
         <nazivnadredjene>BRAND GOLF</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1439" msdata:rowOrder="1438">
+      <Table diffgr:id="Table1438" msdata:rowOrder="1437">
         <ID>2033</ID>
         <naziv>Slusalice Golf</naziv>
         <ceonaziv>Slusalice Golf, Brand GOLF, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14198,7 +14188,7 @@
         <nazivnadredjene>BRAND GOLF</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1440" msdata:rowOrder="1439">
+      <Table diffgr:id="Table1439" msdata:rowOrder="1438">
         <ID>2034</ID>
         <naziv>Auto stalci Golf</naziv>
         <ceonaziv>Auto stalci Golf, Brand GOLF, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14206,7 +14196,7 @@
         <nazivnadredjene>BRAND GOLF</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1441" msdata:rowOrder="1440">
+      <Table diffgr:id="Table1440" msdata:rowOrder="1439">
         <ID>2035</ID>
         <naziv>Ostalo LDNIO</naziv>
         <ceonaziv>Ostalo LDNIO, Brand LDNIO, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14215,7 +14205,7 @@
         <nazivnadredjene>BRAND LDNIO</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1442" msdata:rowOrder="1441">
+      <Table diffgr:id="Table1441" msdata:rowOrder="1440">
         <ID>2036</ID>
         <naziv>Data kablovi Teracell Plus</naziv>
         <ceonaziv>Data kablovi Teracell Plus, PUNJACI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14224,7 +14214,7 @@
         <nazivnadredjene>PUNJACI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1443" msdata:rowOrder="1442">
+      <Table diffgr:id="Table1442" msdata:rowOrder="1441">
         <ID>1264</ID>
         <sifra>16.03.</sifra>
         <naziv>kto 103 - Ambalaza</naziv>
@@ -14234,7 +14224,7 @@
         <nazivnadredjene>zz</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1444" msdata:rowOrder="1443">
+      <Table diffgr:id="Table1443" msdata:rowOrder="1442">
         <ID>1327</ID>
         <sifra>09.03.</sifra>
         <naziv>BRAND CELLULARLINE</naziv>
@@ -14244,7 +14234,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1445" msdata:rowOrder="1444">
+      <Table diffgr:id="Table1444" msdata:rowOrder="1443">
         <ID>1328</ID>
         <sifra>09.03.01.</sifra>
         <naziv>Adapteri Cellularline</naziv>
@@ -14254,7 +14244,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1446" msdata:rowOrder="1445">
+      <Table diffgr:id="Table1445" msdata:rowOrder="1444">
         <ID>1329</ID>
         <sifra>09.03.04.</sifra>
         <naziv>Dodatna oprema Cellularline</naziv>
@@ -14264,7 +14254,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1447" msdata:rowOrder="1446">
+      <Table diffgr:id="Table1446" msdata:rowOrder="1445">
         <ID>1330</ID>
         <sifra>09.03.03.</sifra>
         <naziv>Dodaci Cellularline</naziv>
@@ -14274,7 +14264,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1448" msdata:rowOrder="1447">
+      <Table diffgr:id="Table1447" msdata:rowOrder="1446">
         <ID>1331</ID>
         <sifra>09.03.05.</sifra>
         <naziv>Drzaci Cellularline</naziv>
@@ -14284,7 +14274,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1449" msdata:rowOrder="1448">
+      <Table diffgr:id="Table1448" msdata:rowOrder="1447">
         <ID>1332</ID>
         <sifra>09.03.06.</sifra>
         <naziv>Kablovi Cellularline</naziv>
@@ -14294,7 +14284,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1450" msdata:rowOrder="1449">
+      <Table diffgr:id="Table1449" msdata:rowOrder="1448">
         <ID>1333</ID>
         <sifra>09.03.08.</sifra>
         <naziv>Note torbe Cellularline</naziv>
@@ -14304,7 +14294,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1451" msdata:rowOrder="1450">
+      <Table diffgr:id="Table1450" msdata:rowOrder="1449">
         <ID>1334</ID>
         <sifra>09.03.02.</sifra>
         <naziv>Auto Punjaci Cellularline</naziv>
@@ -14314,7 +14304,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1452" msdata:rowOrder="1451">
+      <Table diffgr:id="Table1451" msdata:rowOrder="1450">
         <ID>1335</ID>
         <sifra>09.03.07.</sifra>
         <naziv>Kucni punjaci Cellularline</naziv>
@@ -14324,7 +14314,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1453" msdata:rowOrder="1452">
+      <Table diffgr:id="Table1452" msdata:rowOrder="1451">
         <ID>1336</ID>
         <sifra>09.03.12.</sifra>
         <naziv>Slusalice Cellularline</naziv>
@@ -14334,7 +14324,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1454" msdata:rowOrder="1453">
+      <Table diffgr:id="Table1453" msdata:rowOrder="1452">
         <ID>1338</ID>
         <sifra>09.03.09.</sifra>
         <naziv>Punjaci Tablet Cellularline</naziv>
@@ -14344,7 +14334,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1455" msdata:rowOrder="1454">
+      <Table diffgr:id="Table1454" msdata:rowOrder="1453">
         <ID>1339</ID>
         <sifra>09.03.20.</sifra>
         <naziv>Torbice Tablet Cellularline</naziv>
@@ -14354,7 +14344,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1456" msdata:rowOrder="1455">
+      <Table diffgr:id="Table1455" msdata:rowOrder="1454">
         <ID>1340</ID>
         <sifra>09.03.13.</sifra>
         <naziv>Torbice Flip top Cellularline</naziv>
@@ -14364,7 +14354,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1457" msdata:rowOrder="1456">
+      <Table diffgr:id="Table1456" msdata:rowOrder="1455">
         <ID>1344</ID>
         <sifra>09.03.14.</sifra>
         <naziv>Torbice Invisible Cellularline</naziv>
@@ -14374,7 +14364,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1458" msdata:rowOrder="1457">
+      <Table diffgr:id="Table1457" msdata:rowOrder="1456">
         <ID>1345</ID>
         <sifra>09.03.16.</sifra>
         <naziv>Torbice Other Cellularline</naziv>
@@ -14384,7 +14374,7 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1459" msdata:rowOrder="1458">
+      <Table diffgr:id="Table1458" msdata:rowOrder="1457">
         <ID>1346</ID>
         <sifra>09.03.17.</sifra>
         <naziv>Torbice Premiere Cellularline</naziv>
@@ -14394,47 +14384,47 @@
         <nazivnadredjene>BRAND CELLULARLINE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1460" msdata:rowOrder="1459">
+      <Table diffgr:id="Table1459" msdata:rowOrder="1458">
         <ID>1311</ID>
         <sifra>09.12.11.09.04.</sifra>
         <naziv>LG Skin Print Torbice</naziv>
-        <ceonaziv>LG Skin Print Torbice, Skin Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>LG Skin Print Torbice, Skin Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>1261</IDnadredjene>
+        <sifranadredjene>09.12.11.09.</sifranadredjene>
+        <nazivnadredjene>Skin Print Torbice</nazivnadredjene>
+        <nivo>4</nivo>
+      </Table>
+      <Table diffgr:id="Table1460" msdata:rowOrder="1459">
+        <ID>1312</ID>
+        <sifra>09.12.11.09.05.</sifra>
+        <naziv>Nokia Skin Print Torbice</naziv>
+        <ceonaziv>Nokia Skin Print Torbice, Skin Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1261</IDnadredjene>
         <sifranadredjene>09.12.11.09.</sifranadredjene>
         <nazivnadredjene>Skin Print Torbice</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table1461" msdata:rowOrder="1460">
-        <ID>1312</ID>
-        <sifra>09.12.11.09.05.</sifra>
-        <naziv>Nokia Skin Print Torbice</naziv>
-        <ceonaziv>Nokia Skin Print Torbice, Skin Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ID>1313</ID>
+        <sifra>09.12.11.09.06.</sifra>
+        <naziv>Samsung Skin Print Torbice</naziv>
+        <ceonaziv>Samsung Skin Print Torbice, Skin Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1261</IDnadredjene>
         <sifranadredjene>09.12.11.09.</sifranadredjene>
         <nazivnadredjene>Skin Print Torbice</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table1462" msdata:rowOrder="1461">
-        <ID>1313</ID>
-        <sifra>09.12.11.09.06.</sifra>
-        <naziv>Samsung Skin Print Torbice</naziv>
-        <ceonaziv>Samsung Skin Print Torbice, Skin Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ID>1314</ID>
+        <sifra>09.12.11.09.02.</sifra>
+        <naziv>Huawei Skin Print Torbice</naziv>
+        <ceonaziv>Huawei Skin Print Torbice, Skin Print Torbice, PRINT TORBICE NA RASPRODAJI, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1261</IDnadredjene>
         <sifranadredjene>09.12.11.09.</sifranadredjene>
         <nazivnadredjene>Skin Print Torbice</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
       <Table diffgr:id="Table1463" msdata:rowOrder="1462">
-        <ID>1314</ID>
-        <sifra>09.12.11.09.02.</sifra>
-        <naziv>Huawei Skin Print Torbice</naziv>
-        <ceonaziv>Huawei Skin Print Torbice, Skin Print Torbice, Print Akcija, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>1261</IDnadredjene>
-        <sifranadredjene>09.12.11.09.</sifranadredjene>
-        <nazivnadredjene>Skin Print Torbice</nazivnadredjene>
-        <nivo>4</nivo>
-      </Table>
-      <Table diffgr:id="Table1464" msdata:rowOrder="1463">
         <ID>1874</ID>
         <sifra>09.12.01.01.149.</sifra>
         <naziv>TORBICE LEAVES DUO</naziv>
@@ -14444,7 +14434,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1465" msdata:rowOrder="1464">
+      <Table diffgr:id="Table1464" msdata:rowOrder="1463">
         <ID>1876</ID>
         <naziv>Apple tastature za laptop</naziv>
         <ceonaziv>Apple tastature za laptop, Tastature za laptop, LAPTOP ,OSNOVNA</ceonaziv>
@@ -14453,7 +14443,7 @@
         <nazivnadredjene>Tastature za laptop</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1466" msdata:rowOrder="1465">
+      <Table diffgr:id="Table1465" msdata:rowOrder="1464">
         <ID>1488</ID>
         <sifra>09.12.15.27.14.</sifra>
         <naziv>Sony Xperia Teracell Skin</naziv>
@@ -14463,7 +14453,7 @@
         <nazivnadredjene>Teracell Skin</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1467" msdata:rowOrder="1466">
+      <Table diffgr:id="Table1466" msdata:rowOrder="1465">
         <ID>1489</ID>
         <sifra>09.12.15.27.7.</sifra>
         <naziv>Lenovo Teracell Skin</naziv>
@@ -14473,7 +14463,7 @@
         <nazivnadredjene>Teracell Skin</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1468" msdata:rowOrder="1467">
+      <Table diffgr:id="Table1467" msdata:rowOrder="1466">
         <ID>1490</ID>
         <sifra>09.08.04.10.</sifra>
         <naziv>Meizu torbice Nillkin</naziv>
@@ -14483,7 +14473,7 @@
         <nazivnadredjene>Torbice Nillkin</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1469" msdata:rowOrder="1468">
+      <Table diffgr:id="Table1468" msdata:rowOrder="1467">
         <ID>1681</ID>
         <sifra>09.08.</sifra>
         <naziv>BRAND NILLKIN</naziv>
@@ -14493,7 +14483,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1470" msdata:rowOrder="1469">
+      <Table diffgr:id="Table1469" msdata:rowOrder="1468">
         <ID>1682</ID>
         <sifra>09.08.05.</sifra>
         <naziv>Zastita za ekran Nillkin</naziv>
@@ -14503,7 +14493,7 @@
         <nazivnadredjene>BRAND NILLKIN</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1471" msdata:rowOrder="1470">
+      <Table diffgr:id="Table1470" msdata:rowOrder="1469">
         <ID>1683</ID>
         <sifra>09.08.03.</sifra>
         <naziv>Punjaci Nillkin</naziv>
@@ -14513,7 +14503,7 @@
         <nazivnadredjene>BRAND NILLKIN</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1472" msdata:rowOrder="1471">
+      <Table diffgr:id="Table1471" msdata:rowOrder="1470">
         <ID>1684</ID>
         <sifra>09.08.02.</sifra>
         <naziv>Data kabal Nillkin</naziv>
@@ -14523,7 +14513,7 @@
         <nazivnadredjene>BRAND NILLKIN</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1473" msdata:rowOrder="1472">
+      <Table diffgr:id="Table1472" msdata:rowOrder="1471">
         <ID>1685</ID>
         <sifra>09.06.</sifra>
         <naziv>BRAND LDNIO</naziv>
@@ -14533,7 +14523,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1474" msdata:rowOrder="1473">
+      <Table diffgr:id="Table1473" msdata:rowOrder="1472">
         <ID>1686</ID>
         <sifra>05.01.01.</sifra>
         <naziv>Adapteri razno elektronika</naziv>
@@ -14543,17 +14533,7 @@
         <nazivnadredjene>IZBACITI ELEKTRONIKA</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1475" msdata:rowOrder="1474">
-        <ID>1491</ID>
-        <sifra>09.12.01.136.1.3</sifra>
-        <naziv>Samsung torbice oko ruke</naziv>
-        <ceonaziv>Samsung torbice oko ruke, Torbice oko ruke, TORBICE SPORTSKE, TORBICE , MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>812</IDnadredjene>
-        <sifranadredjene>09.12.01.136.01.</sifranadredjene>
-        <nazivnadredjene>TORBICE OKO RUKE</nazivnadredjene>
-        <nivo>4</nivo>
-      </Table>
-      <Table diffgr:id="Table1476" msdata:rowOrder="1475">
+      <Table diffgr:id="Table1474" msdata:rowOrder="1473">
         <ID>2058</ID>
         <naziv>Teracell Handsfree</naziv>
         <ceonaziv>Teracell Handsfree, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14561,7 +14541,7 @@
         <nazivnadredjene>BRAND TERACELL</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1477" msdata:rowOrder="1476">
+      <Table diffgr:id="Table1475" msdata:rowOrder="1474">
         <ID>2038</ID>
         <naziv>BRAND SPIGEN</naziv>
         <ceonaziv>Brand SPIGEN, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14570,7 +14550,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1478" msdata:rowOrder="1477">
+      <Table diffgr:id="Table1476" msdata:rowOrder="1475">
         <ID>2090</ID>
         <naziv>TORBICE LEATHER LOOK</naziv>
         <ceonaziv>Torbice Leather Look, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14579,7 +14559,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1479" msdata:rowOrder="1478">
+      <Table diffgr:id="Table1477" msdata:rowOrder="1476">
         <ID>2091</ID>
         <naziv>TORBICE IN</naziv>
         <ceonaziv>Torbice IN, TORBICE , MOBILNI ,OSNOVNA</ceonaziv>
@@ -14588,7 +14568,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1480" msdata:rowOrder="1479">
+      <Table diffgr:id="Table1478" msdata:rowOrder="1477">
         <ID>2092</ID>
         <naziv>TORBICE FIGHT</naziv>
         <ceonaziv>Torbice Fight, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14597,7 +14577,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1481" msdata:rowOrder="1480">
+      <Table diffgr:id="Table1479" msdata:rowOrder="1478">
         <ID>2093</ID>
         <naziv>TORBICE REAL DEAL</naziv>
         <ceonaziv>Torbice Real Deal, TORBICE , MOBILNI ,OSNOVNA</ceonaziv>
@@ -14606,7 +14586,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1482" msdata:rowOrder="1481">
+      <Table diffgr:id="Table1480" msdata:rowOrder="1479">
         <ID>2094</ID>
         <naziv>TORBICE VELVET</naziv>
         <ceonaziv>Torbice Velvet, TORBICE , MOBILNI ,OSNOVNA</ceonaziv>
@@ -14615,7 +14595,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1483" msdata:rowOrder="1482">
+      <Table diffgr:id="Table1481" msdata:rowOrder="1480">
         <ID>2095</ID>
         <naziv>TORBICE CAPSULE</naziv>
         <ceonaziv>Torbice Capsule, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14624,7 +14604,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1484" msdata:rowOrder="1483">
+      <Table diffgr:id="Table1482" msdata:rowOrder="1481">
         <ID>2096</ID>
         <naziv>Xiaomi Skin Print Case</naziv>
         <ceonaziv>Xiaomi Skin Print Case, AAA ,OSNOVNA</ceonaziv>
@@ -14633,16 +14613,16 @@
         <nazivnadredjene>AAA</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1485" msdata:rowOrder="1484">
+      <Table diffgr:id="Table1483" msdata:rowOrder="1482">
         <ID>2097</ID>
         <naziv>Xiaomi Skin Print Case</naziv>
-        <ceonaziv>Xiaomi Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Xiaomi Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1486" msdata:rowOrder="1485">
+      <Table diffgr:id="Table1484" msdata:rowOrder="1483">
         <ID>2098</ID>
         <naziv>BRAND KONFULON</naziv>
         <ceonaziv>Brand KONFULON, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14651,7 +14631,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1487" msdata:rowOrder="1486">
+      <Table diffgr:id="Table1485" msdata:rowOrder="1484">
         <ID>2099</ID>
         <naziv>TORBICE MY SLIM</naziv>
         <ceonaziv>Torbice My Slim, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14660,7 +14640,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1488" msdata:rowOrder="1487">
+      <Table diffgr:id="Table1486" msdata:rowOrder="1485">
         <ID>2100</ID>
         <naziv>TORBICE MOSAIC RING</naziv>
         <ceonaziv>Torbice Mosaic Ring, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14669,7 +14649,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1489" msdata:rowOrder="1488">
+      <Table diffgr:id="Table1487" msdata:rowOrder="1486">
         <ID>2059</ID>
         <naziv>Auto punjaci</naziv>
         <ceonaziv>Auto punjaci, Teracell punjaci i data kablovi, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14677,7 +14657,7 @@
         <nazivnadredjene>Teracell punjaci i data kablovi</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1490" msdata:rowOrder="1489">
+      <Table diffgr:id="Table1488" msdata:rowOrder="1487">
         <ID>2060</ID>
         <naziv>Kucni punjaci</naziv>
         <ceonaziv>Kucni punjaci, Teracell punjaci i data kablovi, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14685,7 +14665,7 @@
         <nazivnadredjene>Teracell punjaci i data kablovi</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1491" msdata:rowOrder="1490">
+      <Table diffgr:id="Table1489" msdata:rowOrder="1488">
         <ID>2044</ID>
         <naziv>BRAND MERCURY</naziv>
         <ceonaziv>Brand Mercury, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14694,7 +14674,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1492" msdata:rowOrder="1491">
+      <Table diffgr:id="Table1490" msdata:rowOrder="1489">
         <ID>2045</ID>
         <naziv>BRAND MOTOMO</naziv>
         <ceonaziv>Brand MOTOMO, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14703,7 +14683,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1493" msdata:rowOrder="1492">
+      <Table diffgr:id="Table1491" msdata:rowOrder="1490">
         <ID>2048</ID>
         <naziv>Tempered glass 5D</naziv>
         <ceonaziv>Tempered glass 5D, ZASTITA ZA EKRAN, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14712,7 +14692,7 @@
         <nazivnadredjene>ZASTITA ZA EKRAN</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1494" msdata:rowOrder="1493">
+      <Table diffgr:id="Table1492" msdata:rowOrder="1491">
         <ID>2047</ID>
         <naziv>BRAND PLATINA</naziv>
         <ceonaziv>Brand PLATINA, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14721,7 +14701,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1495" msdata:rowOrder="1494">
+      <Table diffgr:id="Table1493" msdata:rowOrder="1492">
         <ID>2049</ID>
         <naziv>TORBICE BREATHE</naziv>
         <ceonaziv>Torbice Breathe, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14730,7 +14710,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1496" msdata:rowOrder="1495">
+      <Table diffgr:id="Table1494" msdata:rowOrder="1493">
         <ID>2050</ID>
         <naziv>Huawei</naziv>
         <ceonaziv>Huawei, PVC zastita Cellularline, Brand CELLULARLINE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14739,7 +14719,7 @@
         <nazivnadredjene>PVC zastita Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1497" msdata:rowOrder="1496">
+      <Table diffgr:id="Table1495" msdata:rowOrder="1494">
         <ID>2051</ID>
         <naziv>Alcatel</naziv>
         <ceonaziv>Alcatel, PVC zastita Cellularline, Brand CELLULARLINE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14748,7 +14728,7 @@
         <nazivnadredjene>PVC zastita Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1498" msdata:rowOrder="1497">
+      <Table diffgr:id="Table1496" msdata:rowOrder="1495">
         <ID>2052</ID>
         <naziv>Meizu</naziv>
         <ceonaziv>Meizu, PVC zastita Cellularline, Brand CELLULARLINE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14757,7 +14737,7 @@
         <nazivnadredjene>PVC zastita Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1499" msdata:rowOrder="1498">
+      <Table diffgr:id="Table1497" msdata:rowOrder="1496">
         <ID>2053</ID>
         <naziv>Acer</naziv>
         <ceonaziv>Acer, PVC zastita Cellularline, Brand CELLULARLINE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14766,7 +14746,7 @@
         <nazivnadredjene>PVC zastita Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1500" msdata:rowOrder="1499">
+      <Table diffgr:id="Table1498" msdata:rowOrder="1497">
         <ID>2054</ID>
         <naziv>Lenovo</naziv>
         <ceonaziv>Lenovo, PVC zastita Cellularline, Brand CELLULARLINE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14775,7 +14755,7 @@
         <nazivnadredjene>PVC zastita Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1501" msdata:rowOrder="1500">
+      <Table diffgr:id="Table1499" msdata:rowOrder="1498">
         <ID>2055</ID>
         <naziv>Sony</naziv>
         <ceonaziv>Sony, PVC zastita Cellularline, Brand CELLULARLINE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14784,7 +14764,7 @@
         <nazivnadredjene>PVC zastita Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1502" msdata:rowOrder="1501">
+      <Table diffgr:id="Table1500" msdata:rowOrder="1499">
         <ID>2056</ID>
         <naziv>BRAND KAVARO/KINGXBAR</naziv>
         <ceonaziv>Brand KAVARO/KINGXBAR, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14793,7 +14773,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1503" msdata:rowOrder="1502">
+      <Table diffgr:id="Table1501" msdata:rowOrder="1500">
         <ID>2057</ID>
         <naziv>Torbice Spigen Fin</naziv>
         <ceonaziv>Torbice Spigen Fin, Torbice Spigen outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14801,7 +14781,7 @@
         <nazivnadredjene>TORBICE SPIGEN OUTLET</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1504" msdata:rowOrder="1503">
+      <Table diffgr:id="Table1502" msdata:rowOrder="1501">
         <ID>2061</ID>
         <naziv>Data kablovi</naziv>
         <ceonaziv>Data kablovi, Teracell punjaci i data kablovi, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14809,7 +14789,7 @@
         <nazivnadredjene>Teracell punjaci i data kablovi</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1505" msdata:rowOrder="1504">
+      <Table diffgr:id="Table1503" msdata:rowOrder="1502">
         <ID>2062</ID>
         <naziv>TORBICE MY HANDGING BUDDY</naziv>
         <ceonaziv>TORBICE MY HANDGING BUDDY, TORBICE , MOBILNI ,OSNOVNA</ceonaziv>
@@ -14818,15 +14798,15 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1506" msdata:rowOrder="1505">
+      <Table diffgr:id="Table1504" msdata:rowOrder="1503">
         <ID>2063</ID>
-        <naziv>Torbice UAG</naziv>
+        <naziv>TORBICE UAG</naziv>
         <ceonaziv>Torbice UAG, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>2126</IDnadredjene>
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1507" msdata:rowOrder="1506">
+      <Table diffgr:id="Table1505" msdata:rowOrder="1504">
         <ID>2064</ID>
         <naziv>TORBICE ELEGANT MEN</naziv>
         <ceonaziv>Torbice Elegant men, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14835,7 +14815,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1508" msdata:rowOrder="1507">
+      <Table diffgr:id="Table1506" msdata:rowOrder="1505">
         <ID>2065</ID>
         <naziv>TORBICE HANMAN</naziv>
         <ceonaziv>Torbice Hanman, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -14844,17 +14824,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1509" msdata:rowOrder="1508">
-        <ID>1492</ID>
-        <sifra>09.12.01.136.1.1</sifra>
-        <naziv>iPhone torbice oko ruke</naziv>
-        <ceonaziv>iPhone torbice oko ruke, Torbice oko ruke, TORBICE SPORTSKE, TORBICE , MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>812</IDnadredjene>
-        <sifranadredjene>09.12.01.136.01.</sifranadredjene>
-        <nazivnadredjene>TORBICE OKO RUKE</nazivnadredjene>
-        <nivo>4</nivo>
-      </Table>
-      <Table diffgr:id="Table1510" msdata:rowOrder="1509">
+      <Table diffgr:id="Table1507" msdata:rowOrder="1506">
         <ID>1357</ID>
         <sifra>09.03.05.02.</sifra>
         <naziv>Universal</naziv>
@@ -14864,7 +14834,7 @@
         <nazivnadredjene>Drzaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1511" msdata:rowOrder="1510">
+      <Table diffgr:id="Table1508" msdata:rowOrder="1507">
         <ID>1358</ID>
         <sifra>09.03.05.01.</sifra>
         <naziv>Apple</naziv>
@@ -14874,7 +14844,7 @@
         <nazivnadredjene>Drzaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1512" msdata:rowOrder="1511">
+      <Table diffgr:id="Table1509" msdata:rowOrder="1508">
         <ID>1359</ID>
         <sifra>09.03.06.03.</sifra>
         <naziv>Universal</naziv>
@@ -14884,7 +14854,7 @@
         <nazivnadredjene>Kablovi Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1513" msdata:rowOrder="1512">
+      <Table diffgr:id="Table1510" msdata:rowOrder="1509">
         <ID>1360</ID>
         <sifra>09.03.06.02.</sifra>
         <naziv>Samsung</naziv>
@@ -14894,7 +14864,7 @@
         <nazivnadredjene>Kablovi Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1514" msdata:rowOrder="1513">
+      <Table diffgr:id="Table1511" msdata:rowOrder="1510">
         <ID>1361</ID>
         <sifra>09.03.08.01.</sifra>
         <naziv>Samsung</naziv>
@@ -14904,7 +14874,7 @@
         <nazivnadredjene>Note torbe Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1515" msdata:rowOrder="1514">
+      <Table diffgr:id="Table1512" msdata:rowOrder="1511">
         <ID>1362</ID>
         <sifra>09.03.02.06.</sifra>
         <naziv>Universal</naziv>
@@ -14914,7 +14884,7 @@
         <nazivnadredjene>Auto Punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1516" msdata:rowOrder="1515">
+      <Table diffgr:id="Table1513" msdata:rowOrder="1512">
         <ID>1363</ID>
         <sifra>09.03.02.01.</sifra>
         <naziv>Apple</naziv>
@@ -14924,7 +14894,7 @@
         <nazivnadredjene>Auto Punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1517" msdata:rowOrder="1516">
+      <Table diffgr:id="Table1514" msdata:rowOrder="1513">
         <ID>1364</ID>
         <sifra>09.03.02.02.</sifra>
         <naziv>LG</naziv>
@@ -14934,7 +14904,7 @@
         <nazivnadredjene>Auto Punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1518" msdata:rowOrder="1517">
+      <Table diffgr:id="Table1515" msdata:rowOrder="1514">
         <ID>1365</ID>
         <sifra>09.03.02.03.</sifra>
         <naziv>Nokia</naziv>
@@ -14944,7 +14914,7 @@
         <nazivnadredjene>Auto Punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1519" msdata:rowOrder="1518">
+      <Table diffgr:id="Table1516" msdata:rowOrder="1515">
         <ID>1366</ID>
         <sifra>09.03.02.04.</sifra>
         <naziv>Samsung</naziv>
@@ -14954,7 +14924,7 @@
         <nazivnadredjene>Auto Punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1520" msdata:rowOrder="1519">
+      <Table diffgr:id="Table1517" msdata:rowOrder="1516">
         <ID>1367</ID>
         <sifra>09.03.02.05.</sifra>
         <naziv>Sony</naziv>
@@ -14964,7 +14934,7 @@
         <nazivnadredjene>Auto Punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1521" msdata:rowOrder="1520">
+      <Table diffgr:id="Table1518" msdata:rowOrder="1517">
         <ID>1368</ID>
         <sifra>09.03.07.01.</sifra>
         <naziv>Apple</naziv>
@@ -14974,7 +14944,7 @@
         <nazivnadredjene>Kucni punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1522" msdata:rowOrder="1521">
+      <Table diffgr:id="Table1519" msdata:rowOrder="1518">
         <ID>1369</ID>
         <sifra>09.03.07.02.</sifra>
         <naziv>LG</naziv>
@@ -14984,7 +14954,7 @@
         <nazivnadredjene>Kucni punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1523" msdata:rowOrder="1522">
+      <Table diffgr:id="Table1520" msdata:rowOrder="1519">
         <ID>1370</ID>
         <sifra>09.03.07.03.</sifra>
         <naziv>Nokia</naziv>
@@ -14994,7 +14964,7 @@
         <nazivnadredjene>Kucni punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1524" msdata:rowOrder="1523">
+      <Table diffgr:id="Table1521" msdata:rowOrder="1520">
         <ID>1371</ID>
         <sifra>09.03.07.04.</sifra>
         <naziv>Samsung</naziv>
@@ -15004,7 +14974,7 @@
         <nazivnadredjene>Kucni punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1525" msdata:rowOrder="1524">
+      <Table diffgr:id="Table1522" msdata:rowOrder="1521">
         <ID>1372</ID>
         <sifra>09.03.07.05.</sifra>
         <naziv>Sony</naziv>
@@ -15014,7 +14984,7 @@
         <nazivnadredjene>Kucni punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1526" msdata:rowOrder="1525">
+      <Table diffgr:id="Table1523" msdata:rowOrder="1522">
         <ID>1323</ID>
         <sifra>09.05.05.01.</sifra>
         <naziv>Handsfree REMAX</naziv>
@@ -15024,7 +14994,7 @@
         <nazivnadredjene>Handsfree REMAX</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1527" msdata:rowOrder="1526">
+      <Table diffgr:id="Table1524" msdata:rowOrder="1523">
         <ID>1373</ID>
         <sifra>09.03.07.06.</sifra>
         <naziv>Universal</naziv>
@@ -15034,7 +15004,7 @@
         <nazivnadredjene>Kucni punjaci Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1528" msdata:rowOrder="1527">
+      <Table diffgr:id="Table1525" msdata:rowOrder="1524">
         <ID>1374</ID>
         <sifra>09.03.12.01.</sifra>
         <naziv>Samsung</naziv>
@@ -15044,7 +15014,7 @@
         <nazivnadredjene>Slusalice Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1529" msdata:rowOrder="1528">
+      <Table diffgr:id="Table1526" msdata:rowOrder="1525">
         <ID>1375</ID>
         <sifra>09.03.12.02.</sifra>
         <naziv>Universal</naziv>
@@ -15054,7 +15024,7 @@
         <nazivnadredjene>Slusalice Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1530" msdata:rowOrder="1529">
+      <Table diffgr:id="Table1527" msdata:rowOrder="1526">
         <ID>1376</ID>
         <sifra>09.03.11.02.</sifra>
         <naziv>Universal</naziv>
@@ -15064,7 +15034,7 @@
         <nazivnadredjene>PVC zastita Tablet Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1531" msdata:rowOrder="1530">
+      <Table diffgr:id="Table1528" msdata:rowOrder="1527">
         <ID>1493</ID>
         <sifra>05.01.11.16.</sifra>
         <naziv>Meizu LCD</naziv>
@@ -15074,7 +15044,7 @@
         <nazivnadredjene>LCD</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1532" msdata:rowOrder="1531">
+      <Table diffgr:id="Table1529" msdata:rowOrder="1528">
         <ID>1494</ID>
         <sifra>05.01.27.14.</sifra>
         <naziv>Meizu Touch screen</naziv>
@@ -15084,7 +15054,7 @@
         <nazivnadredjene>Touch screen</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1533" msdata:rowOrder="1532">
+      <Table diffgr:id="Table1530" msdata:rowOrder="1529">
         <ID>1877</ID>
         <naziv>BRAND PURO</naziv>
         <ceonaziv>Brand PURO, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15093,7 +15063,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1534" msdata:rowOrder="1533">
+      <Table diffgr:id="Table1531" msdata:rowOrder="1530">
         <ID>1878</ID>
         <naziv>Torbice Puro</naziv>
         <ceonaziv>Torbice Puro, Brand PURO, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15101,7 +15071,7 @@
         <nazivnadredjene>BRAND PURO</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1535" msdata:rowOrder="1534">
+      <Table diffgr:id="Table1532" msdata:rowOrder="1531">
         <ID>1879</ID>
         <naziv>Kucni punjaci Puro</naziv>
         <ceonaziv>Kucni punjaci Puro, Brand PURO, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15109,7 +15079,7 @@
         <nazivnadredjene>BRAND PURO</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1536" msdata:rowOrder="1535">
+      <Table diffgr:id="Table1533" msdata:rowOrder="1532">
         <ID>1880</ID>
         <naziv>Back up baterije Puro</naziv>
         <ceonaziv>Back up baterije Puro, Brand PURO, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15117,7 +15087,7 @@
         <nazivnadredjene>BRAND PURO</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1537" msdata:rowOrder="1536">
+      <Table diffgr:id="Table1534" msdata:rowOrder="1533">
         <ID>1881</ID>
         <naziv>Auto punjaci Puro</naziv>
         <ceonaziv>Auto punjaci Puro, Brand PURO, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15125,7 +15095,7 @@
         <nazivnadredjene>BRAND PURO</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1538" msdata:rowOrder="1537">
+      <Table diffgr:id="Table1535" msdata:rowOrder="1534">
         <ID>1496</ID>
         <sifra>05.01.11.01.</sifra>
         <naziv>Acer LCD</naziv>
@@ -15135,7 +15105,7 @@
         <nazivnadredjene>LCD</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1539" msdata:rowOrder="1538">
+      <Table diffgr:id="Table1536" msdata:rowOrder="1535">
         <ID>1497</ID>
         <sifra>05.01.27.01.</sifra>
         <naziv>Acer Touch screen</naziv>
@@ -15145,7 +15115,7 @@
         <nazivnadredjene>Touch screen</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1540" msdata:rowOrder="1539">
+      <Table diffgr:id="Table1537" msdata:rowOrder="1536">
         <ID>1498</ID>
         <sifra>06.05.02.02.</sifra>
         <naziv>Analogne kamere</naziv>
@@ -15155,7 +15125,7 @@
         <nazivnadredjene>SIGURNOSNE  KAMERE</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1541" msdata:rowOrder="1540">
+      <Table diffgr:id="Table1538" msdata:rowOrder="1537">
         <ID>1499</ID>
         <sifra>06.05.02.04.</sifra>
         <naziv>IP kamere</naziv>
@@ -15165,7 +15135,7 @@
         <nazivnadredjene>SIGURNOSNE  KAMERE</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1542" msdata:rowOrder="1541">
+      <Table diffgr:id="Table1539" msdata:rowOrder="1538">
         <ID>1500</ID>
         <sifra>06.05.02.03.</sifra>
         <naziv>HD-SDI kamere</naziv>
@@ -15175,7 +15145,7 @@
         <nazivnadredjene>SIGURNOSNE  KAMERE</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1543" msdata:rowOrder="1542">
+      <Table diffgr:id="Table1540" msdata:rowOrder="1539">
         <ID>1501</ID>
         <sifra>06.05.02.01.</sifra>
         <naziv>AHD kamere</naziv>
@@ -15185,7 +15155,7 @@
         <nazivnadredjene>SIGURNOSNE  KAMERE</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1544" msdata:rowOrder="1543">
+      <Table diffgr:id="Table1541" msdata:rowOrder="1540">
         <ID>2066</ID>
         <naziv>TORBICE CONTOUR</naziv>
         <ceonaziv>Torbice Contour, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15194,7 +15164,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1545" msdata:rowOrder="1544">
+      <Table diffgr:id="Table1542" msdata:rowOrder="1541">
         <ID>2067</ID>
         <naziv>TORBICE MOMENT</naziv>
         <ceonaziv>Torbice Moment, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15203,7 +15173,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1546" msdata:rowOrder="1545">
+      <Table diffgr:id="Table1543" msdata:rowOrder="1542">
         <ID>1720</ID>
         <sifra>09.12.01.96.</sifra>
         <naziv>TORBICE SILIKONSKE LIPS</naziv>
@@ -15212,7 +15182,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1547" msdata:rowOrder="1546">
+      <Table diffgr:id="Table1544" msdata:rowOrder="1543">
         <ID>1722</ID>
         <sifra>09.12.01.118.</sifra>
         <naziv>Torbice silikonske Spigen</naziv>
@@ -15221,7 +15191,7 @@
         <nazivnadredjene>TORBICE SPIGEN OUTLET</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1548" msdata:rowOrder="1547">
+      <Table diffgr:id="Table1545" msdata:rowOrder="1544">
         <ID>1723</ID>
         <sifra>09.12.01.145.</sifra>
         <naziv>TORBICE WUW</naziv>
@@ -15231,7 +15201,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1549" msdata:rowOrder="1548">
+      <Table diffgr:id="Table1546" msdata:rowOrder="1545">
         <ID>1724</ID>
         <sifra>09.12.01.81.</sifra>
         <naziv>izbaciti Torbice silikonske Crown</naziv>
@@ -15240,7 +15210,7 @@
         <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1550" msdata:rowOrder="1549">
+      <Table diffgr:id="Table1547" msdata:rowOrder="1546">
         <ID>1726</ID>
         <sifra>09.12.01.87.</sifra>
         <naziv>izbaciti Torbice silikonske Elegance</naziv>
@@ -15249,7 +15219,7 @@
         <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1551" msdata:rowOrder="1550">
+      <Table diffgr:id="Table1548" msdata:rowOrder="1547">
         <ID>1727</ID>
         <sifra>09.12.01.102.</sifra>
         <naziv>TORBICE SILIKONSKE MIRACLE</naziv>
@@ -15258,7 +15228,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1552" msdata:rowOrder="1551">
+      <Table diffgr:id="Table1549" msdata:rowOrder="1548">
         <ID>1553</ID>
         <sifra>05.01.12.3.6.1.1</sifra>
         <naziv>Acer poklopci</naziv>
@@ -15268,7 +15238,7 @@
         <nazivnadredjene>Lenovo poklopci</nazivnadredjene>
         <nivo>6</nivo>
       </Table>
-      <Table diffgr:id="Table1553" msdata:rowOrder="1552">
+      <Table diffgr:id="Table1550" msdata:rowOrder="1549">
         <ID>2101</ID>
         <naziv>Baterije za mobilni Teracell Plus</naziv>
         <ceonaziv>Baterije za mobilni Teracell Plus, Teracell baterije, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15276,7 +15246,7 @@
         <nazivnadredjene>Teracell baterije</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1554" msdata:rowOrder="1553">
+      <Table diffgr:id="Table1551" msdata:rowOrder="1550">
         <ID>2102</ID>
         <naziv>Alcatel baterije za mobilni Teracell Plus</naziv>
         <ceonaziv>Alcatel baterije za mobilni Teracell Plus, Baterije za mobilni Teracell Plus, Teracell baterije, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15284,7 +15254,7 @@
         <nazivnadredjene>Baterije za mobilni Teracell Plus</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1555" msdata:rowOrder="1554">
+      <Table diffgr:id="Table1552" msdata:rowOrder="1551">
         <ID>2103</ID>
         <naziv>HTC baterije za mobilni Teracell Plus</naziv>
         <ceonaziv>HTC baterije za mobilni Teracell Plus, Baterije za mobilni Teracell Plus, Teracell baterije, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15292,7 +15262,7 @@
         <nazivnadredjene>Baterije za mobilni Teracell Plus</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1556" msdata:rowOrder="1555">
+      <Table diffgr:id="Table1553" msdata:rowOrder="1552">
         <ID>2104</ID>
         <naziv>Huawei baterije za mobilni Teracell Plus</naziv>
         <ceonaziv>Huawei baterije za mobilni Teracell Plus, Baterije za mobilni Teracell Plus, Teracell baterije, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15300,7 +15270,7 @@
         <nazivnadredjene>Baterije za mobilni Teracell Plus</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1557" msdata:rowOrder="1556">
+      <Table diffgr:id="Table1554" msdata:rowOrder="1553">
         <ID>2105</ID>
         <naziv>Iphone baterije za mobilni Teracell Plus</naziv>
         <ceonaziv>Iphone baterije za mobilni Teracell Plus, Baterije za mobilni Teracell Plus, Teracell baterije, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15308,7 +15278,7 @@
         <nazivnadredjene>Baterije za mobilni Teracell Plus</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1558" msdata:rowOrder="1557">
+      <Table diffgr:id="Table1555" msdata:rowOrder="1554">
         <ID>2106</ID>
         <naziv>Lenovo baterije za mobilni Teracell Plus</naziv>
         <ceonaziv>Lenovo baterije za mobilni Teracell Plus, Baterije za mobilni Teracell Plus, Teracell baterije, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15316,7 +15286,7 @@
         <nazivnadredjene>Baterije za mobilni Teracell Plus</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1559" msdata:rowOrder="1558">
+      <Table diffgr:id="Table1556" msdata:rowOrder="1555">
         <ID>2107</ID>
         <naziv>LG baterije za mobilni Teracell Plus</naziv>
         <ceonaziv>LG baterije za mobilni Teracell Plus, Baterije za mobilni Teracell Plus, Teracell baterije, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15324,7 +15294,7 @@
         <nazivnadredjene>Baterije za mobilni Teracell Plus</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1560" msdata:rowOrder="1559">
+      <Table diffgr:id="Table1557" msdata:rowOrder="1556">
         <ID>2108</ID>
         <naziv>Nokia baterije za mobilni Teracell Plus</naziv>
         <ceonaziv>Nokia baterije za mobilni Teracell Plus, Baterije za mobilni Teracell Plus, Teracell baterije, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15332,7 +15302,7 @@
         <nazivnadredjene>Baterije za mobilni Teracell Plus</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1561" msdata:rowOrder="1560">
+      <Table diffgr:id="Table1558" msdata:rowOrder="1557">
         <ID>2109</ID>
         <naziv>Samsung baterije za mobilni Teracell Plus</naziv>
         <ceonaziv>Samsung baterije za mobilni Teracell Plus, Baterije za mobilni Teracell Plus, Teracell baterije, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15340,7 +15310,7 @@
         <nazivnadredjene>Baterije za mobilni Teracell Plus</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1562" msdata:rowOrder="1561">
+      <Table diffgr:id="Table1559" msdata:rowOrder="1558">
         <ID>2110</ID>
         <naziv>Sony baterije za mobilni Teracell Plus</naziv>
         <ceonaziv>Sony baterije za mobilni Teracell Plus, Baterije za mobilni Teracell Plus, Teracell baterije, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15348,7 +15318,7 @@
         <nazivnadredjene>Baterije za mobilni Teracell Plus</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1563" msdata:rowOrder="1562">
+      <Table diffgr:id="Table1560" msdata:rowOrder="1559">
         <ID>2111</ID>
         <naziv>Xiaomi baterije za mobilni Teracell Plus</naziv>
         <ceonaziv>Xiaomi baterije za mobilni Teracell Plus, Baterije za mobilni Teracell Plus, Teracell baterije, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15356,7 +15326,7 @@
         <nazivnadredjene>Baterije za mobilni Teracell Plus</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1564" msdata:rowOrder="1563">
+      <Table diffgr:id="Table1561" msdata:rowOrder="1560">
         <ID>1554</ID>
         <sifra>05.01.12.03.11.</sifra>
         <naziv>Vivax poklopci</naziv>
@@ -15366,7 +15336,7 @@
         <nazivnadredjene>Poklopci AAA</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1565" msdata:rowOrder="1564">
+      <Table diffgr:id="Table1562" msdata:rowOrder="1561">
         <ID>1555</ID>
         <sifra>05.01.12.03.01.</sifra>
         <naziv>Acer poklopci</naziv>
@@ -15376,7 +15346,7 @@
         <nazivnadredjene>Poklopci AAA</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1566" msdata:rowOrder="1565">
+      <Table diffgr:id="Table1563" msdata:rowOrder="1562">
         <ID>1556</ID>
         <sifra>05.01.12.03.1.1.</sifra>
         <naziv>Alcatel poklopci</naziv>
@@ -15386,7 +15356,7 @@
         <nazivnadredjene>Acer poklopci</nazivnadredjene>
         <nivo>5</nivo>
       </Table>
-      <Table diffgr:id="Table1567" msdata:rowOrder="1566">
+      <Table diffgr:id="Table1564" msdata:rowOrder="1563">
         <ID>1557</ID>
         <sifra>05.01.12.3.1.1.</sifra>
         <naziv>Lenovo poklopci</naziv>
@@ -15396,7 +15366,7 @@
         <nazivnadredjene>Alcatel poklopci</nazivnadredjene>
         <nivo>6</nivo>
       </Table>
-      <Table diffgr:id="Table1568" msdata:rowOrder="1567">
+      <Table diffgr:id="Table1565" msdata:rowOrder="1564">
         <ID>1502</ID>
         <sifra>06.05.01.03.</sifra>
         <naziv>HD-SDI snimaci</naziv>
@@ -15406,7 +15376,7 @@
         <nazivnadredjene>DVR  SNIMACI</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1569" msdata:rowOrder="1568">
+      <Table diffgr:id="Table1566" msdata:rowOrder="1565">
         <ID>1503</ID>
         <sifra>06.05.01.01.</sifra>
         <naziv>AHD snimaci</naziv>
@@ -15416,7 +15386,7 @@
         <nazivnadredjene>DVR  SNIMACI</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1570" msdata:rowOrder="1569">
+      <Table diffgr:id="Table1567" msdata:rowOrder="1566">
         <ID>1504</ID>
         <sifra>06.05.01.02.</sifra>
         <naziv>Analogni snimaci</naziv>
@@ -15426,7 +15396,7 @@
         <nazivnadredjene>DVR  SNIMACI</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1571" msdata:rowOrder="1570">
+      <Table diffgr:id="Table1568" msdata:rowOrder="1567">
         <ID>1505</ID>
         <sifra>06.05.01.05.</sifra>
         <naziv>Mrezni (NVR) snimaci</naziv>
@@ -15436,7 +15406,7 @@
         <nazivnadredjene>DVR  SNIMACI</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1572" msdata:rowOrder="1571">
+      <Table diffgr:id="Table1569" msdata:rowOrder="1568">
         <ID>1506</ID>
         <sifra>06.01.01.</sifra>
         <naziv>Ostala oprema</naziv>
@@ -15446,16 +15416,16 @@
         <nazivnadredjene>ALARMI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1573" msdata:rowOrder="1572">
+      <Table diffgr:id="Table1570" msdata:rowOrder="1569">
         <ID>1507</ID>
         <sifra>09.12.15.42.</sifra>
-        <naziv>Teracell Vogue stripe</naziv>
-        <ceonaziv>Teracell Vogue stripe, Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2128</IDnadredjene>
-        <nazivnadredjene>Torbice Teracell outlet</nazivnadredjene>
-        <nivo>3</nivo>
+        <naziv>TORBICE TERACELL VOGUE STRIPE</naziv>
+        <ceonaziv>TORBICE TERACELL VOGUE STRIPE, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>2126</IDnadredjene>
+        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1574" msdata:rowOrder="1573">
+      <Table diffgr:id="Table1571" msdata:rowOrder="1570">
         <ID>1508</ID>
         <sifra>06.05.01.04.</sifra>
         <naziv>Kompleti DVR sa kamerama</naziv>
@@ -15465,7 +15435,7 @@
         <nazivnadredjene>DVR  SNIMACI</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1575" msdata:rowOrder="1574">
+      <Table diffgr:id="Table1572" msdata:rowOrder="1571">
         <ID>1509</ID>
         <sifra>09.13.09.11.</sifra>
         <naziv>Meizu Tempered glass</naziv>
@@ -15475,7 +15445,7 @@
         <nazivnadredjene>Tempered glass</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1576" msdata:rowOrder="1575">
+      <Table diffgr:id="Table1573" msdata:rowOrder="1572">
         <ID>1514</ID>
         <sifra>09.12.01.45.</sifra>
         <naziv>Torbice Mercury View</naziv>
@@ -15484,7 +15454,7 @@
         <nazivnadredjene>BRAND MERCURY</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1577" msdata:rowOrder="1576">
+      <Table diffgr:id="Table1574" msdata:rowOrder="1573">
         <ID>1511</ID>
         <sifra>09.13.02.06.</sifra>
         <naziv>Microsoft PVC zastita DIAMOND</naziv>
@@ -15494,7 +15464,7 @@
         <nazivnadredjene>PVC zastita  DIAMOND</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1578" msdata:rowOrder="1577">
+      <Table diffgr:id="Table1575" msdata:rowOrder="1574">
         <ID>1512</ID>
         <sifra>09.13.02.09.</sifra>
         <naziv>Sony PVC zastita DIAMOND</naziv>
@@ -15504,7 +15474,7 @@
         <nazivnadredjene>PVC zastita  DIAMOND</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1579" msdata:rowOrder="1578">
+      <Table diffgr:id="Table1576" msdata:rowOrder="1575">
         <ID>1513</ID>
         <sifra>09.07.02.</sifra>
         <naziv>MEMOSTAR memorijske kartice</naziv>
@@ -15514,7 +15484,7 @@
         <nazivnadredjene>MEMORIJSKE KARTICE ZA MOBILNI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1580" msdata:rowOrder="1579">
+      <Table diffgr:id="Table1577" msdata:rowOrder="1576">
         <ID>1515</ID>
         <sifra>05.01.09.02.</sifra>
         <naziv>Asus konektori</naziv>
@@ -15524,7 +15494,7 @@
         <nazivnadredjene>Konektori </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1581" msdata:rowOrder="1580">
+      <Table diffgr:id="Table1578" msdata:rowOrder="1577">
         <ID>1516</ID>
         <sifra>05.01.17.01.</sifra>
         <naziv>Asus on/off prekidaci</naziv>
@@ -15534,7 +15504,7 @@
         <nazivnadredjene>ON/OFF prekidaci</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1582" msdata:rowOrder="1581">
+      <Table diffgr:id="Table1579" msdata:rowOrder="1578">
         <ID>1517</ID>
         <sifra>05.01.05.02.</sifra>
         <naziv>Asus buzzeri/zvucnici</naziv>
@@ -15544,7 +15514,7 @@
         <nazivnadredjene>Buzzeri/Zvucnici</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1583" msdata:rowOrder="1582">
+      <Table diffgr:id="Table1580" msdata:rowOrder="1579">
         <ID>2068</ID>
         <naziv>Type C Data kablovi</naziv>
         <ceonaziv>Type C Data kablovi, Data kablovi, PUNJACI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15553,7 +15523,7 @@
         <nazivnadredjene>Data kablovi</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1584" msdata:rowOrder="1583">
+      <Table diffgr:id="Table1581" msdata:rowOrder="1580">
         <ID>2069</ID>
         <naziv>TORBICE HOT DOTS</naziv>
         <ceonaziv>TORBICE HOT DOTS, TORBICE , MOBILNI ,OSNOVNA</ceonaziv>
@@ -15562,7 +15532,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1585" msdata:rowOrder="1584">
+      <Table diffgr:id="Table1582" msdata:rowOrder="1581">
         <ID>1519</ID>
         <sifra>09.12.01.51.</sifra>
         <naziv>Torbice Motomo Esm</naziv>
@@ -15571,7 +15541,7 @@
         <nazivnadredjene>TORBICE MOTOMO</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1586" msdata:rowOrder="1585">
+      <Table diffgr:id="Table1583" msdata:rowOrder="1582">
         <ID>1520</ID>
         <sifra>09.12.12.02.</sifra>
         <naziv>Torbice Sam G925 S6 Edge</naziv>
@@ -15581,7 +15551,7 @@
         <nazivnadredjene>Torbice Samsung</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1587" msdata:rowOrder="1586">
+      <Table diffgr:id="Table1584" msdata:rowOrder="1583">
         <ID>1522</ID>
         <sifra>09.13.09.02.</sifra>
         <naziv>Alcatel Tempered glass</naziv>
@@ -15591,7 +15561,7 @@
         <nazivnadredjene>Tempered glass</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1588" msdata:rowOrder="1587">
+      <Table diffgr:id="Table1585" msdata:rowOrder="1584">
         <ID>1523</ID>
         <sifra>09.12.15.05.</sifra>
         <naziv>TORBICE TERACELL COLOR SKIN</naziv>
@@ -15600,7 +15570,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1589" msdata:rowOrder="1588">
+      <Table diffgr:id="Table1586" msdata:rowOrder="1585">
         <ID>1377</ID>
         <sifra>09.03.11.01.</sifra>
         <naziv>Samsung</naziv>
@@ -15610,7 +15580,7 @@
         <nazivnadredjene>PVC zastita Tablet Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1590" msdata:rowOrder="1589">
+      <Table diffgr:id="Table1587" msdata:rowOrder="1586">
         <ID>1378</ID>
         <sifra>09.03.09.01.</sifra>
         <naziv>Apple</naziv>
@@ -15620,7 +15590,7 @@
         <nazivnadredjene>Punjaci Tablet Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1591" msdata:rowOrder="1590">
+      <Table diffgr:id="Table1588" msdata:rowOrder="1587">
         <ID>1380</ID>
         <sifra>09.03.20.04.</sifra>
         <naziv>Universal</naziv>
@@ -15630,7 +15600,7 @@
         <nazivnadredjene>Torbice Tablet Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1592" msdata:rowOrder="1591">
+      <Table diffgr:id="Table1589" msdata:rowOrder="1588">
         <ID>1381</ID>
         <sifra>09.03.20.01.</sifra>
         <naziv>Apple</naziv>
@@ -15640,7 +15610,7 @@
         <nazivnadredjene>Torbice Tablet Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1593" msdata:rowOrder="1592">
+      <Table diffgr:id="Table1590" msdata:rowOrder="1589">
         <ID>1382</ID>
         <sifra>09.03.20.02.</sifra>
         <naziv>HTC</naziv>
@@ -15650,7 +15620,7 @@
         <nazivnadredjene>Torbice Tablet Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1594" msdata:rowOrder="1593">
+      <Table diffgr:id="Table1591" msdata:rowOrder="1590">
         <ID>2112</ID>
         <naziv>Hendy Print</naziv>
         <ceonaziv>Hendy Print, Razvrstati ,OSNOVNA</ceonaziv>
@@ -15659,16 +15629,16 @@
         <nazivnadredjene>Razvrstati</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1595" msdata:rowOrder="1594">
+      <Table diffgr:id="Table1592" msdata:rowOrder="1591">
         <ID>2113</ID>
         <naziv>Wiko Print Case</naziv>
-        <ceonaziv>Wiko Print Case, Giulietta Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Wiko Print Case, GIULIETTA PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1297</IDnadredjene>
         <sifranadredjene>09.12.11.03.</sifranadredjene>
-        <nazivnadredjene>Giulietta Print MyCase</nazivnadredjene>
+        <nazivnadredjene>GIULIETTA PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1596" msdata:rowOrder="1595">
+      <Table diffgr:id="Table1593" msdata:rowOrder="1592">
         <ID>2114</ID>
         <naziv>BRAND BASEUS</naziv>
         <ceonaziv>Brand BASEUS, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15677,7 +15647,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1597" msdata:rowOrder="1596">
+      <Table diffgr:id="Table1594" msdata:rowOrder="1593">
         <ID>2115</ID>
         <naziv>Torbice Baseus</naziv>
         <ceonaziv>Torbice Baseus, Brand BASEUS, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15685,7 +15655,7 @@
         <nazivnadredjene>BRAND BASEUS</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1598" msdata:rowOrder="1597">
+      <Table diffgr:id="Table1595" msdata:rowOrder="1594">
         <ID>2116</ID>
         <naziv>Zastita za ekran Baseus</naziv>
         <ceonaziv>Zastita za ekran Baseus, Brand BASEUS, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15693,7 +15663,7 @@
         <nazivnadredjene>BRAND BASEUS</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1599" msdata:rowOrder="1598">
+      <Table diffgr:id="Table1596" msdata:rowOrder="1595">
         <ID>2118</ID>
         <naziv>TORBICE CATCH</naziv>
         <ceonaziv>Torbice Catch, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15702,7 +15672,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1600" msdata:rowOrder="1599">
+      <Table diffgr:id="Table1597" msdata:rowOrder="1596">
         <ID>2119</ID>
         <naziv>TORBICE X LEVEL</naziv>
         <ceonaziv>Torbice X Level, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15711,7 +15681,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1601" msdata:rowOrder="1600">
+      <Table diffgr:id="Table1598" msdata:rowOrder="1597">
         <ID>2122</ID>
         <naziv>TORBICE ELEGANT MEN EXCLUSIVE</naziv>
         <ceonaziv>Torbice Elegant men Exclusive, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15720,7 +15690,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1602" msdata:rowOrder="1601">
+      <Table diffgr:id="Table1599" msdata:rowOrder="1598">
         <ID>2121</ID>
         <naziv>Tempered glass Nano</naziv>
         <ceonaziv>Tempered glass Nano, ZASTITA ZA EKRAN, MOBILNI ,OSNOVNA</ceonaziv>
@@ -15729,7 +15699,7 @@
         <nazivnadredjene>ZASTITA ZA EKRAN</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1603" msdata:rowOrder="1602">
+      <Table diffgr:id="Table1600" msdata:rowOrder="1599">
         <ID>1387</ID>
         <sifra>09.03.20.03.</sifra>
         <naziv>Samsung</naziv>
@@ -15739,16 +15709,16 @@
         <nazivnadredjene>Torbice Tablet Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1604" msdata:rowOrder="1603">
+      <Table diffgr:id="Table1601" msdata:rowOrder="1600">
         <ID>1882</ID>
         <naziv>Acer Skin Print Case</naziv>
-        <ceonaziv>Acer Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Acer Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1605" msdata:rowOrder="1604">
+      <Table diffgr:id="Table1602" msdata:rowOrder="1601">
         <ID>1883</ID>
         <sifra>09.09.12.</sifra>
         <naziv>Spineri</naziv>
@@ -15758,7 +15728,7 @@
         <nazivnadredjene>OSTALO</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1606" msdata:rowOrder="1605">
+      <Table diffgr:id="Table1603" msdata:rowOrder="1602">
         <ID>1884</ID>
         <sifra>09.13.18.</sifra>
         <naziv>Tempered glass 4D</naziv>
@@ -15768,7 +15738,7 @@
         <nazivnadredjene>ZASTITA ZA EKRAN</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1607" msdata:rowOrder="1606">
+      <Table diffgr:id="Table1604" msdata:rowOrder="1603">
         <ID>1388</ID>
         <sifra>09.03.13.01.</sifra>
         <naziv>Apple</naziv>
@@ -15778,7 +15748,7 @@
         <nazivnadredjene>Torbice Flip top Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1608" msdata:rowOrder="1607">
+      <Table diffgr:id="Table1605" msdata:rowOrder="1604">
         <ID>1389</ID>
         <sifra>09.03.13.02.</sifra>
         <naziv>Blackberry</naziv>
@@ -15788,7 +15758,7 @@
         <nazivnadredjene>Torbice Flip top Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1609" msdata:rowOrder="1608">
+      <Table diffgr:id="Table1606" msdata:rowOrder="1605">
         <ID>1390</ID>
         <sifra>09.03.13.04</sifra>
         <naziv>HTC</naziv>
@@ -15798,7 +15768,7 @@
         <nazivnadredjene>Torbice Flip top Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1610" msdata:rowOrder="1609">
+      <Table diffgr:id="Table1607" msdata:rowOrder="1606">
         <ID>1391</ID>
         <sifra>09.03.13.05.</sifra>
         <naziv>LG</naziv>
@@ -15808,7 +15778,7 @@
         <nazivnadredjene>Torbice Flip top Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1611" msdata:rowOrder="1610">
+      <Table diffgr:id="Table1608" msdata:rowOrder="1607">
         <ID>1392</ID>
         <sifra>09.03.13.06.</sifra>
         <naziv>Nokia</naziv>
@@ -15818,7 +15788,7 @@
         <nazivnadredjene>Torbice Flip top Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1612" msdata:rowOrder="1611">
+      <Table diffgr:id="Table1609" msdata:rowOrder="1608">
         <ID>1394</ID>
         <sifra>09.03.13.07.</sifra>
         <naziv>Samsung</naziv>
@@ -15828,7 +15798,7 @@
         <nazivnadredjene>Torbice Flip top Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1613" msdata:rowOrder="1612">
+      <Table diffgr:id="Table1610" msdata:rowOrder="1609">
         <ID>1395</ID>
         <sifra>09.03.14.01.</sifra>
         <naziv>Apple</naziv>
@@ -15838,7 +15808,7 @@
         <nazivnadredjene>Torbice Invisible Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1614" msdata:rowOrder="1613">
+      <Table diffgr:id="Table1611" msdata:rowOrder="1610">
         <ID>1396</ID>
         <sifra>09.03.14.02.</sifra>
         <naziv>Blackberry</naziv>
@@ -15848,7 +15818,7 @@
         <nazivnadredjene>Torbice Invisible Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1615" msdata:rowOrder="1614">
+      <Table diffgr:id="Table1612" msdata:rowOrder="1611">
         <ID>1397</ID>
         <sifra>09.03.14.03.</sifra>
         <naziv>HTC</naziv>
@@ -15858,7 +15828,7 @@
         <nazivnadredjene>Torbice Invisible Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1616" msdata:rowOrder="1615">
+      <Table diffgr:id="Table1613" msdata:rowOrder="1612">
         <ID>1398</ID>
         <sifra>09.03.14.04.</sifra>
         <naziv>LG</naziv>
@@ -15868,7 +15838,7 @@
         <nazivnadredjene>Torbice Invisible Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1617" msdata:rowOrder="1616">
+      <Table diffgr:id="Table1614" msdata:rowOrder="1613">
         <ID>1399</ID>
         <sifra>09.03.14.05.</sifra>
         <naziv>Nokia</naziv>
@@ -15878,7 +15848,7 @@
         <nazivnadredjene>Torbice Invisible Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1618" msdata:rowOrder="1617">
+      <Table diffgr:id="Table1615" msdata:rowOrder="1614">
         <ID>1400</ID>
         <sifra>09.03.14.06.</sifra>
         <naziv>Samsung</naziv>
@@ -15888,27 +15858,27 @@
         <nazivnadredjene>Torbice Invisible Cellularline</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1619" msdata:rowOrder="1618">
+      <Table diffgr:id="Table1616" msdata:rowOrder="1615">
         <ID>1315</ID>
         <sifra>09.12.11.10.03.</sifra>
         <naziv>Huawei Bi Fold Print Torbice</naziv>
         <ceonaziv>Huawei Bi Fold Print Torbice, Torbice Bi fold print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1276</IDnadredjene>
         <sifranadredjene>09.12.11.10.</sifranadredjene>
-        <nazivnadredjene>Torbice Bi fold print</nazivnadredjene>
+        <nazivnadredjene>TORBICE BI FOLD PRINT </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1620" msdata:rowOrder="1619">
+      <Table diffgr:id="Table1617" msdata:rowOrder="1616">
         <ID>1316</ID>
         <sifra>09.12.11.10.04.</sifra>
         <naziv>iPhone Bi Fold Print Torbice</naziv>
         <ceonaziv>iPhone Bi Fold Print Torbice, Torbice Bi fold print, Torbice Print, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1276</IDnadredjene>
         <sifranadredjene>09.12.11.10.</sifranadredjene>
-        <nazivnadredjene>Torbice Bi fold print</nazivnadredjene>
+        <nazivnadredjene>TORBICE BI FOLD PRINT </nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1621" msdata:rowOrder="1620">
+      <Table diffgr:id="Table1618" msdata:rowOrder="1617">
         <ID>1673</ID>
         <sifra>09.12.01.119.</sifra>
         <naziv>Torbice silikonske Spigen color</naziv>
@@ -15917,7 +15887,7 @@
         <nazivnadredjene>TORBICE SPIGEN OUTLET</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1622" msdata:rowOrder="1621">
+      <Table diffgr:id="Table1619" msdata:rowOrder="1618">
         <ID>1277</ID>
         <sifra>09.12.15.13.13.</sifra>
         <naziv>Microsoft Teracell Giulietta</naziv>
@@ -15927,16 +15897,17 @@
         <nazivnadredjene>Teracell Giulietta</nazivnadredjene>
         <nivo>4</nivo>
       </Table>
-      <Table diffgr:id="Table1623" msdata:rowOrder="1622">
+      <Table diffgr:id="Table1620" msdata:rowOrder="1619">
         <ID>1808</ID>
         <sifra>09.12.01.100</sifra>
         <naziv>TORBICE SILIKONSKE LUX FLUID</naziv>
-        <ceonaziv>Torbice silikonske Lux Fluid, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2126</IDnadredjene>
-        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
+        <ceonaziv>TORBICE SILIKONSKE LUX FLUID, TORBICE , MOBILNI ,OSNOVNA</ceonaziv>
+        <IDnadredjene>1459</IDnadredjene>
+        <sifranadredjene>09.12.</sifranadredjene>
+        <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1624" msdata:rowOrder="1623">
+      <Table diffgr:id="Table1621" msdata:rowOrder="1620">
         <ID>1810</ID>
         <sifra>07.11.07.</sifra>
         <naziv>MSI tastature za laptop</naziv>
@@ -15946,7 +15917,7 @@
         <nazivnadredjene>Tastature za laptop</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1625" msdata:rowOrder="1624">
+      <Table diffgr:id="Table1622" msdata:rowOrder="1621">
         <ID>1842</ID>
         <sifra>09.12.15.29.</sifra>
         <naziv>Teracell Skin plus</naziv>
@@ -15955,7 +15926,7 @@
         <nazivnadredjene>Teracell Torbice</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1626" msdata:rowOrder="1625">
+      <Table diffgr:id="Table1623" msdata:rowOrder="1622">
         <ID>1843</ID>
         <sifra>09.12.01.16.</sifra>
         <naziv>TORBICE CRYSTAL DUST</naziv>
@@ -15965,7 +15936,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1627" msdata:rowOrder="1626">
+      <Table diffgr:id="Table1624" msdata:rowOrder="1623">
         <ID>1844</ID>
         <sifra>09.12.01.17.</sifra>
         <naziv>TORBICE DEFENDER MILITARY</naziv>
@@ -15975,7 +15946,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1628" msdata:rowOrder="1627">
+      <Table diffgr:id="Table1625" msdata:rowOrder="1624">
         <ID>1845</ID>
         <sifra>09.12.01.44.</sifra>
         <naziv>Torbice Mercury Romance</naziv>
@@ -15984,7 +15955,7 @@
         <nazivnadredjene>BRAND MERCURY</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1629" msdata:rowOrder="1628">
+      <Table diffgr:id="Table1626" msdata:rowOrder="1625">
         <ID>1846</ID>
         <sifra>09.12.01.56.</sifra>
         <naziv>Torbice Motomo Sparkle</naziv>
@@ -15993,7 +15964,7 @@
         <nazivnadredjene>BRAND MOTOMO</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1630" msdata:rowOrder="1629">
+      <Table diffgr:id="Table1627" msdata:rowOrder="1626">
         <ID>1847</ID>
         <sifra>09.12.01.70.</sifra>
         <naziv>Torbice Shiny</naziv>
@@ -16002,7 +15973,7 @@
         <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1631" msdata:rowOrder="1630">
+      <Table diffgr:id="Table1628" msdata:rowOrder="1627">
         <ID>1848</ID>
         <sifra>09.12.01.132.</sifra>
         <naziv>TORBICE SPARKLE SKIN</naziv>
@@ -16012,7 +15983,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1632" msdata:rowOrder="1631">
+      <Table diffgr:id="Table1629" msdata:rowOrder="1628">
         <ID>1811</ID>
         <sifra>09.09.11.</sifra>
         <naziv>VR BOX</naziv>
@@ -16022,7 +15993,7 @@
         <nazivnadredjene>OSTALO</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1633" msdata:rowOrder="1632">
+      <Table diffgr:id="Table1630" msdata:rowOrder="1629">
         <ID>1807</ID>
         <sifra>10.</sifra>
         <naziv>Nije Vidljiv za VP i MP</naziv>
@@ -16031,7 +16002,7 @@
         <nazivnadredjene>IZBACITI OSTALO</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1634" msdata:rowOrder="1633">
+      <Table diffgr:id="Table1631" msdata:rowOrder="1630">
         <ID>2123</ID>
         <naziv>Wireless punjaci</naziv>
         <ceonaziv>Wireless punjaci, PUNJACI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16040,7 +16011,7 @@
         <nazivnadredjene>PUNJACI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1635" msdata:rowOrder="1634">
+      <Table diffgr:id="Table1632" msdata:rowOrder="1631">
         <ID>2124</ID>
         <naziv>Teracell Slim</naziv>
         <ceonaziv>Teracell Slim, Teracell Torbice, Brand Teracell, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16048,7 +16019,7 @@
         <nazivnadredjene>Teracell Torbice</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1636" msdata:rowOrder="1635">
+      <Table diffgr:id="Table1633" msdata:rowOrder="1632">
         <ID>2125</ID>
         <naziv>Torbice Platina Business</naziv>
         <ceonaziv>Torbice Platina Business, Brand PLATINA, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16056,7 +16027,7 @@
         <nazivnadredjene>BRAND PLATINA</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1637" msdata:rowOrder="1636">
+      <Table diffgr:id="Table1634" msdata:rowOrder="1633">
         <ID>2126</ID>
         <naziv>TORBICE NA AKCIJI</naziv>
         <ceonaziv>TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16065,7 +16036,7 @@
         <nazivnadredjene>MOBILNI</nazivnadredjene>
         <nivo>1</nivo>
       </Table>
-      <Table diffgr:id="Table1638" msdata:rowOrder="1637">
+      <Table diffgr:id="Table1635" msdata:rowOrder="1634">
         <ID>2127</ID>
         <naziv>Huawei baterije za mobilni full org</naziv>
         <ceonaziv>Huawei baterije za mobilni full org, BATERIJE ZA MOBILNI ORIGINAL, BATERIJE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16074,15 +16045,7 @@
         <nazivnadredjene>BATERIJE ZA MOBILNI ORIGINAL</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1639" msdata:rowOrder="1638">
-        <ID>2128</ID>
-        <naziv>Torbice Teracell outlet</naziv>
-        <ceonaziv>Torbice Teracell outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
-        <IDnadredjene>2126</IDnadredjene>
-        <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
-        <nivo>2</nivo>
-      </Table>
-      <Table diffgr:id="Table1640" msdata:rowOrder="1639">
+      <Table diffgr:id="Table1636" msdata:rowOrder="1635">
         <ID>2129</ID>
         <naziv>TORBICE MOTOMO</naziv>
         <ceonaziv>TORBICE MOTOMO, !TORBICE NA RASPRODAJI, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16091,7 +16054,7 @@
         <nazivnadredjene>!TORBICE NA RASPRODAJI</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1641" msdata:rowOrder="1640">
+      <Table diffgr:id="Table1637" msdata:rowOrder="1636">
         <ID>2130</ID>
         <naziv>TORBICE SPIGEN OUTLET</naziv>
         <ceonaziv>Torbice Spigen outlet, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16099,7 +16062,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1642" msdata:rowOrder="1641">
+      <Table diffgr:id="Table1638" msdata:rowOrder="1637">
         <ID>2132</ID>
         <naziv>izbaciti HTC baterije za mobilni full org</naziv>
         <ceonaziv>izbaciti HTC baterije za mobilni full org, IZBACITI BATERIJE, IZBACITI ,OSNOVNA</ceonaziv>
@@ -16107,7 +16070,7 @@
         <nazivnadredjene>IZBACITI BATERIJE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1643" msdata:rowOrder="1642">
+      <Table diffgr:id="Table1639" msdata:rowOrder="1638">
         <ID>2133</ID>
         <naziv>Alcatel baterije za mobilni full org</naziv>
         <ceonaziv>Alcatel baterije za mobilni full org, BATERIJE ZA MOBILNI ORIGINAL, BATERIJE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16116,7 +16079,7 @@
         <nazivnadredjene>BATERIJE ZA MOBILNI ORIGINAL</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1644" msdata:rowOrder="1643">
+      <Table diffgr:id="Table1640" msdata:rowOrder="1639">
         <ID>2134</ID>
         <naziv>izbaciti Iphone baterije za mobilni full org</naziv>
         <ceonaziv>izbaciti Iphone baterije za mobilni full org, IZBACITI BATERIJE, IZBACITI ,OSNOVNA</ceonaziv>
@@ -16124,7 +16087,7 @@
         <nazivnadredjene>IZBACITI BATERIJE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1645" msdata:rowOrder="1644">
+      <Table diffgr:id="Table1641" msdata:rowOrder="1640">
         <ID>2135</ID>
         <naziv>LG baterije za mobilni full org</naziv>
         <ceonaziv>LG baterije za mobilni full org, BATERIJE ZA MOBILNI ORIGINAL, BATERIJE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16133,7 +16096,7 @@
         <nazivnadredjene>BATERIJE ZA MOBILNI ORIGINAL</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1646" msdata:rowOrder="1645">
+      <Table diffgr:id="Table1642" msdata:rowOrder="1641">
         <ID>2136</ID>
         <naziv>izbaciti Sony baterije za mobilni full org</naziv>
         <ceonaziv>izbaciti Sony baterije za mobilni full org, IZBACITI BATERIJE, IZBACITI ,OSNOVNA</ceonaziv>
@@ -16141,7 +16104,7 @@
         <nazivnadredjene>IZBACITI BATERIJE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1647" msdata:rowOrder="1646">
+      <Table diffgr:id="Table1643" msdata:rowOrder="1642">
         <ID>1834</ID>
         <sifra>16.01.05.</sifra>
         <naziv>kto 103 -  Alat i inventar - u celini se otpisuje (sitan inv, auto gume, ambalaza)</naziv>
@@ -16151,7 +16114,7 @@
         <nazivnadredjene>Inventar</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1648" msdata:rowOrder="1647">
+      <Table diffgr:id="Table1644" msdata:rowOrder="1643">
         <ID>1885</ID>
         <naziv>Torbice Rain plus</naziv>
         <ceonaziv>Torbice Rain plus, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
@@ -16159,7 +16122,7 @@
         <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1649" msdata:rowOrder="1648">
+      <Table diffgr:id="Table1645" msdata:rowOrder="1644">
         <ID>1887</ID>
         <naziv>TORBICE TRUE INNOVATIVE</naziv>
         <ceonaziv>TORBICE TRUE INNOVATIVE, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16167,16 +16130,16 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1650" msdata:rowOrder="1649">
+      <Table diffgr:id="Table1646" msdata:rowOrder="1645">
         <ID>1889</ID>
         <naziv>Tesla Skin Print Case</naziv>
-        <ceonaziv>Tesla Skin Print Case, Skin Print MyCase, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
+        <ceonaziv>Tesla Skin Print Case, SKIN PRINT, TORBICE PRINT, MOBILNI ,OSNOVNA</ceonaziv>
         <IDnadredjene>1291</IDnadredjene>
         <sifranadredjene>09.12.11.08.</sifranadredjene>
-        <nazivnadredjene>Skin Print MyCase</nazivnadredjene>
+        <nazivnadredjene>SKIN PRINT</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1651" msdata:rowOrder="1650">
+      <Table diffgr:id="Table1647" msdata:rowOrder="1646">
         <ID>1892</ID>
         <naziv>TORBICE GOLDEN DREAM</naziv>
         <ceonaziv>TORBICE GOLDEN DREAM, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16184,7 +16147,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1652" msdata:rowOrder="1651">
+      <Table diffgr:id="Table1648" msdata:rowOrder="1647">
         <ID>1893</ID>
         <naziv>TORBICE NATALIA</naziv>
         <ceonaziv>TORBICE NATALIA, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16192,7 +16155,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1653" msdata:rowOrder="1652">
+      <Table diffgr:id="Table1649" msdata:rowOrder="1648">
         <ID>1894</ID>
         <naziv>Torbice Ruby Ears</naziv>
         <ceonaziv>Torbice Ruby Ears, IZBACITI TORBICE, IZBACITI ,OSNOVNA</ceonaziv>
@@ -16200,7 +16163,7 @@
         <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1654" msdata:rowOrder="1653">
+      <Table diffgr:id="Table1650" msdata:rowOrder="1649">
         <ID>1895</ID>
         <naziv>TORBICE TWIST</naziv>
         <ceonaziv>TORBICE TWIST, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16208,7 +16171,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1655" msdata:rowOrder="1654">
+      <Table diffgr:id="Table1651" msdata:rowOrder="1650">
         <ID>1896</ID>
         <naziv>Adapteri LDNIO</naziv>
         <ceonaziv>Adapteri LDNIO, Brand LDNIO, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16217,7 +16180,7 @@
         <nazivnadredjene>BRAND LDNIO</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1656" msdata:rowOrder="1655">
+      <Table diffgr:id="Table1652" msdata:rowOrder="1651">
         <ID>1897</ID>
         <naziv>TORBICE GODDESS</naziv>
         <ceonaziv>Torbice Goddess, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16226,7 +16189,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1657" msdata:rowOrder="1656">
+      <Table diffgr:id="Table1653" msdata:rowOrder="1652">
         <ID>1898</ID>
         <naziv>Xiaomi baterije za mobilni</naziv>
         <ceonaziv>Xiaomi baterije za mobilni , Baterije za mobilni, BATERIJE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16235,7 +16198,7 @@
         <nazivnadredjene>BATERIJE ZA MOBILNI</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1658" msdata:rowOrder="1657">
+      <Table diffgr:id="Table1654" msdata:rowOrder="1653">
         <ID>1899</ID>
         <naziv>Adapteri Remax</naziv>
         <ceonaziv>Adapteri Remax, Brand REMAX, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16244,7 +16207,7 @@
         <nazivnadredjene>BRAND REMAX</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1659" msdata:rowOrder="1658">
+      <Table diffgr:id="Table1655" msdata:rowOrder="1654">
         <ID>1900</ID>
         <naziv>Kucni bioskopi Remax</naziv>
         <ceonaziv>Kucni bioskopi Remax, Brand REMAX, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16253,7 +16216,7 @@
         <nazivnadredjene>BRAND REMAX</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1660" msdata:rowOrder="1659">
+      <Table diffgr:id="Table1656" msdata:rowOrder="1655">
         <ID>1901</ID>
         <naziv>TORBICE VACATION</naziv>
         <ceonaziv>Torbice Vacation, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16261,7 +16224,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1661" msdata:rowOrder="1660">
+      <Table diffgr:id="Table1657" msdata:rowOrder="1656">
         <ID>1902</ID>
         <naziv>TORBICE YOUTHFUL</naziv>
         <ceonaziv>Torbice Youthful, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16270,7 +16233,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1662" msdata:rowOrder="1661">
+      <Table diffgr:id="Table1658" msdata:rowOrder="1657">
         <ID>1904</ID>
         <naziv>TORBICE ALU CROCO</naziv>
         <ceonaziv>TORBICE ALU CROCO, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16278,7 +16241,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1663" msdata:rowOrder="1662">
+      <Table diffgr:id="Table1659" msdata:rowOrder="1658">
         <ID>1905</ID>
         <naziv>izbaciti Torbice Antigravity</naziv>
         <ceonaziv>izbaciti Torbice Antigravity, izbaciti torbice, IZBACITI ,OSNOVNA</ceonaziv>
@@ -16286,7 +16249,7 @@
         <nazivnadredjene>IZBACITI TORBICE</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1664" msdata:rowOrder="1663">
+      <Table diffgr:id="Table1660" msdata:rowOrder="1659">
         <ID>1907</ID>
         <naziv>TORBICE BASKETBALL TEXTURE</naziv>
         <ceonaziv>TORBICE BASKETBALL TEXTURE, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16294,7 +16257,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1665" msdata:rowOrder="1664">
+      <Table diffgr:id="Table1661" msdata:rowOrder="1660">
         <ID>1909</ID>
         <naziv>TORBICE BEARS CIRKON</naziv>
         <ceonaziv>TORBICE BEARS CIRKON, TORBICE , MOBILNI ,OSNOVNA</ceonaziv>
@@ -16303,7 +16266,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1666" msdata:rowOrder="1665">
+      <Table diffgr:id="Table1662" msdata:rowOrder="1661">
         <ID>1910</ID>
         <naziv>TORBICE BROKEN ICE</naziv>
         <ceonaziv>TORBICE BROKEN ICE, TORBICE NA AKCIJI, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16311,7 +16274,7 @@
         <nazivnadredjene>TORBICE NA AKCIJI</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1667" msdata:rowOrder="1666">
+      <Table diffgr:id="Table1663" msdata:rowOrder="1662">
         <ID>2070</ID>
         <naziv>Sony Xperia baterije za mobilni Standard</naziv>
         <ceonaziv>Sony Xperia baterije za mobilni Standard, Baterije za mobilni Standard, BATERIJE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16320,7 +16283,7 @@
         <nazivnadredjene>BATERIJE ZA MOBILNI STANDARD</nazivnadredjene>
         <nivo>3</nivo>
       </Table>
-      <Table diffgr:id="Table1668" msdata:rowOrder="1667">
+      <Table diffgr:id="Table1664" msdata:rowOrder="1663">
         <ID>2071</ID>
         <naziv>USB zvucnici</naziv>
         <ceonaziv>USB Zvucnici, Zvucnici, RAČUNARI ,OSNOVNA</ceonaziv>
@@ -16329,7 +16292,7 @@
         <nazivnadredjene>Zvucnici</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1669" msdata:rowOrder="1668">
+      <Table diffgr:id="Table1665" msdata:rowOrder="1664">
         <ID>2073</ID>
         <naziv>TORBICE LAS VEGAS</naziv>
         <ceonaziv>Torbice Las Vegas, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16338,7 +16301,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1670" msdata:rowOrder="1669">
+      <Table diffgr:id="Table1666" msdata:rowOrder="1665">
         <ID>2074</ID>
         <naziv>TORBICE BREATHE MAT</naziv>
         <ceonaziv>Torbice Breathe mat, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16347,7 +16310,7 @@
         <nazivnadredjene>TORBICE </nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1671" msdata:rowOrder="1670">
+      <Table diffgr:id="Table1667" msdata:rowOrder="1666">
         <ID>2075</ID>
         <naziv>Touch screen</naziv>
         <ceonaziv>Touch screen, LCD Panel, LAPTOP ,OSNOVNA</ceonaziv>
@@ -16356,7 +16319,7 @@
         <nazivnadredjene>LCD Panel</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1672" msdata:rowOrder="1671">
+      <Table diffgr:id="Table1668" msdata:rowOrder="1667">
         <ID>2077</ID>
         <naziv>Bluetooth zvucnici Nillkin</naziv>
         <ceonaziv>Bluetooth zvucnici Nillkin, Brand NILLKIN, MOBILNI ,OSNOVNA</ceonaziv>
@@ -16365,7 +16328,7 @@
         <nazivnadredjene>BRAND NILLKIN</nazivnadredjene>
         <nivo>2</nivo>
       </Table>
-      <Table diffgr:id="Table1673" msdata:rowOrder="1672">
+      <Table diffgr:id="Table1669" msdata:rowOrder="1668">
         <ID>1914</ID>
         <naziv>TORBICE CARBON FIBER</naziv>
         <ceonaziv>Torbice Carbon fiber, TORBICE, MOBILNI ,OSNOVNA</ceonaziv>

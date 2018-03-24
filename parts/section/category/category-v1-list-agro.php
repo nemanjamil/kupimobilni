@@ -97,8 +97,6 @@ foreach ($products as $proizvod):
     <div class="category-product-inner" itemscope itemtype="http://schema.org/Product">
 
         <div class="product-item-list-v1">
-
-
             <?php
 
             echo $common->displayListProduct(

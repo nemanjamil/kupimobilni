@@ -4,8 +4,8 @@
         <div class="product-item-view">
             <ul class="nav nav-tabs">
                 <li><span><?php echo $jsonlang[60][$jezikId]; ?></span></li>
-                <li class="active"><a data-toggle="tab" href="#grid-container"><i class="icon fa fa-th"></i></a></li>
-                <li ><a data-toggle="tab" href="#list-container" aria-expanded="true"><i class="icon fa fa-th-list"></i></a>
+                <li ><a data-toggle="tab" href="#grid-container"><i class="icon fa fa-th"></i></a></li>
+                <li class="active"><a data-toggle="tab" href="#list-container" aria-expanded="true"><i class="icon fa fa-th-list"></i></a>
                 </li>
             </ul>
         </div>

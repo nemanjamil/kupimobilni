@@ -789,7 +789,7 @@ hr {
 /*  CONTROLS PRODUCT ITEMS
 /*===================================================================================*/
 .controls-product-item {
-    background-color: #f1f1f1;
+    /*background-color: #f1f1f1;*/
     margin: 0;
     padding: 10px 0;
     height: 50px;
