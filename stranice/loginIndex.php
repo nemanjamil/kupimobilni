@@ -20,6 +20,7 @@ if ($sesKor->login_check() == true) {
     $KomiRabatKupi = 0;
     $InstaliranAppAnd = 0;
     $VpKorisnik = false;
+    $KomitentiValuta = $valutasession; // ovo koristimo zbog C:\wamp64\www\kupimobilni\stranice\upitZaKorpu.php ZA VP GetKurs ($KomitentiValuta, $valutasession))    ) * (ArtikalVPCena - vpjac)
   }
 $KomitentId = filter_var($KomitentId, FILTER_SANITIZE_NUMBER_INT);
 

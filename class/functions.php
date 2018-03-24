@@ -256,7 +256,7 @@ class functions extends MysqliDb
                     $_SESSION['user']['KomitentiValuta'] = $KomitentiValuta;
                     $_SESSION['user']['login_string'] = hash('sha512', $KomitentPassword . $user_browser);
 
-                    $_SESSION['valuta'] = $KomitentiValuta;
+                    //$_SESSION['valuta'] = $KomitentiValuta;
 
 
                     // echo  'Login successful.'.var_dump($_SESSION);

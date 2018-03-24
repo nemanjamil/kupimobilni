@@ -14,15 +14,6 @@
                         <span class="welcome-msg hidden-xs"><?php echo $jsonlang[13][$jezikId]; ?></span>
                     </div>
 
-                    <!--<div class="col-xs-12 col-sm-12 col-md-4 top-bar">
-                        <div class="language-currency">
-                            <?php  /* require RB_ROOT . '/parts/widgets/header/language-currency.php'; */ ?>
-                        </div>
-                        <span class="welcome-msg hidden-xs"><?php  /*echo $jsonlang[13][$jezikId];  */?></span>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-1 ">
-                    </div> -->
-                    <div class="col-md-4"></div>
                     <div  class="col-xs-12 col-md-4 boldirano font16 bojacrnadef text-left header-phone">
                         <?php echo $jsonlang[1][$jezikId] . ': ' . $jsonOsn[$jezikId]["TelefonOsnPodaci"] . ' '. $jsonlang[414][$jezikId] .' ' . $jsonOsn[$jezikId]["MobTelOsnPodaci"] ?>
                     </div>
