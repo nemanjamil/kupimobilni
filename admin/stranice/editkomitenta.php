@@ -293,6 +293,7 @@ $KomitentSalt = $komitent['KomitentSalt'];
                                 }
                                 ?>
                             </select>
+                            <span class="help-block">To je valuta u kojoj korisnik stavlja svoje cene za svoje artikle na sajtu _ ovo je bitno kada se radi posrednistvo B2B za B2B</span>
                         </div>
                     </div>
 
@@ -359,7 +360,7 @@ $KomitentSalt = $komitent['KomitentSalt'];
                             <input type="text" name="komitentrabat" id="komitentrabat"
                                    value="<?php echo $KomitentRabat; ?>" class="form-control" placeholder="Koliko komitent daje rabata na svoje artikle za SVE kupce"
                                    maxlength="3">
-                            <span class="help-block">Koliko nam komitent daje rabata na njegove artikle</span>
+                            <span class="help-block">Koliko nam komitent daje rabata na njegove artikle koje prodaje na nasem sajtu</span>
                         </div>
 
                     </div>
@@ -371,7 +372,7 @@ $KomitentSalt = $komitent['KomitentSalt'];
                             <input type="number" name="KomiRabatKupi" id="KomiRabatKupi"
                                    value="<?php echo $KomiRabatKupi; ?>" class="form-control" placeholder="Koliko korisnik dobija rabata pri kupovini SVIH artikala na sajtu"
                                    maxlength="3">
-                            <span class="help-block">Koliko nam komitent dobobija rabat od drugih prodavaca</span>
+                            <span class="help-block">Koliko komitent dobija rabat od sajta</span>
                         </div>
 
                     </div>
