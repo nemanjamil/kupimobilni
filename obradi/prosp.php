@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: nemanja
- * Date: 29.7.15.
- * Time: 10.55
- */
 
 require 'proveriAjaxDeny.php';
 

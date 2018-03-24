@@ -133,6 +133,9 @@ switch ($action) {
     case "izmenilozinkukorisnika":
         require('obradi/izmenilozinkukorisnika.php');
         break;
+    case "prosp":
+        require('obradi/prosp.php');
+        break;
 
     /*
      * DODATNA OPREMA DEO ide kod Logovanog dela*/

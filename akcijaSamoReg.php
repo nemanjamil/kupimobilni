@@ -150,9 +150,6 @@ if ($tipUsera > 3) {
         case "editKategHead":
             require('obradi/editKategHead.php');
             break;
-        case "prosp":
-            require('obradi/prosp.php');
-            break;
         case "editosnovnipodaciM":
             require('obradi/editosnovnipodaciM.php');
             break;
