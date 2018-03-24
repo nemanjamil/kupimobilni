@@ -225,7 +225,7 @@
     </div>
     <!-- /.col -->
 
-    <div class="col-md-12 col-sm-12 col-xs-12 outer-top-vs40 outer-bottom-xs-10">
+    <div class="col-md-12 col-sm-12 col-xs-12 outer-top-vs10 outer-bottom-xs-10">
         <?php
         require RB_ROOT . '/parts/section/detail/product-info.php';
         ?>

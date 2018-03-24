@@ -12402,8 +12402,8 @@ RIBBON tag
 
 .category-v1 .wrapper {
     background: white;
-    padding: 20px;
-    min-height: 420px;
+    padding: 1px;
+    /*min-height: 420px;*/
     box-shadow: 0px 0px 5px #0000001c;
 }
 
@@ -12424,7 +12424,7 @@ RIBBON tag
 .category-v1 .banner-3 .wrapper .shop-now a {
     display: block;
     width: 100%;
-    text-align: center;
+    text-align: left;
     color: black !important;
     border-bottom: 1px solid #f1eeee;
     padding: 3px 0px;

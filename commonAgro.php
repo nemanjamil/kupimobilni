@@ -11,7 +11,7 @@ define('KATALATIMASINE', 168);
 define('KATPOTROSNIMATERIJAL', 170);
 define('KATSRAFOVI', 171);
 
-define('ELASTICINDEX', "devshone"); // ovo je da prikaze 50 artikala po strani
+define('ELASTICINDEX', "kupimobilni"); // ovo je da prikaze 50 artikala po strani
 define('ELASTICGRUPE', "artikli"); // ovo je da prikaze 50 artikala po strani
 
 

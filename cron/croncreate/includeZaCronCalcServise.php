@@ -12,7 +12,7 @@ ini_set('max_execution_time', 0);
 $serverVarijabla = getenv('KUPIMOBILNI');
 
 if ($serverVarijabla == 1) {
-    define('ROOTLOC', '/data/devshone');
+    define('ROOTLOC', '/data/kupimobilni');
 
     require_once(ROOTLOC . '/include/MysqliDb.php');
     require(ROOTLOC . '/post_get.php');

@@ -42,7 +42,7 @@
 
 
                 $araBankat .= '<div class="col-md-4 col-sm-12 banner-3 odvojKategBaner"><div class="wrapper">';
-                $araBankat .= '<h2 class="font21 boldirano category-title"><a class="bojatamnoplava" href="/'.$KatLinKatSideBar.'">'.$kaNazivNazKatSideBar.'</a></h2>';
+                $araBankat .= '<h5 class=" boldirano category-title"><a class="font14 text-left bojatamnoplava" href="/'.$KatLinKatSideBar.'">'.$kaNazivNazKatSideBar.'</a></h5>';
                     $araBankat .= '<div class="banner-outer">';
 
 
@@ -50,7 +50,7 @@
                                 //$araBankat .= '<h4>'.$daLiImaPodKat.'</h4>';
                                 //$araBankat .= '<h2>'.$kaNazivNazKatSideBar.'</h2>';
 
-                            $upitKateg = "CALL listaKategorijaPoIdNew($KaNazKatId,1,$tipUsera,$jezikId,0,3);";
+                            /*$upitKateg = "CALL listaKategorijaPoIdNew($KaNazKatId,1,$tipUsera,$jezikId,0,3);";
                             $kategLista = $db->rawQuery($upitKateg);
 
                             $rowCount = $db->count;
@@ -71,17 +71,17 @@
                                 if($rowCount > 3 ){
                                     $araBankat .= '<div class="shop-now font12 more"><a class="bojacrvenasajt" href="/'.$KatLinKatSideBar.'">'.$jsonlang[425][$jezikId].'</a></div>';
                                 }
-                            }
+                            }*/
 
 
 
                             $araBankat .= '</div>';
 
-                            $araBankat .= '<div class="image no-padding col-xs-12">';
+                           /* $araBankat .= '<div class="image no-padding col-xs-12">';
                                 $araBankat .= '<a href="/'.$KatLinKatSideBar.'" >';
                                                 $araBankat .= '<img src="'.$slikaKategBaner.'" alt="#" class="img-responsive">';
                                 $araBankat .= '</a>';
-                            $araBankat .= '</div>';
+                            $araBankat .= '</div>';*/
 
 
                     $araBankat .= '</div>';

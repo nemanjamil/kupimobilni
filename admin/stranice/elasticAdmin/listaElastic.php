@@ -98,3 +98,5 @@ FROM
  * */
 $upitArtKat = $db->rawQuery($upit);
 
+
+

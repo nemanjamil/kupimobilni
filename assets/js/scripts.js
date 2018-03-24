@@ -1324,7 +1324,7 @@
     $('#owl-single-product-thumbnails').owlCarousel({
         items: 4,
         nav: false,
-        dots: true,
+        dots: false,
         rewindNav: true,
         itemsTablet: [768, 4]
     });

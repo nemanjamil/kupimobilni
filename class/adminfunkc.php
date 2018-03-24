@@ -1,5 +1,4 @@
 <?php
-
 class adminfunkc extends MysqliDb
 {
 

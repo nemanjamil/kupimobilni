@@ -1,36 +1,36 @@
 <?php
 $serverVarijabla = getenv('KUPIMOBILNI');
 if ($serverVarijabla == 1) {
-    define('ROOTLOC', '/data/devshone');
-
-    require_once(ROOTLOC . '/include/MysqliDb.php');
-    require(ROOTLOC . '/post_get.php');
-    require ROOTLOC . '/include/vezica.php';
-    $common = new common($db);
-    $kategorije = new kategorije($db);
-    $jezikId = 1;
-
+    define('ROOTLOC', '/data/kupimobilni');
 } else {
     define('ROOTLOC',$_SERVER['DOCUMENT_ROOT']);
 }
 
+require_once(ROOTLOC . '/include/MysqliDb.php');
+require(ROOTLOC . '/post_get.php');
+require ROOTLOC . '/include/vezica.php';
+$common = new common($db);
+$kategorije = new kategorije($db);
+$jezikId = 1;
 
-define('ELASTICINDEX', "devshone");
+
+
+define('ELASTICINDEX', "kupimobilni");
 define('ELASTICGRUPE', "artikli");
 $lokacijaFolder = '/stranice/elasticNew';
 $lokacijaFolderAdmin = ROOTLOC . '/admin/stranice/elasticAdmin';
 $timeUbac = @date('[d/M/Y:H:i:s]');
 
-
-
 require ROOTLOC . '/obradi/snimiTxt.php';
 
 $log->lwrite('');
-$log->lwrite('Masine ENV : ' . $serverVarijabla);
+$log->lwrite('KupiMobilni ENV : ' . $serverVarijabla);
 
 
 //require 'elastic/vendor/autoload.php';
 // $client = Elasticsearch\ClientBuilder::create()->build();
+
+
 use Elasticsearch\ClientBuilder;
 require ROOTLOC . '/vendor/autoload.php';
 $client = ClientBuilder::create()->build();
@@ -43,6 +43,8 @@ $indexEl = ELASTICINDEX;
 $typeEl = ELASTICGRUPE;
 $params['index'] = $indexEl;
 $params['type'] = $typeEl;
+
+
 
 if ($upitArtKat) {
     foreach ($upitArtKat as $product => $keyArt):
