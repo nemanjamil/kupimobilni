@@ -18,9 +18,9 @@ $idubacenogOpisa = $db->insert('brendoviopis', $insert_opis);
 
 if ($idubacenogOpisa) {
 
-    echo '<b class="bojaZelenaEnerStr">' . $idubacenogOpisa . '</b> Id Ubacenog kod nas: <b class="bojaplavasajt">' . $BrendIme . '</b>';
-    echo '</br>';
+    $echoodstampaj .= '<b class="bojaZelenaEnerStr">' . $idubacenogOpisa . '</b> Id Ubacenog kod nas: <b class="bojaplavasajt">' . $BrendIme . '</b>';
+    $echoodstampaj .= '</br>';
 } else {
-    echo '<b class="bojaZutaEner"> Insert failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
-    echo '</br>';
+    $echoodstampaj .= '<b class="bojaZutaEner"> Insert failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
+    $echoodstampaj .= '</br>';
 }

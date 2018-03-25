@@ -121,8 +121,8 @@ if (!empty($tables)) {
 
                 if ($db->update('brendovi', $update_input)) {
 
-                    echo '<b class="bojaplavasajt">' . $db->count . '</b> records were updated: <b class="bojaplavasajt">' . $BrendIme . '</b>';
-                    echo '</br>';
+                    $echoodstampaj .= '<b class="bojaplavasajt">' . $db->count . '</b> records were updated: <b class="bojaplavasajt">' . $BrendIme . '</b>';
+                    $echoodstampaj .= '</br>';
 
                     //onda proveravamo da li imamo Ime kod nas u bazi
                     $db->where('BrendId', $BrendIdUpit);
@@ -141,15 +141,15 @@ if (!empty($tables)) {
                         $db->where('BrendId', $BrendIdUpit);
                         $db->where('IdLanguage', 5);
                         if ($db->update('brendoviime', $update_name)) {
-                            echo '</br>';
-                            echo '<b class="bojaplavadrz">' . $BrendIme . '</b> updated: <b class="bojaplavasajt">' . $BrendIme . '</b>';
-                            echo '</br>';
+                            $echoodstampaj .= '</br>';
+                            $echoodstampaj .= '<b class="bojaplavadrz">' . $BrendIme . '</b> updated: <b class="bojaplavasajt">' . $BrendIme . '</b>';
+                            $echoodstampaj .= '</br>';
 
                         } else {
 
-                            echo '</br>';
-                            echo '<b class="bojaNaran"> IME update failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
-                            echo '</br>';
+                            $echoodstampaj .= '</br>';
+                            $echoodstampaj .= '<b class="bojaNaran"> IME update failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
+                            $echoodstampaj .= '</br>';
                         }
 
                     }
@@ -177,15 +177,15 @@ if (!empty($tables)) {
                         $db->where('BrendId', $BrendIdUpit);
                         $db->where('IdLanguage', 5);
                         if ($db->update('brendoviopis', $update_Opis)) {
-                            echo '</br>';
-                            echo '<b class="bojaplavadrz">' . $BrendOpis . '</b> updated: <b class="bojaplavasajt">' . $BrendIme . '</b>';
-                            echo '</br>';
+                            $echoodstampaj .= '</br>';
+                            $echoodstampaj .= '<b class="bojaplavadrz">' . $BrendOpis . '</b> updated: <b class="bojaplavasajt">' . $BrendIme . '</b>';
+                            $echoodstampaj .= '</br>';
 
                         } else {
 
-                            echo '</br>';
-                            echo '<b class="bojaNaran"> OPIS update failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
-                            echo '</br>';
+                            $echoodstampaj .= '</br>';
+                            $echoodstampaj .= '<b class="bojaNaran"> OPIS update failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
+                            $echoodstampaj .= '</br>';
                         }
 
 
@@ -198,8 +198,8 @@ if (!empty($tables)) {
 
 
                 } else {
-                    echo '<b class="bojacrvena"> update failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
-                    echo '</br>';
+                    $echoodstampaj .= '<b class="bojacrvena"> update failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
+                    $echoodstampaj .= '</br>';
                 }
 
             }
@@ -220,8 +220,8 @@ if (!empty($tables)) {
 
                 if ($idubacenog) {
 
-                    echo '<b class="bojaplavasajt">' . $idubacenog . '</b> Id Ubacenog kod nas: <b class="bojaplavasajt">' . $BrendIme . '</b>';
-                    echo '</br>';
+                    $echoodstampaj .= '<b class="bojaplavasajt">' . $idubacenog . '</b> Id Ubacenog kod nas: <b class="bojaplavasajt">' . $BrendIme . '</b>';
+                    $echoodstampaj .= '</br>';
 
 
                     require 'ubaciNaziveBrend.php';
@@ -233,8 +233,8 @@ if (!empty($tables)) {
                 } else {
 
 
-                    echo '<b class="bojacrvena"> Insert failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
-                    echo '</br>';
+                    $echoodstampaj .= '<b class="bojacrvena"> Insert failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
+                    $echoodstampaj .= '</br>';
 
 
                 }
@@ -246,16 +246,16 @@ if (!empty($tables)) {
 
         }
 
-        echo 'Gotov foreach ubac';
+        $echoodstampaj .= 'Gotov foreach ubac';
         die;
 
     } else {
-        echo 'brojLenght nije > 0';
+        $echoodstampaj .= 'brojLenght nije > 0';
         die;
     }
 
 } else {
-    echo 'empty(tables)';
+    $echoodstampaj .= 'empty(tables)';
     die;
 }
 

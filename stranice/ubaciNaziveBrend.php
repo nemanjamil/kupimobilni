@@ -22,10 +22,10 @@ $idubacenogNaziva = $db->insert('brendoviime', $insert_naziv);
 
 if ($idubacenogNaziva) {
 
-    echo '<b class="bojaZelenaSveEner">' . $idubacenogNaziva . '</b> Id Ubacenog kod nas: <b class="bojaplavasajt">' . $BrendIme . '</b>';
-    echo '</br>';
+    $echoodstampaj .= '<b class="bojaZelenaSveEner">' . $idubacenogNaziva . '</b> Id Ubacenog kod nas: <b class="bojaplavasajt">' . $BrendIme . '</b>';
+    $echoodstampaj .= '</br>';
 } else {
-    echo '<b class="bojacrvenapop"> Insert failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
-    echo '</br>';
+    $echoodstampaj .= '<b class="bojacrvenapop"> Insert failed: ' . $db->getLastError() . '<b class="bojacrvena">' . $BrendIme . '</b>';
+    $echoodstampaj .= '</br>';
 }
 
