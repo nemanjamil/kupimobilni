@@ -39,8 +39,8 @@ if ($curlInitStanje) {
                 $ceonaziv = $row->getElementsByTagName("ceonaziv");
                 $ceonaziv = $ceonaziv->item(0)->nodeValue;
 
-                $nadredjena = $row->getElementsByTagName("nadredjena");
-                $nadredjena = $nadredjena->item(0)->nodeValue;
+                /*$nadredjena = $row->getElementsByTagName("nadredjena");
+                $nadredjena = $nadredjena->item(0)->nodeValue;*/
 
                 $IDnadredjene = $row->getElementsByTagName("IDnadredjene");
                 $IDnadredjene = $IDnadredjene->item(0)->nodeValue;

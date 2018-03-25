@@ -32,6 +32,7 @@ $varsleep = 10;
 // 2. Pa prvo povlacimo PARENT kategorije sa servera.
 // OVO JE SAMO NULTI NIVO
 require('insertParentKategorija.php');
+$prikaz = '';
 $prikaz .= '</br>';
 $prikaz .= '<h4 class="bojacrvenaosn">Ubacene parent kategorije</h4>';
 $prikaz .= '</br>';
