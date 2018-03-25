@@ -32,10 +32,11 @@ $varsleep = 10;
 // 2. Pa prvo povlacimo PARENT kategorije sa servera.
 // OVO JE SAMO NULTI NIVO
 require('insertParentKategorija.php');
-echo '</br>';
-echo '<h4 class="bojacrvenaosn">Ubacene parent kategorije</h4>';
-echo '</br>';
+$prikaz .= '</br>';
+$prikaz .= '<h4 class="bojacrvenaosn">Ubacene parent kategorije</h4>';
+$prikaz .= '</br>';
 
+// dosao sam dovde
 die;
 sleep($varsleep);
 
@@ -43,18 +44,18 @@ sleep($varsleep);
 // PONOVO DA POZOVEMO ISITI IZML
 // 3. Zatim povlacimo sve ostale kategorije sa servera.
 require('updateKategorija.php');
-echo '</br>';
-echo '<h4 class="bojacrvenaosn">Ubacene kategorije</h4>';
-echo '</br>';
+$prikaz .= '</br>';
+$prikaz .= '<h4 class="bojacrvenaosn">Ubacene kategorije</h4>';
+$prikaz .= '</br>';
 
 sleep($varsleep);
 
 // NASI IDIJEVI
 // 4. Zatim update-ujemo parent kategorije.
 require('updateKategorijaParent.php');
-echo '</br>';
-echo '<h4 class="bojacrvenaosn">Update parent kategorije</h4>';
-echo '</br>';
+$prikaz .= '</br>';
+$prikaz .= '<h4 class="bojacrvenaosn">Update parent kategorije</h4>';
+$prikaz .= '</br>';
 
 sleep($varsleep);
 /**
@@ -65,12 +66,16 @@ require('updatePorezKategorije.php');
 
 // 5. I na kraju updatujemo sve kategorije
 //require('updateKategorija.php');
-/*echo '</br>';
-echo '<h4 class="bojacrvenaosn">Update kategorije</h4>';
-echo '</br>';*/
+/*$prikaz .= '</br>';
+$prikaz .= '<h4 class="bojacrvenaosn">Update kategorije</h4>';
+$prikaz .= '</br>';*/
 
 
+if ($mcProd != 1){
+    $prikaz .= '<h1 class="centriraj">Zavrsen proces download-a kategorija - grupa iz Calculus-a</h1>';
+    echo $prikaz;
+}
 
 ?>
 
-<h1 class="centriraj">Zavrsen proces download-a kategorija - grupa iz Calculus-a</h1>
+

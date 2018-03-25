@@ -1,12 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Nikola Markovic
- * Date: 6.10.2017.
- * Time: 15:02
- * Expl: Servis za ubacivanje parent - glavnih kategorija na sajt
- */
-
 $calculus = new calculusServisi($db);
 
 $urlServisa = URLCALCSERVICE . 'GrupaArtUsl';
@@ -74,9 +66,9 @@ if ($curlInitStanje) {
                         $db->where('KategorijaArtiklaExtId', $ID);
                         $db->update('kategorijeartikala', $update_kateg);
 
-                        echo '</br>';
-                        echo '<b class="bojaplavasajt">Update Parent: IdGrupe: ' . $ID . ' IdNAD Grupe: ' . $IDnadredjene . ' Naziv:' . $naziv . ' Sifra: ' . $sifra.'</b>';
-                        echo '</br>';
+                        $prikaz .= '</br>';
+                        $prikaz .= '<b class="bojaplavasajt">Update Parent: IdGrupe: ' . $ID . ' IdNAD Grupe: ' . $IDnadredjene . ' Naziv:' . $naziv . ' Sifra: ' . $sifra.'</b>';
+                        $prikaz .= '</br>';
 
                     } else {
 
@@ -90,33 +82,33 @@ if ($curlInitStanje) {
                         );
                         $idUbacenogart = $db->insert('kategorijeartikala', $insert_query);
 
-                        echo '</br>';
-                        echo '<b class="bojacrvena">Ubacen Parent: IdGrupe: ' . $ID . '; IdNAD Grupe: ' . $IDnadredjene.'; Naziv:' . $naziv . ' Sifra: ' . $sifra.'</b>';
-                        echo '</br>';
+                        $prikaz .= '</br>';
+                        $prikaz .= '<b class="bojacrvena">Ubacen Parent: IdGrupe: ' . $ID . '; IdNAD Grupe: ' . $IDnadredjene.'; Naziv:' . $naziv . ' Sifra: ' . $sifra.'</b>';
+                        $prikaz .= '</br>';
 
                     }
 
 
                 } else {
 
-                    echo '</br>';
-                    echo 'Preskacem: IdGrupe: ' . $ID . ' Naziv: ' . $naziv;
-                    echo '</br>';
+                    $prikaz .= '</br>';
+                    $prikaz .= 'Preskacem: IdGrupe: ' . $ID . ' Naziv: ' . $naziv;
+                    $prikaz .= '</br>';
                 }
 
             }
 
         } else {
-            echo 'brojLenght nije > 0';
+            $prikaz .= 'brojLenght nije > 0';
             die;
         }
 
     } else {
-        echo 'empty(tables)';
+        $prikaz .= 'empty(tables)';
         die;
     }
 
 } else {
-    echo 'nema curlinitstanje';
+    $prikaz .= 'nema curlinitstanje';
     die;
 }
