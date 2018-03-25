@@ -20,7 +20,7 @@ $documentroot = kojijehost($mcProd);
 ini_get('display_errors');
 ini_set('max_execution_time', 0);
 
-include ($documentroot."/vezafull.php");
+include ($documentroot."/vezafullCron.php");
 require_once ($documentroot.'/thumblib/ThumbLib.inc.php');
 include($documentroot.'/stranice/parse/simple_html_dom.php');
 $kategorijeDodatna = new kategorijeDodatna($db);
