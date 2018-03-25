@@ -11,8 +11,6 @@ if (KOJIJESAJT == 'kupimobilni' || KOJIJESAJT == 'kupimobilni.net') {
 }
 require 'include/vezica.php';
 
-echo 'DCROOT + '.DCROOT;
-
 $common = new common($db);
 $kategorije = new kategorije($db);
 $sesKor = new functions($db); // za registraciju
