@@ -24,7 +24,7 @@ $curlInitStanje = $calculus->posaljiPodatkeCalc($urlServisa, $postParametri);
 if ($curlInitStanje) {
     $dom = new DOMDocument();
     $dom->loadXML($curlInitStanje);
-    $dom->save(DCROOT.'/xml/GrupaArtUsl.xml');
+    $dom->save($documentroot.'/xml/GrupaArtUsl.xml');
     $tables = $dom->getElementsByTagName('Table');
 
     if (!empty($tables)) {
