@@ -258,6 +258,8 @@ if (!empty($tables)) {
     $echoodstampaj .= 'empty(tables)';
     die;
 }
-
+if ($mcProd != 1){
+    echo $echoodstampaj;
+}
 
 ?>
