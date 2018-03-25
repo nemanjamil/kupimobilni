@@ -54,7 +54,7 @@ $jezLan = $db->get('languagejezik', null, "IdLanguage,ShortLanguage");
 
 $varsleep = 10;
 
-ini_get('display_errors');
+//ini_get('display_errors');
 ini_set('max_execution_time', 0);
 
 $prvaSlika = 1;
@@ -258,6 +258,7 @@ if (!empty($tables)) {
     $echoodstampaj .= 'empty(tables)';
     die;
 }
+echo 'aaa';
 if ($mcProd != 1){
     echo $echoodstampaj;
 }
