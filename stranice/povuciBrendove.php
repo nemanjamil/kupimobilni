@@ -65,6 +65,7 @@ $dom->load($xmlLokacija);
 $tables = $dom->getElementsByTagName('brend');
 $brojLenght = $tables->length;
 
+$echoodstampaj = ''; // setovanje variable
 if (!empty($tables)) {
 
     $brojLenght = $tables->length;
