@@ -35,6 +35,8 @@ require('insertParentKategorija.php');
 echo '</br>';
 echo '<h4 class="bojacrvenaosn">Ubacene parent kategorije</h4>';
 echo '</br>';
+
+die;
 sleep($varsleep);
 
 
