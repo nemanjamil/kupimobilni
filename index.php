@@ -5,11 +5,11 @@ require 'vezafull.php';
 define('RB_ROOT', dirname(__FILE__));
 
 
-if (getenv('KUPIMOBILNI')==1) {
+/*if (getenv('KUPIMOBILNI')==1) {
     if ($_GET[miki]!=1) {
         die;
     }
-}
+}*/
 
 // ovo koristimo za prikay proizvoda
 require('./parts/product/product.php');
