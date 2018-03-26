@@ -25,10 +25,10 @@ $likacijadoslikedir = $documentroot."/xml/3g/";
 $linkdoxml = 'http://bg.company3g.com/xml/3gMobilSistemSajt.zip';
 
 function flushmoj($naziv) {
-    echo $naziv;
+    /*echo $naziv;
     echo '</br>';
     flush();
-    ob_flush();
+    ob_flush();*/
 }
 function dovucizipfile($linkdoxml,$likacijadoslikedir){
     $fp = fopen($likacijadoslikedir.'/3gMobilSistem.zip', "w");
