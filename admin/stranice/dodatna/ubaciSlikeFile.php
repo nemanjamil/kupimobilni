@@ -1,6 +1,4 @@
 <?php
-
-
 /*$image = file_get_contents($linkSlikaDodatna);
 file_put_contents($imeSlikeKodNas, $image);*/
 
