@@ -38,7 +38,6 @@ $prikaz .= '<h4 class="bojacrvenaosn">Ubacene parent kategorije</h4>';
 $prikaz .= '</br>';
 
 // dosao sam dovde
-die;
 sleep($varsleep);
 
 
