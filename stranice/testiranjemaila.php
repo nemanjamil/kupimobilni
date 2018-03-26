@@ -47,3 +47,6 @@ if (!$mail->send()) {
     $sajt['error'] = true;
     /*echo 'OK poslat mail';*/
 }
+
+echo '</br>';
+echo $sajt['testsajt'];
