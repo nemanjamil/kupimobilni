@@ -30,7 +30,7 @@ $lokacijaFolderAdmin = $documentroot . '/admin/stranice/elasticAdmin';
 $timeUbac = @date('[d/M/Y:H:i:s]');
 
 require $documentroot . '/obradi/snimiTxt.php';
-$log->lfile($documentroot.'/logovi/elasticSearch.txt');
+$log->lfile($documentroot.'/logovi/log_elastic_kupimobilni.txt');
 
 $log->lwrite('');
 $log->lwrite('KupiMobilni ENV : ' . $serverVarijabla);
