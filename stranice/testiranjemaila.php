@@ -1,4 +1,7 @@
 <?php
+echo (extension_loaded('openssl')?'SSL loaded':'SSL not loaded')."\n";
+echo '</br>';
+
 require RB_ROOT.'/PHPMailer-master/PHPMailerAutoload.php';
 $mail = new PHPMailer;
 $mail->SMTPDebug = 4;
