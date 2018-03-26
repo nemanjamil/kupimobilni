@@ -97,7 +97,7 @@ FROM
  * ORDER BY A.ArtikalBrPregleda DESC
  * AND (SELECT VIDLJIVMPUSER(A.KategorijaArtikalId, 0)) = 1
  * */
-$upitArtKat = $db->rawQuery($upitArtikalSearch);
+$upitArtKat = $db->rawQuery($upit);
 
 
 
