@@ -19,7 +19,7 @@ $mail->Host = 'tls://mailcluster.loopia.se:587';
 
 //$mail->Port = 587;
 //$mail->SMTPAuth = false;
-//$mail->SMTPSecure = false;
+$mail->SMTPSecure = true;
 //$mail->SMTPSecure = 'tls';
 /*$mail->SMTPOptions = array(
     'ssl' => array(
