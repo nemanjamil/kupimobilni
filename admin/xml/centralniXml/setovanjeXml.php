@@ -1,6 +1,6 @@
 <?php
 
-include ($documentroot."/vezafull.php");
+include ($documentroot."/vezafullCron.php");
 require_once ($documentroot.'/thumblib/ThumbLib.inc.php');
 include($documentrootAdmin . '/xml/centralniXml/update_funkcije.php');
 include($documentroot.'/stranice/parse/simple_html_dom.php');

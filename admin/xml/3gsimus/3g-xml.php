@@ -37,7 +37,7 @@ define('ROOTLOC', $documentroot);
 require($documentrootAdmin.'/xml/centralniXml/setovanjeXml.php');
 
 require $documentroot."/obradi/snimiTxt.php";
-$log->lfile(ROOTLOC.'/logovi/1.txt');
+$log->lfile(ROOTLOC.'/logovi/3g_cron_xml.txt');
 $log->lwrite('OK 3g XML -> tip HOST '.$documentroot.'; ROOTLOC : '.ROOTLOC);
 /**
  * Ovo koristimo da vidimo da li ponovo azuriramo slike na update

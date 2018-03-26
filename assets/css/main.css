@@ -8609,6 +8609,7 @@ hr {
 .header-v5 .navbar-wrapper {
     background: white;
     border-bottom: 1px solid #dedede;
+    margin-top: 15px;
 }
 
 /*===================================================================================*/
