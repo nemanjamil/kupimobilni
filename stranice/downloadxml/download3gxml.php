@@ -1,8 +1,9 @@
 <?php
 if (class_exists('ZipArchive')){
-    echo 'Ima arhive';
+    echo 'Ima Arhive';
 } else {
-    echo 'nema Arghive';
+    echo 'Nema Arhive';
+    die;
 }
 
 set_time_limit(0);
