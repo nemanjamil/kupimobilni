@@ -4,7 +4,7 @@
 if (isset($_POST['id'])) { $id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_INT);} else {  $id = ''; }
 if (isset($_POST['br'])) { $br = filter_input(INPUT_POST, 'br', FILTER_SANITIZE_NUMBER_INT);} else {  $br = ''; }
 
-require '/obradi/proveriAjaxDeny.php';
+require 'proveriAjaxDeny.php';
 
 
 // ako  ne postoji ID
