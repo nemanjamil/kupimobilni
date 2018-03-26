@@ -14,10 +14,12 @@ $mail->CharSet = 'UTF-8';
 $mail->isSMTP();
 $mail->SMTPAutoTLS = false;
 $mail->Debugoutput = 'html';
-$mail->Host = 'mailcluster.loopia.se:587';
+//$mail->Host = 'mailcluster.loopia.se:587';
+$mail->Host = 'tls://mailcluster.loopia.se:587';
+
 //$mail->Port = 587;
-$mail->SMTPAuth = false;
-$mail->SMTPSecure = false;
+//$mail->SMTPAuth = false;
+//$mail->SMTPSecure = false;
 //$mail->SMTPSecure = 'tls';
 /*$mail->SMTPOptions = array(
     'ssl' => array(
