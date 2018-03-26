@@ -71,7 +71,7 @@
 						  </div>
 
 							<div class="form-group">
-								<div class="g-recaptcha" data-sitekey="6LdTzEkUAAAAAEreCXfL0G6ZMdqw9BdQ-2b7wfKH"></div>
+								<div class="g-recaptcha" data-sitekey="6LcU3k4UAAAAAJmLj_y3H9nkgfiP4MabaSNyMkQ4"></div>
                                 <!--<div class="g-recaptcha" data-sitekey="6LeTYBcTAAAAAKMZUwVza2pFopZsbQRk99E5LoIT"></div>-->
 							</div>
 

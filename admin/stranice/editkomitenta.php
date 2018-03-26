@@ -299,7 +299,7 @@ $KomitentSalt = $komitent['KomitentSalt'];
 
 
                     <!--Multi slike-->
-                    <div class="form-group">
+                    <!--<div class="form-group">
                         <label class="col-md-3 control-label">Slika Komitenta</label>
 
                         <div class="col-md-4">
@@ -310,7 +310,7 @@ $KomitentSalt = $komitent['KomitentSalt'];
                         <div class="col-md-5">
 
                             <?php
-                            $lokrel = $common->locationslikaOstaloKomitent(KOMSLIKE, $KomitentId);
+/*                            $lokrel = $common->locationslikaOstaloKomitent(KOMSLIKE, $KomitentId);
 
                             $ext = pathinfo($KomitentiSlika, PATHINFO_EXTENSION);
                             $fileName = pathinfo($KomitentiSlika, PATHINFO_FILENAME);
@@ -323,7 +323,7 @@ $KomitentSalt = $komitent['KomitentSalt'];
                                 echo '<img src="' . $lokrel . '/' . $mala_slika . '" alt="">';
                             }
 
-                            ?>
+                            */?>
 
                         </div>
                     </div>
@@ -338,9 +338,10 @@ $KomitentSalt = $komitent['KomitentSalt'];
                         </div>
 
 
-                        <?php include 'slikeGalerijaKomitent.php' ?>
+                        <?php /*include 'slikeGalerijaKomitent.php' */?>
 
-                    </div>
+                    </div>-->
+
 
                     <!--<div class="form-group">
                         <label class="col-md-3 control-label">Mapa </label>
@@ -474,6 +475,7 @@ $KomitentSalt = $komitent['KomitentSalt'];
 
 
                     <?php
+/*
                     $naziv = '';
                     foreach ($jezLan as $k => $v):
                         $ShortLanguage = $v['ShortLanguage'];
@@ -497,6 +499,7 @@ $KomitentSalt = $komitent['KomitentSalt'];
                     endforeach;
 
                     echo $naziv;
+*/
                     ?>
 
                     <input type="hidden" value="<?php echo $lat; ?>" id="lat" name="lat">

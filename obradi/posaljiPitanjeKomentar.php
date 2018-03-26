@@ -6,7 +6,7 @@ $recaptcha = $_POST['g-recaptcha-response'];
 if (!empty($recaptcha)) {
     include("getCurlData.php");
     $google_url = "https://www.google.com/recaptcha/api/siteverify";
-    $secret = '6LdTzEkUAAAAAInKAzi_mMCuhgTmsY5gV_hPxMlN';
+    $secret = '6LcU3k4UAAAAAL1FpMzCS4z-VVK2-QUXVnML9xNg';
     //$secret = '6LeTYBcTAAAAAJ1NwgkORz3wp0eBYwV39qb8gGrk';
     $ip = $_SERVER['REMOTE_ADDR'];
     $url = $google_url . "?secret=" . $secret . "&response=" . $recaptcha . "&remoteip=" . $ip;
@@ -41,9 +41,9 @@ if (!empty($recaptcha)) {
             $mail->addAddress($email, 'Postavljno pitanje');     // Add a recipient
             $mail->addReplyTo($email, '');
             $mail->addCC(GLAVNIMAIL);
-           // $mail->addBCC(GLAVNIMAIL);
-//$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-//$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+            //$mail->addBCC(GLAVNIMAIL);
+            //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+            //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
             $mail->Subject = 'Postavio pitanje '.$email;
             $mail->Body = $bodyMail;

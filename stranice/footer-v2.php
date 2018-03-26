@@ -59,7 +59,7 @@
                                     <!-- <li><a href="/saveti"><?php /*echo $jsonlang[191][$jezikId]; */ ?></a></li>-->
                                     <li><a href="/o-nama"><?php echo $jsonlang[95][$jezikId]; ?></a></li>
                                     <li><a href="/reklamacije-i-prituzbe"><?php echo $jsonlang[259][$jezikId]; ?></a></li>
-                                    <li><a href="/prodajna-mesta"><?php echo $jsonlang[427][$jezikId]; ?></a></li>
+                                    <!--<li><a href="/prodajna-mesta"><?php /*echo $jsonlang[427][$jezikId]; */?></a></li>-->
                                     <li><a href="/contact-us"><?php echo $jsonlang[58][$jezikId]; ?></a></li>
                                     <!--<li><a href="/ocenjivanje"><?php /*echo $jsonlang[250][$jezikId]; */?></a></li>-->
                                     <!--<li><a href="/proizvodnja"><?php /*echo $jsonlang[103][$jezikId]; */?></a></li>-->
