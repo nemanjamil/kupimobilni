@@ -25,7 +25,6 @@ if (true) {
             $db->startTransaction();
             // A set of queries; if one fails, an exception should be thrown
             $idub = $db->insert('kategorijeartikala', $insertData);
-            // TODO nikola dodaj ime kategorije
             //'KategorijaArtikalaNaziv' => $string,
 
             $insert_Naziv_query = Array(

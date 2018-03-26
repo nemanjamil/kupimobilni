@@ -3,8 +3,8 @@
 		<div class="wow fadeInUp">
 			<?php $delay = 0; ?>
 			<?php
-				require "cron/crongotovo/preporuka-nedelje-cron.php";
-				//require "preporukaNedeljePocetna.php";
+				//require "cron/crongotovo/preporuka-nedelje-cron.php";
+				require "preporukaNedeljePocetna.php";
 				?>
 		</div><!-- /.fashion-featured -->
 

@@ -1,95 +1,10 @@
 <?php
-$KategorijaArtikalaI = 11185;
-$podaIn = $db->rawQueryOne("SELECT svePodkat($KategorijaArtikalaI) as svePodk");
-
-$podIn = rtrim($podaIn['svePodk'], ",");
-
-$podInUpitu = ($podIn) ? 'AND KA.KategorijaArtikalaId IN ('.$podIn.')' : '';
-
-require(DCROOT.'/stranice/vidljivMp.php');
-
-$footArtiPoc = "
-SELECT *,
-(CASE WHEN KomitentUPdv = 1 THEN
-((SELECT GetKurs (KomitentiValuta, $valutasession))) *
-
-(ArtikalMPCena - mpjac) *
-MarzaMarza * (PorezVrednost/100 + 1)
-ELSE ((SELECT GetKurs (KomitentiValuta, $valutasession))) *
-(ArtikalMPCena - mpjac)
-* MarzaMarza END) AS pravaMp,
-
-(CASE WHEN KomitentUPdv = 1 THEN ((SELECT GetKurs (KomitentiValuta, $valutasession))) *
-(ArtikalVPCena - vpjac)
-  * MarzaVP * (PorezVrednost/100 + 1)
- ELSE ((SELECT GetKurs (KomitentiValuta, $valutasession))) *
- (ArtikalVPCena -  vpjac)  * MarzaVP END) AS pravaVp
-FROM (
-SELECT
-A.ArtikalId,
-A.ArtikalNaAkciji,
-A.top1,
-A.top2,
-A.top3,
-A.KategorijaArtikalId,
-UN.TipUnit,
-A.ArtikalMPCena,
-A.ArtikalVPCena,
-A.ArtikalLink,
-A.ArtikalStanje,
-ANN.OpisArtikla,
-ATT.OpisArtTekst,
-AKO.OpisKratakOpis,
-KAN.NazivKategorije,
-K.KomitentiValuta,
-MA.MarzaMarza,
-MA.MarzaVP,
-KA.KategorijaArtikalaLink,
-KA.MinimalnaKol,
-K.KomitentUPdv,
-PLP.PorezVrednost,
-(SELECT IF(K.KomitentRabat>0,K.KomitentRabat,0)/100*A.ArtikalVPCena) AS vpjac,
-(SELECT IF(K.KomitentRabat>0,K.KomitentRabat,0)/100*A.ArtikalMPCena) AS mpjac,
-(SELECT ImeSlikeArtikliSlike FROM artiklislike WHERE IdArtikliSlikePov = A.ArtikalId AND MainArtikliSlike = 1 LIMIT 1 )   AS slikaMain
-
-FROM artikli A
+$limitUpit = 15;
+$brojAkcije = "";
+$upitArtArray = "CALL listaArtikalaRazno($limitUpit,$valutasession,$jezikId,$KomitentId,'');";
 
 
-    JOIN artikalnazivnew ANN
-        ON ANN.ArtikalId = A.ArtikalId AND  ANN.IdLanguage = $jezikId
-    JOIN artiklitekstovinew ATT
-        ON ATT.ArtikalId = A.ArtikalId AND  ATT.LanguageId = $jezikId
-    LEFT JOIN artiklikratakopisnew AKO
-        ON AKO.IdArtiklaAkon = A.ArtikalId AND  AKO.IdLanguageAkon = $jezikId
-
-    JOIN kategorijeartikala KA
-        ON KA.KategorijaArtikalaId = A.KategorijaArtikalId
-    JOIN kategorijeartikalanaslov KAN
-        ON KAN.IdKategorije = KA.KategorijaArtikalaId AND KAN.IdLanguage = $jezikId
-
-
-JOIN komitenti K
-	ON K.KomitentId = A.ArtikalKomitent
-JOIN valuta V
-	ON V.ValutaId = K.KomitentiValuta
-JOIN marza MA
-ON MA.MarzaId = A.ArtikalMarzaId
-LEFT JOIN unit UN
-	ON UN.IdUnit = KA.TipKatUnit
-  JOIN pdvkategzemlja PKZ
-      ON PKZ.IdKategPdvKatZem = KA.KategorijaArtikalaId
-  JOIN pdvlistaporeza PLP
-      ON PLP.IdPdvListaPoreza = PKZ.PdvKategZemlja
-
-WHERE
-A.ArtikalAktivan >= 1
-$podInUpitu
-$userUpit
-AND (IdZemljePdvKatZem=K.KomitentiZemlja)
-ORDER BY RAND () DESC
-LIMIT 15) AS T1";
-
-$keyArtAr = $db->rawQuery($footArtiPoc);
+$keyArtAr = $db->rawQuery($upitArtArray);
 
 $i = 0;
 $dp = '';
@@ -127,9 +42,9 @@ $dp = '';
             $urlArtiklaLink = '/' . $ArtikalLink . '/' . $ArtikalId;
 
             if ($ArtikalStanje > 0) {
-                $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCena($pravaVp, $sesValuta) : $common->formatCena($pravaMp, $sesValuta);
+                //$cenaPrikaz = ($tipUsera >= 3) ? $common->formatCena($pravaVp, $sesValuta) : $common->formatCena($pravaMp, $sesValuta);
             } else {
-                $mozedase = 'disabled="disabled"';
+                //$mozedase = 'disabled="disabled"';
             }
 
 
