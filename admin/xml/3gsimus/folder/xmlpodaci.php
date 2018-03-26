@@ -70,7 +70,7 @@ $mpCena = (float) $mpCena;
 $pokazi .= '<li>$mpCena : ' . $mpCena . '</li>';
 
 
-$marzaid = $common->cenamarzadinObori($vpCena);
+$marzaid = $common->cenamarzadinObori($cenan);
 $pokazi .= '<li> Marza id : ' . $marzaid . '</li>';
 
 
