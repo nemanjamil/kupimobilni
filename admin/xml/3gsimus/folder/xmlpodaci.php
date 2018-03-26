@@ -8,10 +8,10 @@ $id = $id->item(0)->nodeValue;
 $id = (int) $id;
 $pokazi .= '<li>$id : ' . $id . '</li>';
 
-$extId = $row->getElementsByTagName("extId");
+/*$extId = $row->getElementsByTagName("extId");
 $extId = $extId->item(0)->nodeValue;
 $extId = (int) $extId;
-$pokazi .= '<li>$extId : ' . $extId . '</li>';
+$pokazi .= '<li>$extId : ' . $extId . '</li>';*/
 
 $kategorijaId = $row->getElementsByTagName("kategorijaId");
 $kategorijaId = $kategorijaId->item(0)->nodeValue;
