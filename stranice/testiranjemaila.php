@@ -12,13 +12,13 @@ $mail->Debugoutput = 'html';
 $mail->Host = 'mailcluster.loopia.se:587';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
-$mail->SMTPOptions = array(
+/*$mail->SMTPOptions = array(
     'ssl' => array(
         'verify_peer' => false,
         'verify_peer_name' => false,
         'allow_self_signed' => true
     )
-);
+);*/
 $mail->SMTPAuth = true;
 $mail->Username = GLAVNIMAIL;
 $mail->Password = PASSMAIL;
