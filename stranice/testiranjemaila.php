@@ -12,7 +12,7 @@ $mail = new PHPMailer;
 $mail->SMTPDebug = 4;
 $mail->CharSet = 'UTF-8';
 $mail->isSMTP();
-$mail->SMTPAutoTLS = true;
+$mail->SMTPAuth = true;
 $mail->Debugoutput = 'html';
 //$mail->Host = 'mailcluster.loopia.se:587';
 $mail->Host = 'tls://mailcluster.loopia.se:587';
