@@ -4,7 +4,10 @@ echo '</br>';
 echo (extension_loaded('openssl')?'SSL loaded':'SSL not loaded')."\n";
 echo '</br>';
 echo '</br>';
-
+echo 'GLAVNIMAIL = '.GLAVNIMAIL;
+echo '</br>';
+echo 'PASSMAIL : '.PASSMAIL;
+echo '</br>';
 
 
 require RB_ROOT.'/PHPMailer-master/PHPMailerAutoload.php';
