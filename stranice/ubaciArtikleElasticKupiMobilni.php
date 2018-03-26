@@ -8,7 +8,7 @@ if ($serverVarijabla == 1) {
 
 require_once(ROOTLOC . '/include/MysqliDb.php');
 require(ROOTLOC . '/post_get.php');
-require ROOTLOC . '/include/vezafullCron.php';
+require ROOTLOC . '/vezafullCron.php';
 $common = new common($db);
 $kategorije = new kategorije($db);
 $jezikId = 1;
