@@ -26,7 +26,8 @@ if (!$jezikId) {
  * */
 
 $var_user = '2';
-define('KATEGORIJESAJTCRON', '5043, 5044, 5045, 5046, 5047');
+
+require "croncreate/kategorije-sajt-cron.php";
 require "croncreate/menu-kategorije-cron-cir-create.php";
 require "croncreate/menu-kategorije-cron-lat-create.php";
 
