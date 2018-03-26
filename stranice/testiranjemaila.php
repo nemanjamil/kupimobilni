@@ -8,7 +8,7 @@ $mail->SMTPDebug = 4;
 $mail->CharSet = 'UTF-8';
 $mail->isSMTP();
 $mail->Debugoutput = 'html';
-$mail->Host = 'mailcluster.loopia.se';
+$mail->Host = 'mailcluster.loopia.se:587';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPOptions = array(
