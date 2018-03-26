@@ -1,4 +1,10 @@
 <?php
+if (class_exists('ZipArchive')){
+    echo 'Ima arhive';
+} else {
+    echo 'nema Arghive';
+}
+
 set_time_limit(0);
 function kojijehost($tipHosta){
 
