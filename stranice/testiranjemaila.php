@@ -7,6 +7,7 @@ $mail = new PHPMailer;
 $mail->SMTPDebug = 4;
 $mail->CharSet = 'UTF-8';
 $mail->isSMTP();
+$mail->SMTPAutoTLS = false;
 $mail->Debugoutput = 'html';
 $mail->Host = 'mailcluster.loopia.se:587';
 $mail->Port = 587;
