@@ -109,7 +109,7 @@ if ($kolikoimachild > $BrojDokle) {
         $i++;
 
         //echo '<br/><br/>';
-        if ($i == ($BrojDokle +5)) break;
+        if ($i == ($BrojDokle +1)) break;
         //echo '<hr/>';
         //usleep(100000); // milion je 1 sec
 
