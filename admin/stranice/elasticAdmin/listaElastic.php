@@ -1,7 +1,6 @@
 <?php
-require(ROOTLOC.'/stranice/upitListaArtikala.php');
 
-/*$upit = "SELECT
+$upit = "SELECT
     *,
     IF(0 > 0,
         CAST(pravaMpNeRabat * (100 - 0) / 100 AS DECIMAL (12 , 2 )),
@@ -88,7 +87,7 @@ FROM
     JOIN marza MA ON MA.MarzaId = A.ArtikalMarzaId
     WHERE   A.elSearch = 0
             AND (IdZemljePdvKatZem = K.KomitentiZemlja)
-    LIMIT 0 , $limit) AS T1) AS T2; ";*/
+    LIMIT 0 , $limit) AS T1) AS T2; ";
 
 /*-- AND ANN.OpisArtikla LIKE \"%iphone%\"
             -- AND A.ArtikalAktivan >= 1*/

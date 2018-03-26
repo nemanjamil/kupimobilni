@@ -8,7 +8,7 @@ if ($serverVarijabla == 1) {
 
 require_once(ROOTLOC . '/include/MysqliDb.php');
 require(ROOTLOC . '/post_get.php');
-require ROOTLOC . '/include/vezica.php';
+require ROOTLOC . '/include/vezafullCron.php';
 $common = new common($db);
 $kategorije = new kategorije($db);
 $jezikId = 1;
@@ -22,6 +22,7 @@ $lokacijaFolderAdmin = ROOTLOC . '/admin/stranice/elasticAdmin';
 $timeUbac = @date('[d/M/Y:H:i:s]');
 
 require ROOTLOC . '/obradi/snimiTxt.php';
+$log->lfile(ROOTLOC.'/logovi/elasticSearch.txt');
 
 $log->lwrite('');
 $log->lwrite('KupiMobilni ENV : ' . $serverVarijabla);
