@@ -1,4 +1,5 @@
 <?php
+define('EXTPRED', 'png');
 
 include ($documentroot."/vezafullCron.php");
 require_once ($documentroot.'/thumblib/ThumbLib.inc.php');
