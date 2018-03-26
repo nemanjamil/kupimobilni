@@ -1,6 +1,11 @@
 <?php
+echo 'testiranje SSL';
+echo '</br>';
 echo (extension_loaded('openssl')?'SSL loaded':'SSL not loaded')."\n";
 echo '</br>';
+echo '</br>';
+
+
 
 require RB_ROOT.'/PHPMailer-master/PHPMailerAutoload.php';
 $mail = new PHPMailer;
@@ -11,7 +16,9 @@ $mail->SMTPAutoTLS = false;
 $mail->Debugoutput = 'html';
 $mail->Host = 'mailcluster.loopia.se:587';
 $mail->Port = 587;
-$mail->SMTPSecure = 'tls';
+$mail->SMTPAuth = false;
+$mail->SMTPSecure = false;
+//$mail->SMTPSecure = 'tls';
 /*$mail->SMTPOptions = array(
     'ssl' => array(
         'verify_peer' => false,
@@ -19,7 +26,7 @@ $mail->SMTPSecure = 'tls';
         'allow_self_signed' => true
     )
 );*/
-$mail->SMTPAuth = true;
+//$mail->SMTPAuth = true;
 $mail->Username = GLAVNIMAIL;
 $mail->Password = PASSMAIL;
 $mail->From = GLAVNIMAIL;
