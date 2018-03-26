@@ -1,14 +1,22 @@
 <?php
-$serverVarijabla = getenv('KUPIMOBILNI');
-if ($serverVarijabla == 1) {
-    define('ROOTLOC', '/data/kupimobilni');
-} else {
-    define('ROOTLOC',$_SERVER['DOCUMENT_ROOT']);
-}
+function kojijehost($tipHosta){
 
-require_once(ROOTLOC . '/include/MysqliDb.php');
-require(ROOTLOC . '/post_get.php');
-require ROOTLOC . '/vezafullCron.php';
+    if ($tipHosta == 1) {
+        $hostTip = '/data/kupimobilni'; // server Linux
+    } elseif ($tipHosta == 3) {
+        $hostTip = 'C:/wamp64/www/kupimobilni'; // Nemanja Windows
+    } elseif ($tipHosta == 4) {
+        $hostTip = 'G:/projects/kupimobilni'; // Nikola
+    } else {
+        $hostTip = '/var/www/kupimobilni'; // Nemanja Linux
+    }
+    return $hostTip;
+}
+$mcProd = getenv('KUPIMOBILNI');
+$documentroot = kojijehost($mcProd);
+
+
+include ($documentroot."/vezafullCron.php");
 $common = new common($db);
 $kategorije = new kategorije($db);
 $jezikId = 1;
@@ -21,8 +29,8 @@ $lokacijaFolder = '/stranice/elasticNew';
 $lokacijaFolderAdmin = ROOTLOC . '/admin/stranice/elasticAdmin';
 $timeUbac = @date('[d/M/Y:H:i:s]');
 
-require ROOTLOC . '/obradi/snimiTxt.php';
-$log->lfile(ROOTLOC.'/logovi/elasticSearch.txt');
+require $documentroot . '/obradi/snimiTxt.php';
+$log->lfile($documentroot.'/logovi/elasticSearch.txt');
 
 $log->lwrite('');
 $log->lwrite('KupiMobilni ENV : ' . $serverVarijabla);
@@ -33,7 +41,7 @@ $log->lwrite('KupiMobilni ENV : ' . $serverVarijabla);
 
 
 use Elasticsearch\ClientBuilder;
-require ROOTLOC . '/vendor/autoload.php';
+require $documentroot . '/vendor/autoload.php';
 $client = ClientBuilder::create()->build();
 
 $limit = 100;
@@ -123,7 +131,7 @@ if ($upitArtKat) {
         $result = $client->index($params);
 
         $prikPodaci .= PHP_EOL . $ArtikalId . ' - ' . $ArtikalNaziv . ' - ' . $timeUbac . ' - ' . $infoUpdate . PHP_EOL;
-        require ROOTLOC . '/stranice/elasticNew/uradiUpdateES.php';
+        require $documentroot . '/stranice/elasticNew/uradiUpdateES.php';
 
 
     endforeach;
