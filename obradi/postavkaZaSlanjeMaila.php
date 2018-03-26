@@ -1,4 +1,9 @@
 <?php
+if (!GLAVNIMAIL) {
+    echo 'Ne postoji glavni mail';
+    die;
+}
+
 $mail = new PHPMailer;
 //$mail->SMTPDebug = 4;
 $mail->CharSet = 'UTF-8';
