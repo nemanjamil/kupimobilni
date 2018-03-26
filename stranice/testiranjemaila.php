@@ -9,6 +9,10 @@ echo '</br>';
 echo 'PASSMAIL : '.PASSMAIL;
 echo '</br>';
 
+if (!GLAVNIMAIL) {
+    echo 'Ne postoji glavni mail';
+    die;
+}
 
 require RB_ROOT.'/PHPMailer-master/PHPMailerAutoload.php';
 $mail = new PHPMailer;

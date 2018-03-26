@@ -1,7 +1,7 @@
 <?php
 
 define('SIFRAZACOOKIE', 'klasterica');
-define('GLAVNIMAIL', 'xxxxx@gmail.com');
+define('GLAVNIMAIL', '');
 //define('KATEGORIJESAJT', '1');
 define('PASSMAIL', 'ohtxjjweaticabpv');
 define('FROMNAME', 'Masine i Alati');
