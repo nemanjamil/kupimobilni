@@ -26,7 +26,7 @@ $jezikId = 1;
 define('ELASTICINDEX', "kupimobilni");
 define('ELASTICGRUPE', "artikli");
 $lokacijaFolder = '/stranice/elasticNew';
-$lokacijaFolderAdmin = ROOTLOC . '/admin/stranice/elasticAdmin';
+$lokacijaFolderAdmin = $documentroot . '/admin/stranice/elasticAdmin';
 $timeUbac = @date('[d/M/Y:H:i:s]');
 
 require $documentroot . '/obradi/snimiTxt.php';
