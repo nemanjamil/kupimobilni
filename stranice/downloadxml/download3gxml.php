@@ -73,7 +73,7 @@ $result_code = $zip->open($likacijadoslikedir.'/3gMobilSistem.zip');
 
 if( $result_code !== true ){
     $msg = isset($ZIP_ERROR[$result_code])? $ZIP_ERROR[$result_code] : 'Unknown error.';
-    var_dump($msg);
+    //var_dump($msg);
 } else {
     if ($result_code === TRUE) {
         flushmoj('Pocinje Extract');
