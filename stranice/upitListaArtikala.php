@@ -1,4 +1,6 @@
 <?php
+// ovo je samo za elasticSearch
+
 $upitArtikalSearch = "
 SELECT
   *,

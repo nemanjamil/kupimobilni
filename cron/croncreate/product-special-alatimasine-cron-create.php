@@ -8,6 +8,12 @@
  */
 
 $dpp = '';
+/*$limitUpit = 18;
+$brojAkcije = 8;
+$upitArtArray = "CALL listaArtikalaRazno($limitUpit,$valutasession,$jezikId,$KomitentId,$brojAkcije);";*/
+
+// TODO NIKOLA
+
 $footArtiPoc = "
 
 SELECT
