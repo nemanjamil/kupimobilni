@@ -2,107 +2,9 @@
 <?php
 $delay = 0;
 
-$footArtiPocsuper = "
-SELECT
-  *,
-  IF ( $KomiRabatKupi > 0,  CAST(pravaMpNeRabat * (100-$KomiRabatKupi)/100 AS DECIMAL (12, 2)),  pravaMpNeRabat) AS pravaMp,
-  IF ( $KomiRabatKupi > 0,  CAST(pravaVpNeRabat * (100-$KomiRabatKupi)/100 AS DECIMAL (12, 2)),  pravaVpNeRabat) AS pravaVp
-  FROM (
-SELECT *,
-
-CAST(
-    (
-      CASE
-        WHEN KomitentUPdv = 1
-        THEN ( (SELECT  GetKurs (KomitentiValuta, $valutasession)) ) * (ArtikalMPCena - mpjac) * MarzaMarza * (PorezVrednost / 100 + 1)
-        ELSE ( (SELECT   GetKurs (KomitentiValuta, $valutasession))) * (ArtikalMPCena - mpjac) * MarzaMarza
-          END
-    )  AS DECIMAL (12, 3)) AS pravaMpNeRabat,
-CAST(
-    (
-      CASE
-        WHEN KomitentUPdv = 1
-        THEN ( (SELECT  GetKurs (KomitentiValuta, $valutasession))    ) * (ArtikalVPCena - vpjac) * MarzaVP * (PorezVrednost / 100 + 1)
-        ELSE ( (SELECT   GetKurs (KomitentiValuta, $valutasession))    ) * (ArtikalVPCena - vpjac) * MarzaVP
-      END
-   )  AS DECIMAL (12, 3)) AS  pravaVpNeRabat
-
-
-FROM (
-SELECT
-    A.ArtikalId,
-    A.KategorijaArtikalId,
-    A.ArtikalMPCena,
-    A.ArtikalVPCena,
-    A.ArtikalLink,
-    A.ArtikalStanje,
-    A.ArtikalNaAkciji,
-    A.ArtikalBrendId,
-    A.MinimalnaKolArt,
-    ANN.OpisArtikla,
-    AKO.OpisKratakOpis,
-    KA.KategorijaArtikalaLink,
-    KAN.NazivKategorije,
-    BI.BrendIme,
-    BR.BrendLink,
-    BR.BrendId,
-    K.KomitentiValuta,
-    K.KomitentKolona,
-    V.ValutaValuta,
-    MA.MarzaMarza,
-    TUN.TipUnit,
-    TUN.TipUnitCelo,
-    K.KomitentUPdv,
-    PLP.PorezVrednost,
-    MarzaVP,
-    CAST( (A.ArtikalBrOcena / A.ArtikalBrKlikova)	AS SIGNED ) AS ocenaut,
-    DATEDIFF(A.ArtikalDostupnoOd, NOW()) as dani,
-    (SELECT IF(K.KomitentRabat>0,K.KomitentRabat,0)/100*A.ArtikalVPCena) AS vpjac,
-    (SELECT IF(K.KomitentRabat>0,K.KomitentRabat,0)/100*A.ArtikalMPCena) AS mpjac,
-    (SELECT ImeSlikeArtikliSlike FROM  artiklislike WHERE IdArtikliSlikePov = A.ArtikalId AND MainArtikliSlike = 1 LIMIT 1 )   AS slikaMain
-
-  FROM
-    artikli A
-    JOIN artikalnazivnew ANN
-      ON ANN.ArtikalId = A.ArtikalId AND  ANN.IdLanguage = $jezikId
-    LEFT JOIN artiklikratakopisnew AKO
-      ON AKO.IdArtiklaAkon = A.ArtikalId AND  AKO.IdLanguageAkon = $jezikId
-
-    JOIN kategorijeartikala KA
-      ON KA.KategorijaArtikalaId = A.KategorijaArtikalId
-    JOIN kategorijeartikalanaslov KAN
-      ON KAN.IdKategorije = KA.KategorijaArtikalaId AND KAN.IdLanguage = $jezikId
-
-    JOIN pdvkategzemlja PKZ
-      ON PKZ.IdKategPdvKatZem = KA.KategorijaArtikalaId
-    JOIN pdvlistaporeza PLP
-      ON PLP.IdPdvListaPoreza = PKZ.PdvKategZemlja
-
-    JOIN unit UN
-      ON UN.IdUnit = A.TipKatUnitArt
-    JOIN tipunitnew TUN
-      ON TUN.IdTipUnit = UN.IdUnit AND TUN.IdLanguage = $jezikId
-
-    JOIN brendovi BR
-      ON BR.BrendId = A.ArtikalBrendId
-    LEFT JOIN brendoviime BI
-      ON BI.BrendId = BR.BrendId AND BI.IdLanguage = $jezikId
-    JOIN komitenti K
-      ON K.KomitentId = A.ArtikalKomitent
-    JOIN valuta V
-      ON V.ValutaId = K.KomitentiValuta
-    JOIN marza MA
-      ON MA.MarzaId = A.ArtikalMarzaId
-
-WHERE
-  A.ArtikalAktivan >= 1
-  AND (IdZemljePdvKatZem=K.KomitentiZemlja)
-  AND (SELECT   vidljivMpUser (A.KategorijaArtikalId,$tipUsera)) = 1
-  AND A.ArtikalNaAkciji = 8
-  ORDER BY A.top1 ASC
-  LIMIT 18 ) AS T1)
-  AS T2;
-";
+$limitUpit = 18;
+$brojAkcije = 8;
+$footArtiPocsuper = "CALL listaArtikalaRazno($limitUpit,$valutasession,$jezikId,$KomitentId,$brojAkcije);";
 $keyArtAr = $db->rawQuery($footArtiPocsuper);
 
 $item = 0;
@@ -136,6 +38,8 @@ foreach ($keyArtAr as $k => $keyArt):
     //$OpisArtikliTekstovi = $keyArt['OpisArtikliTekstovi' . $jezik];
     $ocena = $keyArt['ocenaut'];
 
+
+
     $urlArtiklaLinkSmall = '/' . $ArtikalLinkSmall . '/' . $ArtikalIdSmall;
 
     if ($ArtikalStanjeSmall > 0) {
@@ -143,7 +47,7 @@ foreach ($keyArtAr as $k => $keyArt):
         $nakasd = $common->stanjeOpisSveId($ArtikalStanjeSmall, $ArtikalMPCenaSmall, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVpSmall, $pravaMpSmall, $tipUsera);
         require(DCROOT.'/stranice/cenaPrikazVarijable.php');
 
-        $cenaPrikazSmall = $cenaPrikaz;
+        $cenaPrikazSmall = $cenaSamoBrojFormat. ' '.$cenaPrikazExt;
 
     } else {
         $mozedase = 'disabled="disabled"';

@@ -2265,8 +2265,8 @@ hr {
     text-transform: uppercase;
     margin: 12px 0 8px;
     /*dodato*/
-    text-align: center;
-    min-height: 61px;
+    text-align: left;
+    /*min-height: 61px;*/
     overflow: hidden;
     line-height: 18px;
 
