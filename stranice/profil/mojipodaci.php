@@ -120,8 +120,8 @@ $KomitentiSlika = $komitent['KomitentiSlika'];
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <label class="col-md-2 control-label"><?php  echo $jsonlang[213][$jezikId]; ?> </label>
+                        <!--<div class="form-group">
+                            <label class="col-md-2 control-label"><?php /* echo $jsonlang[213][$jezikId]; */?> </label>
 
 
                             <div class="col-md-4">
@@ -131,7 +131,7 @@ $KomitentiSlika = $komitent['KomitentiSlika'];
                             <div class="col-md-6">
 
                                 <?php
-                                $lokrel = $common->locationslikaOstaloKomitent(KOMSLIKE, $KomitentId);
+/*                                $lokrel = $common->locationslikaOstaloKomitent(KOMSLIKE, $KomitentId);
 
                                 $ext = pathinfo($KomitentiSlika, PATHINFO_EXTENSION);
                                 $fileName = pathinfo($KomitentiSlika, PATHINFO_FILENAME);
@@ -144,10 +144,10 @@ $KomitentiSlika = $komitent['KomitentiSlika'];
                                     echo '<img src="' . $lokrel . '/' . $mala_slika . '" alt="Avatar">';
                                 }
 
-                                ?>
+                                */?>
 
                             </div>
-                        </div>
+                        </div>-->
 
 
                         <div class="form-actions">

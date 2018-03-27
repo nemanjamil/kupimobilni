@@ -50,7 +50,7 @@
 
 		if($data){
 		?>
-    	<div class="col-xs-6 col-sm-6 col-md-6">
+    	<div class="col-xs-6 col-sm-6 col-md-12"><!--col-md-6-->
 				<div class="widget box">
 					<div class="widget-header">
 						<h4><i class="icon-list-alt"></i> <?php echo $jsonlang[237][$jezikId]; ?></h4>
@@ -107,10 +107,10 @@
 				</div>
 			</div>
 		<?php } ?>
-		<div class="col-xs-6 col-sm-6 col-md-4">
+		<!--<div class="col-xs-6 col-sm-6 col-md-4">
 			<div class="widget box">
 				<div class="widget-header">
-					<h4><?php echo $KomitentImeKom.' '.$KomitentPrezimeKom ?></h4>
+					<h4><?php /*echo $KomitentImeKom.' '.$KomitentPrezimeKom */?></h4>
 					<div class="toolbar">
 						<div class="btn-group">
 							<span class="btn btn-xs widget-collapse"><i class="icon-angle-down"></i></span>
@@ -119,10 +119,10 @@
 
 				</div>
 				<div class="widget-content">
-					<?php echo  $slikaKomitent; ?>
+					<?php /*echo  $slikaKomitent; */?>
 				</div>
 			</div>
-		</div>
+		</div>-->
 
 
     <?php }  ?>
