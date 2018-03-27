@@ -2139,7 +2139,7 @@ hr {
 /*  PRODUCT - ITEM
 /*===================================================================================*/
 .category-product {
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .category-product .products {
@@ -2273,7 +2273,7 @@ hr {
 }
 
 .category-product .products.grid-v1 .product-short-desc {
-    min-height: 102px;
+    min-height: 45px;
 }
 
 .category-product .products.grid-v1 .product-info h3 {

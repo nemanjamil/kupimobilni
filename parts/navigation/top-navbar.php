@@ -31,7 +31,7 @@
 			echo '<li class=""><a href="/izlogujse" class="izlogujse"><strong>' . $jsonlang[29][$jezikId] . '</strong></a><span hidden>-> 	Logovan preko : '. $logovanPreko .'</span></li>';
 		} else {
 			//'<li class=""><a class="log-in" href="/login">'.$jsonlang[18][$jezikId].'</a></li>';
-			echo '<li class=""><button class="btn btn-default cart-icon"><a href="/login"><span class="bojabela"> '.$jsonlang[18][$jezikId].'</span> </a></button> </li>';
+			echo '<li><a href="/login"><button class="btn btn-default cart-icon"><span class="bojabela"> '.$jsonlang[18][$jezikId].'</span> </button></a> </li>';
 		}
 		?>
 

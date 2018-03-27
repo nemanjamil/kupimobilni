@@ -5,8 +5,8 @@
     <?php /*if ($NaAkciji == 7): */?><div class="tag"><div class="tag-text new">new</div></div><?php /*endif; */?>
     <?php /*if ($NaAkciji == 8): */?><div class="tag"><div class="tag-text hot">hot</div></div>--><?php /*endif; */?>
 
-    <?php if ($NaAkciji == 6): ?><div class="ribbon-wrapper-tag"><div class="ribbon-tag ribbon-tag-red">AKCIJA</div></div><?php endif; ?>
-    <?php if ($NaAkciji == 7): ?><div class="ribbon-wrapper-tag"><div class="ribbon-tag ribbon-tag-green">POPUST</div></div><?php endif; ?>
+    <?php if ($NaAkciji == 6): ?><div class="ribbon-wrapper-tag"><div class="ribbon-tag ribbon-tag-red">SUPER PONUDA</div></div><?php endif; ?>
+    <?php if ($NaAkciji == 7): ?><div class="ribbon-wrapper-tag"><div class="ribbon-tag ribbon-tag-green">NOVO</div></div><?php endif; ?>
     <?php if ($NaAkciji == 8): ?><div class="ribbon-wrapper-tag"><div class="ribbon-tag ribbon-tag-blue">HIT PONUDA</div></div><?php endif; ?>
 
 

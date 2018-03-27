@@ -16,7 +16,7 @@
 
 
 $cols = Array("K.KategorijaArtikalaId");
-$db->where('K.KategorijaArtikalaSifra', Array('02.', '09.','07.', '14.'), 'IN');
+$db->where('K.KategorijaArtikalaSifra', Array('02.', '09.','07.','06.', '14.'), 'IN');
 $tagoviArtupit = $db->get('kategorijeartikala K', null, $cols);
 if ($tagoviArtupit) {
     $tagoviArt = $common->array_2_csv_sa_dodatkomnavodnika($tagoviArtupit);

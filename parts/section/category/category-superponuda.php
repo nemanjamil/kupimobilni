@@ -3,7 +3,7 @@
 $delay = 0;
 
 
-$footArtiPocsuper = "
+/*$footArtiPocsuper = "
 SELECT
   *,
   IF ( $KomiRabatKupi > 0,  CAST(pravaMpNeRabat * (100-$KomiRabatKupi)/100 AS DECIMAL (12, 2)),  pravaMpNeRabat) AS pravaMp,
@@ -103,7 +103,9 @@ WHERE
   ORDER BY A.top1 ASC
   LIMIT 18 ) AS T1)
   AS T2;
-";
+";*/
+$footArtiPocsuper = "CALL listaArtikalaRazno(18,$valutasession,$jezikId,$KomitentId, 6);";
+
 
 
 $keyArtAr = $db->rawQuery($footArtiPocsuper);
@@ -144,7 +146,12 @@ foreach ($keyArtAr as $k => $keyArt):
 
     if ($ArtikalStanjeSmall > 0) {
         $mozedase = '';
-        $cenaPrikazSmall = ($tipUsera >= 3) ? $common->formatCenaExt($pravaVpSmall, $sesValuta) : $common->formatCenaExt($pravaMpSmall, $sesValuta);
+        $nakasd = $common->stanjeOpisSveId($ArtikalStanjeSmall, $ArtikalMPCenaSmall, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVpSmall, $pravaMpSmall, $tipUsera);
+
+        require(DCROOT.'/stranice/cenaPrikazVarijable.php');
+
+        $cenaPrikazSmall = $cenaPrikaz;
+
     } else {
         $mozedase = 'disabled="disabled"';
         $cenaPrikazSmall = $jsonlang[117][$jezikId];
