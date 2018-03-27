@@ -1,5 +1,5 @@
 <?php
-$limitUpit = 9;
+$limitUpit = 8;
 $brojAkcije = "";
 $upitArtArray = "CALL listaArtikalaRazno($limitUpit,$valutasession,$jezikId,$KomitentId,'');";
 
@@ -74,7 +74,7 @@ $dp = '';
 
             $oldPrice = '';
 
-            $dp .= '<div class="item category-product col-sm-6 col-md-4">';
+            $dp .= '<div class="item category-product col-sm-6 col-md-3">';
             $dp .= '<div class="products grid-v3 wow fadeInUp animated" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">';
             $dp .= '<div class="product">';
             $dp .= '<div class="product-image">';
