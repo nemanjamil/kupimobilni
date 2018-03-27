@@ -53,11 +53,8 @@ $typeEl = ELASTICGRUPE;
 $params['index'] = $indexEl;
 $params['type'] = $typeEl;
 
-
-
 if ($upitArtKat) {
     foreach ($upitArtKat as $product => $keyArt):
-
         $ArtikalId = (int)$keyArt['ArtikalId'];
         $KategorijaArtiklaId = (int) $keyArt['KategorijaArtikalId'];
         $ArtikalNaziv = $keyArt['OpisArtikla'];
