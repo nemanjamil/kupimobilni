@@ -351,7 +351,7 @@ class common extends MysqliDb
         return $priceFormat;
     }
 
-    public function formatCenaSamoBroj($cena, $valuta)
+    public function formatCenaSamoBroj_depricated($cena, $valuta)
     {
 
         switch ($valuta) {
