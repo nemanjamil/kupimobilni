@@ -100,17 +100,17 @@ $dp = '';
                 $dp .= '<div class="tag-text hot">hot</div></div>';
             endif;
 
-            /*
-             * Ugaseno zbog loseg prikaza
-             * $dp .= '<div class="hover-effect">
-					<ul class="action-buttons">
+            $dp .= '<div class="hover-effect">
+					<!--ovo odozdo bi islo ovde-->
+			</div>';
+
+            /*<ul class="action-buttons">
 						<li class="add-cart-button">
 					        <button class="btn btn-primary dodajuKorpuPocetna" data-id="' . $ArtikalId . '" data-kol="1" ><i class="fa fa-shopping-cart"></i></button>
 					    </li>
 						<li class="view-product"><a class="btn btn-primary" href="' . $urlArtiklaLink . '"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
 						<li><button class="btn btn-primary compare dodajkompare" data-id="' . $ArtikalId . '" title="Uporedi"><i class="fa fa-exchange"></i></button></li>
-					</ul>
-			</div>';*/
+					</ul>*/
             $dp .= '</a>';
             $dp .= '</div>';
 
