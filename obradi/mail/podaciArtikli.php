@@ -90,9 +90,9 @@ $bodyMail .= '<tbody>';
                     $srednja_slika = $lokFolder.'/'.$fileName . '_srednja.' . $ext;
                     $velika_slika = $lokFolder.'/'.$ImeSlikeArtikliSlike;
 
-                    $ukupnaKorpapoArt = $common->formatCena($cenaPoArtKol,$valutasession);
+                    $ukupnaKorpapoArt = $common->formatCenaExt($cenaPoArtKol,$valutasession);
 
-                    $pravaCena = $common->formatCena($cenaPrikazBrojInfo,$valutasession);
+                    $pravaCena = $common->formatCenaExt($cenaPrikazBrojInfo,$valutasession);
 
 
 
@@ -150,7 +150,7 @@ $bodyMail .= '<tbody>';
 $bodyMail .= '<tr>';
 $bodyMail .= '<br>';
 $bodyMail .= '<td class="sub-total"><b>'.$jsonlang[277][$jezikId].' :</b></td>';
-$bodyMail .= '<td class="sub-amount"><span>'. $common->formatCena($ukupnaKorpa,$valutasession).' </span></td>';
+$bodyMail .= '<td class="sub-amount"><span>'. $common->formatCenaExt($ukupnaKorpa,$valutasession).' </span></td>';
 $bodyMail .= '</tr>';
 
 $bodyMail .= '<tr>';
@@ -173,7 +173,7 @@ $bodyMail .= '<table class="table table-bordered shop-table cart" id="artikli" s
                 $upikPr = "SELECT GetKurs (1, '$valutasession') * ".TROSKOVIPREVOZA." as cenaPrevoz";
                 $kPrevoz = $db->rawQueryOne($upikPr);
                 $cprev = $kPrevoz['cenaPrevoz'];
-                $cenaPrevoz = $common->formatCena($cprev, $valutasession);
+                $cenaPrevoz = $common->formatCenaExt($cprev, $valutasession);
 
                 $bodyMail .= '<p>'.$jsonlang[279][$jezikId].'<b> '. $cenaPrevoz. ' ' . $valutasessionUpperXXX . '</b>  <br> '.$jsonlang[280][$jezikId].'  - '. $jsonlang[283][$jezikId] . '</p>';
 
@@ -188,7 +188,7 @@ $bodyMail .= '<table class="table table-bordered shop-table cart" id="artikli" s
     $bodyMail .= '<tbody>';
         $bodyMail .= '<tr style="background-color: #d6e9c6;font-weight: bold">';
             $bodyMail .= '<td class="grand-total"><span><h2>'.$jsonlang[281][$jezikId].'</h2></span></td>';
-            $bodyMail .= '<td  class="total-amount"><span><h2>'.$common->formatCena($ukupnaKorpa + $cprev,$valutasession).'</h2></span></td>';
+            $bodyMail .= '<td  class="total-amount"><span><h2>'.$common->formatCenaExt($ukupnaKorpa + $cprev,$valutasession).'</h2></span></td>';
 $bodyMail .= '</tr>';
     $bodyMail .= '</tbody>';
 $bodyMail .= '</table>';

@@ -144,7 +144,7 @@ foreach ($keyArtAr as $k => $keyArt):
 
     if ($ArtikalStanjeSmall > 0) {
         $mozedase = '';
-        $cenaPrikazSmall = ($tipUsera >= 3) ? $common->formatCena($pravaVpSmall, $sesValuta) : $common->formatCena($pravaMpSmall, $sesValuta);
+        $cenaPrikazSmall = ($tipUsera >= 3) ? $common->formatCenaExt($pravaVpSmall, $sesValuta) : $common->formatCenaExt($pravaMpSmall, $sesValuta);
     } else {
         $mozedase = 'disabled="disabled"';
         $cenaPrikazSmall = $jsonlang[117][$jezikId];

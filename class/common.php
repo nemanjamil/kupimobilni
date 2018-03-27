@@ -282,6 +282,9 @@ class common extends MysqliDb
             case 1:
                 $priceFormat = 'DIN';
                 break;
+            case 2:
+                $priceFormat = 'GBP';
+                break;
             case 3:
                 $priceFormat = '$';
                 break;

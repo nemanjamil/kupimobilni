@@ -20,7 +20,7 @@
 
                 $ukupnaKorpa += $cenaPoArtKol;
 
-                $ukupnaKorpapoArt = $common->formatCena($cenaPoArtKol,$valutasession);
+                $ukupnaKorpapoArt = $common->formatCenaExt($cenaPoArtKol,$valutasession);
 
                 $ImeSlikeArtikliSlike = $v['ImeSlikeArtikliSlike'];
                 $lokFolder =  $common->locationslika($IdArtTempArt);

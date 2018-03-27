@@ -146,7 +146,7 @@ WHERE A.KategorijaArtikalId = $id
             $velika_slika = $common->nemaSlikeBezCrte($velika_slika);
 
 
-            // $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCena($pravaVp, $sesValuta) : $common->formatCena($pravaMp, $sesValuta);
+            // $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCenaExt($pravaVp, $sesValuta) : $common->formatCenaExt($pravaMp, $sesValuta);
             if ($ArtikalStanje > 0) {
                 $mozedase = '';
                 $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCenaSamoBroj($pravaVp, $sesValuta) : $common->formatCenaSamoBroj($pravaMp, $sesValuta);

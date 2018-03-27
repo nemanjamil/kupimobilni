@@ -154,7 +154,7 @@ if ($keyArtArRel) {
         //$srednja_slika = $lokFolder . '/' . $fileName . '_srednja.' . $ext;
         //$velika_slikaRel = $lokFolderRel . '/' . $ImeSlikeArtikliSlike;
 
-        $cenaPrikazRel = ($tipUsera >= 3) ? $common->formatCena($pravaVpRel, $sesValuta) : $common->formatCena($pravaMpRel, $sesValuta);
+        $cenaPrikazRel = ($tipUsera >= 3) ? $common->formatCenaExt($pravaVpRel, $sesValuta) : $common->formatCenaExt($pravaMpRel, $sesValuta);
 
 
 

@@ -166,7 +166,7 @@ if ($upitArtKat) {
 
         $srednja_slika = $common->nemaSlike($srednja_slika);
 
-        $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCena($pravaVp, $sesValuta) : $common->formatCena($pravaMp, $sesValuta);
+        $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCenaExt($pravaVp, $sesValuta) : $common->formatCenaExt($pravaMp, $sesValuta);
 
         ?>
         <!--wow fadeInUp sirinaArt" data-wow-delay="--><?php /*echo (float)($delay / 10); */?><!--s-->

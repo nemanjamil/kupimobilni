@@ -200,10 +200,10 @@ if ($upitArtKat) {
         $srednja_slika = $common->nemaSlike($srednja_slika);
 
 
-        // $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCena($pravaVp, $sesValuta) : $common->formatCena($pravaMp, $sesValuta);
+        // $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCenaExt($pravaVp, $sesValuta) : $common->formatCenaExt($pravaMp, $sesValuta);
         if ($ArtikalStanje > 0) {
             $mozedase = '';
-            $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCena($pravaVp, $sesValuta) : $common->formatCena($pravaMp, $sesValuta);
+            $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCenaExt($pravaVp, $sesValuta) : $common->formatCenaExt($pravaMp, $sesValuta);
         } else {
             $mozedase = 'disabled="disabled"';
         }

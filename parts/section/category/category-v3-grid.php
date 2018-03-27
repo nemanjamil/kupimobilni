@@ -166,7 +166,7 @@ if ($upitArtKat) {
         $velika_slika = $lokFolder . '/' . $ImeSlikeArtikliSlike;
 
 
-        $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCena($pravaVp, $sesValuta) : $common->formatCena($pravaMp, $sesValuta);
+        $cenaPrikaz = ($tipUsera >= 3) ? $common->formatCenaExt($pravaVp, $sesValuta) : $common->formatCenaExt($pravaMp, $sesValuta);
 
 
         $products[$i]['ArtikalId'] = $ArtikalId;

@@ -5,7 +5,7 @@ $ukupnaKolArt = '';
 $ukupnaKorpa = '';
 
 
-//echo $ukupnaKorpa = $common->formatCena($ukupnaKorpa,$valutasession);
+//echo $ukupnaKorpa = $common->formatCenaExt($ukupnaKorpa,$valutasession);
 
 ?>
 <div class="table-responsive cart-inner wow fadeInUp" data-wow-delay="0.2s">
