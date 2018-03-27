@@ -358,6 +358,18 @@ if ($tipUsera > 3) {
         case "obrisimagacin":
             require('obradi/obrisimagacin.php');
             break;
+        case "aktivirajstanjevarijable":
+            require('obradi/aktivirajstanjevarijable.php');
+            break;
+        case "dodajsetvarijablu":
+            require('obradi/dodajsetvarijablu.php');
+            break;
+        case "izmenisetvarijablu":
+            require('obradi/izmenisetvarijablu.php');
+            break;
+        case "obrisisetvarijablu":
+            require('obradi/obrisisetvarijablu.php');
+            break;
 
         // MODELI NA EDIT ART
         case "ListaModelaJson":

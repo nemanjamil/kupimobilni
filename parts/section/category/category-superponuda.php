@@ -147,10 +147,11 @@ foreach ($keyArtAr as $k => $keyArt):
     if ($ArtikalStanjeSmall > 0) {
         $mozedase = '';
         $nakasd = $common->stanjeOpisSveId($ArtikalStanjeSmall, $ArtikalMPCenaSmall, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVpSmall, $pravaMpSmall, $tipUsera);
-
+var_dump($nakasd);
         require(DCROOT.'/stranice/cenaPrikazVarijable.php');
 
         $cenaPrikazSmall = $cenaPrikaz;
+
 
     } else {
         $mozedase = 'disabled="disabled"';

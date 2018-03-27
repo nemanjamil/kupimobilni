@@ -116,6 +116,9 @@
             case 'editmagacin':
                 echo '<li class="current"><a href="' . DPROOTADMIN . '/magacini" title="">Magacini</a></li>';
                 break;
+            case 'izmenisetvarijablu':
+                echo '<li class="current"><a href="' . DPROOTADMIN . '/setovanjevarijabli" title="">Setovanje varijabli</a></li>';
+                break;
 
         }
         ?>

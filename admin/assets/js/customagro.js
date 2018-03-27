@@ -1010,6 +1010,46 @@ $(document).ready(function () {
 
     });
 
+    $('.AktivirajStanjeVarijable').click(function () {
+
+
+        var cekiran, Varijabla, sta, setovanjevarijabli;
+
+        Varijabla = $(this).data('id');
+
+        sta = $(this).is(':checked');
+
+        if (sta) {
+            cekiran = 'aktiviraj';
+        } else {
+            cekiran = 'deaktiviraj';
+        }
+
+        setovanjevarijabli = 'setovanjevarijabli';
+
+        if (Varijabla) {
+
+            var url = "/akcija.php?action=aktivirajstanjevarijable";
+            $.ajax({
+                type: "GET",
+                url: url,
+                data: {naziv: Varijabla, string: cekiran},
+                success: function (response) {
+                    var obj = jQuery.parseJSON(response);
+                    if (obj.ok) {
+                        alert(obj.ok);
+                    } else {
+                        alert(obj.error);
+                    }
+
+                }
+            });
+
+        } else {
+            alert('Nema ' + kojiIdSlike);
+        }
+
+    });
 
 
 });

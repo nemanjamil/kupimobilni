@@ -668,6 +668,12 @@
                         RAZNO
                     </a>
                     <ul class="sub-menu">
+                        <li>
+                            <a href="/admin/setovanjevarijabli">
+                                <i class="icon-angle-right"></i>
+                                Setovanje varijabli
+                            </a>
+                        </li>
 
                         <!--<li>
                             <a href="/admin/povucikateogorije">

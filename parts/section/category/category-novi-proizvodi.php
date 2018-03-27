@@ -149,7 +149,7 @@ foreach ($keyArtAr as $k => $keyArt):
 
     if ($ArtikalStanjeSmall > 0) {
         $mozedase = '';
-        $nakasd = $common->stanjeOpisSveId($ArtikalStanjeSmall, $ArtikalMPCenaSmall, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVpSmall, $pravaMpSmall);
+        $nakasd = $common->stanjeOpisSveId($ArtikalStanjeSmall, $ArtikalMPCenaSmall, $sesValuta, $jsonlang[229][$jezikId], $jsonlang[117][$jezikId], $jsonlang[116][$jezikId], $pravaVpSmall, $pravaMpSmall, $tipUsera);
         require(DCROOT.'/stranice/cenaPrikazVarijable.php');
 
         $cenaPrikazSmall = $cenaPrikaz;
