@@ -1,5 +1,5 @@
 <?php
-$limitUpit = 15;
+$limitUpit = 9;
 $brojAkcije = "";
 $upitArtArray = "CALL listaArtikalaRazno($limitUpit,$valutasession,$jezikId,$KomitentId,'');";
 
@@ -64,7 +64,7 @@ $dp = '';
 
 
 
-            $srednja_slika = $common->nemaSlike($srednja_slika);
+            $maloVeca_slika = $common->nemaSlike($maloVeca_slika);
 
 
 
@@ -100,7 +100,9 @@ $dp = '';
                 $dp .= '<div class="tag-text hot">hot</div></div>';
             endif;
 
-            $dp .= '<div class="hover-effect">
+            /*
+             * Ugaseno zbog loseg prikaza
+             * $dp .= '<div class="hover-effect">
 					<ul class="action-buttons">
 						<li class="add-cart-button">
 					        <button class="btn btn-primary dodajuKorpuPocetna" data-id="' . $ArtikalId . '" data-kol="1" ><i class="fa fa-shopping-cart"></i></button>
@@ -108,7 +110,7 @@ $dp = '';
 						<li class="view-product"><a class="btn btn-primary" href="' . $urlArtiklaLink . '"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
 						<li><button class="btn btn-primary compare dodajkompare" data-id="' . $ArtikalId . '" title="Uporedi"><i class="fa fa-exchange"></i></button></li>
 					</ul>
-			</div>';
+			</div>';*/
             $dp .= '</a>';
             $dp .= '</div>';
 
@@ -121,7 +123,9 @@ $dp = '';
 
             $dp .= '<div class="product-price">';
 
-            if ($pravaMp > '0') {
+            /*
+             * ugaseno zbog loseg prikaza
+             * if ($pravaMp > '0') {
                 $dp .= '<ins>';
                 $dp .= '<span class="amount">' . $cenaPrikaz . '</span>';
                 $dp .= '</ins>';
@@ -133,7 +137,7 @@ $dp = '';
 
             if ($oldPrice):
                 $dp .= '<del><span class="amount">' . $cenaPrikaz . '</span></del>';
-            endif;
+            endif;*/
 
             $dp .= '</div>';
 
