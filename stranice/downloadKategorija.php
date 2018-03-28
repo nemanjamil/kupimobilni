@@ -26,6 +26,12 @@ include($documentroot.'/stranice/parse/simple_html_dom.php');
 $kategorijeDodatna = new kategorijeDodatna($db);
 $jezLan = $db->get('languagejezik', null, "IdLanguage,ShortLanguage");
 
+
+$cols = Array("vrednoststanja");
+$db->where("imestanja", "inicijelno_punjenje");
+$inicijelno_punjenje_upit = $db->getOne("setovanjevarijabli", null, $cols);
+$inicijelno_punjenje = $povuci_slike_na_update['inicijelno_punjenje'];
+
 $varsleep = 10;
 
 // KALKULUS IDIJEVI
@@ -50,17 +56,20 @@ $prikaz .= '</br>';
 
 sleep($varsleep);
 
+if ($inicijelno_punjenje==1) {
 // NASI IDIJEVI
 // 4. Zatim update-ujemo parent kategorije.
-require('updateKategorijaParent.php');
-$prikaz .= '</br>';
-$prikaz .= '<h4 class="bojacrvenaosn">Update parent kategorije</h4>';
-$prikaz .= '</br>';
+    require('updateKategorijaParent.php');
+    $prikaz .= '</br>';
+    $prikaz .= '<h4 class="bojacrvenaosn">Update parent kategorije</h4>';
+    $prikaz .= '</br>';
+}
 
 sleep($varsleep);
 /**
  * Update porez
  */
+
 require('updatePorezKategorije.php');
 
 

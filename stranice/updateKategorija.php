@@ -45,28 +45,30 @@ if (1==1) {
 
                 if ($KategorijaArtiklaExtIdUpit) {
 
-                    $update_query = Array(
-                        'KategorijaArtikalaTitle' => $naziv,
-                        'ParentKategorijaArtiklaExtId' => $IDnadredjene
-                        //'KategorijaArtikalaSifra' => $sifra,
-                        //'KategorijaArtikalaLink' => $KatLink . '-' . rand(0, 100000)
+                    if ($inicijelno_punjenje==1) {
+                        $update_query = Array(
+                            'KategorijaArtikalaTitle' => $naziv,
+                            'ParentKategorijaArtiklaExtId' => $IDnadredjene
+                            //'KategorijaArtikalaSifra' => $sifra,
+                            //'KategorijaArtikalaLink' => $KatLink . '-' . rand(0, 100000)
 
-                    );
+                        );
 
-                    $db->where('KategorijaArtiklaExtId', $ID);
-                    $db->update('kategorijeartikala', $update_query);
+                        $db->where('KategorijaArtiklaExtId', $ID);
+                        $db->update('kategorijeartikala', $update_query);
 
 
-                    echo '<div style="background-color: #f5e79e;padding: 10px;border: 1px solid;margin: 5px;">';
-                    echo '<div>UPDATE</div>';
-                    echo '<div class="bojacrvena">Odradjen update - ubacen u KategorijaArtikalaSifra: ' . $sifra . '</div>';
-                    echo '<div class="bojacrvena">Odradjen naziv : ' . $naziv . '</div>';
-                    echo '<div class="bojacrvena">ID : ' . $ID . '</div>';
-                    echo '<div class="bojacrvena">IDnadredjene : ' . $IDnadredjene . '</div>';
+                        echo '<div style="background-color: #f5e79e;padding: 10px;border: 1px solid;margin: 5px;">';
+                        echo '<div>UPDATE</div>';
+                        echo '<div class="bojacrvena">Odradjen update - ubacen u KategorijaArtikalaSifra: ' . $sifra . '</div>';
+                        echo '<div class="bojacrvena">Odradjen naziv : ' . $naziv . '</div>';
+                        echo '<div class="bojacrvena">ID : ' . $ID . '</div>';
+                        echo '<div class="bojacrvena">IDnadredjene : ' . $IDnadredjene . '</div>';
 
-                    require('servisi/naziviKategorija.php');
+                        require('servisi/naziviKategorija.php');
 
-                    echo '</div>';
+                        echo '</div>';
+                    }
 
 
 

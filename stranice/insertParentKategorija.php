@@ -59,16 +59,18 @@ if ($curlInitStanje) {
 
                     if ($KategorijaArtiklaExtIdUpit) {
 
-                        $update_kateg = Array(
-                            'KategorijaArtikalaTitle' => $naziv,
-                            'ParentKategorijaArtiklaExtId' => $IDnadredjene
-                        );
-                        $db->where('KategorijaArtiklaExtId', $ID);
-                        $db->update('kategorijeartikala', $update_kateg);
+                        if ($inicijelno_punjenje==1) {
+                            $update_kateg = Array(
+                                'KategorijaArtikalaTitle' => $naziv,
+                                'ParentKategorijaArtiklaExtId' => $IDnadredjene
+                            );
+                            $db->where('KategorijaArtiklaExtId', $ID);
+                            $db->update('kategorijeartikala', $update_kateg);
 
-                        $prikaz .= '</br>';
-                        $prikaz .= '<b class="bojaplavasajt">Update Parent: IdGrupe: ' . $ID . ' IdNAD Grupe: ' . $IDnadredjene . ' Naziv:' . $naziv . ' Sifra: ' . $sifra.'</b>';
-                        $prikaz .= '</br>';
+                            $prikaz .= '</br>';
+                            $prikaz .= '<b class="bojaplavasajt">Update Parent: IdGrupe: ' . $ID . ' IdNAD Grupe: ' . $IDnadredjene . ' Naziv:' . $naziv . ' Sifra: ' . $sifra . '</b>';
+                            $prikaz .= '</br>';
+                        }
 
                     } else {
 
