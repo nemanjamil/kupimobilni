@@ -97,7 +97,7 @@ if ($kolikoimachild > $BrojDokle) {
 
             include('folder/podaci.php');
             //$pokazi .= '<br />ID : ' . $ID . '<br /><br /><br />';
-            $MenjanArtikal .= $ArtikalId . ' /('.$sifra.')  extId :  [ '.$extId.' ] ; ';
+            $MenjanArtikal .= $ArtikalId . ' /('.$sifra.'); ';
 
             $end = microtime_float();
             $pokazi .= '<hr/><br/>Script Execution Time: ' . round($end - $start, 3) . ' seconds<br/>';
