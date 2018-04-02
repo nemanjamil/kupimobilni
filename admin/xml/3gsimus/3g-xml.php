@@ -85,7 +85,7 @@ if ($kolikoimachild > $BrojDokle) {
     foreach ($dataset as $row) {
 
         $pokazi .= '<br/>Redni broj : ' . $i . ' - Broj dokle : ' . $BrojDokle . '<br/>';
-        $pokazi .= '<br/>'.$common->microtime_floatProlaz($start, 'ubaciSlikeFile').'<br/>';
+        $pokazi .= '<br/>'.$common->microtime_floatProlaz($start, 'prolazno_vreme').'<br/>';
 
         if ($i >= $BrojDokle) {
 
