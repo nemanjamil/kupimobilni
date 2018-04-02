@@ -59,8 +59,8 @@ CAST(
     (
       CASE
         WHEN KomitentUPdv = 1
-        THEN ( (SELECT  GetKurs ($KomitentiValuta, $valutasession))    ) * (ArtikalVPCena - vpjac) * MarzaVP * (PorezVrednost / 100 + 1)
-        ELSE ( (SELECT   GetKurs ($KomitentiValuta, $valutasession))    ) * (ArtikalVPCena - vpjac) * MarzaVP
+        THEN ( (SELECT  GetKurs (4, $valutasession))    ) * (ArtikalVPCena - vpjac) * MarzaVP * (PorezVrednost / 100 + 1)
+        ELSE ( (SELECT   GetKurs (4, $valutasession))    ) * (ArtikalVPCena - vpjac) * MarzaVP
       END
    )  AS DECIMAL (12, 3)) AS  pravaVpNeRabat
 
