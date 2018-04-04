@@ -217,7 +217,7 @@ var App = function() {
 	/**
 	 * Swipe Events
 	 */
-	var handleSwipeEvents = function() {
+	/*var handleSwipeEvents = function() {
 		// Enable feature only on small widths
 		if ($(window).width() <= 767) {
 
@@ -243,7 +243,7 @@ var App = function() {
 			});
 
 		}
-	}
+	}*/
 
 	var handleSidebarMenu = function() {
 		var arrow_class_open   = 'icon-angle-down',
@@ -677,7 +677,7 @@ var App = function() {
 			handleResponsive(); // Checks for IE-version, click-handler for sidebar-toggle-button, Breakpoints
 			handleLayout(); // Calls calculateHeight()
 			handleResizeEvents(); // Calls _resizeEvents() every 30ms on resizing
-			handleSwipeEvents(); // Enables feature to swipe to the left or right on mobile phones to open the sidebar
+			//handleSwipeEvents(); // Enables feature to swipe to the left or right on mobile phones to open the sidebar
 			handleSidebarMenu(); // Handles navigation
 			handleScrollbars(); // Adds styled scrollbars for sidebar on desktops
 			handleThemeSwitcher(); // Bright/ Dark Switcher

@@ -1,0 +1,2 @@
+npm install jquery@2.2.4
+npm install jquery-ui-dist

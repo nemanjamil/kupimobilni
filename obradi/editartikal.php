@@ -7,11 +7,11 @@
  * Time: 3:32 PM
  */
 
-/*
-var_dump($_POST);
+
+/*var_dump($_POST);
 var_dump($_FILES);
-die;
-*/
+die;*/
+
 
 // da li ima kategoriju u editu
 if (isset($_POST['idkategorijeDodajArtikal'])) {  $idkategorijeDodajArtikal = filter_input(INPUT_POST, 'idkategorijeDodajArtikal', FILTER_SANITIZE_NUMBER_INT); } else {   $idkategorijeDodajArtikal = ''; }

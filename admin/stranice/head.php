@@ -18,7 +18,6 @@
 <!-- jQuery UI -->
 <!--<link href="plugins/jquery-ui/jquery-ui-1.10.2.custom.css" rel="stylesheet" type="text/css" />-->
 <!--[if lt IE 9]> -->
-<link rel="stylesheet" type="text/css" href="<?php echo DPROOTADMIN . '/'; ?>plugins/jquery-ui/jquery.ui.1.10.2.ie.css"/>
 <!-- <![endif]-->
 
 
@@ -42,11 +41,37 @@
 
 <!--=== JavaScript ===-->
 
-<script type="text/javascript" src="<?php echo DPROOTADMIN . '/'; ?>assets/js/libs/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="<?php echo DPROOTADMIN . '/'; ?>plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js"></script>
 
+
+<!--JQUERY-->
+<!--<link rel="stylesheet" type="text/css" href="<?php /*echo DPROOTADMIN . '/'; */?>plugins/jquery-ui/jquery.ui.1.10.2.ie.css"/>
+<script type="text/javascript" src="<?php /*echo DPROOTADMIN . '/'; */?>assets/js/libs/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="<?php /*echo DPROOTADMIN . '/'; */?>plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js"></script>-->
+
+
+<link rel="stylesheet" type="text/css" href="<?php echo DPROOT . '/'; ?>node_modules/jquery-ui-dist/jquery-ui.min.css"/>
+<script type="text/javascript" src="<?php echo DPROOT . '/'; ?>node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo DPROOT . '/'; ?>node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+
+
+<!--BOOTSTRAP-->
 <script type="text/javascript" src="<?php echo DPROOTADMIN . '/'; ?>bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo DPROOTADMIN . '/'; ?>assets/js/libs/lodash.compat.min.js"></script>
+
+<!-- Initialize Quill editor -->
+<script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+    bkLib.onDomLoaded(function(){
+        var myInstance = new nicEditor({
+            fullPanel : true,
+            //uploadURI : 'http://yourdomain.com/nicUpload.php
+            Height : 200}).panelInstance('myArea2');
+        //var myInstance = new nicEditors.allTextAreas;
+    });
+
+    //bkLib.onDomLoaded(nicEditors.allTextAreas);
+</script>
 
 
 <!--Z3 CSS-->
@@ -61,8 +86,8 @@
 
 <!-- Smartphone Touch Events -->
 <script type="text/javascript" src="<?php echo DPROOTADMIN . '/'; ?>plugins/touchpunch/jquery.ui.touch-punch.min.js"></script>
-<script type="text/javascript" src="<?php echo DPROOTADMIN . '/'; ?>plugins/event.swipe/jquery.event.move.js"></script>
-<script type="text/javascript" src="<?php echo DPROOTADMIN . '/'; ?>plugins/event.swipe/jquery.event.swipe.js"></script>
+<!--<script type="text/javascript" src="<?php /*echo DPROOTADMIN . '/'; */?>plugins/event.swipe/jquery.event.move.js"></script>
+<script type="text/javascript" src="<?php /*echo DPROOTADMIN . '/'; */?>plugins/event.swipe/jquery.event.swipe.js"></script>-->
 
 <!-- General -->
 <script type="text/javascript" src="<?php echo DPROOTADMIN . '/'; ?>assets/js/libs/breakpoints.js"></script>

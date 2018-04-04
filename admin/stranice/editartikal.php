@@ -103,7 +103,6 @@ foreach ($links as $link) {
 
 }
 
-
 ?>
 <!--=== Page Content ===-->
 
@@ -129,16 +128,16 @@ foreach ($links as $link) {
                         $ShortLanguage = $v['ShortLanguage'];
                         $IdLanguage = $v['IdLanguage'];
 
-                        $cols = Array ("OpisArtikla");
-                        $db->where ('ArtikalId', $id);
-                        $db->where ('IdLanguage', $IdLanguage);
+                        $cols = Array("OpisArtikla");
+                        $db->where('ArtikalId', $id);
+                        $db->where('IdLanguage', $IdLanguage);
                         $artNazivNewUpit = $db->getOne("artikalnazivnew", null, $cols);
                         $OpisArtikla = $artNazivNewUpit['OpisArtikla'];
 
                         $naziv .= '<div class="form-group">';
                         $naziv .= '<label class="col-md-2 control-label bg-success"><strong>Ime artikla New TEST ' . $ShortLanguage . ' </strong></label>';
                         $naziv .= '<div class="col-md-10">';
-                        $naziv .= '<input type="text" id="ArtNaz' . $ShortLanguage . '" name="artNazivNew['.$IdLanguage.']" class="form-control" value="' . $OpisArtikla . '">';
+                        $naziv .= '<input type="text" id="ArtNaz' . $ShortLanguage . '" name="artNazivNew[' . $IdLanguage . ']" class="form-control" value="' . $OpisArtikla . '">';
                         $naziv .= '</div>';
                         $naziv .= '</div>';
                     endforeach;
@@ -146,7 +145,6 @@ foreach ($links as $link) {
                     echo $naziv;
 
                     ?>
-
 
 
                     <div class="form-group">
@@ -159,7 +157,7 @@ foreach ($links as $link) {
                                 $data = $db->get('komitenti', null, 'KomitentId,KomitentIme,KomitentPrezime,KomitentKolona');
                                 foreach ($data as $sds => $s) {
                                     $selkom = ($ArtikalKomitent == $s['KomitentId']) ? 'selected' : '';
-                                    echo '<option value="' . $s['KomitentId'].'|'.$s['KomitentKolona'].'"  ' . $selkom . '>'  . $s['KomitentIme'] . ' ' . $s['KomitentPrezime'] . '</option>' . "\n";
+                                    echo '<option value="' . $s['KomitentId'] . '|' . $s['KomitentKolona'] . '"  ' . $selkom . '>' . $s['KomitentIme'] . ' ' . $s['KomitentPrezime'] . '</option>' . "\n";
                                 }
                                 ?>
                             </select>
@@ -175,7 +173,8 @@ foreach ($links as $link) {
                             <div><strong>Pripada kategoriji :</strong>
                                 <span class="red">
                                     <b>
-                                        <a target="_blank" href="<?php echo DPROOTADMIN . '/kat/' . $ArtikalKategorija; ?>">
+                                        <a target="_blank"
+                                           href="<?php echo DPROOTADMIN . '/kat/' . $ArtikalKategorija; ?>">
                                             <?php echo $KategorijaArtikalaNaziv; ?>
                                         </a>
                                     </b>
@@ -192,20 +191,20 @@ foreach ($links as $link) {
 
 
                     <!--Kategorija artikla ZDRAVLJE-->
-<!--                    <div class="form-group">
-                        <label class="col-md-2 control-label">Kategorije ZDRAVLJE</label>
+                    <!--                    <div class="form-group">
+                                            <label class="col-md-2 control-label">Kategorije ZDRAVLJE</label>
 
-                        <div class="col-md-3">-->
-                           <!--<div><strong>Pripada kategoriji za Zdravlje : </strong> <span
-                                    class="red"><?php /*echo $KategorijaArtikalaNaziv; */?> </span></div>
+                                            <div class="col-md-3">-->
+                    <!--<div><strong>Pripada kategoriji za Zdravlje : </strong> <span
+                                    class="red"><?php /*echo $KategorijaArtikalaNaziv; */ ?> </span></div>
                             <div><a id="expandAllBtn" href="#" onclick="return false;">Expand All Nodes</a></div>-->
-                        <!--</div>
-                        <div class="col-md-7">
-                            <div class="zTreeDemoBackground left">
-                                <ul id="treeHeadZdravljeArtEdit" class="ztree"></ul>
-                            </div>
+                    <!--</div>
+                    <div class="col-md-7">
+                        <div class="zTreeDemoBackground left">
+                            <ul id="treeHeadZdravljeArtEdit" class="ztree"></ul>
                         </div>
-                    </div>-->
+                    </div>
+                </div>-->
 
                     <!--Specifikacije artikala-->
                     <div class="form-group">
@@ -228,8 +227,7 @@ foreach ($links as $link) {
                                     $IdSpecGrupe = $value['IdSpecGrupe'];
 
 
-
-                                $upitRaw = "SELECT
+                                    $upitRaw = "SELECT
                                 SV.IdSpecVrednosti,
                                 SVN.SpecVredNaziv,
                                     IF(
@@ -283,7 +281,7 @@ foreach ($links as $link) {
                                     class="select2 full-width-fix" value="<?php echo $ArtikalBrend ?>">
                                 <option value=""></option>
                                 <?php
-                                $cols = Array("B.BrendId","BI.BrendIme", "B.BrendSajt");
+                                $cols = Array("B.BrendId", "BI.BrendIme", "B.BrendSajt");
                                 $db->join("brendoviime BI", "BI.BrendId = B.BrendId");
                                 $db->where("BI.IdLanguage = 5");
                                 $data = $db->get('brendovi B', null, $cols);
@@ -316,7 +314,7 @@ foreach ($links as $link) {
                         </div>
                     </div>
                     <!--Dostupno od-->
-                    <div class="form-group" id="uskoro" >
+                    <div class="form-group" id="uskoro">
 
                         <label class="col-md-2 control-label">Dostupno od:</label>
 
@@ -359,6 +357,7 @@ foreach ($links as $link) {
                     <!--Artikal Stanje -->
                     <div class="form-group">
                         <label class="col-md-2 control-label">Artikal stanje </label>
+
                         <div class="col-md-10">
 
                             <input type="number" name="ArtikalStanje" value="<?php echo $ArtikalStanje; ?>" min="0"
@@ -397,7 +396,8 @@ foreach ($links as $link) {
                                     $selektovano = ($TipKatUnitArt == $IdUnit) ? 'selected' : '';
 
                                     ?>
-                                    <option value="<?php echo $IdUnit; ?>" <?php echo $selektovano ?>><?php echo $TipUnit; ?></option>
+                                    <option
+                                        value="<?php echo $IdUnit; ?>" <?php echo $selektovano ?>><?php echo $TipUnit; ?></option>
                                 <?php } ?>
                             </select>
                         </div>
@@ -444,18 +444,18 @@ foreach ($links as $link) {
                     <!--<div class="form-group">
                         <label class="col-md-2 control-label">Artikal Reklama tekst</label>
                         <div class="col-md-10">
-                            <input type="text" name="ArtikalReklamaTekst" class="form-control" value="<?php /*echo $ArtikalReklamaTekst */?>">
+                            <input type="text" name="ArtikalReklamaTekst" class="form-control" value="<?php /*echo $ArtikalReklamaTekst */ ?>">
                         </div>
                     </div>-->
 
                     <div class="form-group">
                         <label class="col-md-2 control-label">Dodaj po zarezima ID artikle</label>
+
                         <div class="col-md-10">
-                            <input type="text" name="poklonArikliIdjevi" class="form-control" value="<?php echo $comma_separatedPoklon ?>">
+                            <input type="text" name="poklonArikliIdjevi" class="form-control"
+                                   value="<?php echo $comma_separatedPoklon ?>">
                         </div>
                     </div>
-
-
 
 
                     <!--Marza artikla-->
@@ -524,9 +524,9 @@ foreach ($links as $link) {
                         <div class="col-md-10">
                             <select id="input18" class="select2-select-00 col-md-12 full-width-fix" multiple size="5">
                                 <?php
-                                $cols = Array("modeli_artikli.ModelId","modeli.ModelNaziv");
+                                $cols = Array("modeli_artikli.ModelId", "modeli.ModelNaziv");
                                 $db->join("modeli", "modeli.ModelId = modeli_artikli.ModelId");
-                                $db->where("modeli_artikli.ArtikalId",$id);
+                                $db->where("modeli_artikli.ArtikalId", $id);
                                 $upitModeliOdg = $db->get('modeli_artikli', null, $cols);
                                 if ($upitModeliOdg) {
                                     foreach ($upitModeliOdg as $key => $value) {
@@ -541,41 +541,41 @@ foreach ($links as $link) {
                     </div>
 
 
-
                     <!--Kratak opis artikla-->
                     <?php
-/*
-                    $naziv = '';
-                    foreach ($jezLan as $k => $v):
-                        $ShortLanguage = $v['ShortLanguage'];
-                        $naziv .= '<div class="form-group">';
-                        $naziv .= '<label class="col-md-2 control-label">Kratak opis <b>' . $ShortLanguage . ' </b> (iznad cene)</label>';
-                        $naziv .= '<div class="col-md-10">';
-                        $naziv .= '<input type="text" id="ArtikalKratakOpis' . $ShortLanguage . '" name="ArtikalKratakOpis' . $ShortLanguage . '" class="form-control" value="' . $link['ArtikalKratakOpis' . $ShortLanguage] . '">';
-                        $naziv .= '</div>';
-                        $naziv .= '</div>';
-                    endforeach;
-                    echo $naziv;
-*/
+                    /*
+                                        $naziv = '';
+                                        foreach ($jezLan as $k => $v):
+                                            $ShortLanguage = $v['ShortLanguage'];
+                                            $naziv .= '<div class="form-group">';
+                                            $naziv .= '<label class="col-md-2 control-label">Kratak opis <b>' . $ShortLanguage . ' </b> (iznad cene)</label>';
+                                            $naziv .= '<div class="col-md-10">';
+                                            $naziv .= '<input type="text" id="ArtikalKratakOpis' . $ShortLanguage . '" name="ArtikalKratakOpis' . $ShortLanguage . '" class="form-control" value="' . $link['ArtikalKratakOpis' . $ShortLanguage] . '">';
+                                            $naziv .= '</div>';
+                                            $naziv .= '</div>';
+                                        endforeach;
+                                        echo $naziv;
+                    */
                     /*Kratak opis artikla*/
-/*
-                    $nazivOp = '';
-                    foreach ($jezLan as $k => $v):
-                        $ShortLanguage = $v['ShortLanguage'];
-                        $nazivOp .= '<div class="form-group">';
-                        $nazivOp .= '<label class="col-md-2 control-label">Veliki Opis ' . $ShortLanguage . '</label>';
-                        $nazivOp .= '<div class="col-md-10">';
-                        $nazivOp .= '<textarea rows="5" name="OpisArtikliTekstovi' . $ShortLanguage . '" class="form-control mceEditor">' . $link['OpisArtikliTekstovi' . $ShortLanguage] . '</textarea>';
-                        $nazivOp .= '</div>';
-                        $nazivOp .= '</div>';
-                    endforeach;
-                    echo $nazivOp;
-*/
+                    /*
+                                        $nazivOp = '';
+                                        foreach ($jezLan as $k => $v):
+                                            $ShortLanguage = $v['ShortLanguage'];
+                                            $nazivOp .= '<div class="form-group">';
+                                            $nazivOp .= '<label class="col-md-2 control-label">Veliki Opis ' . $ShortLanguage . '</label>';
+                                            $nazivOp .= '<div class="col-md-10">';
+                                            $nazivOp .= '<textarea rows="5" name="OpisArtikliTekstovi' . $ShortLanguage . '" class="form-control mceEditor">' . $link['OpisArtikliTekstovi' . $ShortLanguage] . '</textarea>';
+                                            $nazivOp .= '</div>';
+                                            $nazivOp .= '</div>';
+                                        endforeach;
+                                        echo $nazivOp;
+                    */
                     ?>
                     <div class="form-group">
                         <label class="col-md-2 control-label">Kratak opis <b>SrbLat</b> (iznad cene)</label>
                         <div class="col-md-10">
-                            <input type="text" id="ArtikalKratakOpissrblat" name="ArtikalKratakOpissrblat" class="form-control" value="<?php echo $ArtikalKratakOpissrblat ?>">
+                            <input type="text" id="ArtikalKratakOpissrblat" name="ArtikalKratakOpissrblat"
+                                   class="form-control" value="<?php echo $ArtikalKratakOpissrblat ?>">
                         </div>
                     </div>
 
@@ -586,16 +586,16 @@ foreach ($links as $link) {
                         $ShortLanguage = $v['ShortLanguage'];
                         $IdLanguage = $v['IdLanguage'];
 
-                        $cols = Array ("OpisKratakOpis");
-                        $db->where ('IdArtiklaAkon', $id);
-                        $db->where ('IdLanguageAkon', $IdLanguage);
+                        $cols = Array("OpisKratakOpis");
+                        $db->where('IdArtiklaAkon', $id);
+                        $db->where('IdLanguageAkon', $IdLanguage);
                         $artNazivNewUpit = $db->getOne("artiklikratakopisnew", null, $cols);
                         $OpisArtikla = $artNazivNewUpit['OpisKratakOpis'];
 
                         $naziv .= '<div class="form-group">';
                         $naziv .= '<label class="col-md-2 control-label bg-success"><strong>Kratak Opis ' . $ShortLanguage . ' </strong></label>';
                         $naziv .= '<div class="col-md-10">';
-                        $naziv .= '<input type="text" id="ArtNaz' . $ShortLanguage . '" name="artNazivKratak['.$IdLanguage.']" class="form-control" value="' . $OpisArtikla . '">';
+                        $naziv .= '<input type="text" id="ArtNaz' . $ShortLanguage . '" name="artNazivKratak[' . $IdLanguage . ']" class="form-control" value="' . $OpisArtikla . '">';
                         $naziv .= '</div>';
                         $naziv .= '</div>';
                     endforeach;
@@ -611,16 +611,16 @@ foreach ($links as $link) {
                         $ShortLanguage = $v['ShortLanguage'];
                         $IdLanguage = $v['IdLanguage'];
 
-                        $cols = Array ("OpisArtTekst");
-                        $db->where ('ArtikalId', $id);
-                        $db->where ('LanguageId', $IdLanguage);
+                        $cols = Array("OpisArtTekst");
+                        $db->where('ArtikalId', $id);
+                        $db->where('LanguageId', $IdLanguage);
                         $artNazivNewUpit = $db->getOne("artiklitekstovinew", null, $cols);
                         $OpisArtikla = $artNazivNewUpit['OpisArtTekst'];
 
                         $naziv .= '<div class="form-group">';
                         $naziv .= '<label class="col-md-2 control-label bg-success"><strong>Veliki Opis ' . $ShortLanguage . ' </strong></label>';
                         $naziv .= '<div class="col-md-10">';
-                        $naziv .= '<textarea rows=35  name="OpisArtikliTekstovi['.$IdLanguage.']" class="form-control mceEditor">' . $OpisArtikla . '</textarea>';
+                        $naziv .= '<textarea style="width: 100%; height: 100px;" name="OpisArtikliTekstovi[' . $IdLanguage . ']" id="myArea2">' . $OpisArtikla . '</textarea>';
                         $naziv .= '</div>';
                         $naziv .= '</div>';
 
@@ -628,16 +628,15 @@ foreach ($links as $link) {
 
                     echo $naziv;
 
+
                     ?>
-
-
 
 
                     <!--BOSCH-->
                     <!--<div class="form-group">
                         <label class="col-md-2 control-label">Code Bosch </label>
                         <div class="col-md-10">
-                            <input type="text" name="codebosch" id="codebosch" class="form-control" value="<?php /*echo $codebosch */?>">
+                            <input type="text" name="codebosch" id="codebosch" class="form-control" value="<?php /*echo $codebosch */ ?>">
                         </div>
                     </div>
 
@@ -652,14 +651,14 @@ foreach ($links as $link) {
                     <!--<div class="form-group">
                         <label class="col-md-2 control-label">Code WolfCraft </label>
                         <div class="col-md-10">
-                            <input type="text" name="codelumen" id="codelumen" class="form-control" value="<?php /*echo $codelumen */?>">
+                            <input type="text" name="codelumen" id="codelumen" class="form-control" value="<?php /*echo $codelumen */ ?>">
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-2 control-label">Code WolfCraft Link</label>
                         <div class="col-md-10">
-                            <input type="text" name="codelumenlink" id="codelumenlink" class="form-control" value="<?php /*echo $codelumenlink */?>">
+                            <input type="text" name="codelumenlink" id="codelumenlink" class="form-control" value="<?php /*echo $codelumenlink */ ?>">
                         </div>
                     </div>-->
 
@@ -667,7 +666,7 @@ foreach ($links as $link) {
                     <!--<div class="form-group">
                         <label class="col-md-2 control-label">Code Agro </label>
                         <div class="col-md-10">
-                            <input type="text" name="codeagro" id="codeagro" class="form-control" value="<?php /*echo $codeagro; */?>">
+                            <input type="text" name="codeagro" id="codeagro" class="form-control" value="<?php /*echo $codeagro; */ ?>">
                         </div>
                     </div>-->
 
@@ -675,28 +674,28 @@ foreach ($links as $link) {
                     <!--<div class="form-group">
                         <label class="col-md-2 control-label">Code Vermax </label>
                         <div class="col-md-10">
-                            <input type="text" name="codevermax" id="codevermax" class="form-control" value="<?php /*echo $codevermax */?>">
+                            <input type="text" name="codevermax" id="codevermax" class="form-control" value="<?php /*echo $codevermax */ ?>">
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-2 control-label">Code Vermax Link</label>
                         <div class="col-md-10">
-                            <input type="text" name="codevermaxlink" id="codevermaxlink" class="form-control" value="<?php /*echo $codevermaxlink */?>">
+                            <input type="text" name="codevermaxlink" id="codevermaxlink" class="form-control" value="<?php /*echo $codevermaxlink */ ?>">
                         </div>
                     </div>-->
 
                     <!--Button unesi-->
                     <div class="form-actions">
                         <input type="submit" value="Izmeni artikal" class="btn btn-primary pull-right">
-                        <a href="/akcija.php?action=obrisiartikal&id=<?php echo $ArtikalId;?>" class="btn btn-danger pull-left"> Obrisi artikal</a>
+                        <a href="/akcija.php?action=obrisiartikal&id=<?php echo $ArtikalId; ?>"
+                           class="btn btn-danger pull-left"> Obrisi artikal</a>
                     </div>
                 </form>
             </div>
         </div>
     </div>
 </div>
-
 
 
 <?php
