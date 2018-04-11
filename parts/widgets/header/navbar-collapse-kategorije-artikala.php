@@ -79,9 +79,9 @@
 				<a href="/o-nama"><?php /*echo $jsonlang[95][$jezikId]; */?></a>
 			</li>-->
 <!--kontakt-->
-			<!--<li class="no-down">
-				<a href="/contact-us"><?php /*echo $jsonlang[58][$jezikId]; */?></a>
-			</li>-->
+			<li class="no-down">
+				<a href="/contact-us"><?php echo $jsonlang[58][$jezikId]; ?></a>
+			</li>
 
 		</ul><!-- /.navbar-nav -->
 		<div class="clearfix"></div>

@@ -1,8 +1,8 @@
 <?php
 $cols = Array("BR.BrendId","BR.BrendLink", "BR.BrendNaslovna", "BR.BrendActive", "BR.BrendSlika", "BI.BrendIme", "BO.BrendOpis");
-$db->join("brendoviime BI", "BI.BrendId = BR.BrendId", "LEFT");
-$db->join("brendoviopis BO", "BO.BrendId = BR.BrendId", "LEFT");
-$db->where("BI.IdLanguage = 5 AND BO.IdLanguage = 5 AND BR.BrendShow = 1 AND BR.BrendNaslovna = 1");
+$db->join("brendoviime BI", "BI.BrendId = BR.BrendId AND BI.IdLanguage = 5", "LEFT");
+$db->join("brendoviopis BO", "BO.BrendId = BR.BrendId AND BO.IdLanguage = 5 ", "LEFT");
+//$db->where("BR.BrendShow = 1 AND BR.BrendNaslovna = 1");
 $data = $db->get("brendovi BR", null, $cols);
 
 $i = 1;

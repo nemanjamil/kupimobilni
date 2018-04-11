@@ -1,7 +1,7 @@
 <?php
-$limitUpit = 8;
+$limitUpit = 4;
 $brojAkcije = "";
-$upitArtArray = "CALL listaArtikalaRazno($limitUpit,$valutasession,$jezikId,$KomitentId,'');";
+$upitArtArray = "CALL listaArtikalaRazno($limitUpit,$valutasession,$jezikId,$KomitentId,'3');";
 
 
 $keyArtAr = $db->rawQuery($upitArtArray);

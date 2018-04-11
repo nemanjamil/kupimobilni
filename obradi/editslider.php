@@ -12,6 +12,7 @@ $BanerOpis = $common->clearvariable($_POST[baneropis]);
 $BanerLink = $common->friendly_convert($naziv);
 
 $BanerUrl = $common->clearvariable($_POST[BanerUrl]);
+$Banerlokacija = $common->clearvariable($_POST[banerlokacija]);
 
 
 
@@ -26,6 +27,7 @@ if (isset($naziv)) {
         "BanerOpis" => $BanerOpis,
         "BanerLink" => $BanerLink,
         "BanerUrl" => $BanerUrl,
+        "Banerlokacija" => $Banerlokacija,
         "BanerDodatniOpis" => $string
     );
 
@@ -49,8 +51,8 @@ if (isset($naziv)) {
         $location = '/assets/images/banners';
         $nazivInputPolja = 'slikeMultiple';
         $idkolone = 'BanerId';
-        $w = '1920';
-        $h = '940';
+        $w = '270';
+        $h = '337';
         $preview = '1'; //ako pravimo thumb sliku _mala (80, 110) i _srednja  250, 340
         $orgSlika = '0'; // da li zelimo da snimimo i originalnu sliku
 

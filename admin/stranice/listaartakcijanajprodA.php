@@ -11,7 +11,7 @@
 <div class="col-md-12">
     <div class="widget box">
         <div class="widget-header">
-            <h4><i class="icon-list-alt"></i> Lista proizvoda NAJPRODAVANIJIH</h4>
+            <h4><i class="icon-list-alt"></i> Lista proizvoda pocetna NASA PREPORUKA</h4>
 
             <div class="toolbar">
                 <div class="btn-group">

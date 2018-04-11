@@ -1,7 +1,7 @@
 <!-- ============================================== PRODUCT ITEM SMALL ============================================== -->
 <?php
 if($KategorijaArtikalaIdOS){$KategArtIdOS = $KategorijaArtikalaIdOS;}else{ $KategArtIdOS = '0';}
-
+/*
 $footArtiPoc = "
 SELECT
 *,
@@ -108,8 +108,9 @@ WHERE
   LIMIT 8
  ) AS T1)
   AS T2;
-";
+";*/
 
+$footArtiPoc = "CALL listaArtikalaRazno(18,$valutasession,$jezikId,$KomitentId,'');";
 
 
 

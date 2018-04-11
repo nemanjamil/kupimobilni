@@ -6,6 +6,8 @@
 				//require "cron/crongotovo/preporuka-nedelje-cron.php";
 				require "preporukaNedeljePocetna.php";
 				?>
-		</div><!-- /.fashion-featured -->
+            <?php $delay++; ?>
+
+        </div><!-- /.fashion-featured -->
 
 <!-- ============================================== WEEKLY FEATURED-V1 : END ============================================== -->

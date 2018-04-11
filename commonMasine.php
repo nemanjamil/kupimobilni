@@ -5,7 +5,7 @@ define('SVEKATEGORIJEMASINE', KATEGORIJESAJT );
 define('GLAVNIMAIL', 'office@kupimobilni.net');
 define('PASSMAIL', 'kupimobilni011');
 define('FROMNAME', 'KupiMobilni');
-define('VERZIJA_JS', 1);
+define('VERZIJA_JS', 1.0);
 
 
 define('KATALATIMASINE', 168);

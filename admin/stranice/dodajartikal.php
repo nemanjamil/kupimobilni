@@ -33,8 +33,9 @@
                         </div>
                     </div>
                     <?php
-                    $naziv = '';
-                    foreach ($jezLan as $k => $v):
+
+           /*$naziv = '';
+             foreach ($jezLan as $k => $v):
                         $ShortLanguage = $v['ShortLanguage'];
 
                         $naziv .= '<div class="form-group">';
@@ -46,6 +47,7 @@
                     endforeach;
 
                     echo $naziv;
+           */
                     ?>
 
                     <?php
@@ -394,20 +396,25 @@
                     ?>
 
                     <?php
-                    $nazivOp = '';
+
+                    $naziv = '';
                     foreach ($jezLan as $k => $v):
                         $ShortLanguage = $v['ShortLanguage'];
+                        $IdLanguage = $v['IdLanguage'];
 
-                        $nazivOp .= '<div class="form-group">';
-                        $nazivOp .= '<label class="col-md-2 control-label">Veliki Opis <b>' . $ShortLanguage . '</b> (opis artikla)</label>';
-                        $nazivOp .= '<div class="col-md-10">';
-                        $nazivOp .= '<textarea rows="5" name="OpisArtikliTekstovi' . $ShortLanguage . '" class="form-control required mceEditor">' . $link['OpisArtikliTekstovi' . $ShortLanguage] . '</textarea>';
-                        $nazivOp .= '</div>';
-                        $nazivOp .= '</div>';
+
+                        $naziv .= '<div class="form-group">';
+                        $naziv .= '<label class="col-md-2 control-label bg-success"><strong>Veliki Opis ' . $ShortLanguage . ' </strong></label>';
+                        $naziv .= '<div class="col-md-10">';
+                        $naziv .= '<textarea style="width: 100%; height: 100px;" name="OpisArtikliTekstovi[' . $IdLanguage . ']" id="myArea2"></textarea>';
+                        $naziv .= '</div>';
+                        $naziv .= '</div>';
 
                     endforeach;
 
-                    echo $nazivOp;
+                    echo $naziv;
+
+
                     ?>
 
 

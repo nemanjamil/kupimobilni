@@ -22,10 +22,14 @@ if ($katspGlavne) {
         $KategorijaArtikalaNazivMM = $value['NazivKategorije'];
         $KategorijaArtikalaLinkMMGlv = $value['KategorijaArtikalaLink'];
 
-        $prikaz .= '<li class="dropdown yamm">'; //yamm-fw
+        //sa dropdown
+        //$prikaz .= '<li class="dropdown yamm">'; //yamm-fw
+        //$prikaz .= '<a href="'.$KategorijaArtikalaLinkMMGlv.'" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">'.$KategorijaArtikalaNazivMM.'</a>'; //data-hover="dropdown"
 
-        $prikaz .= '<a href="'.$KategorijaArtikalaLinkMMGlv.'" class="dropdown-toggle" data-hover="dropdown"
-                        data-toggle="dropdown">'.$KategorijaArtikalaNazivMM.'</a>'; //data-hover="dropdown"
+        //bez dropdown
+        $prikaz .= '<li class="no-down">';
+        $prikaz .= '<a href="/'.$KategorijaArtikalaLinkMMGlv.'">'.$KategorijaArtikalaNazivMM.'</a>';
+
 
         $prikaz .= '<ul class="dropdown-menu pages fadeInUp animated animatedfadeInUp">'; //animatedfadeInUp
 

@@ -9,11 +9,13 @@
 
 //var_dump($_POST);
 
-$banernaziv = $common->clearvariable($_POST[banernaziv]);
+$banernaziv = $common->clearvariable($_POST['banernaziv']);
 $banerlink = $common->friendly_convert($banernaziv);
-$baneropis = $common->clearvariable($_POST[baneropis]);
-$baneraktivan = $common->clearvariable($_POST[baneraktivan]);
-$br = $common->clearvariable($_POST[br]);
+$banerurl = $common->clearvariable($_POST['banerlink']);
+$baneropis = $common->clearvariable($_POST['baneropis']);
+$baneraktivan = $common->clearvariable($_POST['baneraktivan']);
+$banerlokacija = $common->clearvariable($_POST['banerlokacija']);
+$br = $common->clearvariable($_POST['br']);
 //$ ? banerslika ? = $common->clearvariable($_POST[banerslika]);
 
 
@@ -23,8 +25,9 @@ if (isset($banernaziv)) {
         'BanerLink' => $banerlink,
         'BanerOpis' => $baneropis,
         'BanerAktivan' => $baneraktivan,
-        'BanerSajt' => '2',
-        'BanerKategorijaArtiklaId' => $br
+        'BanerLokacija' => $banerlokacija,
+        'BanerUrl' => $banerurl,
+        'BanerSajt' => '1'
 
     );
 //$db->setTrace (true);
@@ -45,8 +48,8 @@ if (isset($banernaziv)) {
         $location = '/assets/images/banners';
         $nazivInputPolja = 'slikeMultiple';
         $idkolone = 'BanerId';
-        $w = '1920';
-        $h = '940';
+        $w = '270';
+        $h = '337';
         $preview = '0'; //ako pravimo thumb sliku _mala (80, 110) i _srednja  250, 340
         $orgSlika = '0'; // da li zelimo da snimimo i originalnu sliku
 

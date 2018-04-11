@@ -224,13 +224,13 @@ $OpisKatTekstsrb = $kat['OpisKatTekstsrb'];
                         </div>
                     </div>
 
-                    <div class="form-group">
+                    <!--<div class="form-group">
                         <label class="col-md-2 control-label">Rabat Aktivan <span class="required">*</span></label>
 
                         <div class="col-md-10">
                             <label class="checkbox">
                                 <div class="checker">
-                                    <input name="KategorijeRabartAktivan" <?php echo $katRabAkt; ?> class="uniform"
+                                    <input name="KategorijeRabartAktivan" <?php /*echo $katRabAkt; */?> class="uniform"
                                            type="checkbox">
                                 </div>
 
@@ -240,7 +240,7 @@ $OpisKatTekstsrb = $kat['OpisKatTekstsrb'];
                             aktivira da li se rabati svih korisnika neutralisu pa se samo ovaj rabat racuna</span>
 
                         </div>
-                    </div>
+                    </div>-->
 
                     <div class="form-group">
                         <label class="col-md-2 control-label">Kategorija vidljiv za MP <span
@@ -320,7 +320,7 @@ $OpisKatTekstsrb = $kat['OpisKatTekstsrb'];
                         $naziv .= '<div class="form-group">';
                         $naziv .= '<label class="col-md-2 control-label bg-success"><strong>Veliki Opis ' . $ShortLanguage . ' </strong></label>';
                         $naziv .= '<div class="col-md-10">';
-                        $naziv .= '<textarea rows=35  name="OpisArtikliTekstovi[' . $IdLanguage . ']" class="form-control mceEditor">' . $OpisArtikla . '</textarea>';
+                        $naziv .= '<textarea rows=35  name="OpisArtikliTekstovi[' . $IdLanguage . ']" class="form-control"  id="myArea2">' . $OpisArtikla . '</textarea>';
                         $naziv .= '</div>';
                         $naziv .= '</div>';
 

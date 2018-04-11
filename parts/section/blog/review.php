@@ -218,7 +218,7 @@ if(!$data){
     ?>
 
     <div class="col-md-8 col-sm-9 hidden-xs centriraj ">
-        <div class="btn btn-primary padding-10-10 marginadole10">
+        <div class="btn btn-primary padding-10-10 marginadole10 bojabela">
         <a target="_blank" href="/ocene/<?php echo $id; ?>"><strong><i class="fa fa-thumbs-o-up"></i> <?php echo $jsonlang[405][$jezikId]; ?></strong></a></div>
     </div>
 

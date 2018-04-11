@@ -16,7 +16,7 @@
             <li>
                 <a href="javascript:void(0);">
                     <i class="icon-desktop"></i>
-                    3gStore
+                    KupiMobilni
                 </a>
                 <ul class="sub-menu">
 
@@ -123,6 +123,24 @@
                               Tableti
                           </a>
                       </li>-->
+                    <li>
+                        <a href="/admin/artiklinaakcijiA">
+                            <i class="icon-angle-right"></i>
+                            Pocetna slider
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/admin/artiklinoviproizvodiA">
+                            <i class="icon-angle-right"></i>
+                            Pocetna 3 proizvoda
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/admin/artiklinajprodavanijiA">
+                            <i class="icon-angle-right"></i>
+                            Pocetna 4 proizvoda
+                        </a>
+                    </li>
                     <li>
                         <a href="/admin/artiklinaakcijiM">
                             <i class="icon-angle-right"></i>
@@ -319,12 +337,12 @@
 
                         </a>
                     </li>
-                    <!--<li>
+                    <li>
                         <a href="/admin/glavni-slajder">
                             <i class="icon-angle-right"></i>
-                            Baneri AGRO
-                        </a>
-                    </li>-->
+                            Baneri
+                    </a>
+                    </li>
                     <li>
                         <a href="/admin/tagovi">
                             <i class="icon-angle-right"></i>

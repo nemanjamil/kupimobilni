@@ -41,11 +41,11 @@
 				<div><i class="fa fa-certificate"></i><?php echo $jsonlang[292][$jezikId] . ' ' . $jsonOsn[$jezikId]["PibOsnPodaci"] ?>   </div>
                 <div><i class="fa fa-gavel"></i><?php echo $jsonlang[293][$jezikId] . ' ' . $jsonOsn[$jezikId]["MatBrOsnPodaci"] ?></div>
                 <div><i class="fa fa-university"></i><?php echo $jsonlang[294][$jezikId] . ' ' . $jsonOsn[$jezikId]["ZiroRacunOsnPodaci"] . ', ' . $jsonOsn[$jezikId]["BankaOsnPodaci"]; ?> </div>
-				<div><i class="fa fa-file-text"></i>
-                    <a href="http://direktnoizbaste.rs/f/podacifirma/Pib.pdf"><?php echo $jsonlang[292][$jezikId] ?></a>,
-                    <a href="http://direktnoizbaste.rs/f/podacifirma/Binder2.pdf"><?php echo $jsonlang[297][$jezikId] ?></a>,
-                    <a href="http://direktnoizbaste.rs/f/podacifirma/Podaci_od_firme0001.pdf"><?php echo $jsonlang[296][$jezikId] ?></a>
-                </div>
+				<!--<div><i class="fa fa-file-text"></i>
+                    <a href="http://direktnoizbaste.rs/f/podacifirma/Pib.pdf"><?php /*echo $jsonlang[292][$jezikId] */?></a>,
+                    <a href="http://direktnoizbaste.rs/f/podacifirma/Binder2.pdf"><?php /*echo $jsonlang[297][$jezikId] */?></a>,
+                    <a href="http://direktnoizbaste.rs/f/podacifirma/Podaci_od_firme0001.pdf"><?php /*echo $jsonlang[296][$jezikId] */?></a>
+                </div>-->
 			</div><!-- /.details -->
 
 			<div class="col-md-6 send-mail wow fadeInUp" data-wow-delay="0.4s">

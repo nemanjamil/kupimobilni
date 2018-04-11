@@ -30,7 +30,7 @@
                         <th>Naziv slajda</th>
                         <th>Link</th>
                         <th>Kratak opis</th>
-                        <th>Kategorija</th>
+                        <th>Pozicija</th>
                         <th>Slika</th>
                         <th>Izaberi</th>
                         <th>Aktivan</th>
@@ -39,10 +39,10 @@
                     <tbody>
                     <?php
 
-                    $cols = Array ("B.*", "KAN.NazivKategorije");
-                    $db->join("kategorijeartikala KA", "B.BanerKategorijaArtiklaId = KA.KategorijaArtikalaId", "LEFT");
-                    $db->join("kategorijeartikalanaslov KAN", "KAN.IdKategorije = KA.KategorijaArtikalaId", "LEFT");
-                    $db->where("KAN.IdLanguage", 5);
+                    $cols = Array ("B.*");/*, "KAN.NazivKategorije"*/
+                    //$db->join("kategorijeartikala KA", "B.BanerKategorijaArtiklaId = KA.KategorijaArtikalaId", "LEFT");
+                    //$db->join("kategorijeartikalanaslov KAN", "KAN.IdKategorije = KA.KategorijaArtikalaId", "LEFT");
+                    //$db->where("KAN.IdLanguage", 5);
                     $data = $db->get ("baneri B", null, $cols);
 
 
@@ -60,7 +60,8 @@
                         $BanerAktivan = $link['BanerAktivan'];
                         $akt = ($BanerAktivan) ? 'checked="checked"' : '';
                         $BanerOpis = $link['BanerOpis'];
-
+                        $BanerLokacija = $link['BanerLokacija'];
+                        if($BanerLokacija == 0){$BanerLokacija = 'Gore';}else{$BanerLokacija = 'Dole';}
                         $BanerUrl = $link['BanerUrl'];
 
                         $lokrel = $common->locationslikaOstalo(BANERSLIKELOK,$BanerId);
@@ -68,12 +69,14 @@
                         $ext = pathinfo($BanerSlika, PATHINFO_EXTENSION);
                         $fileName = pathinfo($BanerSlika, PATHINFO_FILENAME);
 
-                        $mala_slika = $fileName . '_mala.' . $ext;
+                        //$mala_slika = $fileName . '_mala.' . $ext;
+                        $mala_slika = $fileName .'.'.  $ext;
 
 
                         $lok = DCROOT.$lokrel.'/'.$mala_slika;
+
                         if (file_exists($lok)) {
-                            $BanerSlika = '<img width="100px" src="'.$lokrel.'/'.$mala_slika.'" alt="">';
+                            $BanerSlika = '<img width="50px" src="'.$lokrel.'/'.$mala_slika.'" alt="">';
                         }
 
 
@@ -83,7 +86,8 @@
                     <td>' . $BanerNaziv . '</td>
                     <td>' . $BanerUrl . '</td>
                     <td>' . $BanerOpis . '</td>
-                    <td>' . $KategorijaArtikalaNaziv . '</td>
+                    <td>' . $BanerLokacija . '</td>
+                   
 
                     <td>' . $BanerSlika . '</td>
                     <td class="align-center">

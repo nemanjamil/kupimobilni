@@ -11,7 +11,7 @@
     <div class="col-md-12">
         <div class="widget box">
             <div class="widget-header">
-                <h4><i class="icon-reorder"></i>Artikli na AKCIJI</h4>
+                <h4><i class="icon-reorder"></i>Artikli na pocetnoj SLIDER</h4>
 
                 <div class="toolbar no-padding">
                     <div class="btn-group">
@@ -53,7 +53,7 @@
 
                     <!--Button unesi-->
                     <div class="form-actions">
-                        <input type="submit" value="Stavi na akciju" class="btn btn-primary pull-right">
+                        <input type="submit" value="Stavi na slider" class="btn btn-primary pull-right">
                     </div>
 
                 </form>

@@ -12129,7 +12129,7 @@ table.strip tr.odd td {
 table.strip tr.odd td:first-child,
 table.strip tr.even td:first-child {
     color: #000;
-    width: 25%;
+    width: 15%;
     vertical-align: top
 }
 

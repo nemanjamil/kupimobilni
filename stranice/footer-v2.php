@@ -127,7 +127,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <ul class="footer-bottom payment-link list-unstyled list-inline">
-                            <li> copyright <i class="fa fa-copyright"></i> 2017
+                            <li> copyright <i class="fa fa-copyright"></i> 2018.
                                 <a href="http://itclusterserbia.com/"> ITCluster Serbia </a>&nbsp; all the rights
                                 reserved.
                             </li>

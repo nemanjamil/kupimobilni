@@ -959,7 +959,7 @@ class common extends MysqliDb
         $sp .= '		<h5><a href="' . $urlArtiklaLink . '">' . $ArtikalNaziv . '</a></h5>';
 
 
-        if ($pravaMpSmall > '0') {
+        /*if ($pravaMpSmall > '0') {
 
             $sp .= '	    <div class="product-price">';
             $sp .= '			<ins><span class="amount">' . $cenaPrikaz . ' '.$cenaPrikazExt.'</span></ins>';
@@ -968,7 +968,7 @@ class common extends MysqliDb
             $sp .= '     <div class="product-price">';
             $sp .= '			<ins><span class="availability">' . $pozovite . '</span></ins>';
             $sp .= '		</div>';
-        }
+        }*/
         $sp .= '	</div>';
         $sp .= '	</div>';
 

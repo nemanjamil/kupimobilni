@@ -34,6 +34,15 @@
 
                     </div>
                     <div class="form-group">
+                        <label class="col-md-3 control-label">Link slajda </label>
+
+                        <div class="col-md-9">
+                            <input type="text" name="banerlink" class="form-control required bs-tooltip"  data-placement="left"
+                                   data-original-title="Gde ce baner voditi" >
+                        </div>
+
+                    </div>
+                    <div class="form-group">
                         <label class="col-md-3 control-label">Kratak opis</label>
 
                         <div class="col-md-9">
@@ -67,9 +76,22 @@
                         </div>
 
                     </div>
-
-
                     <div class="form-group">
+                        <label class="col-md-3 control-label">Pozicija banera</label>
+
+                        <div class="col-md-9">
+                            <select id="banerlokacija" name="banerlokacija" class=" form-control required bs-tooltip"  data-placement="left"
+                                    data-original-title="Gde ce se baner prikazivati">
+                                <option value="0"<?php echo ($BanerLokacija == 0) ? 'selected' : ''; ?> >Pocetna gore
+                                </option>
+                                <option value="1"<?php echo ($BanerLokacija == 1) ? 'selected' : ''; ?> >Pocetna dole</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                    <!--<div class="form-group">
                         <label class="col-md-3 control-label">Kategorije</label>
 
                         <div class="col-md-9">
@@ -77,7 +99,7 @@
                             <select id="br" name="br"
                                     class="select2 required full-width-fix">
                                 <?php
-                                $pieces = SVEKATEGORIJEMASINE;
+/*                                $pieces = SVEKATEGORIJEMASINE;
                                 $upitkateg = "
                           SELECT
                               K.KategorijaArtikalaId,
@@ -93,10 +115,10 @@
                                     echo '<option value="' . $s['KategorijaArtikalaId'] . '">' . $s['NazivKategorije'] . '</option>' . "\n";
                                 }
 
-                                ?>
+                                */?>
                             </select>
                         </div>
-                    </div>
+                    </div>-->
 
 
                     <div class="form-actions">

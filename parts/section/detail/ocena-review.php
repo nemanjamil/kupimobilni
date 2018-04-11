@@ -255,7 +255,7 @@
         ?>
         <div class="col-md-8 col-sm-9 hidden-xs centriraj ">
             <a target="_blank" href="/ocene/<?php echo $id; ?>">
-                <button class="btn btn-primary padding-10-10 marginadole10">
+                <button class="btn btn-primary padding-10-10 marginadole10 bojabela">
                     <strong><i class="fa fa-thumbs-o-up"></i> <?php echo $jsonlang[405][$jezikId]; ?></strong>
                 </button>
             </a>
@@ -263,7 +263,7 @@
 
         <div class="visible-xs centriraj">
             <a target="_blank" href="/ocene/<?php echo $id; ?>">
-                <button class="btn btn-primary padding-10-10 marginadole10">
+                <button class="btn btn-primary padding-10-10 marginadole10 bojabela">
                     <strong><i class="fa fa-thumbs-o-up"></i> <?php echo $jsonlang[406][$jezikId]; ?></strong>
                 </button>
             </a>

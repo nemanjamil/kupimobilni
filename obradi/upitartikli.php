@@ -38,7 +38,7 @@ $p = count($parts);
 
 
 $cols = Array ("A.ArtikalId", "A.ArtikalLink","ANN.OpisArtikla");
-$db->join("artikalnazivnew ANN","ANN.ArtikalId=A.ArtikalId");
+$db->join("artikalnazivnew ANN","ANN.ArtikalId=A.ArtikalId AND ANN.IdLanguage = 5" );
 $db->where ("ANN.OpisArtikla LIKE  '%$term%'");
 $users = $db->get ("artikli A", null, $cols);
 if ($db->count > 0) {

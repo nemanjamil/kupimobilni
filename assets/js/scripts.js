@@ -1168,11 +1168,11 @@
 
     $('.featured-product').owlCarousel({
 
-        loop: true,
+        loop: false,
         margin: 30,
-        nav: true,
+        nav: false,
         navText: ["", ""],
-        items: 4,
+        items: 3,
         dots: false,
         responsive: {
             0: {
@@ -1347,8 +1347,10 @@
     $('.fashion-v6-featured').owlCarousel({
         loop: true,
         margin: 30,
-        nav: true,
+        nav: false,
         dots: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
         items: 5,
         navText: ["", ""],
         responsive: {

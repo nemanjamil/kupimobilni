@@ -31,14 +31,14 @@
 
 
 
-<script src="/assets/js/scripts.js?<?php echo VERZIJA_JS;?>"></script>
-<script src="/assets/js/select2Moj.js"></script>
-<script src="/assets/js/fb.js"></script>
+<script src="/assets/js/scripts.js?v=<?php echo VERZIJA_JS;?>"></script>
+<script src="/assets/js/select2Moj.js?v=<?php echo VERZIJA_JS;?>"></script>
+<script src="/assets/js/fb.js?v=<?php echo VERZIJA_JS;?>"></script>
 
 
 
 
-<!-- For demo purposes – can be removed on production -->
+<!-- For demo purposes ï¿½ can be removed on production -->
 
 <!--<script src="switchstylesheet/switchstylesheet.js"></script>-->
 
@@ -56,12 +56,12 @@
         $('.show-theme-options').delay(2000).trigger('click');
     });
 </script>
-<!-- For demo purposes – can be removed on production : End -->
+<!-- For demo purposes ï¿½ can be removed on production : End -->
 <?php
 switch ($stranica) {
     case 'login':
         echo '<script type="text/javascript" src="/assets/js/secure/sha512.js"></script>';
-        echo '<script type="text/javascript" src="/assets/js/secure/forms.js?'.VERZIJA_JS.'"></script>';
+        echo '<script type="text/javascript" src="/assets/js/secure/forms.js?v='.VERZIJA_JS.'"></script>';
         echo '<script  type="text/javascript" src="/assets/js/secure/base64Helper.js"></script>';
         break;
     case 'profil':
@@ -74,7 +74,7 @@ switch ($stranica) {
     case 'proiz':
         echo '<script src="https://www.google.com/recaptcha/api.js"></script>';
     case 'kategorija':
-        echo '<script  type="text/javascript" src="/assets/js/kategorija.js"></script>';
+        echo '<script  type="text/javascript" src="/assets/js/kategorija.js?v='.VERZIJA_JS.'"></script>';
         break;
     case 'search':
         echo '<script  type="text/javascript" src="/assets/js/elasticSearch.js"></script>';

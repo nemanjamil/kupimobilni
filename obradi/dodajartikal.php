@@ -171,7 +171,7 @@ if ($tagime) {
 
 //$db->setTrace(true);
 $insert_query = Array(
-    'ArtikalNaziv' => $imeartikla,
+    //'ArtikalNaziv' => $imeartikla,
     'KategorijaArtikalId' => $idkategorijeDodajArtikal,
     'ArtikalBrendId' => $brendartikla,
     'ArtikalVPCena' => $cenavpartikla,
@@ -209,20 +209,20 @@ try {
 
 
     //ovde ubacujemo kratak opis za artikal
-    $dataId['ArtikalIdKratakOpis'] = $idUbacenogart;
+    /*$dataId['ArtikalIdKratakOpis'] = $idUbacenogart;
     $opa = array_merge($opa, $dataId);
-    $IdArtikalKratakOpis = $db->insert('ArtikliKratakOpis', $opa);
+    $IdArtikalKratakOpis = $db->insert('ArtikliKratakOpis', $opa);*/
 
 
     //ovde ubacujemo detaljan opis (veliki) za artikal
-    $dataIdd['IdArtikliTekstovi'] = $idUbacenogart;
+    /*$dataIdd['IdArtikliTekstovi'] = $idUbacenogart;
     $op = array_merge($op, $dataIdd);
-    $IdArtikliTekstovi = $db->insert('ArtikliTekstovi', $op);
+    $IdArtikliTekstovi = $db->insert('ArtikliTekstovi', $op);*/
 
 
-    $dataIddd['IdArtikalNaziv'] = $idUbacenogart;
+    /*$dataIddd['IdArtikalNaziv'] = $idUbacenogart;
     $an = array_merge($an, $dataIddd);
-    $IdArtikalNaziv = $db->insert('ArtikalNaziv', $an);
+    $IdArtikalNaziv = $db->insert('ArtikalNaziv', $an);*/
 
     // V
     // sada ubacujemo specifikacije artikala
@@ -233,6 +233,12 @@ try {
     // Ubacujemo NAZIVE U NOVU BAZU
     // prvo ih brisemo sve
     require_once('ubaciNaziveArtNewEditArt.php');
+
+
+
+    require_once('forEachArtNazivNewVelOpis.php');
+    require_once('ubaciVelikiNazivArtNewEditArt.php');
+
 
 
     $db->commit();

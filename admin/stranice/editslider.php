@@ -18,6 +18,7 @@ $BanerAktivan = $slider['BanerAktivan'];
 $BanerKategorijaArtiklaId = $slider['BanerKategorijaArtiklaId'];
 $BanerUrl = $slider['BanerUrl'];
 $BanerDodatniOpis = $slider['BanerDodatniOpis'];
+$BanerLokacija = $slider['BanerLokacija'];
 
 
 //var_dump($slider);
@@ -55,14 +56,14 @@ $BanerDodatniOpis = $slider['BanerDodatniOpis'];
                         </div>
                     </div>
 
-                    <div class="form-group">
+                    <!--<div class="form-group">
                         <label class="col-md-3 control-label">Dodatni opis </label>
 
                         <div class="col-md-9">
                             <input type="text" name="string" class="form-control required"
-                                   value="<?php echo $BanerDodatniOpis ?>">
+                                   value="<?php /*echo $BanerDodatniOpis */?>">
                         </div>
-                    </div>
+                    </div>-->
 
                     <div class="form-group">
                         <label class="col-md-3 control-label">URL Banera </label>
@@ -132,14 +133,29 @@ $BanerDodatniOpis = $slider['BanerDodatniOpis'];
 
                     </div>
                     <div class="form-group">
+                        <label class="col-md-3 control-label">Pozicija banera</label>
+
+                        <div class="col-md-9">
+                            <select id="banerlokacija" name="banerlokacija" class=" form-control required bs-tooltip"  data-placement="left"
+                                    data-original-title="Gde ce se baner prikazivati">
+                                <option value="0"<?php echo ($BanerLokacija == 0) ? 'selected' : ''; ?> >Pocetna gore
+                                </option>
+                                <option value="1"<?php echo ($BanerLokacija == 1) ? 'selected' : ''; ?> >Pocetna dole</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                    <!--<div class="form-group">
                         <label class="col-md-3 control-label">Kategorije</label>
 
                         <div class="col-md-9">
 
-                            <select id="br" name="br" value="<?php echo $BanerKategorijaArtikalaId ?>"
+                            <select id="br" name="br" value="<?php /*echo $BanerKategorijaArtikalaId */?>"
                                     class="select2 full-width-fix">
                                 <?php
-                                $pieces = SVEKATEGORIJEMASINE;
+/*                                $pieces = SVEKATEGORIJEMASINE;
                                 $upitkateg = "
                           SELECT
                               K.KategorijaArtikalaId,
@@ -161,9 +177,9 @@ $BanerDodatniOpis = $slider['BanerDodatniOpis'];
                                     echo '<option value="' . $s['KategorijaArtikalaId'] . '"   ' . $selected . '>' . $s['NazivKategorije'] . '</option>' . "\n";
 
                                 }
-                                ?>
+                                */?>
                             </select>
-                        </div>
+                        </div>-->
                     </div>
 
                     <div class=" form-actions">
