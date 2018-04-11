@@ -38,7 +38,7 @@ $BanerSlikaGore.='<div class="item">
 			<div class="text">
 				<!--<h4>new design</h4>-->
 				<h2>'.$BanerOpis.'</h2>
-				<a class="shop-now" href="'.$BanerUrl.'">Shop now ></a>
+				<a class="shop-now" href="/'.$BanerUrl.'">Shop now ></a>
 			</div>
 			<img src="'.$lokrel.'/'.$mala_slika.'" alt="#" class="img-responsive">
 		</div>

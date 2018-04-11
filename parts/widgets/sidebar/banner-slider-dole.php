@@ -38,7 +38,7 @@ if($datad){
 			<div class="text">
 				<!--<h4>new design</h4>-->
 				<h2>'.$BanerOpisD.'</h2>
-				<a class="shop-now" href="'.$BanerUrlD.'">Shop now ></a>
+				<a class="shop-now" href="/'.$BanerUrlD.'">Shop now ></a>
 			</div>
 			<img src="'.$lokrelD.'/'.$mala_slikaD.'" alt="#" class="img-responsive">
 		</div>
